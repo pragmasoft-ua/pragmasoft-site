@@ -58,7 +58,7 @@
       <!-- Choose between tomcat7 and tomcat6 plugins and change configuration -->
       <plugin>
         <groupId>org.apache.tomcat.maven</groupId>
-        <artifactId>tomcat7-maven-plugin</artifactId>
+        <artifactId>tomcat6-maven-plugin</artifactId>
         <version>2.1</version>
         <configuration>
           <url>http://pragmasoft.com.ua/manager/</url>
