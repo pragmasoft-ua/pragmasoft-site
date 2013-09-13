@@ -1,8 +1,6 @@
 package ua.com.pragmasoft.test;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -12,42 +10,33 @@ import javax.servlet.http.HttpServletResponse;
 public class MyServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	private static List<User> userList = new ArrayList<User>();
-
-	// Just prepare static data to display on screen
-	static {
-		userList.add(new User("Bill", "Gates"));
-		userList.add(new User("Steve", "Jobs"));
-		userList.add(new User("Larry", "Page"));
-		userList.add(new User("Sergey", "Brin"));
-		userList.add(new User("Larry", "Ellison"));
-	}
-	
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 	        throws ServletException, IOException {
-	    //Put the user list in request and
-	    //let freemarker paint it.
-	    request.setAttribute("users", userList);
-	     
-	    request.getRequestDispatcher("/index.ftl").forward(request, response);
+	    String content = "<h1>Lorem ipsum</h1>"+
+        "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"+
+        "tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,"+
+        "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"+
+        "consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse"+
+        "cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non"+
+        "proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"+
+
+        "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"+
+        "tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,"+
+        "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"+
+        "consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse"+
+        "cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non"+
+        "proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>";
+	    
+	    request.setAttribute("title", "Hello Page");
+	    request.setAttribute("text", content);
+	    request.getRequestDispatcher("/pages/base.ftl").forward(request, response);
 	 
 	}
 	
 	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 	        throws ServletException, IOException {
-	     
-	    String firstname = request.getParameter("firstname");
-	    String lastname = request.getParameter("lastname");
-	     
-	    if(null != firstname && null != lastname
-	            && !firstname.isEmpty() && !lastname.isEmpty()) {	         
-	        synchronized (userList) {
-	            userList.add(new User(firstname, lastname));
-	        }
-	         
-	    }	     
 	    doGet(request, response);
 	}
 }
