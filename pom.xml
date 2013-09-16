@@ -13,6 +13,9 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <freemarker.version>2.3.20</freemarker.version>
+    <deployURL>http://127.0.0.1:8080/manager</deployURL>
+    <deployServer>TomcatServer</deployServer>
+    <deployPath>/testPragmasoft</deployPath>
   </properties>
 
   <dependencies>
@@ -61,9 +64,9 @@
         <version>1.1</version>
         <configuration>
           <!--<url>http://pragmasoft.com.ua/manager</url>-->
-          <url>http://127.0.0.1:8080/manager</url>
-          <server>TomcatServer</server>
-          <path>/testPragmasoft</path>
+          <url>${deployURL}</url>
+          <server>${deployServer}</server>
+          <path>${deployPath}</path>
         </configuration>
       </plugin>
     </plugins>
