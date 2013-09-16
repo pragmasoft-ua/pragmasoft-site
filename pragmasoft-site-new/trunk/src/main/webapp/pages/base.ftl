@@ -5,36 +5,25 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <#-- <meta name="keywords" content="${meta}" /> -->
         <title>${title}</title>
-        <link href="bin/skin/skins/toucan/style.css" rel="stylesheet" type="text/css" />
-        <link href="yui/treeview/assets/tree.css" rel="stylesheet" type="text/css" />
-        <link href="bin/skin/skins/albatross/css/lightbox/lightbox.css" rel="stylesheet" type="text/css" />
+        
+        <#-- COMMON -->
         <link href="style/common.css" type="text/css" rel="stylesheet" />
         <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
-        <script type="text/javascript" src="skins/albatross/skin.js"></script>
+        
+        <#-- OTHER -->
         <script type="text/javascript" src="prototype.js"></script>
-        <script type="text/javascript" src="skins/albatross/scriptaculous/scriptaculous.js"></script>
-        <script type="text/javascript" src="skins/albatross/accordion/accordion.js"></script>
-        <script type="text/javascript" src="skins/albatross/xwiki.js"></script>
-        <script type="text/javascript" src="skins/albatross/browserdetect.js"></script>
-        <script type="text/javascript" src="skins/albatross/chwScripts.js"></script>
-        <script type="text/javascript" src="bin/skin/skins/albatross/scripts/table/tablefilterNsort.js"></script>
-        <script type="text/javascript" src="bin/skin/skins/albatross/fullscreenEdit.js"></script>
-        <script type="text/javascript" src="bin/skin/skins/albatross/usersandgroups.js"></script>
-        <script type="text/javascript" src="skins/albatross/suggest/ajaxSuggest.js"></script>
-        <script type="text/javascript" src="bin/skin/skins/albatross/scripts/lightbox/lightbox.js"></script>
-        <script type="text/javascript" src="bin/skin/skins/albatross/scripts/shortcuts.js"></script>
         <script type="text/javascript" src="js/common.js"></script>
         <script type="text/javascript" src="js/swfobject.js"></script>
         <link type="text/css" rel="stylesheet" href="floatbox/floatbox.css" />
         <script type="text/javascript" src="floatbox/floatbox.js"></script>
         <link href="https://plus.google.com/101843999873125528372" rel="publisher" />
         <script type="text/javascript">
-        (function() 
-        {var po = document.createElement("script");
-        po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(po, s);
-        })();
+            (function() 
+            {var po = document.createElement("script");
+            po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(po, s);
+            })();
         </script>
     </head>
     <body id="body">
