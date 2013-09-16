@@ -49,17 +49,23 @@
     <servlet-mapping>
         <servlet-name>freemarker</servlet-name>
         <url-pattern>*.ftl</url-pattern>
-    </servlet-mapping>
- 
+    </servlet-mapping> 
  
     <servlet>
-        <servlet-name>hello_servlet</servlet-name>
-        <servlet-class>ua.com.pragmasoft.test.MyServlet</servlet-class>
+        <servlet-name>mainServlet</servlet-name>
+        <servlet-class>ua.com.pragmasoft.test.MainServlet</servlet-class>
     </servlet>
- 
     <servlet-mapping>
-        <servlet-name>hello_servlet</servlet-name>
+        <servlet-name>mainServlet</servlet-name>
         <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.js</url-pattern>
+        <url-pattern>*.css</url-pattern>
+        <url-pattern>*.gif</url-pattern>
+        <url-pattern>*.jpg</url-pattern>
     </servlet-mapping>
  
     <!--

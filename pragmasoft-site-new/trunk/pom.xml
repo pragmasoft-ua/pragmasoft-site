@@ -41,6 +41,13 @@
       <artifactId>freemarker</artifactId>
       <version>${freemarker.version}</version>
     </dependency>
+    
+    <!-- Textile -->
+    <dependency>
+      <groupId>org.fusesource.wikitext</groupId>
+      <artifactId>textile-core</artifactId>
+      <version>1.0</version>
+    </dependency>
   </dependencies>
 
   <build>
