@@ -67,6 +67,7 @@
           <url>${deployURL}</url>
           <server>${deployServer}</server>
           <path>${deployPath}</path>
+          <update>true</update>
         </configuration>
       </plugin>
     </plugins>
