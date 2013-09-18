@@ -51,13 +51,44 @@
         <url-pattern>*.ftl</url-pattern>
     </servlet-mapping> 
  
+    <!-- Main servlet -->
     <servlet>
         <servlet-name>mainServlet</servlet-name>
-        <servlet-class>ua.com.pragmasoft.test.MainServlet</servlet-class>
+        <servlet-class>ua.com.pragmasoft.web.MainServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>mainServlet</servlet-name>
         <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Vacancies servlet -->
+    <servlet>
+        <servlet-name>vacanciesServlet</servlet-name>
+        <servlet-class>ua.com.pragmasoft.web.VacanciesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>vacanciesServlet</servlet-name>
+        <url-pattern>/Vacancies</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Contacts servlet -->
+    <servlet>
+        <servlet-name>contactsServlet</servlet-name>
+        <servlet-class>ua.com.pragmasoft.web.ContactsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>contactsServlet</servlet-name>
+        <url-pattern>/Contacts</url-pattern>
+    </servlet-mapping>
+    
+    !-- Projects servlet -->
+    <servlet>
+        <servlet-name>projectsServlet</servlet-name>
+        <servlet-class>ua.com.pragmasoft.web.ProjectsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>projectsServlet</servlet-name>
+        <url-pattern>/Projects</url-pattern>
     </servlet-mapping>
     
     <servlet-mapping>
@@ -66,6 +97,7 @@
         <url-pattern>*.css</url-pattern>
         <url-pattern>*.gif</url-pattern>
         <url-pattern>*.jpg</url-pattern>
+        <url-pattern>*.png</url-pattern>
     </servlet-mapping>
  
     <!--

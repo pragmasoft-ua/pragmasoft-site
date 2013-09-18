@@ -1,3 +1,4 @@
+<#macro apply title="Pragmasoft">
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns:fb="http://ogp.me/ns/fb#" xmlns="http://www.w3.org/1999/xhtml">
@@ -7,15 +8,15 @@
         <title>${title}</title>
         
         <#-- COMMON -->
-        <link href="style/common.css" type="text/css" rel="stylesheet" />
-        <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+        <link href="res/style/common.css" type="text/css" rel="stylesheet" />
+        <link rel="icon" type="image/x-icon" href="res/images/style/favicon.ico" />
         
         <#-- OTHER -->
         <script type="text/javascript" src="prototype.js"></script>
-        <script type="text/javascript" src="js/common.js"></script>
-        <script type="text/javascript" src="js/swfobject.js"></script>
-        <link type="text/css" rel="stylesheet" href="floatbox/floatbox.css" />
-        <script type="text/javascript" src="floatbox/floatbox.js"></script>
+        <script type="text/javascript" src="res/js/common.js"></script>
+        <script type="text/javascript" src="res/js/swfobject.js"></script>
+        <link type="text/css" rel="stylesheet" href="res/floatbox/floatbox.css" />
+        <script type="text/javascript" src="res/floatbox/floatbox.js"></script>
         <link href="https://plus.google.com/101843999873125528372" rel="publisher" />
         <script type="text/javascript">
             (function() 
@@ -44,13 +45,13 @@
                 <div class="bg fall">
                     <div class="langs_pt act_en">
                         <!-- You can add class "act_ru" or "act_en" to this div -->
-                        <a href="#/bin/view/Main/?language=ru" onfocus="this.blur()" class="ln_ru">ru</a> <span class="bg_flag"><!-- --></span> <a href="#/bin/view/Main/?language=en" onfocus="this.blur()" class="ln_en">en</a>
+                        <a href="/?language=ru" onfocus="this.blur()" class="ln_ru">ru</a> <span class="bg_flag"><!-- --></span> <a href="/?language=en" onfocus="this.blur()" class="ln_en">en</a>
                         <div class="cl_b">
                             <!-- -->
                         </div>
                     </div>
                     <div class="logo">
-                        <img src="images/logo.gif" width="292" height="67" alt="" />
+                        <img src="res/images/style/logo.gif" width="292" height="67" alt="" />
                         <div class="cl_b">
                             <!-- -->
                         </div>
@@ -61,19 +62,19 @@
                 <table border="0" cellpadding="0" cellspacing="0" width="100%">
                     <tr>
                         <td class='left_tab'>
-                            <a title="Blog" href="#/bin/view/Main/Blog" onfocus="this.blur();"><img src="images/icon_menu_bul_small.gif" width="9" height="9" alt="" /> <span>Blog</span></a>
+                            <a title="Blog" href="/Blog" onfocus="this.blur();"><img src="res/images/style/icon_menu_bul_small.gif" width="9" height="9" alt="" /> <span>Blog</span></a>
                         </td>
                         <td class=''>
-                            <a title="Our projects" href="#/bin/view/Main/Projects" onfocus="this.blur();"><img src="images/icon_menu_bul_small.gif" width="9" height="9" alt="" /> <span>Our projects</span></a>
+                            <a title="Our projects" href="/Projects" onfocus="this.blur();"><img src="res/images/style/icon_menu_bul_small.gif" width="9" height="9" alt="" /> <span>Our projects</span></a>
                         </td>
                         <td class='active'>
-                            <a title="About us" href="#/bin/view/Main/" onfocus="this.blur();"><img src="images/icon_menu_bul_big.gif" width="9" height="9" alt="" /> <span>About us</span></a>
+                            <a title="About us" href="/" onfocus="this.blur();"><img src="res/images/style/icon_menu_bul_big.gif" width="9" height="9" alt="" /> <span>About us</span></a>
                         </td>
                         <td class=''>
-                            <a title="Vacancies" href="#/bin/view/Main/Vacancies" onfocus="this.blur();"><img src="images/icon_menu_bul_small.gif" width="9" height="9" alt="" /> <span>Vacancies</span></a>
+                            <a title="Vacancies" href="/Vacancies" onfocus="this.blur();"><img src="res/images/style/icon_menu_bul_small.gif" width="9" height="9" alt="" /> <span>Vacancies</span></a>
                         </td>
                         <td class=''>
-                            <a title="Contacts" href="#/bin/view/Main/Contacts" onfocus="this.blur();"><img src="images/icon_menu_bul_small.gif" width="9" height="9" alt="" /> <span>Contacts</span></a>
+                            <a title="Contacts" href="/Contacts" onfocus="this.blur();"><img src="res/images/style/icon_menu_bul_small.gif" width="9" height="9" alt="" /> <span>Contacts</span></a>
                         </td>
                     </tr>
                 </table>
@@ -81,14 +82,12 @@
             <div class="cl_b">
                 <!-- -->
             </div>
+            
+            <!-- Main content -->
             <div class="main_content">
-                <!-- Main content -->
-                <div class="content">
-                    <div class="desc">
-                        ${text}
-                    </div>
-                    <!-- Content -->
-                </div>
+<!-- START NESTED CONTENT -->				
+<#nested/>
+<!-- END NESTED CONTENT -->	
                 <div class="nav_right">
                     <!-- Login -->
                     <div class="border_panel"></div>
@@ -100,7 +99,7 @@
                             <div class="bord_top_l"><!-- --></div>
                         </div>
                         <div class="middle_cont">
-                            <form action="#/bin/view/Main/WebSearch">
+                            <form action="/WebSearch">
                                 <div class="search_part">
                                     <input id="globalsearchinput" type="text" name="text" value="search..." size="15" 
                                     onfocus="if (this.value == 'search...') {value=''; this.style.color='';} this.select();" 
@@ -151,12 +150,12 @@
                 <div class="cl_b">
                     <!-- -->
                 </div>
-                <link type="text/css" rel="stylesheet" href="style/SyntaxHighlighter.css" />
-                <script language="javascript" src="js/shCore.js"></script>
-                <script language="javascript" src="js/shBrushJava.js"></script>
-                <script language="javascript" src="js/shBrushJScript.js"></script>
-                <script language="javascript" src="js/shBrushSql.js"></script>
-                <script language="javascript" src="js/shBrushXml.js"></script>
+                <link type="text/css" rel="stylesheet" href="res/style/SyntaxHighlighter.css" />
+                <script language="javascript" src="res/js/shCore.js"></script>
+                <script language="javascript" src="res/js/shBrushJava.js"></script>
+                <script language="javascript" src="res/js/shBrushJScript.js"></script>
+                <script language="javascript" src="res/js/shBrushSql.js"></script>
+                <script language="javascript" src="res/js/shBrushXml.js"></script>
                 <script language="javascript">
                     dp.SyntaxHighlighter.ClipboardSwf = '/flash/clipboard.swf';
                     dp.SyntaxHighlighter.HighlightAll('code');
@@ -165,3 +164,4 @@
         </div>
     </body>
 </html>
+</#macro> 
