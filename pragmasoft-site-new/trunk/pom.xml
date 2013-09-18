@@ -46,8 +46,15 @@
     <dependency>
       <groupId>org.fusesource.wikitext</groupId>
       <artifactId>textile-core</artifactId>
-      <version>1.0</version>
+      <version>1.4</version>
     </dependency>
+    
+    <!-- slf4j Logger -->
+    <dependency>
+	  <groupId>org.slf4j</groupId>
+	  <artifactId>slf4j-log4j12</artifactId>
+	  <version>1.7.5</version>
+	</dependency>
   </dependencies>
 
   <build>
