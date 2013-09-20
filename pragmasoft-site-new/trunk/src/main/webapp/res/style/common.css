@@ -414,3 +414,10 @@ div.errormessage { color: red; margin: 4px 0px 4px; padding: 8px 8px 18px 0px; t
 .edit_mode { padding: 0 10px 0 0; }
 
 .mime { float: left; padding: 0 10px 0 0; }
+
+/* Projects page */
+.singleProject { width:512px; height: auto; display: table; }
+
+.projectImg { float:left; width:170px; height: 100%; display: table-cell; vertical-align: middle; text-align: center; }
+
+.projectDesc { float:right; padding-left:20px; width:322px; text-align: justify; height: auto; }

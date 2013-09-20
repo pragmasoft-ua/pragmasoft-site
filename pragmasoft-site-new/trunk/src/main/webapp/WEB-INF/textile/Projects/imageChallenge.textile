@@ -1,0 +1,18 @@
+h1. Image Challenge: iPhone app
+
+<div class="content"><div class="desc">*Technologies used:* iAd Framework; Image Capture Customization, Async image loading, UIKit Framework, Web View Control, HTML
+
+Image Challenge iPhone application is a fun challenge that sets the players on a photo-shoot mission to snap photos as similar as possible to built-in images supplied by the application, then scores their photos accordingly.
+
+About Image Challenge:
+<ul class="star"><li class="innerlist">
+*(star) The app fully supports iPhone OS 3.0.x onwards<br/></li>
+* When running on iPhone OS 4.0 and up, the app supports OS4 iAd framework for banner ad display<br/></li>
+* The app loads up and becomes responsive in less than 2 seconds, regardless of the amount of data it holds. If data is too big, the app loads it in the background after app load-up<br/></li>
+* The app senses iPhone orientation and position itself accordingly</li>
+</li></ul>
+
+<img src="../res/images/projects/imageChallenge/IC6%2Dbig.jpg?&amp;width=500" width="500" alt="IC6-big.jpg" title="IC6-big.jpg"/>
+
+<img src="../res/images/projects/imageChallenge/IC7%2Dbig.jpg?&amp;width=500" width="500" alt="IC7-big.jpg" title="IC7-big.jpg"/>
+</div></div>

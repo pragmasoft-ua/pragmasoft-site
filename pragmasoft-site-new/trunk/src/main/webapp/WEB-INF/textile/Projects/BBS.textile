@@ -1,0 +1,30 @@
+h1. BranchenBuchSuche
+
+<div class="content"><div class="desc">URL: %(nobr)<a href="http://www.branchenbuchsuche.de/">http://www.branchenbuchsuche.de/</a>%
+
+The main requirement for this project was to provide clean Web 2.0, Google-like design.
+
+In terms of this project we were responsible for logo and icon development. We thought against using 'running fingers' logo (which is a traditional yellow pages logo) to make BranchenBuchSuche stand out - we used the idea of sign post, as a media to provide the needed info! We also decided not to use bright yellow color as dominating in design, and we went for clean, white design - for it to be convenient and non-agressive for every-day use.
+
+While developing icons, we decided to implement color coding there. In such way a user will look for specific colors while using the site: he would be looking for blue when he wants to skype, he will be guided by brown, when he wants to print the info, and so on.
+
+What is there else to say - just take a look at the design!
+
+<a href="../res/images/projects/BBS/Branchenbuchsuche2%2Dbig.jpg" title="Branchenbuchsuche2-big.jpg" rel="floatbox" rev="width:1287 height:1692 scrolling:no theme:white hideFlash:true caption:`Branchenbuch` showHints:never">
+       	<div class="image_part ">
+        <div>
+            <img src="../res/images/projects/BBS/Branchenbuchsuche2.jpg" title="" alt=""/>
+        </div>
+    <div class="cl_b"></div>
+    </div>
+</a>
+
+<a href="../res/images/projects/BBS/Branchenbuchsuche%2Dbig.jpg" title="Branchenbuchsuche-big.jpg" rel="floatbox" rev="width:1216 height:1115 scrolling:no theme:white hideFlash:true caption:`Branchenbuch` showHints:never">
+       	<div class="image_part ">
+        <div>
+            <img src="../res/images/projects/BBS/Branchenbuchsuche.jpg" title="" alt=""/>
+        </div>
+    <div class="cl_b"></div>
+    </div>
+</a>
+</div></div>

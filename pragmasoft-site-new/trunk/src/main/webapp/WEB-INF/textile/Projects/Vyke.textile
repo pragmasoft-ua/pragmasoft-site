@@ -1,0 +1,47 @@
+h1. Vyke
+
+<div class="content"><div class="desc"><span class="nobr"><a href="https://www.vyke.com/">https://www.vyke.com/</a></span>
+
+The Vyke suite of IP-enabled services combines this key technology and expertise to provide *innovative, low cost and high quality consumer services* that build on the foundation provided by Vyke's vertically integrated VoIP communications network. The Vyke suite of IP-enabled end user services are operator independent and among them are:
+
+<ul class="star"><li class="innerlist">
+* *Mobile VoIP* (VoIP directly from the mobile phone)
+* *PC and device based VoIP services*
+* *Mobile messaging*
+* *Mobile call back services*.
+</li></ul>
+
+Vyke's *single account billing system* allows Vyke users to access any service, at any time, based on a common account balance.
+
+*Technologies used*:
+# JavaEE, Spring, Hibernate, JSF, AJAX (Richfaces)
+# OpenCMS
+# JavaME
+
+<a href="../res/images/projects/Vyke/dis%2Dhome.jpg" title="dis-home.jpg" rel="floatbox" rev="width:895 height:770 scrolling:no theme:white hideFlash:true caption:`Vyke` showHints:never">
+    <div class="image_part ">
+        <div>
+            <img src="../res/images/projects/Vyke/dis%2Dhome%2Dsm.jpg" title="" alt=""/>
+        </div>
+        <div class="cl_b"></div>
+    </div>
+</a>
+
+<a href="../res/images/projects/Vyke/dis%2Dbusiness.jpg" title="dis-business.jpg" rel="floatbox" rev="width:921 height:913 scrolling:no theme:white hideFlash:true caption:`Vyke` showHints:never">
+    <div class="image_part ">
+        <div>
+            <img src="../res/images/projects/Vyke/dis%2Dbusiness%2Dsm.jpg" title="" alt=""/>
+        </div>
+        <div class="cl_b"></div>
+    </div>
+</a>
+
+<a href="../res/images/projects/Vyke/dis%2Dhelp.jpg" title="dis-help.jpg" rel="floatbox" rev="width:916 height:1013 scrolling:no theme:white hideFlash:true caption:`Vyke` showHints:never">
+    <div class="image_part ">
+        <div>
+            <img src="../res/images/projects/Vyke/dis%2Dhelp%2Dsm.jpg" title="" alt=""/>
+        </div>
+        <div class="cl_b"></div>
+    </div>
+</a>
+</div></div>

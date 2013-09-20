@@ -1,0 +1,10 @@
+h1. Mobi Menus: Mani's Food Bar
+
+<div class="content"><div class="desc">URL: %(nobr<a href="http://www.manissalisbury.mobi/">http://www.manissalisbury.mobi/</a>%
+
+*Goal:* to design a mobile version of takeaway menu with cool iPhone effects
+
+*Scope:* design, XHTML/CSS, Javascript
+
+<img src="../res/images/projects/Manis/Manis.jpg" alt="Manis.jpg" title="Manis.jpg"/>
+</div></div>

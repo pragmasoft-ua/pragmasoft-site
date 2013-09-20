@@ -1,0 +1,35 @@
+h1. Hotelvergleich
+
+<div class="content"><div class="desc">URL: %(nobr)<a href="http://hotelvergleich.com">http://hotelvergleich.com</a>% (under construction now)
+
+Nice and handy service to find the best place to stay while traveling around Germany. Pragmasoft made web design, logo design, icon design, slicing and HTML/CSS coding for the project.
+
+This time we were striving for something clean, bright and Google-like. We believe we made it, and what do you think?
+
+<a href="../res/images/projects/HV/Hotels4.jpg" title="Hotels4.jpg" rel="floatbox" rev="width:1316 height:968 scrolling:no theme:white hideFlash:true caption:`hotel` showHints:never">
+    <div class="image_part ">
+        <div>
+            <img src="../res/images/projects/HV/Hotelvergleich.jpg" title="" alt=""/>
+        </div>
+        <div class="cl_b"></div>
+    </div>
+</a>
+
+<a href="../res/images/projects/HV/Hotels8.jpg" title="Hotels8.jpg" rel="floatbox" rev="width:1316 height:1450 scrolling:no theme:white hideFlash:true caption:`hotel` showHints:never">
+    <div class="image_part ">
+        <div>
+            <img src="../res/images/projects/HV/Hotels8%2Dsm.jpg" title="" alt=""/>
+        </div>
+        <div class="cl_b"></div>
+    </div>
+</a>
+
+<a href="../res/images/projects/HV/Hotels9.jpg" title="Hotels9.jpg" rel="floatbox" rev="width:1316 height:937 scrolling:no theme:white hideFlash:true caption:`hotel` showHints:never">
+    <div class="image_part ">
+        <div>
+            <img src="../res/images/projects/HV/Hotels9%2Dsm.jpg" title="" alt=""/>
+        </div>
+        <div class="cl_b"></div>
+    </div>
+</a>
+</div></div>

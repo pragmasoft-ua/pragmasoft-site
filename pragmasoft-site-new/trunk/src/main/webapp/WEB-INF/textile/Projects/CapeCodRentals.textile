@@ -1,0 +1,17 @@
+h1. Cape Cod Rentals
+
+<div class="content"><div class="desc">*Scope:* web design, UI optimization, XHTMl/CSS, Javascript banner rotator
+
+That's the original design for Cape Cod Rentals site. We strove to fill the design with a feel of ocean, Cape Cod atmosphere - sandy texture on the background, nice ocean views on the pics, that are smoothly interchanged by Javascript; the latest trends in web design'08 are incorporated in the web design as well - paper textured background, paper clips, the piled pictures effect, etc.
+
+Pragmasoft was as well responsible for HTML/CSS slicing for the project. Javascript effects to appear on the site are as well our contributions.
+
+<a href="../res/images/projects/CapeCodRentals/Capecod.jpg" title="Capecod.jpg" rel="floatbox" rev="width:950 height:1068 scrolling:no theme:white hideFlash:true caption:`Cape-Code` showHints:never">
+        <div class="image_part ">
+        <div>
+            <img src="../res/images/projects/CapeCodRentals/Cape%2DCode.jpg" title="" alt=""/>
+        </div>
+    <div class="cl_b"></div>
+    </div>
+</a>
+</div></div>

@@ -1,0 +1,15 @@
+h1. Birth Cross: Jewelry for Christian Faith
+
+<div class="content"><div class="desc">*Scope:* web design, UI optimization, XHTML/CSS
+
+Birth Cross is a eCommerce site selling Christian crosses. In our vision the site like this should be tender, light, elegant and spiritual, to display the idea of faith and jewelry. We think we made it, and we are proud of the result.
+
+<a href="../res/images/projects/STN-jewelry/BirthCross%2Dbig.jpg" title="BirthCross-big.jpg" rel="floatbox" rev="width:2000 height:2109 scrolling:no theme:white hideFlash:true caption:`WebMill` showHints:never">
+    <div class="image_part ">
+        <div>
+            <img src="../res/images/projects/STN-jewelry/BirthCross1.png" title="" alt=""/>
+        </div>
+    <div class="cl_b"></div>
+    </div>
+</a>
+ </div></div>
