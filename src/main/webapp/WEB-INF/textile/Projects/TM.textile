@@ -1,0 +1,41 @@
+h1. ThunderMist Power Boats
+
+<div class="content"><div class="desc">URL: <span class="nobr"><a href="http://thundermistpowerboats.com/">http://thundermistpowerboats.com/</a></span>
+
+*Scope:* web design, logo restyling, UI optimization, XHTML/CSS
+
+Thundermist Power Boats web site was designed to immerse users into marine and nautical atmosphere, and to provide a exhaustive showcase to the nice boats Thundermist produces. The design is clean, yet creative - we are proud of it.
+
+The home page provides a creative overview of the product lines. Our designer has manipulated the boat photos to convert them to these nice icons.
+
+<a href="../res/images/projects/TM/thundermist1%2Dbig.jpg" title="thundermist1-big.jpg" rel="floatbox" rev="width:1200 height:1000 scrolling:no theme:white hideFlash:true caption:`ThunderMist` showHints:never">
+    <div class="image_part ">
+        <div>
+            <img src="../res/images/projects/TM/thundermist1.jpg" title="" alt=""/>
+        </div>
+    <div class="cl_b"></div>
+    </div>
+</a>
+
+Our designer has developed a special set of icons, which follows the style of logo.
+
+<a href="../res/images/projects/TM/thundermist2%2Dbig.jpg" title="thundermist2-big.jpg" rel="floatbox" rev="width:1200 height:1000 scrolling:no theme:white hideFlash:true caption:`ThunderMist` showHints:never">
+    <div class="image_part ">
+        <div>
+            <img src="../res/images/projects/TM/thundermist2.jpg" title="" alt=""/>
+        </div>
+    <div class="cl_b"></div>
+    </div>
+</a>
+
+The product page layout is complicated, nevertheless we arranged the info in a clear nice way.
+
+<a href="../res/images/projects/TM/thundermist3%2Dbig.jpg" title="thundermist3-big.jpg" rel="floatbox" rev="width:1200 height:1000 scrolling:no theme:white hideFlash:true caption:`ThunderMist` showHints:never">
+    <div class="image_part ">
+        <div>
+            <img src="../res/images/projects/TM/thundermist3.jpg" title="" alt=""/>
+        </div>
+    <div class="cl_b"></div>
+    </div>
+</a>
+</div></div>

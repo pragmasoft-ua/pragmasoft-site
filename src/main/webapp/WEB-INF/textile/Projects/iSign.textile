@@ -1,0 +1,18 @@
+h1. iSign: iPad app for document processing
+
+<div class="content"><div class="desc">URL: %(wikiexternallink)<a href="http://itunes.apple.com/ru/app/i-sign-business-lite/id458825717?mt=8">Lite Free version</a>%
+
+*Technologies used:* Navigation Controller with custom animation, Core Graphics Framework, Quartz Core Framework, Email sending customization, PDF generating/viewing, Network Reachability, Core Text Framework, Context menu customization, Undo manager, Printing documents.
+
+iSign is a handy app for those who have to deal with numerous paperwork constantly. With iSign you can easily create, edit, authorize and share various documents. You can also easily export any documents to your PC.
+
+iSign is another nice app that makes the life easier.
+
+<img src="../res/images/projects/iSign/1.png?&amp;width=500" width="500" alt="1.png" title="1.png"/>
+
+<img src="../res/images/projects/iSign/2.png?&amp;width=500" width="500" alt="2.png" title="2.png"/>
+
+<img src="../res/images/projects/iSign/3.png?&amp;width=500" width="500" alt="3.png" title="3.png"/> 
+
+<img src="../res/images/projects/iSign/4.png?&amp;width=500" width="500" alt="4.png" title="4.png"/>
+</div></div>

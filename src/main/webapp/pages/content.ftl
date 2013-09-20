@@ -5,7 +5,7 @@
     
     <!-- Content -->
     <div class="content">
-        <div class="desc">
+        <div class="desc" style="clear:both;">
             ${text}
         </div>        
     </div>

@@ -1,0 +1,18 @@
+h1. Storelocator Goes Mobile
+
+<div class="content"><div class="desc">URL: <span class="nobr"><a href="http://storelocator.no/storelocator-goes-mobile/">http://storelocator.no/storelocator-goes-mobile/</a></span><br/>
+*Technologies used:* Storelocator is now available for Android phones and can be <a href="https://play.google.com/store/apps/details?id=com.phonegap.storelocator">downloaded here</a>, and for iOS it can be <a href="http://itunes.apple.com/no/app/storelocator.no/id551377501?mt=8">found here</a>.
+
+<a href="../res/images/projects/GoesMobile/collage.jpg" title="collage.jpg" rel="floatbox" rev="width:600 height:325 scrolling:no theme:white hideFlash:true caption:`Goes Mobile` showHints:never">
+    <div class="image_part ">
+        <div><img src="../res/images/projects/GoesMobile/collagesmall.jpg" title=" alt="/>
+    </div>
+    <div class="cl_b"></div>
+</div></a>
+
+Finally Storelocator is available for the mobile phone, a must-have for anyone who loves shopping.
+Now you can save time running around in alien cities not finding the stores you are looking for. Simple search will quickly locate the stores selling the brand you are looking for.
+
+If you like traveling and shopping, then Storelocator for mobile is the ultimate tool for the shopping savvy customer. Plan your trip in advance by creating shopping guides online and add the stores you wish to visit. Once you have arrived at your destination, open the guide on your smart phone and finding the stores will make shopping a walk in the park.
+
+Storelocator is currently targeting major cities in Scandinavia, but we will be creating shopping guides for major cities like London, Paris and New York.</div></div>

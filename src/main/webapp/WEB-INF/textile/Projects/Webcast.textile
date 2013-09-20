@@ -1,0 +1,6 @@
+h1. Webcast
+
+<div class="content"><div class="desc">This project was carried out on the outsourcing basis for Cape Cod E-Com. Pragmasoft delievered logo, web design (both in Web 2.0 style) with integrated usability, web graphics and HTML/CSS within Blueprint CSS grid framework. Our QA team conducted cross-browser testing.
+
+<img src="../res/images/projects/Webcast/Webcast.jpg" alt="Webcast.jpg" title="Webcast.jpg"/>
+</div></div>

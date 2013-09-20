@@ -1,0 +1,64 @@
+h1. SnapGreet
+
+<div class="content"><div class="desc">While working on SnapGreet, we have tried out different approaches to gain the most efficient and most stunning solution. The client was a perfectionist and in terms of our project we managed to produce numerous design drafts. And we should say that we are proud of the results, as any designer is proud of a truly successful and creative work.
+
+Unfortunately, the project didn't reach its successful end, since the client vanished, leaving us with a bunch of successful design concepts. This design can now serve of a nice show-case of our creativity and can provide any potential customer with an idea of how far we are ready to go developing the creative concept to reach 100% client satisfaction.
+
+Before I proceed to the designs, I would like to describe the general concept of a SnapGreet service: it is not just another greeting card service, SnapGreet has its unique concept. Instead of providing a set number of template greeting cards, SnapGreet has made an arrangement with a number of photographers around the world. So if someone makes an order with SnapGreet, they get a chance to send their short message, that gets placed on a special board, and one of the photographers in a chosen spot takes picture of that message, and this special photo with the message and a famous sight-seeing spot on the background is framed and sent to the needed person. Eiffel Tower, Pyramids, Golden Gate Bridge, Big Ben, Time Square are on the list of the famous sight-seeing spots.
+
+So here are the designs as they have evolved in our imagination:
+
+<a href="../res/images/projects/Snapgreet/snapgreet07%2D3.jpg" title="snapgreet07-3.jpg" rel="floatbox" rev="width:1200 height:720 scrolling:no theme:white hideFlash:true caption:`SnapGreet` showHints:never">
+        <div class="image_part ">
+        <div>
+            <img src="../res/images/projects/Snapgreet/Snapgreet4.jpg" title="" alt=""/>
+        </div>
+    <div class="cl_b"></div>
+    </div>
+</a>
+
+<a href="../res/images/projects/Snapgreet/snapgreet08%2D1.jpg" title="snapgreet08-1.jpg" rel="floatbox" rev="width:1200 height:720 scrolling:no theme:white hideFlash:true caption:`SnapGreet` showHints:never">
+        <div class="image_part ">
+        <div>
+            <img src="../res/images/projects/Snapgreet/Snapgreet5.jpg" title="" alt=""/>
+        </div>
+    <div class="cl_b"></div>
+    </div>
+</a>
+
+<a href="../res/images/projects/Snapgreet/snapgreet06%2D3.jpg" title="snapgreet06-3.jpg" rel="floatbox" rev="width:1200 height:720 scrolling:no theme:white hideFlash:true caption:`SnapGreet` showHints:never">
+        <div class="image_part ">
+        <div>
+            <img src="../res/images/projects/Snapgreet/Snapgreet3.jpg" title="" alt=""/>
+        </div>
+    <div class="cl_b"></div>
+    </div>
+</a>
+
+<a href="../res/images/projects/Snapgreet/snapgreet04%2D2.jpg" title="snapgreet04-2.jpg" rel="floatbox" rev="width:1200 height:720 scrolling:no theme:white hideFlash:true caption:`SnapGreet` showHints:never">
+        <div class="image_part ">
+        <div>
+            <img src="../res/images/projects/Snapgreet/Snapgreet1.jpg" title="" alt=""/>
+        </div>
+    <div class="cl_b"></div>
+    </div>
+</a>
+
+<a href="../res/images/projects/Snapgreet/snapgreet05.jpg" title="snapgreet05.jpg" rel="floatbox" rev="width:1200 height:720 scrolling:no theme:white hideFlash:true caption:`SnapGreet` showHints:never">
+        <div class="image_part ">
+        <div>
+            <img src="../res/images/projects/Snapgreet/Snapgreet2.jpg" title="" alt=""/>
+        </div>
+    <div class="cl_b"></div>
+    </div>
+</a>
+
+<a href="../res/images/projects/Snapgreet/snapgreet09%2D3.jpg" title="snapgreet09-3.jpg" rel="floatbox" rev="width:1200 height:720 scrolling:no theme:white hideFlash:true caption:`SnapGreet` showHints:never">
+        <div class="image_part ">
+        <div>
+            <img src="../res/images/projects/Snapgreet/Snapgreet6.jpg" title="" alt=""/>
+        </div>
+    <div class="cl_b"></div>
+    </div>
+</a>
+</div></div>

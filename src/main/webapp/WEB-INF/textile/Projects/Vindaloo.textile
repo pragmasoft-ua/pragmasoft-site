@@ -1,0 +1,8 @@
+h1. Mobi Menus: Vindaloo Night Restaurant
+
+<div class="content"><div class="desc">*Goal:* to design a mobile version of takeaway menu with cool iPhone effects
+
+*Scope:* design, XHTML/CSS, Javascript
+
+<img src="../res/images/projects/Vindaloo/Vinadaloo.jpg" alt="Vinadaloo.jpg" title="Vinadaloo.jpg"/>
+</div></div>

@@ -1,0 +1,44 @@
+h1. Horse Racing Nation
+
+<div class="content"><div class="desc">*Horse Racing Nation* is a nice example of sport site design, which corresponds to main tendencies pointed out in %(wikiexternallink)<a href="http://www.smashingmagazine.com/2009/04/04/showcase-of-beautiful-sports-websites/">Smashing magazine sport site showcase</a>%. Please have a look at the final variant of the design approved:
+
+<a href="../res/images/projects/HRN/Horse09.jpg" title="Horse09.jpg" rel="floatbox" rev="width:1200 height:1151 scrolling:no theme:white hideFlash:true caption:`HorseRacingNation` showHints:never">
+        <div class="image_part ">
+        <div>
+            <img src="../res/images/projects/HRN/HorseRacingNation5.jpg" title="" alt=""/>
+        </div>
+        <div class="cl_b"></div>
+    </div>
+</a>
+
+It has a typical news site layout, it's colorful. The home page includes links to recent stories, latest race results and the site has clear navigation for the user to easily find the necessary information.
+
+We have tried different approaches to the design. At first stage of the project we offered a couple of different design drafts. The first one was creative:
+
+<a href="../res/images/projects/HRN/Horse04.jpg" title="Horse04.jpg" rel="floatbox" rev="width:1500 height:975 scrolling:no theme:white hideFlash:true caption:`HorseRacingNation` showHints:never">
+        <div class="image_part ">
+        <div>
+            <img src="../res/images/projects/HRN/HorseRacingNation2.jpg" title="" alt=""/>
+        </div>
+        <div class="cl_b"></div>
+    </div>
+</a>
+
+We regard this draft as successful, bright and creative, but our customer decided to shoot with a more conservative style. So we continued with the following variation:
+
+<a href="../res/images/projects/HRN/Horse042.jpg" title="Horse042.jpg" rel="floatbox" rev="width:1200 height:975 scrolling:no theme:white hideFlash:true caption:`HorseRacingNation` showHints:never">
+        <div class="image_part ">
+        <div>
+            <img src="../res/images/projects/HRN/HorseRacingNation1.jpg" title="" alt=""/>
+        </div>
+        <div class="cl_b"></div>
+    </div>
+</a>
+
+Pragmasoft was also responsible for *logo design*:
+
+<img src="../res/images/projects/HRN/HorseRacingNationlogo2.jpg" alt="HorseRacingNationlogo2.jpg" title="HorseRacingNationlogo2.jpg"/>
+
+After we had all design issues covered, Pragmasoft worked on *XHTML/CSS slicing* of the pages. All in all,Horse Racing Nation project is a nice showcase of Pragmasoft skills: nice logo, great design and high-quality valid XHTML/CSS coding.
+
+</div></div>

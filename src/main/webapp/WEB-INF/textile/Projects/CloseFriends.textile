@@ -1,0 +1,26 @@
+h1. Close Friends
+
+<div class="content"><div class="desc">Close Friends social network was designed to accumulate the best features of modern social networking sites. And since nice design guarantees about 40% of the project success, we gathered all our creativity to come up with something really outstanding. First we developed a nice looking logo, showing a variety of moods of literally close cartoon characters. And after a couple of design drafts, we came up with the final web design that was approved: 
+
+<a href="../res/images/projects/CloseFriends/CloseFriendsStart.jpg" title="CloseFriendsStart.jpg" rel="floatbox" rev="width:1200 height:700 scrolling:no theme:white hideFlash:true caption:`Close Freinds` showHints:never">
+   	<div class="image_part ">
+        <div>
+            <img src="../res/images/projects/CloseFriends/Closefriends1.jpg" title="" alt=""/>
+        </div>
+    <div class="cl_b"></div>
+    </div>
+</a>
+
+And here's the design for the inner page:
+
+<a href="../res/images/projects/CloseFriends/CloseFriends514.jpg" title="CloseFriends514.jpg" rel="floatbox" rev="width:1200 height:800 scrolling:no theme:white hideFlash:true caption:`Close Freinds` showHints:never">
+   	<div class="image_part ">
+        <div>
+            <img src="../res/images/projects/CloseFriends/Closefriends10.jpg" title="" alt=""/>
+        </div>
+    <div class="cl_b"></div>
+    </div>
+</a>
+
+Please read %(wikilink)<a href="/bin/view/Main/Closefriends">our blog</a>% for more details about this project.
+</div></div>

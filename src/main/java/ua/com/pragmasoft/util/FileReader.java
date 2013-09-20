@@ -15,7 +15,7 @@ public class FileReader {
 		StringBuilder sb = new StringBuilder();
 		
 		try {
-			br = new BufferedReader(new InputStreamReader(is));
+			br = new BufferedReader(new InputStreamReader(is, "UTF-8"));
 			while (br.ready()) {
 				sb.append(br.readLine() + "\n");
 				

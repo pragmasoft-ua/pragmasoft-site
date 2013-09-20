@@ -1,0 +1,151 @@
+h1. mySportSite
+
+<div class="content"><div class="desc">URL: <span class="nobr"><a href="http://www.mysportsite.com/">http://www.mysportsite.com/</a></span>
+
+Great project! Great results! Great customers! Great realization of the design! It's nice to come up with some result that you are truly proud of. mySportSite project is exactly the case. Please revise the final results that we came up with and share our excitement with us. In terms of mySportSite project we have worked on:
+
+*Logo design*: The task was to develop a logo that would convey team spirit, competition, energy, high tension when the game score are tied up at the very final stages of the game, youth, passion for sports, but this logo should not have any direct link to any specific sports. This was a challenging task and in the end we came up with a solution to meet this criteria. We should admit it was a long way to come to the final variant. To see the most worthy variants that we developed in the process of our creative search, please see <span class="wikilink"><a href="/bin/view/Main/MySPortSiteGiving110">our blog post</a></span>
+
+*Web Site* design: The design on site went faster. See <span class="wikilink"><a href="/bin/view/Main/mySportSitedesigningwebsite">our blog post</a></span> for some other variants of the current page.
+
+<a href="../res/images/projects/MSS/home%2Dvalleyball.jpg" title="home-valleyball.jpg" rel="floatbox" rev="width:1680 height:1400 scrolling:no theme:white hideFlash:true caption:`MySportSite` showHints:never">
+   	<div class="image_part ">
+        <div>
+            <img src="../res/images/projects/MSS/mySportSite%2Dstart.jpg" title="" alt=""/>
+        </div>
+	    <div class="cl_b"></div>
+    </div>
+</a>
+
+*Blog* design: We followed the developed style to  come up with blog design.
+
+<a href="../res/images/projects/MSS/mss%2Dblog.jpg" title="mss-blog.jpg" rel="floatbox" rev="width:1200 height:900 scrolling:no theme:white hideFlash:true caption:`MySportSite Blog` showHints:never">
+   	<div class="image_part ">
+        <div>
+            <img src="../res/images/projects/MSS/mySportSite%2Dblog.jpg" title="" alt=""/>
+        </div>
+	    <div class="cl_b"></div>
+    </div>
+</a>
+
+*Handout* print ad deisgn: Since MSS is working with muslitple sports, we were to come up with 2 types of print ad designs: general for field sports, and one specific for hockey, since hockey takes major part of the current customers of MSS. You are able to 
+//
+We designed one handout in 2 versions. One of more general character, to fit most summer sports:
+
+<a href="../res/images/projects/MSS/broshure%2Dback1%2D1.jpg" title="broshure-back1-1.jpg" rel="floatbox" rev="width:1024 height:791 scrolling:no theme:white hideFlash:true caption:`MySportSite` showHints:never">
+   	<div class="image_part ">
+        <div>
+            <img src="../res/images/projects/MSS/mySportSite%2Dbroshure1.jpg" title="" alt=""/>
+        </div>
+	    <div class="cl_b"></div>
+    </div>
+</a>
+
+<a href="../res/images/projects/MSS/broshure%2Dfront1%2D1.jpg" title="broshure-front1-1.jpg" rel="floatbox" rev="width:1024 height:791 scrolling:no theme:white hideFlash:true caption:`MySportSite` showHints:never">
+   	<div class="image_part ">
+        <div>
+            <img src="../res/images/projects/MSS/mySportSite%2Dbroshure1%2D2.jpg" title="" alt=""/>
+        </div>
+	    <div class="cl_b"></div>
+    </div>
+</a>
+
+And another one for ice hockey:
+
+<a href="../res/images/projects/MSS/broshure%2Dback%2D2.jpg" title="broshure-back-2.jpg" rel="floatbox" rev="width:1024 height:796 scrolling:no theme:white hideFlash:true caption:`MySportSite` showHints:never">
+   	<div class="image_part ">
+        <div>
+            <img src="../res/images/projects/MSS/mySportSite%2Dbroshure2.jpg" title="" alt=""/>
+        </div>
+	    <div class="cl_b"></div>
+    </div>
+</a>
+
+<a href="../res/images/projects/MSS/broshure%2Dfront%2D2.jpg" title="broshure-front-2.jpg" rel="floatbox" rev="width:1024 height:796 scrolling:no theme:white hideFlash:true caption:`MySportSite` showHints:never">
+   	<div class="image_part ">
+        <div>
+            <img src="../res/images/projects/MSS/mySportSite%2Dbroshure2%2D2.jpg" title="" alt=""/>
+        </div>
+	    <div class="cl_b"></div>
+    </div>
+</a>
+
+*Business card* design: Again, we were thinking of many design concepts, but ended up with the idea, that designer stock of papaer with minimalist design will deliver the greatest impression:
+
+<img src="../res/images/projects/MSS/mySportSite%2Dbusinesscard.jpg" alt="mySportSite-businesscard.jpg" title="mySportSite-businesscard.jpg"/>
+
+*PowerPoint slides*: Again, we have developed a soccer and an ice hockey design:
+
+<a href="../res/images/projects/MSS/MySportSitepresentationsoccer.jpg" title="MySportSitepresentationsoccer.jpg" rel="floatbox" rev="width:1024 height:768 scrolling:no theme:white hideFlash:true caption:`MySportSite` showHints:never">
+   	<div class="image_part ">
+        <div>
+            <img src="../res/images/projects/MSS/mySportSite%2Dpp1.jpg" title="" alt=""/>
+        </div>
+	    <div class="cl_b"></div>
+    </div>
+</a>
+
+<a href="../res/images/projects/MSS/MySportSitepresentationhochey.jpg" title="MySportSitepresentationhochey.jpg" rel="floatbox" rev="width:1024 height:768 scrolling:no theme:white hideFlash:true caption:`MySportSite` showHints:never">
+   	<div class="image_part ">
+        <div>
+            <img src="../res/images/projects/MSS/mySportSite%2Dpp2.jpg" title="" alt=""/>
+        </div>
+	    <div class="cl_b"></div>
+    </div>
+</a>
+
+*Facebook ladning page* place-holders:
+
+<a href="../res/images/projects/MSS/mss%2Dfacebook1.jpg" title="mss-facebook1.jpg" rel="floatbox" rev="width:775 height:559 scrolling:no theme:white hideFlash:true caption:`MySportSite` showHints:never">
+   	<div class="image_part ">
+        <div>
+            <img src="../res/images/projects/MSS/mss%2Dfacebook1%2Dsm.jpg" title="" alt=""/>
+        </div>
+	    <div class="cl_b"></div>
+    </div>
+</a>
+
+<a href="../res/images/projects/MSS/mss%2Dfacebook2.jpg" title="mss-facebook2.jpg" rel="floatbox" rev="width:775 height:559 scrolling:no theme:white hideFlash:true caption:`MySportSite` showHints:never">
+   	<div class="image_part ">
+        <div>
+            <img src="../res/images/projects/MSS/mss%2Dfacebook2%2Dsm.jpg" title="" alt=""/>
+        </div>
+	    <div class="cl_b"></div>
+    </div>
+</a>
+
+*Print handout design* update:
+
+<a href="../res/images/projects/MSS/mss%2Dflyer.jpg" title="mss-flyer.jpg" rel="floatbox" rev="width:1000 height:783 scrolling:no theme:white hideFlash:true caption:`MySportSite` showHints:never">
+   	<div class="image_part ">
+        <div>
+            <img src="../res/images/projects/MSS/mss%2Dflyer%2Dsm.jpg" title="" alt=""/>
+        </div>
+	    <div class="cl_b"></div>
+    </div>
+</a>
+
+*HTML Newsletter* design:
+
+<a href="../res/images/projects/MSS/mss%2Dmail.jpg" title="mss-mail.jpg" rel="floatbox" rev="width:1000 height:920 scrolling:no theme:white hideFlash:true caption:`MySportSite` showHints:never">
+   	<div class="image_part ">
+        <div>
+            <img src="../res/images/projects/MSS/mss%2Dmail%2Dsm.jpg" title="" alt=""/>
+        </div>
+	    <div class="cl_b"></div>
+    </div>
+</a>
+
+*Letterhead* design:
+
+<a href="../res/images/projects/MSS/mss%2Dmail2.jpg" title="mss-mail2.jpg" rel="floatbox" rev="width:1000 height:674 scrolling:no theme:white hideFlash:true caption:`MySportSite` showHints:never">
+   	<div class="image_part ">
+        <div>
+            <img src="../res/images/projects/MSS/mss%2Dmail2%2Dsm.jpg" title="" alt=""/>
+        </div>
+	    <div class="cl_b"></div>
+    </div>
+</a>
+
+That was a great project, we had to put all our creativity together and think for the best design solutions. And we did indeed provided the best result - we like it, our customers like it, and we are proud to present it as a nice showcase of our creativity and professionalism.
+</div></div>

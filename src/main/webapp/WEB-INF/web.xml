@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns="http://java.sun.com/xml/ns/javaee"
-        xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
-    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
-    http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" 
-    id="WebApp_ID" version="2.5">
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+id="WebApp_ID" version="2.5">
  
     <display-name>Pragmasoft</display-name>
  
+    <!-- ========= SERVLETS ========= -->
+    <!-- Freemarker servlet -->
     <servlet>
         <servlet-name>freemarker</servlet-name>
         <servlet-class>freemarker.ext.servlet.FreemarkerServlet</servlet-class>
@@ -23,8 +24,8 @@
         </init-param>
         <init-param>
             <param-name>ContentType</param-name>
+            <!-- Forces UTF-8 output encoding -->
             <param-value>text/html; charset=UTF-8</param-value>
-            <!-- Forces UTF-8 output encoding! -->
         </init-param>
  
         <!-- FreeMarker settings: -->
@@ -34,9 +35,9 @@
             <!-- 0 is for development only! Use higher value otherwise. -->
         </init-param>
         <init-param>
+            <!-- The encoding of the template files. -->
             <param-name>default_encoding</param-name>
             <param-value>UTF-8</param-value>
-            <!-- The encoding of the template files. -->
         </init-param>
         <init-param>
             <param-name>number_format</param-name>
@@ -44,53 +45,64 @@
         </init-param>
  
         <load-on-startup>1</load-on-startup>
-    </servlet>
- 
+    </servlet> 
     <servlet-mapping>
         <servlet-name>freemarker</servlet-name>
         <url-pattern>*.ftl</url-pattern>
     </servlet-mapping> 
  
+    <!-- Error handler -->
+    <servlet>
+        <servlet-name>ErrorHandler</servlet-name>
+        <servlet-class>ua.com.pragmasoft.web.ErrorHandler</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ErrorHandler</servlet-name>
+        <url-pattern>/ErrorHandler</url-pattern>
+    </servlet-mapping>
+    
     <!-- Main servlet -->
     <servlet>
-        <servlet-name>mainServlet</servlet-name>
+        <servlet-name>MainServlet</servlet-name>
         <servlet-class>ua.com.pragmasoft.web.MainServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>mainServlet</servlet-name>
-        <url-pattern>/</url-pattern>
+        <servlet-name>MainServlet</servlet-name>
+        <url-pattern>/Main</url-pattern>
     </servlet-mapping>
     
     <!-- Vacancies servlet -->
     <servlet>
-        <servlet-name>vacanciesServlet</servlet-name>
+        <servlet-name>VacanciesServlet</servlet-name>
         <servlet-class>ua.com.pragmasoft.web.VacanciesServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>vacanciesServlet</servlet-name>
+        <servlet-name>VacanciesServlet</servlet-name>
         <url-pattern>/Vacancies</url-pattern>
     </servlet-mapping>
     
     <!-- Contacts servlet -->
     <servlet>
-        <servlet-name>contactsServlet</servlet-name>
+        <servlet-name>ContactsServlet</servlet-name>
         <servlet-class>ua.com.pragmasoft.web.ContactsServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>contactsServlet</servlet-name>
+        <servlet-name>ContactsServlet</servlet-name>
         <url-pattern>/Contacts</url-pattern>
     </servlet-mapping>
     
-    !-- Projects servlet -->
+    <!-- Projects servlet -->
     <servlet>
-        <servlet-name>projectsServlet</servlet-name>
+        <servlet-name>ProjectsServlet</servlet-name>
         <servlet-class>ua.com.pragmasoft.web.ProjectsServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>projectsServlet</servlet-name>
+        <servlet-name>ProjectsServlet</servlet-name>
         <url-pattern>/Projects</url-pattern>
+        <url-pattern>/Projects/*</url-pattern>
     </servlet-mapping>
     
+    <!-- Tomcat default servlet -->
     <servlet-mapping>
         <servlet-name>default</servlet-name>
         <url-pattern>*.js</url-pattern>
@@ -99,6 +111,36 @@
         <url-pattern>*.jpg</url-pattern>
         <url-pattern>*.png</url-pattern>
     </servlet-mapping>
+    
+    <error-page>
+        <error-code>404</error-code>
+        <location>/ErrorHandler</location>
+    </error-page>
+
+    <!-- ========= Filters ========= -->
+    <!-- Encoding filter -->
+    <filter>
+        <filter-name>EncodingFilter</filter-name>
+        <filter-class>ua.com.pragmasoft.filter.EncodingFilter</filter-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>EncodingFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <!-- Locale filter -->
+    <filter>
+        <filter-name>LocaleFilter</filter-name>
+        <filter-class>ua.com.pragmasoft.filter.LocaleFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>LocaleFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
  
     <!--
         Prevent the visiting of MVC Views from outside the servlet container.

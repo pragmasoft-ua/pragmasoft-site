@@ -1,0 +1,10 @@
+h1. Mobi Menus: Popeye's TakeAway & Delivery
+
+<div class="content"><div class="desc">URL: %(nobr)<a href="http://www.popeyessalisbury.mobi/">http://www.popeyessalisbury.mobi/</a>%
+
+*Goal:* to design a mobile version of takeaway menu with cool iPhone effects
+
+*Scope:* design, XHTML/CSS, Javascript
+
+<img src="../res/images/projects/Popeyes/Popeyes.jpg" alt="Popeyes.jpg" title="Popeyes.jpg"/>
+</div></div>

@@ -1,0 +1,14 @@
+h1. iPhone Web Application: Size Calculator
+
+<div class="content"><div class="desc">URL: <span class="nobr"><a href="http://pragmasoft.com.ua/public/size/index.html">http://pragmasoft.com.ua/public/size/index.html</a></span> -- Please open in mobile (iPhone) or desktop Safari
+
+*Technologies used:* iPhone User Interface (iUI) Library for Safari development on iPhone; SQLite database; offline application cache, CSS3 transitions and transformation effects
+
+Another iPhone web application has been brought into the world thanks to Pragmasoft: Size Calculator. It is handy - just fill in your dimensions, and get to know what size to wear regardless the continent you are on. That's how it looks:
+
+<div style="text-align:center;">
+<img src="../res/images/projects/SizeCalc/Sizecalc1.jpg?&amp;width=290" width="290" alt="Sizecalc1.jpg" title="Sizecalc1.jpg"/>
+
+<img src="../res/images/projects/SizeCalc/Sizecalc2.jpg?&amp;width=290" width="290" alt="Sizecalc2.jpg" title="Sizecalc2.jpg"/>
+</div>
+</div></div>
