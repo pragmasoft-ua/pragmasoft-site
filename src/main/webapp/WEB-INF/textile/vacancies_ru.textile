@@ -1,0 +1,28 @@
+h1. Вакансии
+
+h2(heading-1). %Java EE разработчик%
+
+h3(heading-1-1). %Требования к кандидату:%
+
+# Технический английский - свободное чтение документации и документирование кода.
+# Linux на уровне пользователя.
+# Общие знания ООП, паттернов проектирования, метрик качества. Чтение UML - плюс.
+# Опыт работы со средствами разработки - ant, maven, junit, svn, IDE, debug, profiling, app servers - deployment
+# Серверная java опыт не менее 3-х лет непрерывной практической работы,
+включая:
+#* SQL, базы данных, ORM - JPA или Hibernate
+#* Знание HTTP (включая заголовки, куки, авторизацию, SSL), HTML, опыт AJAX - плюс
+#* JavaEE включая сервлеты, JSP, JSTL, custom taglibs, JSF - плюс.
+#* Spring framework, Spring security - плюс.
+
+# Общее хорошее знание java, включая: Exceptions, Java Beans, Generics, Annotations, Threads, cинхронизация потоков, коллекции, ресурсы, JDBC, Io, Nio, XML, Networking, Security, Reflection. сертификат - плюс
+# Опыт фриланса - плюс
+
+h2(heading-1). %Java EE подмастерье%
+
+h3(heading-1-1). %Требования к кандидату:%
+
+# Желание стать профессионалом в java
+# Технический английский - чтение документации.
+# Общие знания ООП, паттернов проектирования.
+# Общее хорошее знание java в объеме %(wikiexternallink)<a href="http://java.sun.com/docs/books/tutorial/">Sun's java tutorial</a>%

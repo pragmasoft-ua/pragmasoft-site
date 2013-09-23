@@ -1,6 +1,8 @@
-h2(heading-1#HJavaEEdeveloper). <span>Java EE developer</span>
+h1. Vacancies
 
-h3(heading-1-1#HRequirements3A). <span>Requirements:</span>
+h2(heading-1#HJavaEEdeveloper). %Java EE developer%
+
+h3(heading-1-1#HRequirements3A). %Requirements:%
 
 
 # Technical English - fluent technical documentation reading and documenting source code.
@@ -17,18 +19,18 @@ including:
 # Freelancing experience would be a bonus.
 
 
-h2(heading-1#HJuniorJavaEEdeveloper). <span>Junior Java EE developer</span>
+h2(heading-1#HJuniorJavaEEdeveloper). %Junior Java EE developer%
 
-h3(heading-1-1#HRequirements3A-1). <span>Requirements:</span>
+h3(heading-1-1#HRequirements3A-1). %Requirements:%
 
 # Desire to become a Java professional.
 # Technical English - fluent documentation reading.
 # General knowledge in OOP, design patterns.
-# Fluent knowledge of Java SE within the scope of <span class="wikiexternallink"><a href="http://java.sun.com/docs/books/tutorial/">Sun's Java tutorial</a></span>
+# Fluent knowledge of Java SE within the scope of %(wikiexternallink)<a href="http://java.sun.com/docs/books/tutorial/">Sun's Java tutorial</a>%
 
-h2(heading-1#HQAEngineer). <span>QA Engineer</span>
+h2(heading-1#HQAEngineer). %QA Engineer%
 
-h3(heading-1-1#HRequirements3A-2). <span>Requirements:</span>
+h3(heading-1-1#HRequirements3A-2). %Requirements:%
 
 # At least 1-2 years experience of QA engineer
 # Technical English - fluent documentation reading

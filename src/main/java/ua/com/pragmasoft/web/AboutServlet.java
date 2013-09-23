@@ -13,11 +13,11 @@ import javax.servlet.http.HttpSession;
 import ua.com.pragmasoft.util.FileReader;
 import ua.com.pragmasoft.util.TextProcessorFactory;
 
-public class ContactsServlet extends HttpServlet {
-	private static final long serialVersionUID = -3974292866649175343L;
+public class AboutServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
 
-	private static final String FILE_NAME_EN = "contacts.textile";
-	private static final String FILE_NAME_RU = "contacts_ru.textile";
+	private static final String FILE_NAME_EN = "about.textile";
+	private static final String FILE_NAME_RU = "about_ru.textile";
 
 	@Override
 	protected void doGet(HttpServletRequest request,
@@ -35,7 +35,9 @@ public class ContactsServlet extends HttpServlet {
 		}
 
 		ServletContext context = request.getSession().getServletContext();
-		InputStream textAsStream = context.getResourceAsStream(Constants.PATH_TO_TEXTILE_TEMPLATES + fileName);
+		InputStream textAsStream = context
+				.getResourceAsStream(Constants.PATH_TO_TEXTILE_TEMPLATES
+						+ fileName);
 
 		String formattedText = FileReader.getTextFromStream(textAsStream);
 		String content = TextProcessorFactory.getMarkdownProcessor()
@@ -49,6 +51,6 @@ public class ContactsServlet extends HttpServlet {
 		request.setAttribute("text", content);
 		request.getRequestDispatcher("/pages/content.ftl").forward(request,
 				response);
-	}
 
+	}
 }

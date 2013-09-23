@@ -1,0 +1,3 @@
+h1. Контактная информация
+
+С любыми вопросами/предложениями пишите нам на %(wikiexternallink)<a href="mailto:info@pragmasoft.com.ua">info@pragmasoft.com.ua</a>%

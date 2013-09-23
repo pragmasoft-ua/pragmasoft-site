@@ -23,7 +23,7 @@ public class ProjectsServlet extends HttpServlet {
 		// Get project name
 		String requestUri = request.getRequestURL().toString();
 		requestUri = requestUri.substring(requestUri.indexOf(PROJECTS_PAGE));
-		System.out.println(requestUri);
+		System.out.println(requestUri); // debug
 
 		ServletContext context = request.getSession().getServletContext();
 
