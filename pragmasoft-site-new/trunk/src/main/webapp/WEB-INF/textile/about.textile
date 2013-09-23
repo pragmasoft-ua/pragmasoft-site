@@ -1,4 +1,6 @@
-Pragmasoft is a team of *dedicated software development pros* which was set up in 2004 in Kharkiv, Ukraine. Pragmasoft is a relatively young IT company, however, it is made up of great professionals with solid work experience. Within 6 years of work numerous outsorcing projects were successfully completed, some of which are presented in <span class="wikilink"><a href="/bin/view/Main/Projects">Our projects</a></span>.
+h1. About Pragmasoft
+
+Pragmasoft is a team of *dedicated software development pros* which was set up in 2004 in Kharkiv, Ukraine. Pragmasoft is a relatively young IT company, however, it is made up of great professionals with solid work experience. Within 6 years of work numerous outsorcing projects were successfully completed, some of which are presented in %(wikilink)<a href="/bin/view/Main/Projects">Our projects</a>%.
 
 So why Pragmasoft? This word reflects our essence, our style of work - our mind is set for *practical quality results*, we are guided by the reasons of expedience and rationality.
 
@@ -6,7 +8,7 @@ So why Pragmasoft? This word reflects our essence, our style of work - our mind 
 
 <ul class="star"><li class="innerlist">
 
-*(star) *Experience in developing commercially successful projects* <br/> What is the pride of any company? - It is indeed decent results alongside with the people who contributed its realization. Here you can look through <span class="wikilink"><a href="/bin/view/Main/Projects">our projects</a></span>, both finished and on-going. And this link will bring you to <span class="wikilink"><a href="/bin/view/Main/Blog">blog pages of our team</a></span>.
+*(star) *Experience in developing commercially successful projects* <br/> What is the pride of any company? - It is indeed decent results alongside with the people who contributed its realization. Here you can look through %(wikilink)<a href="/bin/view/Main/Projects">our projects</a>, both finished and on-going. And this link will bring you to %(wikilink)<a href="/bin/view/Main/Blog">blog pages of our team</a>.
 *(star) *Wide range of service* <br/> We provide software development, testing and technical support services, as well as graphic and web design.
 *(star) *Cutting edge technologies* <br/> Pragmasoft is constantly in pursuit of new effective solutions for your ideas. We believe that there are no universal  remedies in software development which would correspond to all criteria.
 *(star) *Flexibility of development process* <br/> Pragmasoft is a part of large projects which are distributed among several companies around the world. Owing to such experience we can easily adjust our development process to specific project demands.

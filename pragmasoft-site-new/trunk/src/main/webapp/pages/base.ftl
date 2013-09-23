@@ -1,4 +1,4 @@
-<#macro apply title="Pragmasoft">
+<#macro apply title="Pragmasoft" language="en">
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns:fb="http://ogp.me/ns/fb#" xmlns="http://www.w3.org/1999/xhtml">
@@ -57,28 +57,11 @@
                         </div>
                     </div>
                 </div>
-            </div><!-- Navigation bar -->
-            <div class="main_menu" style="width:786px;">
-                <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                    <tr>
-                        <td class='left_tab'>
-                            <a title="Blog" href="/Blog" onfocus="this.blur();"><img src="res/images/style/icon_menu_bul_small.gif" width="9" height="9" alt="" /> <span>Blog</span></a>
-                        </td>
-                        <td class=''>
-                            <a title="Our projects" href="/Projects" onfocus="this.blur();"><img src="res/images/style/icon_menu_bul_small.gif" width="9" height="9" alt="" /> <span>Our projects</span></a>
-                        </td>
-                        <td class='active'>
-                            <a title="About us" href="/" onfocus="this.blur();"><img src="res/images/style/icon_menu_bul_big.gif" width="9" height="9" alt="" /> <span>About us</span></a>
-                        </td>
-                        <td class=''>
-                            <a title="Vacancies" href="/Vacancies" onfocus="this.blur();"><img src="res/images/style/icon_menu_bul_small.gif" width="9" height="9" alt="" /> <span>Vacancies</span></a>
-                        </td>
-                        <td class=''>
-                            <a title="Contacts" href="/Contacts" onfocus="this.blur();"><img src="res/images/style/icon_menu_bul_small.gif" width="9" height="9" alt="" /> <span>Contacts</span></a>
-                        </td>
-                    </tr>
-                </table>
             </div>
+            
+            <!-- Navigation bar -->
+            <#include "navBar_${language}.ftl" />
+            
             <div class="cl_b">
                 <!-- -->
             </div>
