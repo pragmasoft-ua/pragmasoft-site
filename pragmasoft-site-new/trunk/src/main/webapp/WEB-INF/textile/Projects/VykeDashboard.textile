@@ -1,26 +1,11 @@
 h1. VYKE Dashboard
 
-<div class="content"><div class="desc">*Technologies used:* JavaEE, JSF, RichFaces, AJAX4JSF, SIFR, Facelets, Blueprints CSS
+*Technologies used:* JavaEE, JSF, RichFaces, AJAX4JSF, SIFR, Facelets, Blueprints CSS
 
-While working on VYKE Dashboard, our aim was to provide an integrated access point to Vyke administration facilities. We used advantages of %(wikiexternallink)<a href="http://www.atlassian.com/software/crowd/">Atlassian Crowd</a>%. Crowd is a web-based single sign-on (SSO) tool that aims to simplify application provisioning and identity management. VYKE Dashboard is comprised of an administration console and an integration API where such web applications are integrated: JIRA, Confluence, etc.
+While working on VYKE Dashboard, our aim was to provide an integrated access point to Vyke administration facilities. We used advantages of "Atlassian Crowd":http://www.atlassian.com/software/crowd/. Crowd is a web-based single sign-on (SSO) tool that aims to simplify application provisioning and identity management. VYKE Dashboard is comprised of an administration console and an integration API where such web applications are integrated: JIRA, Confluence, etc.
 
 Pragmasoft design studio provided sleek design to the Dashboard along with convenient customizable GUI, as well as provided HTML/CSS coding services within BlueprintCSS technology.
 
-<a href="../res/images/projects/VykeDashboard/Adminka.jpg" title="Adminka.jpg" rel="floatbox" rev="width:950 height:570 scrolling:no theme:white hideFlash:true caption:`VYKE Dashboard` showHints:never">
-    <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/VykeDashboard/Dashboard.jpg" title="" alt=""/>
-        </div>
-        <div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:307px}../res/images/projects/VykeDashboard/Adminka.jpg!%
 
-<a href="../res/images/projects/VykeDashboard/Adminka5.jpg" title="Adminka5.jpg" rel="floatbox" rev="width:1200 height:1000 scrolling:no theme:white hideFlash:true caption:`VYKE Dashboard` showHints:never">
-    <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/VykeDashboard/Admin2.jpg" title="" alt=""/>
-        </div>
-        <div class="cl_b"></div>
-    </div>
-</a>
-</div></div>
+%(zoom#ex3)!{width:512px;height:426px}../res/images/projects/VykeDashboard/Adminka5.jpg!%

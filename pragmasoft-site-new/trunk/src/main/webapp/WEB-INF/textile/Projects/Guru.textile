@@ -1,21 +1,13 @@
 h1. Gurus Way
 
-<div class="content"><div class="desc">Within Gurus Way project Pragmasoft developed a logo and a layout for a travel tips site. The task was to implement bellied Buddha in the design, and make the design in eastern style, which would at the same time spell the idea of traveling.
+Within Gurus Way project Pragmasoft developed a logo and a layout for a travel tips site. The task was to implement bellied Buddha in the design, and make the design in eastern style, which would at the same time spell the idea of traveling.
 
 We started with the logo design:
 
-<img src="../res/images/projects/Guru/GurusWaylogo.jpg" alt="GurusWaylogo.jpg" title="GurusWaylogo.jpg"/>
+!../res/images/projects/Guru/GurusWaylogo.jpg!
 
 And here's the web design that we came up with, after the logo was approved:
 
-<a href="../res/images/projects/Guru/GurusWay01.jpg" title="GurusWay01.jpg" rel="floatbox" rev="width:1200 height:900 scrolling:no theme:white hideFlash:true caption:`GurusWay` showHints:never">
-    <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/Guru/GurusWay.jpg" title="" alt=""/>
-        </div>
-        <div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:473px}../res/images/projects/Guru/GurusWay01.jpg!%
 
 It looks nice, doesn't it?
-</div></div>

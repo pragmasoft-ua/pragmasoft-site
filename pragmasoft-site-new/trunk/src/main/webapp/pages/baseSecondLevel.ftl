@@ -26,6 +26,15 @@
             s.parentNode.insertBefore(po, s);
             })();
         </script>
+        
+        <#-- ZOOM -->
+        <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
+        <script type="text/javascript" src="../res/js/jquery.zoom.js"></script>
+        <script type="text/javascript">
+		    $(document).ready(function(){			
+			    $('.zoom').closest('#ex3').zoom({ on:'click' });	
+		    });
+	    </script>
     </head>
     <body id="body">
         <div id="fb-root"></div>

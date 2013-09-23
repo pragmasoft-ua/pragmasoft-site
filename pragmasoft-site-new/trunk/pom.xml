@@ -43,11 +43,18 @@
     </dependency>
 
     <!-- Textile -->
-    <dependency>
+    <!-- <dependency>
       <groupId>org.fusesource.wikitext</groupId>
       <artifactId>textile-core</artifactId>
       <version>1.4</version>
+    </dependency> -->
+    
+    <dependency>
+	  <groupId>net.java.dev.textile-j</groupId>
+	  <artifactId>textile-j</artifactId>
+	  <version>2.2.864</version>
     </dependency>
+            
     
     <!-- slf4j Logger -->
     <dependency>

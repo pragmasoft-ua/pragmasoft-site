@@ -1,29 +1,22 @@
 h1. All Business Cards: Easy as ABC
 
-<div class="content"><div class="desc">URL: %(nobr)<a href="http://allbusinesscards.com/">http://allbusinesscards.com/</a>%
+URL: "http://allbusinesscards.com":http://allbusinesscards.com/
 
-Do you need an easy way to get yourself business cards done? - just visit %(wikiexternallink)<a href="http://allbusinesscards.com/">All Business Cards</a>%!
+Do you need an easy way to get yourself business cards done? - just visit "All Business Cards":http://allbusinesscards.com/!
 
 There you can also enjoy a wonderful fresh and lively design by Pragmasoft design studio. Throughout this project we managed to develop:
 
 Design like this:
 
-<a href="../res/images/projects/ABC/abctemp13.jpg" title="abctemp13.jpg" rel="floatbox" rev="width:1200 height:1312 scrolling:no theme:white hideFlash:true caption:`ABC` showHints:never">
-    <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/ABC/ABC.jpg" title="" alt=""/>
-        </div>
-        <div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:772px}../res/images/projects/ABC/abctemp13.jpg!%
 
 Logo like this:
 
-<img src="../res/images/projects/ABC/header.jpg?&amp;width=512" width="512" alt="header.jpg" title="header.jpg"/>
+!../res/images/projects/ABC/header.jpg!
 
 Icons like these:
 
-<img src="../res/images/projects/ABC/Icons.jpg" alt="Icons.jpg" title="Icons.jpg"/>
+!../res/images/projects/ABC/Icons.jpg"!
 
 Flash banner like this (click on the image below to see the animated banner):
 
@@ -44,14 +37,6 @@ Well, this project was special since its major limitations (page width, header w
 
 Все было и так хорошо, но компания «All Business Cards» решила сделать редизайн. Эта версия дизайна немного проще, но это и необходимость, которую нужно было обыграть в новой версии.
 
-<a href="../res/images/projects/ABC/prinly%2Dsite%2D32.jpg" title="prinly-site-32.jpg" rel="floatbox" rev="width:1200 height:1135 scrolling:no theme:white hideFlash:true caption:`ABC` showHints:never">
-    <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/ABC/abcredesign1.jpg" title="" alt=""/>
-        </div>
-        <div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:525px}../res/images/projects/ABC/prinly-site-32.jpg!%
 
 Несмотря на редизайн сайта, мы оставляем вам возможность посмотреть и на ранние макеты – они нам тоже нравятся.
-</div></div>

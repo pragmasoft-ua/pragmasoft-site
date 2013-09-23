@@ -1,13 +1,5 @@
 h1. Pencil into Vector
 
-<div class="content"><div class="desc"><a href="../res/images/projects/VectorImages/vector1.jpg" title="vector1.jpg" rel="floatbox" rev="width:800 height:682 scrolling:no theme:white hideFlash:true caption:`FreeTxT` showHints:never">
-    <div class="image_part ">
-        <div>
-             <img src="../res/images/projects/VectorImages/v1.jpg" title="" alt=""/>
-        </div>
-		<div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:436px}../res/images/projects/VectorImages/vector1.jpg!%
 
-You can find some cartoon character designs developed in our studio %(wikilink)<a href="#/#/Freehand">here</a>%.
-</div></div>
+You can find some cartoon character designs developed in our studio "here":/Blog/Freehand.

@@ -1,6 +1,6 @@
 h1. JacksonCo Supply
 
-<div class="content"><div class="desc">URL: %(nobr)<a href="http://www.jacksoncosupply.com/">http://www.jacksoncosupply.com/</a>%
+URL: "http://www.jacksoncosupply.com/":http://www.jacksoncosupply.com/
 
 As special as it is, this project is remembered with us for the most numerous count of revisions and drafts. Check our blog to see the evolution of designs we went through before we came to the final variant.
 
@@ -8,29 +8,15 @@ So the task was: to develop a bright, creative design for a e-store dealing with
 
 We had a number of nice ideas from the design perspective that were unfortunately turned down. That's the concept that we find exceptionally successful, but that was not accepted:
 
-<a href="../res/images/projects/JacksonCo/JS3.jpg" title="JS3.jpg" rel="floatbox" rev="width:1200 height:1200 scrolling:no theme:white hideFlash:true caption:`JacksonCo` showHints:never">
-        <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/JacksonCo/JacksonCo2.jpg" title="" alt=""/>
-        </div>
-	    <div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:588px}../res/images/projects/JacksonCo/JS3.jpg!%
 
 Applying trial and error method, we have finally reached the variant to satisfy our client's needs:
 
-<a href="../res/images/projects/JacksonCo/JS.jpg" title="JS.jpg" rel="floatbox" rev="width:1500 height:1366 scrolling:no theme:white hideFlash:true caption:`JacksonCo` showHints:never">
-        <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/JacksonCo/JacksonCo.jpg" title="" alt=""/>
-        </div>
-	    <div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:588px}../res/images/projects/JacksonCo/JS.jpg!%
 
 All in all, JacksonCo Supply gave us a nice challenge to overcome: we have worked side by side with the customer to find the best solution for the logo, site design, Flash banner concept and animation. And we proudly present the current project for your attention.
 
-Flash banner like this (click on the image below to see the animated banner): 
+Flash banner like this (click on the image below to see the animated banner):
 
 <a href="../res/images/projects/JacksonCo/JS%2D2.swf" title="JS-2.swf" rel="floatbox" rev="width:930 height:242 scrolling:no theme:white hideFlash:true caption:`JacksonCo Supply` showHints:never">
         <div class="image_part ">
@@ -40,4 +26,3 @@ Flash banner like this (click on the image below to see the animated banner):
 	    <div class="cl_b"></div>
     </div>
 </a>
-</div></div>

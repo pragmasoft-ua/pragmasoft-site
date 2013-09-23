@@ -1,6 +1,6 @@
 h1. SnapGreet
 
-<div class="content"><div class="desc">While working on SnapGreet, we have tried out different approaches to gain the most efficient and most stunning solution. The client was a perfectionist and in terms of our project we managed to produce numerous design drafts. And we should say that we are proud of the results, as any designer is proud of a truly successful and creative work.
+While working on SnapGreet, we have tried out different approaches to gain the most efficient and most stunning solution. The client was a perfectionist and in terms of our project we managed to produce numerous design drafts. And we should say that we are proud of the results, as any designer is proud of a truly successful and creative work.
 
 Unfortunately, the project didn't reach its successful end, since the client vanished, leaving us with a bunch of successful design concepts. This design can now serve of a nice show-case of our creativity and can provide any potential customer with an idea of how far we are ready to go developing the creative concept to reach 100% client satisfaction.
 
@@ -8,57 +8,14 @@ Before I proceed to the designs, I would like to describe the general concept of
 
 So here are the designs as they have evolved in our imagination:
 
-<a href="../res/images/projects/Snapgreet/snapgreet07%2D3.jpg" title="snapgreet07-3.jpg" rel="floatbox" rev="width:1200 height:720 scrolling:no theme:white hideFlash:true caption:`SnapGreet` showHints:never">
-        <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/Snapgreet/Snapgreet4.jpg" title="" alt=""/>
-        </div>
-    <div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:410px}../res/images/projects/Snapgreet/snapgreet07-3.jpg!%
 
-<a href="../res/images/projects/Snapgreet/snapgreet08%2D1.jpg" title="snapgreet08-1.jpg" rel="floatbox" rev="width:1200 height:720 scrolling:no theme:white hideFlash:true caption:`SnapGreet` showHints:never">
-        <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/Snapgreet/Snapgreet5.jpg" title="" alt=""/>
-        </div>
-    <div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:410px}../res/images/projects/Snapgreet/snapgreet08-1.jpg!%
 
-<a href="../res/images/projects/Snapgreet/snapgreet06%2D3.jpg" title="snapgreet06-3.jpg" rel="floatbox" rev="width:1200 height:720 scrolling:no theme:white hideFlash:true caption:`SnapGreet` showHints:never">
-        <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/Snapgreet/Snapgreet3.jpg" title="" alt=""/>
-        </div>
-    <div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:410px}../res/images/projects/Snapgreet/snapgreet06-3.jpg!%
 
-<a href="../res/images/projects/Snapgreet/snapgreet04%2D2.jpg" title="snapgreet04-2.jpg" rel="floatbox" rev="width:1200 height:720 scrolling:no theme:white hideFlash:true caption:`SnapGreet` showHints:never">
-        <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/Snapgreet/Snapgreet1.jpg" title="" alt=""/>
-        </div>
-    <div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:410px}../res/images/projects/Snapgreet/snapgreet04-2.jpg!%
 
-<a href="../res/images/projects/Snapgreet/snapgreet05.jpg" title="snapgreet05.jpg" rel="floatbox" rev="width:1200 height:720 scrolling:no theme:white hideFlash:true caption:`SnapGreet` showHints:never">
-        <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/Snapgreet/Snapgreet2.jpg" title="" alt=""/>
-        </div>
-    <div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:410px}../res/images/projects/Snapgreet/snapgreet05.jpg!%
 
-<a href="../res/images/projects/Snapgreet/snapgreet09%2D3.jpg" title="snapgreet09-3.jpg" rel="floatbox" rev="width:1200 height:720 scrolling:no theme:white hideFlash:true caption:`SnapGreet` showHints:never">
-        <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/Snapgreet/Snapgreet6.jpg" title="" alt=""/>
-        </div>
-    <div class="cl_b"></div>
-    </div>
-</a>
-</div></div>
+%(zoom#ex3)!{width:512px;height:410px}../res/images/projects/Snapgreet/snapgreet09-3.jpg!%

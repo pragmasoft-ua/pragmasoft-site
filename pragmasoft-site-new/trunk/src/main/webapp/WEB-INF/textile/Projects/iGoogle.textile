@@ -1,22 +1,19 @@
 h1. CMIS Gadget
 
-<div class="content"><div class="desc">*Technologies used:* CMIS SOAP/REST API, iGoogle API, Google Desktop API, JQuery, JavaScript
+*Technologies used:* CMIS SOAP/REST API, iGoogle API, Google Desktop API, JQuery, JavaScript
 
 CMIS Gadget is a Google Desktop gadget which also works on iGoogle. This gadget accesses to a document management systems using CMIS (Content Management Interoperability Services) with SOAP or REST/AtomPub. Pragmasoft was  responsible to build the gadget part. The gadget was optimized for mobile devices.
 
 Client part supports the following functionality:
 
-<ul class="star"><li class="innerlist">
-*(star) User can login to single/multiple repository(-ies) (user needs to specify URL, login/password)
+* User can login to single/multiple repository(-ies) (user needs to specify URL, login/password)
 * User can search documents in the repository by name or wildcard * or ?
 * The gadget display names of the found documents in a single list
 * User can open the selected document in a browser
 * User can view properties of the selected document in a browser
 * The gadget updates the results of the search automatically based on the configured update interval (5 min by default).
-</li></ul>
 
-<img src="../res/images/projects/iGoogle/ol1.png" alt="ol1.png" title="ol1.png"/>
-<img src="../res/images/projects/iGoogle/ol2.png" alt="ol2.png" title="ol2.png"/>
+!../res/images/projects/iGoogle/ol1.png!
+!../res/images/projects/iGoogle/ol2.png!
 
 *Client feedback:* _"Pragmasoft was very fast in understanding the assignment, which used some completely new technologies, and in creating the desired application to a high standard."_
-</div></div>

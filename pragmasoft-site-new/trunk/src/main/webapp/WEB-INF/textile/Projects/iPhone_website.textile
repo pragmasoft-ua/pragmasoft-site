@@ -1,12 +1,11 @@
 h1. iPhone customized web site design
 
-<div class="content"><div class="desc">With iPhone becoming a world-wide trend, Pragmasoft decided to iPhone mobile Internet!=) Here's the brand new iPhone optimized mobile web site!
+With iPhone becoming a world-wide trend, Pragmasoft decided to iPhone mobile Internet!=) Here's the brand new iPhone optimized mobile web site!
 
 The work on this project was intense - as the result, we had several Web 2.0 design templates developed and only one of those was used by the customer. 
 
 Our costumer chose to remain unknown, hence our design templates have no company name, and there is no URL. Here are the designs we liked the most:
 
-<img src="../res/images/projects/iPhone_website/iphonepragmasoft.jpg" alt="iphonepragmasoft.jpg" title="iphonepragmasoft.jpg"/>
+!../res/images/projects/iPhone_website/iphonepragmasoft.jpg!
 
 We have as well tested this site with Nokia N96, Blackberry, as well as scored high at ready.moby QA test for mobile web sites!
-</div></div>

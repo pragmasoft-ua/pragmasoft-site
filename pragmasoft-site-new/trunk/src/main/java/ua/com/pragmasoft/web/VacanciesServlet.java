@@ -43,7 +43,7 @@ public class VacanciesServlet extends HttpServlet {
 				.textToHtml(formattedText);
 		
 		// Reading first line (skip "h1. ", end with CRLF)
-		String title = formattedText.substring(4, formattedText.indexOf("\n"));
+		String title = "Hello";//formattedText.substring(4, formattedText.indexOf("\n"));
 		request.setAttribute("title", "Pragmasoft - " + title);
 		
 		request.setAttribute("text", content);

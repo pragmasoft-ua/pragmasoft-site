@@ -1,33 +1,30 @@
 h1. About Pragmasoft
 
-Pragmasoft is a team of *dedicated software development pros* which was set up in 2004 in Kharkiv, Ukraine. Pragmasoft is a relatively young IT company, however, it is made up of great professionals with solid work experience. Within 6 years of work numerous outsorcing projects were successfully completed, some of which are presented in %(wikilink)<a href="/bin/view/Main/Projects">Our projects</a>%.
+Pragmasoft is a team of *dedicated software development pros* which was set up in 2004 in Kharkiv, Ukraine. Pragmasoft is a relatively young IT company, however, it is made up of great professionals with solid work experience. Within 6 years of work numerous outsorcing projects were successfully completed, some of which are presented in "Our projects":/Projects.
 
 So why Pragmasoft? This word reflects our essence, our style of work - our mind is set for *practical quality results*, we are guided by the reasons of expedience and rationality.
 
 *Our advantages* are:
 
-<ul class="star"><li class="innerlist">
+# *Experience in developing commercially successful projects*
+What is the pride of any company? - It is indeed decent results alongside with the people who contributed its realization. Here you can look through "our projects":/Projects, both finished and on-going. And this link will bring you to "blog pages of our team":/Blog.
+# *Wide range of service*
+We provide software development, testing and technical support services, as well as graphic and web design.
+# *Cutting edge technologies*
+Pragmasoft is constantly in pursuit of new effective solutions for your ideas. We believe that there are no universal  remedies in software development which would correspond to all criteria.
+# *Flexibility of development process*
+Pragmasoft is a part of large projects which are distributed among several companies around the world. Owing to such experience we can easily adjust our development process to specific project demands.
 
-*(star) *Experience in developing commercially successful projects* <br/> What is the pride of any company? - It is indeed decent results alongside with the people who contributed its realization. Here you can look through %(wikilink)<a href="/bin/view/Main/Projects">our projects</a>, both finished and on-going. And this link will bring you to %(wikilink)<a href="/bin/view/Main/Blog">blog pages of our team</a>.
-*(star) *Wide range of service* <br/> We provide software development, testing and technical support services, as well as graphic and web design.
-*(star) *Cutting edge technologies* <br/> Pragmasoft is constantly in pursuit of new effective solutions for your ideas. We believe that there are no universal  remedies in software development which would correspond to all criteria.
-*(star) *Flexibility of development process* <br/> Pragmasoft is a part of large projects which are distributed among several companies around the world. Owing to such experience we can easily adjust our development process to specific project demands.
-
-</li></ul>
 
 We are proud to propose our services in enterprise web development, consulting, creative web design, quality assurance and support.
 
 Our expertise includes, but not limited to:
 
-<ul class="star"><li class="innerlist">
-
-*(star) Enterprise quality *web, networking and client-server development* using modern open source java technologies and frameworks
-*(star) High quality *creative graphics* for web, *logo design/branding*, hand-drawn and vectorized character development, *animation effects*
-*(star) Modern and standard compliant *XHTML, CSS* and *Javascript* development using well proven cross browser frameworks
-*(star) *Flash, Flex and AJAX* based rich internet applications
-*(star) Web, WAP and client-server *development for mobile clients*
-*(star) Our development process includes thorough *quality assurance* and *usability check*.
-
-</li></ul>
+# Enterprise quality *web, networking and client-server development* using modern open source java technologies and frameworks
+# High quality *creative graphics* for web, *logo design/branding*, hand-drawn and vectorized character development, *animation effects*
+# Modern and standard compliant *XHTML, CSS* and *Javascript* development using well proven cross browser frameworks
+# *Flash, Flex and AJAX* based rich internet applications
+# Web, WAP and client-server *development for mobile clients*
+# Our development process includes thorough *quality assurance* and *usability check*.
 
 We believe that you could greatly benefit from our experience and knowledge that we have developed through years of extensive work. We have learned from our experience that the limit for our abilities is our dreams. Actually, there are no limits!

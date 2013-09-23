@@ -1,4 +1,6 @@
 <#import "baseSecondLevel.ftl" as base />
 <@base.apply title="${title}">
-    ${text}        
+    <div class="content"><div class="desc">
+		${text}
+	</div></div>
 </@base.apply> 

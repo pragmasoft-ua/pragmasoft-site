@@ -1,36 +1,14 @@
 h1. Spielzeugsuche.de
 
-<div class="content"><div class="desc">URL: <span class="nobr"><a href="http://www.spielzeugsuche.de/">http://www.spielzeugsuche.de/</a></span>
+URL: "http://www.spielzeugsuche.de/":http://www.spielzeugsuche.de/
 
 *Scope:* web design, logo restyling, UI optimization, XHTML/CSS
 
 
 This time Pragmasoft worked on design and slicing of a price comparison site, where one can find toys and video games at the best price. The challenge was to come up with clean information-heavy design that pulls one into the atmosphere of childhood.
 
-<a href="../res/images/projects/Speilzeugsuche/ToysHomepage.png" title="ToysHomepage.png" rel="floatbox" rev="width:1108 height:1447 scrolling:no theme:white hideFlash:true caption:`Spielzeugsuche Home Page` showHints:never">
-     <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/Speilzeugsuche/ToysHomepagesmall.png" title="" alt=""/>
-        </div>
-		<div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:709px}../res/images/projects/Speilzeugsuche/Speilzeugsuche.png!%
 
-<a href="../res/images/projects/Speilzeugsuche/ToysSearchResults.png" title="ToysSearchResults.png" rel="floatbox" rev="width:1228 height:1749 scrolling:no theme:white hideFlash:true caption:`Spielzeugsuche Search Results Page` showHints:never">
-    <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/Speilzeugsuche/ToysSearchResultssmall.png" title="" alt=""/>
-        </div>
-		<div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:759px}../res/images/projects/Speilzeugsuche/ToysSearchResults.png!%
 
-<a href="../res/images/projects/Speilzeugsuche/Toysproduct.png" title="Toysproduct.png" rel="floatbox" rev="width:1228 height:1556 scrolling:no theme:white hideFlash:true caption:`Spielzeugsuche Product Page` showHints:never">
-    <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/Speilzeugsuche/Toysproductsmall.png" title="" alt=""/>
-        </div>
-		<div class="cl_b"></div>
-    </div>
-</a>
-</div></div>
+%(zoom#ex3)!{width:512px;height:677px}../res/images/projects/Speilzeugsuche/Toysproduct.png!%
