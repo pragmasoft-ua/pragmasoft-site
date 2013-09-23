@@ -1,6 +1,6 @@
 h1. BranchenBuchSuche
 
-<div class="content"><div class="desc">URL: %(nobr)<a href="http://www.branchenbuchsuche.de/">http://www.branchenbuchsuche.de/</a>%
+URL: "http://www.branchenbuchsuche.de/":http://www.branchenbuchsuche.de/
 
 The main requirement for this project was to provide clean Web 2.0, Google-like design.
 
@@ -10,21 +10,6 @@ While developing icons, we decided to implement color coding there. In such way 
 
 What is there else to say - just take a look at the design!
 
-<a href="../res/images/projects/BBS/Branchenbuchsuche2%2Dbig.jpg" title="Branchenbuchsuche2-big.jpg" rel="floatbox" rev="width:1287 height:1692 scrolling:no theme:white hideFlash:true caption:`Branchenbuch` showHints:never">
-       	<div class="image_part ">
-        <div>
-            <img src="../res/images/projects/BBS/Branchenbuchsuche2.jpg" title="" alt=""/>
-        </div>
-    <div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:840px}../res/images/projects/BBS/Branchenbuchsuche2-big.jpg!%
 
-<a href="../res/images/projects/BBS/Branchenbuchsuche%2Dbig.jpg" title="Branchenbuchsuche-big.jpg" rel="floatbox" rev="width:1216 height:1115 scrolling:no theme:white hideFlash:true caption:`Branchenbuch` showHints:never">
-       	<div class="image_part ">
-        <div>
-            <img src="../res/images/projects/BBS/Branchenbuchsuche.jpg" title="" alt=""/>
-        </div>
-    <div class="cl_b"></div>
-    </div>
-</a>
-</div></div>
+%(zoom#ex3)!{width:512px;height:566px}../res/images/projects/BBS/Branchenbuchsuche-big.jpg!%

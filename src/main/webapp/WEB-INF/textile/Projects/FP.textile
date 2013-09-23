@@ -1,16 +1,15 @@
 h1. Faster Programmers
 
-<div class="content"><div class="desc">URL: %(nobr)<a href="http://www.fasterprogrammers.com/">http://www.fasterprogrammers.com/</a>%
+URL: "http://www.fasterprogrammers.com":http://www.fasterprogrammers.com/
 
 *Faster Programmers* is a software engineering consulting company that specializes in the agile development of high-performance architectures.
 
-The task was to create a design template to fit the %(wikiexternallink)<a href="http://www.csszengarden.com/">CSS Garden HTML template</a>%, and style it within the means of CSS only. Logo design was included in the project as well. That's the result of of our work:
+The task was to create a design template to fit the "CSS Garden HTML template":http://www.csszengarden.com/, and style it within the means of CSS only. Logo design was included in the project as well. That's the result of of our work:
 
-<img src="../res/images/projects/FP/Fasterprogrammers4.jpg?&amp;width=500" width="500" alt="Fasterprogrammers4.jpg" title="Fasterprogrammers4.jpg"/>
+!../res/images/projects/FP/Fasterprogrammers4.jpg!
 
-<img src="../res/images/projects/FP/Fasterprogrammers5.jpg?&amp;width=300" width="300" alt="Fasterprogrammers5.jpg" title="Fasterprogrammers5.jpg"/>
+!../res/images/projects/FP/Fasterprogrammers5.jpg!
 
 Note that for both desktop and iPhone version of the site we used the same HTML code, only CSS fies are different.
 
-To get to know more about this project, please visit %(wikilink)<a href="/bin/view/Main/FasterProgrammers">our blog</a>%.
-</div></div>
+To get to know more about this project, please visit "our blog":/bin/view/Main/FasterProgrammers. #TODO

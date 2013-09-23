@@ -1,6 +1,6 @@
 h1. Free IP Call
 
-<div class="content"><div class="desc"><span class="nobr"><a href="http://www.freeipcall.com/">http://www.freeipcall.com/</a></span>
+"http://www.freeipcall.com":http://www.freeipcall.com/
 
 *Technologies used:* JavaEE, Spring web framework, Hibernate, JSTL, JSP
 
@@ -8,6 +8,4 @@ The concept of *Free IP Call telephony* allows reaching anywhere in the world us
 
 The utilisation of SIP allows the transmission of voice, video and other data.
 
-<img src="../res/images/projects/FreeIP/freeipcall.jpg?&amp;width=512" width="512" alt="freeipcall.jpg" title="freeipcall.jpg"/>
-
-</div></div>
+!../res/images/projects/FreeIP/freeipcall.jpg!

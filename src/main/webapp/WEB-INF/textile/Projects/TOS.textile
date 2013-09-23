@@ -1,21 +1,13 @@
 h1. Tasks on Steroids
 
-<div class="content"><div class="desc">URL: <span class="nobr"><a href="http://www.tasksonsteroids.com/">http://www.tasksonsteroids.com/</a></span>
+URL: "http://www.tasksonsteroids.com/":http://www.tasksonsteroids.com/
 
 *Scope:* web design, XHTML/CSS, icon design
 
-While working on redesign of <span class="nobr"><a href="http://www.tasksonsteroids.com/,">http://www.tasksonsteroids.com/,</a></span> our team aimed to create a clean yet memorable picture and we definitely made it. The site has its charm, while it is clean and usable. Pragmasoft was responsible for custom design and slicing only of a couple of pages, you can find them below:
+While working on redesign of "http://www.tasksonsteroids.com/":http://www.tasksonsteroids.com/, our team aimed to create a clean yet memorable picture and we definitely made it. The site has its charm, while it is clean and usable. Pragmasoft was responsible for custom design and slicing only of a couple of pages, you can find them below:
 
-<a href="../res/images/projects/TOS/TaskOnSteroids%2Dbig.png" title="TaskOnSteroids-big.png" rel="floatbox" rev="width:844 height:919 scrolling:no theme:white hideFlash:true caption:`Tasks On Steroids` showHints:never">
-    <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/TOS/TaskOnSteroids%2Dsmall.png" title="" alt=""/>
-        </div>
-        <div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:493px}../res/images/projects/TOS/TaskOnSteroids-big.png!%
 
-<img src="../res/images/projects/TOS/TaskOnSteroids%2Dsinup%2Dbig.png?&amp;width=515" width="515" alt="TaskOnSteroids-sinup-big.png" title="TaskOnSteroids-sinup-big.png"/>
+!../res/images/projects/TOS/TaskOnSteroids%2Dsinup%2Dbig.png!
 
 Tasks on Steroids is a custom effective tool to manage your goals. It is a task management system that covers the whole spectrum of tasks people have to take care of in order to be successful.
-</div></div>

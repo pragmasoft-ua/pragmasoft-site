@@ -1,36 +1,19 @@
 h1. Prinly
 
-<div class="content"><div class="desc">URL: <span class="nobr"><a href="http://www.prinly.com/">http://www.prinly.com/</a></span>
+URL: "http://www.prinly.com/":http://www.prinly.com/">http://www.prinly.com/
 
 *Technologies used:* Adobe Flex, Java, JavaScript, REST, Spring, Hibernate, Apache Click, FreeMaker, Batik, Jersey, jQuery
 
 Prinly is a powerful online Design Tool to let you design an identity kit online, and have it shipped straight to your door. You can easily design *business cards, letterheads, envelopes and postcards* with the help of Prinly Design Tool. Pragmasoft has contributed significant effort to make the interaction with Prinly intuitive, easy and pleasant. Prinly Designer turned out to be a modern tool built using cutting edge technologies. Now you don't have to address a design studio, and neither you have to master any complex design application, you can easily create a business card on your own in a Prinly Online Designer. It's fast, it's cheap, and the result is nice!
 
-    <a href="../res/images/projects/Prinly/prinlyhomepagebig.png" title="prinlyhomepagebig.png" rel="floatbox" rev="width:1154 height:880 scrolling:no theme:white hideFlash:true caption:`Prinly` showHints:never">
-    <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/Prinly/prinlyhomepagesmall.png" title="" alt=""/>
-        </div>
-        <div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:464px}../res/images/projects/Prinly/prinlyhomepagebig.png!%
 
-Pragmasoft team worked on Prinly from scratch. The project scope included:<br/>
-1) Design phase, including logo design, site design, UI/UX analysis and development of the effective interface for online designer, HTML/CSS slicing.<br/>
-2) Development of the online Design Tool from scratch on Flex.<br/>
-3) Server side development, scripting.
-<br/>
-<br/>
+Pragmasoft team worked on Prinly from scratch. The project scope included:
+
+# Design phase, including logo design, site design, UI/UX analysis and development of the effective interface for online designer, HTML/CSS slicing.
+# Development of the online Design Tool from scratch on Flex.
+# Server side development, scripting.
+
 The Design Tool deserves a closer look. Pragmasoft has dedicated special attention to enhancing the usability for the Card Designer, make the it work smooth and fast. With Prinly Card Designer you can design a business card using one of a numerous standard backgrounds available at Prinly, design a card with no/solid background, or upload your own background into the system. The Design Tool allows you to work freely with texts, upload custom images and backgrounds; all available panels are arranged in the form of accordion, which uses the screen space effectively and allows for a spacious working area.
-<br/>
-<br/>
-    <a href="../res/images/projects/Prinly/2.png" title="2.png" rel="floatbox" rev="width:1518 height:938 scrolling:no theme:white hideFlash:true caption:`Prinly` showHints:never">
-            <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/Prinly/1.png" title="" alt=""/>
-        </div>
-        <div class="cl_b"></div>
-    </div>
-    </a>
-</div>
-</div>
+
+%(zoom#ex3)!{width:512px;height:454px}../res/images/projects/Prinly/2.png!%

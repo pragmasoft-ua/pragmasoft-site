@@ -1,79 +1,29 @@
 h1. Desktop Marketer
 
-<div class="content"><div class="desc">*Technologies used:* JavaEE, Spring, Hibernate, Java Web Start, SWT: The Standard Widget Toolkit, Apache Jackrabbit, PayPal SDK
+*Technologies used:* JavaEE, Spring, Hibernate, Java Web Start, SWT: The Standard Widget Toolkit, Apache Jackrabbit, PayPal SDK
 
 *Desktop Marketer* helps marketers to spread their ads to a specialized secure subscriber application. The project is divided into 2 blocks: *convenient web application designed for marketing campaign publishing*, and *special user interface for recieveing marketer's news* by their subscribers. Web-based application provides marketers with a convenient tool for *publishing marketing campaigns*, *delivering marketing information to their subscribers*, and  for *analyzing effectiveness of their campaigns*.
 
-<img src="../res/images/projects/DesktopMarketer/amarco%2Dscreen.gif?&amp;width=400" width="400" alt="amarco-screen.gif" title="amarco-screen.gif"/>
+!../res/images/projects/DesktopMarketer/amarco%2Dscreen.gif!
 
-<a href="../res/images/projects/DesktopMarketer/amarko%2Dhome.jpg" title="amarko-home.jpg" rel="floatbox" rev="width:999 height:839 scrolling:no theme:white hideFlash:true caption:`Amarco` showHints:never">
-    <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/DesktopMarketer/amarko%2Dhome%2Dsm.jpg" title="" alt=""/>
-        </div>
-        <div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:466px}../res/images/projects/DesktopMarketer/amarko-home.jpg!%
 
-<a href="../res/images/projects/DesktopMarketer/siteamarko20.jpg" title="siteamarko20.jpg" rel="floatbox" rev="width:1000 height:768 scrolling:no theme:white hideFlash:true caption:`Amarko` showHints:never">
-    <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/DesktopMarketer/siteamarko.jpg" title="" alt=""/>
-        </div>
-        <div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:410px}../res/images/projects/DesktopMarketer/siteamarko20.jpg!%
 
-<a href="../res/images/projects/DesktopMarketer/amarko%2Ddel.jpg" title="amarko-del.jpg" rel="floatbox" rev="width:1000 height:768 scrolling:no theme:white hideFlash:true caption:`Amarco` showHints:never">
-    <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/DesktopMarketer/amarko%2Ddel%2Dsm.jpg" title="" alt=""/>
-        </div>
-        <div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:429px}../res/images/projects/DesktopMarketer/amarko-del.jpg!%
 
-<a href="../res/images/projects/DesktopMarketer/amarko1.jpg" title="amarko1.jpg" rel="floatbox" rev="width:1000 height:768 scrolling:no theme:white hideFlash:true caption:`Amarco` showHints:never">
-    <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/DesktopMarketer/amarko1%2Dsm.jpg" title="" alt=""/>
-        </div>
-        <div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:429px}../res/images/projects/DesktopMarketer/amarko1.jpg!%
 
-<a href="../res/images/projects/DesktopMarketer/amarko%2Dsearch.jpg" title="amarko-search.jpg" rel="floatbox" rev="width:1000 height:768 scrolling:no theme:white hideFlash:true caption:`Amarco` showHints:never">
-    <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/DesktopMarketer/amarko%2Dsearch%2Dsm.jpg" title="" alt=""/>
-        </div>
-        <div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:425px}../res/images/projects/DesktopMarketer/amarko-search.jpg!%
 
-<a href="../res/images/projects/DesktopMarketer/amarko%2Dlogin.jpg" title="amarko-login.jpg" rel="floatbox" rev="width:1000 height:768 scrolling:no theme:white hideFlash:true caption:`Amarco` showHints:never">
-    <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/DesktopMarketer/amarko%2Dlogin%2Dsm.jpg" title="" alt=""/>
-        </div>
-        <div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:428px}../res/images/projects/DesktopMarketer/amarko-login.jpg!%
 
-<a href="../res/images/projects/DesktopMarketer/amarko%2Dpass.jpg" title="amarko-pass.jpg" rel="floatbox" rev="width:1000 height:768 scrolling:no theme:white hideFlash:true caption:`Amarco` showHints:never">
-    <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/DesktopMarketer/amarko%2Dpass%2Dsm.jpg" title="" alt=""/>
-        </div>
-        <div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:416px}../res/images/projects/DesktopMarketer/amarko-pass.jpg!%
 
 We developed *the web-design for web application* at our design studio, as well as provided HTML/CSS coding (by BlueprintCSS grid technology). The name of the service is reflected in the visual image. We have as well came up with a special set of icons stylized to fit the whole image of Desktop Marketer:
 
-<img src="../res/images/projects/DesktopMarketer/icons%2Damarko.jpg?&amp;width=512" width="512" alt="icons-amarko.jpg" title="icons-amarko.jpg"/>
+!../res/images/projects/DesktopMarketer/icons%2Damarko.jpg!
 
 The users, subscribed to a campaign, benefit from obtaining marketing information timely to a *specialized secure application on their desktop*.
 
-<img src="../res/images/projects/DesktopMarketer/amarco%2Duserapp.jpg?&amp;width=512" width="512" alt="amarco-userapp.jpg" title="amarco-userapp.jpg"/>
-</div></div>
+!../res/images/projects/DesktopMarketer/amarco%2Duserapp.jpg!

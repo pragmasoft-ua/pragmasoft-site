@@ -98,8 +98,8 @@ id="WebApp_ID" version="2.5">
     </servlet>
     <servlet-mapping>
         <servlet-name>ProjectsServlet</servlet-name>
-        <url-pattern>/Projects</url-pattern>
         <url-pattern>/Projects/*</url-pattern>
+        <!-- <url-pattern>/Projects/*/</url-pattern> -->
     </servlet-mapping>
     
     <!-- Tomcat default servlet -->

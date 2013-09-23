@@ -1,12 +1,11 @@
 h1. iPhone account top up application
 
-<div class="content"><div class="desc">*Technologies used:* JSF, AJAX, Facelet, iPhone SDK Toolkit, %(wikiexternallink)<a href="http://iwebkit.net/">iWebkit</a>%, %(wikiexternallink)<a href="http://developer.apple.com/leopard/overview/dashcode.html">Dashcode development environment</a>%
+*Technologies used:* JSF, AJAX, Facelet, iPhone SDK Toolkit, "iWebkit":http://iwebkit.net/, "Dashcode development environment":http://developer.apple.com/leopard/overview/dashcode.html
 
 Yet another project is out to showcase our *iPhone app development*. Our customer chose to stay anonymous, so we will be avoiding any reference.
 
 In a nutshell, the current application facilitates the process of topping up ones mobile phone balance. Please check out the screen shots below:
 
-<img src="../res/images/projects/iPhonewebapp/iphone%2Dmoney.jpg" alt="iphone-money.jpg" title="iphone-money.jpg"/>
+!../res/images/projects/iPhonewebapp/iphone%2Dmoney.jpg!
 
 Our team made efforts to make this project both functional and sleek.
-</div></div>

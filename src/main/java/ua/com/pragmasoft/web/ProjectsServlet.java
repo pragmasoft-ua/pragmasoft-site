@@ -8,30 +8,50 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import ua.com.pragmasoft.util.FileReader;
 import ua.com.pragmasoft.util.TextProcessorFactory;
 
 public class ProjectsServlet extends HttpServlet {
 	private static final long serialVersionUID = 8671904882708526278L;
-	private static final String PROJECTS_PAGE = "Projects";
+	private static final String FILE_NAME_EN = "Projects";
+	private static final String FILE_NAME_RU = "Projects_ru";
 
 	@Override
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 
+		HttpSession session = ((HttpServletRequest) request).getSession();
+		
 		// Get project name
 		String requestUri = request.getRequestURL().toString();
-		requestUri = requestUri.substring(requestUri.indexOf(PROJECTS_PAGE));
+		requestUri = requestUri.substring(requestUri.indexOf(FILE_NAME_EN));
 		System.out.println(requestUri); // debug
 
-		ServletContext context = request.getSession().getServletContext();
+		if (session.getAttribute(Constants.LANGUAGE).equals("ru")) {
+			requestUri = requestUri + "_ru";
+			request.setAttribute(Constants.LANGUAGE, "ru");
+		} else {
+			request.setAttribute(Constants.LANGUAGE, "en");
+		}
 
-		InputStream is = context.getResourceAsStream("/WEB-INF/textile/"
-				+ requestUri + ".textile");
+		ServletContext context = request.getSession().getServletContext();
+		InputStream is = context.getResourceAsStream(Constants.PATH_TO_TEXTILE_TEMPLATES + 
+				requestUri + ".textile");		
+		
+		// Check address validity
+		if (is == null ) {
+			//if (request.getAttribute(Constants.LANGUAGE).equals("ru"))
+			response.sendError(404, "Page not found!");
+			//request.getRequestDispatcher("/pages/404.ftl").forward(request, response);
+			return;
+		}
 		
 		// Read and convert to html .textile file
-		String formattedText = FileReader.getTextFromStream(is);
+		String formattedText = FileReader.getTextFromStream(is);		
+		
+			
 		String content = TextProcessorFactory.getMarkdownProcessor()
 				.textToHtml(formattedText);
 
@@ -44,7 +64,7 @@ public class ProjectsServlet extends HttpServlet {
 		
 		// Load template. Depends on hierarchy level.
 		if (requestUri.indexOf("/") == -1) {
-			request.getRequestDispatcher("/pages/project.ftl").forward(request,
+			request.getRequestDispatcher("/pages/content.ftl").forward(request,
 					response);
 		} else {
 			request.getRequestDispatcher("/pages/projectSecondLevel.ftl").forward(request,

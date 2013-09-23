@@ -1,6 +1,6 @@
 h1. Streaming The Net
 
-<div class="content"><div class="desc">URL: %(nobr)<a href="http://www.streamingthe.net/">http://www.streamingthe.net/</a>%
+URL: "http://www.streamingthe.net/":http://www.streamingthe.net/
 
 *Scope:* web design, XHTML/CSS
 
@@ -8,16 +8,8 @@ This year Pragmasoft worked on redesign for Streaming The Net, online guide to s
 
 Please see the final designs below:
 
-<a href="../res/images/projects/STN/Streaming%2Dbig.png" title="Streaming-big.png" rel="floatbox" rev="width:1500 height:1767 scrolling:no theme:white hideFlash:true caption:`Streaming` showHints:never">
-	<div class="image_part ">
-        <div>
-            <img src="../res/images/projects/STN/Streaming.png" title="" alt=""/>
-        </div>
-	    <div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:737px}../res/images/projects/STN/Streaming-big.png!%
 
 UI for the player is worth specific attention. We have re-arranged the block to make it even more usable.
 
-<img src="../res/images/projects/STN/popup.png" alt="popup.png" title="popup.png"/><p/>
-</div></div>
+!../res/images/projects/STN/popup.png!

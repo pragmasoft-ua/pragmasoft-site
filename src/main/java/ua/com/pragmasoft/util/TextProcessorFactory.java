@@ -4,9 +4,17 @@ import java.io.IOException;
 import java.io.StringWriter;
 import java.io.Writer;
 
-import org.eclipse.mylyn.wikitext.core.parser.MarkupParser;
-import org.eclipse.mylyn.wikitext.core.parser.builder.HtmlDocumentBuilder;
-import org.eclipse.mylyn.wikitext.textile.core.TextileLanguage;
+
+
+
+import net.java.textilej.parser.MarkupParser;
+import net.java.textilej.parser.builder.HtmlDocumentBuilder;
+import net.java.textilej.parser.markup.textile.TextileDialect;
+
+
+//import org.eclipse.mylyn.wikitext.core.parser.MarkupParser;
+//import org.eclipse.mylyn.wikitext.core.parser.builder.HtmlDocumentBuilder;
+//import org.eclipse.mylyn.wikitext.textile.core.TextileLanguage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -52,7 +60,8 @@ public class TextProcessorFactory {
 		MarkupParser parser;
 
 		public TextileTextProcessorImpl() {
-			parser = new MarkupParser(new TextileLanguage());
+			//parser = new MarkupParser(new TextileLanguage());
+			parser = new MarkupParser(new TextileDialect());
 		}
 
 		public String textToHtml(final String text) {
@@ -78,11 +87,11 @@ public class TextProcessorFactory {
 				boolean asDocument = !styleSheetPath.isEmpty();
 				builder.setEmitAsDocument(asDocument);
 				
-				if (asDocument) {
-					builder.addCssStylesheet(new HtmlDocumentBuilder.Stylesheet(styleSheetPath));
-				}
-				
-				builder.setEncoding("utf-8");
+//				if (asDocument) {
+//					builder.addCssStylesheet(new HtmlDocumentBuilder.Stylesheet(styleSheetPath));
+//				}
+//				
+//				builder.setEncoding("utf-8");
 				builder.setXhtmlStrict(true);
 				
 				parser.setBuilder(builder);

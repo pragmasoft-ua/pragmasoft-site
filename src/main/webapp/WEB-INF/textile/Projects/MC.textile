@@ -1,9 +1,7 @@
 h1. MC Motive
 
-<div class="content"><div class="desc">URL: %(nobr)<a href="http://www.myspace.com/mc_motive">http://www.myspace.com/mc_motive</a>%
+URL: "http://www.myspace.com/mc_motive":http://www.myspace.com/mc_motive
 
 Design and CSS implementation of MySpace artist profile page is another area of service that is available at Pragmasoft. We designed a page for MC Motive from Bayren. We had numerous variants of design made for the project, and that's what we end up with:
 
-<img src="../res/images/projects/MC/mcmotive7.jpg?&amp;width=450" width="450" alt="mcmotive7.jpg" title="mcmotive7.jpg"/>
-
-</div></div>
+!../res/images/projects/MC/mcmotive7.jpg!

@@ -1,14 +1,9 @@
 h1. Logo Design
 
-<div class="content"><div class="desc">Apart from web site creation, banner work, either static or Flash, graphics for any of the mentioned projects, Pragmasoft design studio can as well offer you logo development and branding services.
+Apart from web site creation, banner work, either static or Flash, graphics for any of the mentioned projects, Pragmasoft design studio can as well offer you logo development and branding services.
 
-<div style="text-align:center;">
+!../res/images/projects/LogoDesign/logos3.jpg!
 
-<img src="../res/images/projects/LogoDesign/logos3.jpg" alt="logos3.jpg" title="logos3.jpg"/>
+!../res/images/projects/LogoDesign/logos1.jpg!
 
-<img src="../res/images/projects/LogoDesign/logos1.jpg" alt="logos1.jpg" title="logos1.jpg"/>
-
-<img src="../res/images/projects/LogoDesign/logos2.jpg" alt="logos2.jpg" title="logos2.jpg"/>
-
-</div>
-</div></div>
+!../res/images/projects/LogoDesign/logos2.jpg!

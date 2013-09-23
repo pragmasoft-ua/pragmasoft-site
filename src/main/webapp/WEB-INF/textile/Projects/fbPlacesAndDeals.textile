@@ -1,23 +1,13 @@
 h1. Facebook Places and Deals App
 
-<div class="content"><div class="desc">*Technologies used:*  Facebook JS SDK, Google maps API, jQuery
+*Technologies used:*  Facebook JS SDK, Google maps API, jQuery
 
-<a href="../res/images/projects/fbPlacesAndDeals/placesndeals%2Dbig.jpg" title="placesndeals-big.jpg" rel="floatbox" rev="width:1000 height:741 scrolling:no theme:white hideFlash:true caption:`Facebook Places and Deals` showHints:never">
-    <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/fbPlacesAndDeals/placesndeals.jpg" title="" alt=""/>
-        </div><div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:451px}../res/images/projects/fbPlacesAndDeals/placesndeals-big.jpg!%
 
 Places and Deals Facebook App helps you discover nearby places you'll love and see where your friends are. With the help of the app you can quickly search for Restaurants, Cafes, Bars and other places near you. 
 
 The app consists of the following panels: 
 
-<ul class="star"><li class="innerlist">
-
 *(star) Home page with places search criteria form and list of nearby friends
 * Places list panel showing results of places search
-* Places details panel, showing place location, its description, checked in friends, deals, with ability to check in, ability to accept a deal, ability to share a deal.</li></ul>
-
-</div></div>
+* Places details panel, showing place location, its description, checked in friends, deals, with ability to check in, ability to accept a deal, ability to share a deal.

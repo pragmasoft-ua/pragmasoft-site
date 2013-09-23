@@ -36,12 +36,15 @@ public class LanguageFilter implements Filter {
 		// Initialize language
 		if (session.getAttribute(LANGUAGE) == null) {			
 			Cookie[] cookies = httpRequest.getCookies();
+			boolean foundLang = false;
 
 			if (cookies != null) {
+				
 				for (int i = 0; i < cookies.length; i++) {
 					cookie = cookies[i];
 
 					if (cookie.getName().equals(LANGUAGE)) {
+						foundLang = true;
 
 						// Check available languages
 						if (cookie.getValue().equals(LANG_EN) || 
@@ -55,7 +58,8 @@ public class LanguageFilter implements Filter {
 						break;
 					}
 				}
-			} else {
+			} 
+			if (foundLang == false){
 				cookie = new Cookie(LANGUAGE, LANG_EN);
 				httpResponse.addCookie(cookie);
 				session.setAttribute(LANGUAGE, LANG_EN);

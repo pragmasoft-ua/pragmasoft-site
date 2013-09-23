@@ -1,38 +1,15 @@
 h1. Carpets ecommerce portal
 
-<div class="content"><div class="desc">The work under e-commerce portal was especially interesting for our design studio - before starting, we made a thorough investigation of carpet ecommerce industry world-wide and in Russia in particular. We strived to develop our web-design so that it is attractive and eye-catching, the UI is comfortable in use, self-explainatory, everything is at hand for the customer, he is not worried about anything else but the carpet pattern! And we believe that we managed to meet all our goals.
+The work under e-commerce portal was especially interesting for our design studio - before starting, we made a thorough investigation of carpet ecommerce industry world-wide and in Russia in particular. We strived to develop our web-design so that it is attractive and eye-catching, the UI is comfortable in use, self-explainatory, everything is at hand for the customer, he is not worried about anything else but the carpet pattern! And we believe that we managed to meet all our goals.
 
 Here's The final version approved by the client:
 
-<a href="../res/images/projects/Carpets/maketcarpets03.jpg" title="maketcarpets03.jpg" rel="floatbox" rev="width:1256 height:954 scrolling:no theme:white hideFlash:true caption:`carpets` showHints:never">
-        <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/Carpets/kover3.jpg" title="" alt=""/>
-        </div>
-        <div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:416px}../res/images/projects/Carpets/maketcarpets03.jpg!%
 
 Throughout the work we came up with a couple of design templates. First, we saw the overall design in dark color pattern. And we came up with 2 different interface designs. Those were the first drafts presented to the customer. After negotiation we came up with the template shown above.
 
-<a href="../res/images/projects/Carpets/maketcarpets02.jpg" title="maketcarpets02.jpg" rel="floatbox" rev="width:1256 height:954 scrolling:no theme:white hideFlash:true caption:`carpets` showHints:never">
-        <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/Carpets/kover2.jpg" title="" alt=""/>
-        </div>
-        <div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:419px}../res/images/projects/Carpets/maketcarpets02.jpg!%
 
-<a href="../res/images/projects/Carpets/maketcarpets01.jpg" title="maketcarpets01.jpg" rel="floatbox" rev="width:1256 height:954 scrolling:no theme:white hideFlash:true caption:`carpets` showHints:never">
-        <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/Carpets/kover1.jpg" title="" alt=""/>
-        </div>
-        <div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:419px}../res/images/projects/Carpets/maketcarpets01.jpg!%
 
-Unfortunately, this ecommerce portal is still under construction. It's URL is coming up.<p/>
-
-</div></div>
+Unfortunately, this ecommerce portal is still under construction. It's URL is coming up.

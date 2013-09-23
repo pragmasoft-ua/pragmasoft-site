@@ -1,17 +1,9 @@
 h1. UI Template Design
 
-<div class="content"><div class="desc">URL: <span class="nobr"><a href="http://rebirthfinancial.com/">http://rebirthfinancial.com/</a></span>
+URL: "http://rebirthfinancial.com/":http://rebirthfinancial.com/
 
 *Technologies used:* web design, HTML5/CSS3
 
-<a href="../res/images/projects/UITemplateDesign/designbig.jpg" title="designbig.jpg" rel="floatbox" rev="width:1263 height:1260 scrolling:no theme:white hideFlash:true caption:`UI Template Design` showHints:never">
-    <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/UITemplateDesign/designsmall.jpg" title="" alt=""/>
-        </div>
-        <div class="cl_b"></div>
-    </div>
-</a>
+%(zoom#ex3)!{width:512px;height:511px}../res/images/projects/UITemplateDesign/designbig.jpg!%
 
 UI templates design for financial website. The project entailed both front-end and back-end design.
-</div></div>

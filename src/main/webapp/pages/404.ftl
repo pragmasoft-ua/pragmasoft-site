@@ -1,5 +1,5 @@
 <#import "base.ftl" as base />
-<@base.apply title="Pragmasoft - Error Page">
+<@base.apply title="Pragmasoft - Error Page" language="${language}">
     <h1>
         <#if Request["javax.servlet.error.exception"]??>
 			${Request["javax.servlet.error.exception"].message!}

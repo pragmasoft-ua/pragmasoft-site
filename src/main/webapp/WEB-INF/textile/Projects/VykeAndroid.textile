@@ -1,21 +1,19 @@
 h1. Android Mobile Client
 
-<div class="content"><div class="desc">*Technologies:* AndroidSDK
+*Technologies:* AndroidSDK
 
-%(wikiexternallink)<a href="http://www.vyke.com/">Vyke Technologies</a>% has just released *Android Mobile Client*, its development was covered by Pragmasoft. It lets you make international calls from an Android phone way cheaper. It supports Vyke %(wikiexternallink)<a href="http://www.vyke.com/help/mobile-explained.jsf#mobile-callback">Callback</a>% and %(wikiexternallink)<a href="http://www.vyke.com/help/mobile-explained.jsf#mobile-callthrough">Callthough</a>% features. To make a call, you should open Android Mobile client and select the number you like to call. Click Call in Mobile Client, and your phone connects to the Vyke server via GPRS/EDGE/3G to make a call. So within seconds you get connected to the destination phone.
+"Vyke Technologies":http://www.vyke.com/ has just released *Android Mobile Client*, its development was covered by Pragmasoft. It lets you make international calls from an Android phone way cheaper. It supports Vyke "Callback":http://www.vyke.com/help/mobile-explained.jsf#mobile-callback and "Callthough":http://www.vyke.com/help/mobile-explained.jsf#mobile-callthrough" features. To make a call, you should open Android Mobile client and select the number you like to call. Click Call in Mobile Client, and your phone connects to the Vyke server via GPRS/EDGE/3G to make a call. So within seconds you get connected to the destination phone.
 
 Android Mobile Client's great advantage that it has *call interception* feature: if you dial an international number on your phone it will automatically be made through Vyke Mobile Client rather then through your mobile provider.
 
 With Vyke Android Mobile Client you can:
-<ul class="star"><li class="innerlist">
+
 *(star) Enable „Register“ or „Log on“ to Vyke in client
 * View available Vyke account balance in client
 * Make Callthrough and Callback calls
 * Enable client to access and use Android address book
-</li></ul>
 
-<img src="../res/images/projects/VykeAndroid/AndroidMobile1.jpg" alt="AndroidMobile1.jpg" title="AndroidMobile1.jpg"/>
-<img src="../res/images/projects/VykeAndroid/AndroidMobile2.jpg" alt="AndroidMobile2.jpg" title="AndroidMobile2.jpg"/>
-<img src="../res/images/projects/VykeAndroid/AndroidMobile3.jpg" alt="AndroidMobile3.jpg" title="AndroidMobile3.jpg"/><p/>
 
-</div></div>
+!../res/images/projects/VykeAndroid/AndroidMobile1.jpg!
+!../res/images/projects/VykeAndroid/AndroidMobile2.jpg!
+!../res/images/projects/VykeAndroid/AndroidMobile3.jpg!
