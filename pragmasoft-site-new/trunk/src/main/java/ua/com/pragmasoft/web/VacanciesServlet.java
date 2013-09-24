@@ -28,10 +28,8 @@ public class VacanciesServlet extends HttpServlet {
 		
 		if (session.getAttribute(Constants.LANGUAGE).equals("ru")) {
 			fileName = FILE_NAME_RU;
-			request.setAttribute(Constants.LANGUAGE, "ru");
 		} else {
 			fileName = FILE_NAME_EN;
-			request.setAttribute(Constants.LANGUAGE, "en");
 		}
 		
 		ServletContext context = request.getSession().getServletContext();
