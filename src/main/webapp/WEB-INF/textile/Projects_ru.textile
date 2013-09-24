@@ -1,274 +1,181 @@
 h1. Наши проекты
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/GoesMobile"><img src="res/images/projects/goesmobile.png" alt="goesmobile.png" title="goesmobile.png"/></a></div>
-  <div class="projectDesc"><a href="/Projects/GoesMobile">Storelocator Goes Mobile</a> Мобильная версия приложения Storelocator, незаменимая вещь для тех кто любит шоппинг. Теперь доступны версии приложения для Android и iOS .
-  *Технологии:* phonegap 2.0.
-  </div>
-</div>
+h2(heading-1#HSoftwareandwebdevelopmentprojects). %Мобильные и веб проекты%
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/fbPlacesAndDeals"><img src="res/images/projects/placesndeals%2Dsm.png" alt="placesndeals-sm.png" title="placesndeals-sm.png"/></a></div>
-  <div class="projectDesc"><a href="/Projects/fbPlacesAndDeals">Приложение Places and Deals</a> приложение для Facebook, которое схематически отображает на карте расположение заведений поблизости. С его помощью можно также узнать, где находятся ваши друзья.
+p(projectContent). !res/images/projects/goesmobile.png!:/Projects/GoesMobile "Storelocator Goes Mobile":/Projects/GoesMobile Мобильная версия приложения Storelocator, незаменимая вещь для тех кто любит шоппинг. Теперь доступны версии приложения для Android и iOS .
+*Технологии:* phonegap 2.0.
+
+p(projectContent). !res/images/projects/prinly-sm.jpg!:/Projects/Prinly "Prinly":/Projects/Prinly Онлайн инструмент для создания визитных карточек 
+*Технологии* Adobe Flex, Java, JavaScript, REST, Spring, Hibernate, Apache Click, FreeMaker, Batik, Jersey, jQuery
+
+p(projectContent). !res/images/projects/placesndeals-sm.png!:/Projects/fbPlacesAndDeals "Приложение Places and Deals":/Projects/fbPlacesAndDeals приложение для Facebook, которое схематически отображает на карте расположение заведений поблизости. С его помощью можно также узнать, где находятся ваши друзья.
 *Технологии:* Facebook JS SDK, Google maps API, jQuery
-  </div>
-</div>
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/iGoogle"><img src="res/images/projects/igoogle%2Dsm.png" alt="igoogle-sm.png" title="igoogle-sm.png"/></a></div>
-  <div class="projectDesc"><a href="/Projects/iGoogle">CMIS Gadget</a> позволяет получить доступ к системе управления документами.
+p(projectContent). !res/images/projects/igoogle-sm.png!:/Projects/iGoogle "CMIS Gadget":/Projects/iGoogle позволяет получить доступ к системе управления документами.
 *Технологии:* CMIS SOAP/REST API, iGoogle API, Google Desktop API, JQuery, JavaScript
-  </div>
-</div>
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/webmill"><img src="res/images/projects/WebMill%2Dsm.jpg" alt="WebMill-sm.jpg" title="WebMill-sm.jpg"/></a></div>
-  <div class="projectDesc">WebMILL (Web-Based Tool for Medical Image Labeling Language) - медицинская обучающая онлайн система, позволяющая удаленным пользователям обводить регионы на медицинских изображениях. 
-URL: %(nobr)<a href="https://brassie.ece.jhu.edu/">https://brassie.ece.jhu.edu/</a> 
-*Технологии:* Apache Wicket 1.3.5, Apache Spring, JPA, Hibernate EntityManager, JavaMail, C3P0, JBossCache2, Jersey 1.1, JAXB, Log4J, Tomcat 6.x, MySQL, XHTML, CSS 2.0, BlueprintCSS, JavaScript
-Java2D, Swing, Synth pluggable look and feel, JAXB (Java architecture for XML binding), HTTP client
-  </div>
-</div>
+p(projectContent). !res/images/projects/WebMill-sm.jpg!:/Projects/webmill "WebMILL":/Projects/webmill (Web-Based Tool for Medical Image Labeling Language) это серверная система, спроектированная и разработанная для предоставления инфраструктуры и средств пользователям, удаленным от системы, по выделению контуров на медицинских снимках. 
+URL: "https://brassie.ece.jhu.edu/":https://brassie.ece.jhu.edu/
+*Технологии:* Apache Wicket 1.3.5, Apache Spring, JPA, Hibernate EntityManager, JavaMail, C3P0, JBossCache2, Jersey 1.1, JAXB, Log4J, Tomcat 6.x, MySQL, XHTML, CSS 2.0, BlueprintCSS, JavaScript Java2D, Swing, Synth pluggable look and feel, JAXB (Java architecture for XML binding), HTTP client
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/emailManager"><img src="res/images/projects/mailmanager%2Dsm.jpg" alt="mailmanager-sm.jpg" title="mailmanager-sm.jpg"/></a></div>
-  <div class="projectDesc">*iPhone приложение*: разработка <a href="/Projects/emailManager">Email Manager</a>
-*Технологии:* UIKit, Custom Table View Control, Async Web Requests, JSON, Core Graphics Framework, Localization  </div>
-</div>
+p(projectContent). !res/images/projects/i-Sign-sm.jpg!:/Projects/iSign *Приложение для iPad*:/Projects/iSign
+*Технологии:* Navigation Controller with custom animation, Core Graphics Framework, Quartz Core Framework, Email sending customization, PDF generating/viewing, Network Reachability, Core Text Framework, Context menu customization, Undo manager, Printing documents.
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/imageChallenge"><img src="res/images/projects/IC%2Dsm.jpg" alt="IC-sm.jpg" title="IC-sm.jpg"/></a></div>
-  <div class="projectDesc">*iPhone приложение*: разработка <a href="/Projects/imageChallenge">Image Challenge</a>
-*Технологии:* iAd Framework; Image Capture Customization, Async image loading, UIKit Framework, Web View Control, HTML  </div>
-</div>
+p(projectContent). !res/images/projects/mailmanager-sm.jpg!:/Projects/emailManager *iPhone приложение*: разработка "Email Manager":/Projects/emailManager app 
+*Технологии:* UIKit, Custom Table View Control, Async Web Requests, JSON, Core Graphics Framework, Localization
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/iPhonewebapp"><img src="res/images/projects/iphone%2Dsm.jpg" alt="iphone-sm.jpg" title="iphone-sm.jpg"/></a></div>
-  <div class="projectDesc">Разработка веб приложения под iPhone для пополнения счета мобильного оператора
-*Технологии:* JSF; AJAX; Facelet; iPhone SDK Toolkit; iWebkit; Dashcode development environment.  </div>
-</div>
+p(projectContent). !res/images/projects/IC-sm.jpg!:/Projects/imageChallenge *iPhone приложение*: разработка "Image Challenge":/Projects/imageChallenge app 
+*Технологии:* iAd Framework; Image Capture Customization, Async image loading, UIKit Framework, Web View Control, HTML
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/SizeCalc"><img src="res/images/projects/Sizecalc%2Dsm.jpg" alt="Sizecalc-sm.jpg" title="Sizecalc-sm.jpg"/></a></div>
-  <div class="projectDesc">*Веб-приложение под iPhone*: Size Calculator 
-*Технологии:* User Interface (UI) Library for Safari development on iPhone; Safary SQL database; offline application cache  </div>
-</div>
+p(projectContent). !res/images/projects/iphone-sm.jpg!:/Projects/iPhonewebapp *iPhone приложение*: разработка веб приложения под iPhone для пополнения счета мобильного оператора
+*Технологии:* JSF; AJAX; Facelet; iPhone SDK Toolkit; iWebkit; Dashcode development environment.
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/ColorBook"><img src="res/images/projects/Storychimes%2Dsm.jpg" alt="Storychimes-sm.jpg" title="Storychimes-sm.jpg"/></a></div>
-  <div class="projectDesc">*iPhone приложение*: раскраска Story Chimes
-*Технологии:* Facebook API, Media Player Framework, Core Graphics Framework, Web View Control, HTML  </div>
-</div>
+p(projectContent). !res/images/projects/Sizecalc-sm.jpg!:/Projects/SizeCalc" *Веб-приложение для iPhone*: Size Calculator 
+*Технологии:* User Interface (UI) Library for Safari development on iPhone; Safary SQL database; offline application cache
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/PWay"><img src="res/images/projects/Promotional%2Dsm.jpg" alt="Promotional-sm.jpg" title="Promotional-sm.jpg"/></a></div>
-  <div class="projectDesc">Разработка интернет-магазина *Promotional Way* 
-URL: %(nobr)<a href="http://www.promotionalway.com/">http://www.promotionalway.com/</a> 
-*Технологии:* Apache Wicket 1.3.5, MySQL, Tomcat 6.x, KonaKart 2.2.6.0, AJAX, Log4J, JUnit, XHTML, CSS 2.0, JavaScript  </div>
-</div>
+p(projectContent). !res/images/projects/Storychimes-sm.jpg!:/Projects/ColorBook *iPhone приложение*: раскраска Story Chimes
+*Технологии:* Facebook API, Media Player Framework, Core Graphics Framework, Web View Control, HTML
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/VykeAndroid"><img src="res/images/projects/VykeAndroid%2Dsm.jpg" alt="VykeAndroid-sm.jpg" title="VykeAndroid-sm.jpg"/></a></div>
-  <div class="projectDesc">Разработка *Мобильного клиента Vyke под Android*
-*Технологии:* AndroidSDK  </div>
-</div>
+p(projectContent). !res/images/projects/Promotional-sm.jpg!:/Projects/PWay Разработка интернет-магазина *Promotional Way* 
+URL: "http://www.promotionalway.com/":http://www.promotionalway.com/
+*Технологии:* Apache Wicket 1.3.5, MySQL, Tomcat 6.x, KonaKart 2.2.6.0, AJAX, Log4J, JUnit, XHTML, CSS 2.0, JavaScript
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/VykeDashboard"><img src="res/images/projects/Dashboard%2Dsm.jpg" alt="Dashboard-sm.jpg" title="Dashboard-sm.jpg"/></a></div>
-  <div class="projectDesc">Разработка *Vyke Dashboard* на базе Atlassian Crowd "Single Sign On"
-*Технологии:* JavaEE, JSF, RichFaces, AJAX4JSF, SIFR, Facelets, Blueprints CSS  </div>
-</div>
+p(projectContent). !res/images/projects/VykeAndroid-sm.jpg!:/Projects/VykeAndroid Разработка *Мобильного клиента Vyke под Android*
+*Технологии:* AndroidSDK
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/Vyke"><img src="res/images/projects/Vyke%2Dnew2%2Dsm.jpg" alt="Vyke-new2-sm.jpg" title="Vyke-new2-sm.jpg"/></a></div>
-  <div class="projectDesc">Компания *Vyke Communications plc* является ведущим провайдером сервиса IP телефонии с фокусом на приложения для мобильных телефонов.
-URL: %(nobr)<a href="http://www.vyke.com/">http://www.vyke.com/</a> 
-*Технологии:* JavaEE, Spring, Hibernate, JSF, AJAX (Richfaces); OpenCMS; XHTML, CSS.  </div>
-</div>
+p(projectContent). !res/images/projects/Dashboard-sm.jpg!:/Projects/VykeDashboard Разработка *Vyke Dashboard* на базе Atlassian Crowd "Single Sign On"
+*Технологии:* JavaEE, JSF, RichFaces, AJAX4JSF, SIFR, Facelets, Blueprints CSS
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/VykePro"><img src="res/images/projects/vyke%2Dpro%2Dsm.jpg" alt="vyke-pro-sm.jpg" title="vyke-pro-sm.jpg"/></a></div>
-  <div class="projectDesc">* %(wikiexternallink)<a href="http://www.vykecorporate.com/index.php?id=47">Vyke Pro</a> * - это программа, которая позволяет экономить на звонках с вашего мобильного телефона и отсылать бесплатные SMS сообщения. 
-*Technologies used:* JavaME  </div>
-</div>
+p(projectContent). !res/images/projects/Vyke%2Dnew2-sm.jpg!:/Projects/Vyke Компания *Vyke Communications plc* является ведущим провайдером сервиса IP телефонии с фокусом на приложения для мобильных телефонов.
+URL: "http://www.vyke.com/":http://www.vyke.com/
+*Технологии:* JavaEE, Spring, Hibernate, JSF, AJAX (Richfaces); OpenCMS; XHTML, CSS.
+огии:* AndroidSDK  
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/DesktopMarketer"><img src="res/images/projects/siteamarko%2Dsm.jpg" alt="siteamarko-sm.jpg" title="siteamarko-sm.jpg"/></a></div>
-  <div class="projectDesc">*Desktop Marketer* предназначен для распространения рекламной информации. 
-*Технологии:* JavaEE, Spring, Hibernate, Java Web Start, SWT: The Standard Widget Toolkit, Apache Jackrabbit, PayPal SDK  </div>
-</div>
+p(projectContent). !res/images/projects/vyke%2Dpro-sm.jpg!:/Projects/VykePro *"Vyke Pro":http://www.vykecorporate.com/index.php?id=47*  - это программа, которая позволяет экономить на звонках с вашего мобильного телефона и отсылать бесплатные SMS сообщения. 
+*Технологии:* JavaME 
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/FreeIP"><img src="res/images/projects/freeipcall%2Dsm.jpg" alt="freeipcall-sm.jpg" title="freeipcall-sm.jpg"/></a></div>
-  <div class="projectDesc">*Портал IP телефонии* для зарегистрированных пользователей.
-*Технологии:* JavaEE, Spring web framework, Hibernate, JSTL, JSP  </div>
-</div>
+p(projectContent). !res/images/projects/siteamarko-sm.jpg!:/Projects/DesktopMarketer *Desktop Marketer* предназначен для распространения рекламной информации.
+*Технологии:* JavaEE, Spring, Hibernate, Java Web Start, SWT: The Standard Widget Toolkit, Apache Jackrabbit, PayPal SDK
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/MLSolutions"><img src="res/images/projects/MLS%2Dsm.gif" alt="MLS-sm.gif" title="MLS-sm.gif"/></a></div>
-  <div class="projectDesc">*Mobile Learning Solution* - это кроссплатформенная электронная обучающая система для пользователей мобильных телефонов.
-*Технологии:* JavaEE, Spring, Hibernate, JavaME, C++, ATL, WTL, MFC  </div>
-</div>
+p(projectContent). !res/images/projects/freeipcall-sm.jpg!:/Projects/FreeIP *Портал IP телефонии* для зарегистрированных пользователей.
+*Технологии:* JavaEE, Spring web framework, Hibernate, JSTL, JSP
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/Privatebanking"><img src="res/images/projects/private%2D170%2D75.jpg" alt="private-170-75.jpg" title="private-170-75.jpg"/></a></div>
-  <div class="projectDesc">*Privatebanking.com* — это ведущий мировой портал по управлению личными финансами и капиталом. 
-    URL: %(nobr)<a href="http://privatebanking.com/">http://privatebanking.com/</a> 
-*Технологии:* JavaEE, JSP  </div>
-</div>
+p(projectContent). !res/images/projects/MLS-sm.gif!:/Projects/MLSolutions *Mobile Learning Solution* - это кроссплатформенная электронная обучающая система для пользователей мобильных телефонов.
+*Технологии:* JavaEE, Spring, Hibernate, JavaME, C++, ATL, WTL, MFC
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/Realidate"><img src="res/images/projects/realidatehome%2Dsm.jpg" alt="realidatehome-sm.jpg" title="realidatehome-sm.jpg"/></a></div>
-  <div class="projectDesc">Разработка портала знакомств *Realidate.com*
-*Технологии:* JavaEE, Resin, Struts, Hibernate  </div>
-</div>
+p(projectContent). !res/images/projects/private%2D170%2D75.jpg!:/Projects/Privatebanking *Privatebanking.com* — это ведущий мировой портал по управлению личными финансами и капиталом. 
+URL: "http://privatebanking.com/":http://privatebanking.com/
+*Технологии:* JavaEE, JSP
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/Rootwars"><img src="res/images/projects/rootwars%2Dsm.jpg" alt="rootwars-sm.jpg" title="rootwars-sm.jpg"/></a></div>
-  <div class="projectDesc">*Сетевая игра по веб безопасности* для портала Rootwars
-    URL: %(nobr)<a href="http://rootwars.org.">http://rootwars.org.</a>  </div>
-</div>
-<p/>
+p(projectContent). !res/images/projects/realidatehome-sm.jpg!:/Projects/Realidate Разработка портала знакомств *Realidate.com*
+*Технологии:* JavaEE, Resin, Struts, Hibernate
 
-h2(heading-1#HGraphicandwebdesignprojects). %Проекты по графическому и веб дизайну
+p(projectContent). !res/images/projects/rootwars-sm.jpg!:/Projects/Rootwars *Сетевая игра по веб безопасности* для портала Rootwars
+URL: "http://rootwars.org":http://rootwars.org.
+
+
+h2(heading-1#HGraphicandwebdesignprojects). Проекты по графическому и веб дизайну
 
 h2. Designs optimized for PC browsers
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="#"><img src="res/images/projects/LOLlogo.png" alt="LOLlogo.png" title="LOLlogo.png"/</a></div>
-  <div class="projectDesc">*LearnOutLoud.com:* удобный онлайн сервис с аудио и видео контентом для обучения - более 30,000 аудиокниг, MP3 загрузок, подкастов и видео файлов. 
-    URL: %(nobr)<a href="http://www.learnoutloud.com/">http://www.learnoutloud.com/</a>   
+p(projectContent). !res/images/projects/LOLlogo.png!:# *LearnOutLoud.com:* удобный онлайн сервис с аудио и видео контентом для обучения - более 30,000 аудиокниг, MP3 загрузок, подкастов и видео файлов. 
+URL: "http://www.learnoutloud.com/":http://www.learnoutloud.com/
 *Технологии:* web site redesign, HTML/CSS.
-  </div>
-</div>
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/UITemplateDesign"><img src="res/images/projects/logo.png" alt="logo.png" title="logo.png"/></a></div>
-  <div class="projectDesc"><a href="/Projects/UITemplateDesign">UI Template Design</a> Дизайн UI шаблонов для финансового веб-ресурса - как front-end так и back-end дизайн. 
+p(projectContent). !res/images/projects/logo.png!:/Projects/UITemplateDesign"> "UI Template Design":/Projects/UITemplateDesign Дизайн UI шаблонов для финансового веб-ресурса - как front-end так и back-end дизайн.  
 *Технологии:* web design, HTML5/CSS3
-  </div>
-</div>
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/TOS"><img src="res/images/projects/TaskOnSteroid%2Dsm.png" alt="TaskOnSteroid-sm.png" title="TaskOnSteroid-sm.png"/></a></div>
-  <div class="projectDesc">*Tasks on Steroids*: система управления временем, которая покрывает полный спектр задач успешного человека.
-    URL: %(nobr)<a href="http://www.tasksonsteroids.com//">http://www.tasksonsteroids.com//</a>  
-    *Объем работ:* web design, XHTML/CSS, icon design  </div>
-</div>
+p(projectContent). !res/images/projects/TaskOnSteroid-sm.png!:/Projects/TOS *Tasks on Steroids*: система управления временем, которая покрывает полный спектр задач успешного человека.
+URL: "http://www.tasksonsteroids.com/":http://www.tasksonsteroids.com/
+*Технологии:* web design, XHTML/CSS, icon design
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/Speilzeugsuche"><img src="res/images/projects/Toys%2Dsm.png" alt="Toys-sm.png" title="Toys-sm.png"/></a></div>
-  <div class="projectDesc">*Spielzeugsuche.de*: удобный онлайн сервис по сравнению цен на игрушки и видео игры.
-    URL: %(nobr)<a href="http://www.spielzeugsuche.de/">http://www.spielzeugsuche.de/</a>  
-    *Объем работ:* web design, logo restyling, UI optimization, XHTML/CSS  </div>
-</div>
+p(projectContent). !res/images/projects/Toys-sm.png!:/Projects/Speilzeugsuche *Spielzeugsuche.de*: удобный онлайн сервис по сравнению цен на игрушки и видео игры.
+URL: "http://www.spielzeugsuche.de/":http://www.spielzeugsuche.de/
+*Технологии:* web design, logo restyling, UI optimization, XHTML/CSS
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/MSS"><img src="res/images/projects/mySportSite%2Dsm.jpg" alt="mySportSite-sm.jpg" title="mySportSite-sm.jpg"/></a></div>
-  <div class="projectDesc">Дизайн макет для портала mySportSite: логотип, web сайт, блог, визитка, флаер, PowerPoint презентация.
-    URL: %(nobr)<a href="http://www.mysportsite.com/">http://www.mysportsite.com/</a> 
-    *Объем работ:* web design, logo design, UI optimization, blog page design, business card desgn, PowerPoint slide design, handout design, Facebook fan page design  </div>
-</div>
+p(projectContent). !res/images/projects/thundermist-sm.jpg!:/Projects/TM *ThunderMist*: Сайт для производителей моторных лодок
+URL: "http://thundermistpowerboats.com/":http://thundermistpowerboats.com/
+*Технологии:* web design, logo restyling, UI optimization, XHTML/CSS
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/CloseFriends"><img src="res/images/projects/Closefriends%2Dsm.jpg" alt="Closefriends-sm.jpg" title="Closefriends-sm.jpg"/></a></div>
-  <div class="projectDesc">Разработка лого и *дизайн для социальной сети*
-    *Объем работ:* web design, UI optimization, logo design  </div>
-</div>
+p(projectContent). !res/images/projects/mySportSite-sm.jpg!:/Projects/MSS Дизайн макет для портала mySportSite: логотип, web сайт, блог, визитка, флаер, PowerPoint презентация.
+URL: "http://www.mysportsite.com/":http://www.mysportsite.com/
+*Технологии:* web design, logo design, UI optimization, blog page design, business card desgn, PowerPoint slide design, handout design, Facebook fan page design
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/Guru"><img src="res/images/projects/GurusWay%2Dsm.jpg" alt="GurusWay-sm.jpg" title="GurusWay-sm.jpg"/></a></div>
-  <div class="projectDesc">Дизайн сайта *Gurus Way* 
-    *Объем работ:* web design, logo design, UI optimization  </div>
-</div>
+p(projectContent). !res/images/projects/Closefriends-sm.jpg!:/Projects/CloseFriends Разработка лого и *дизайн для социальной сети*
+*Технологии:* web design, UI optimization, logo design
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/bin/view/jewelry/STN"><img src="res/images/projects/BirthCross%2Dsm.jpg" alt="BirthCross-sm.jpg" title="BirthCross-sm.jpg"/></a></div>
-  <div class="projectDesc">Дизайн и верстка для интернет-магазина *Birth Cross*. 
-    *Объем работ:* web design, UI optimization, XHTML/CSS  </div>
-</div>
+p(projectContent). !res/images/projects/GurusWay-sm.jpg!:/Projects/Guru Дизайн сайта *Gurus Way*
+*Технологии:* web design, logo design, UI optimization
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/JacksonCo"><img src="res/images/projects/JacksonCo%2Dsm.jpg" alt="JacksonCo-sm.jpg" title="JacksonCo-sm.jpg"/></a></div>
-  <div class="projectDesc">Дизайн макет для сайта JacksonCo supply.
-    *Объем работ:* web design, logo design, icon design, UI optimization, Flash banner development  </div>
-</div>
+p(projectContent). !res/images/projects/BirthCross-sm.jpg!:/bin/view/jewelry/STN Дизайн и верстка для интернет-магазина *Birth Cross*.
+*Технологии:* web design, UI optimization, XHTML/CSS
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/FP"><img src="res/images/projects/Fasterprogrammers%2Dsm.jpg" alt="Fasterprogrammers-sm.jpg" title="Fasterprogrammers-sm.jpg"/></a></div>
-  <div class="projectDesc">Дизайн для PC и iPhone версии сайта *Faster Programmers*
-    URL: %(nobr)<a href="http://fasterprogrammers.com/">http://fasterprogrammers.com/</a> 
-    *Объем работ:* web design, iPhone customized design, logo design, XHTML/CSS, CSS Zen Garden  </div>
-</div>
+p(projectContent). !res/images/projects/JacksonCo-sm.jpg!:/Projects/JacksonCo Дизайн макет для сайта JacksonCo supply.
+*Технологии:* web design, logo design, icon design, UI optimization, Flash banner development
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/HV"><img src="res/images/projects/Hotelvergleich%2Dsm.jpg" alt="Hotelvergleich-sm.jpg" title="Hotelvergleich-sm.jpg"/></a></div>
-  <div class="projectDesc">*Hotelvergleich*: разработка логотипа, иконок, дизайн страницы, XHTML/CSS.
-    *Объем работ:* logo design, web design, UI/UX, web graphics, XHTML/CSS.  </div>
-</div>
+p(projectContent). !res/images/projects/Fasterprogrammers-sm.jpg!:/Projects/FP Дизайн для PC и iPhone версии сайта *Faster Programmers*
+URL: "http://fasterprogrammers.com/":http://fasterprogrammers.com/
+*Технологии:* web design, iPhone customized design, logo design, XHTML/CSS, CSS Zen Garden
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/Webcast"><img src="res/images/projects/Webcast%2Dsm.gif" alt="Webcast-sm.gif" title="Webcast-sm.gif"/></a></div>
-  <div class="projectDesc">Дизайн, разработка логотипа и верстка для компании по вебкастингу.
-    *Объем работ:* web design, logo design, icon design, UI optimization, HTML/CSS  </div>
-</div>
+p(projectContent). !res/images/projects/Hotelvergleich-sm.jpg!:/Projects/HV *Hotelvergleich*: разработка логотипа, иконок, дизайн страницы, XHTML/CSS.
+*Технологии:* logo design, web design, UI/UX, web graphics, XHTML/CSS.
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/CapeCodRentals"><img src="res/images/projects/Cape%2DCod%2Dsm.jpg" alt="Cape-Cod-sm.jpg" title="Cape-Cod-sm.jpg"/></a></div>
-  <div class="projectDesc">Дизайн и XHTML верстка сайта компании по аренде недвижимости.
-    *Объем работ:* web design, UI optimization, HTML/CSS  </div>
-</div>
+p(projectContent). !res/images/projects/Webcast-sm.gif!:/Projects/Webcast Дизайн, разработка логотипа и верстка для компании по вебкастингу.
+*Технологии:* web design, logo design, icon design, UI optimization, HTML/CSS
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/Snapgreet"><img src="res/images/projects/Snapgreet%2Dsm.jpg" alt="Snapgreet-sm.jpg" title="Snapgreet-sm.jpg"/></a></div>
-  <div class="projectDesc">Работа над сайтом *SnapGreet*, службой рассылки поздравительных открыток.
-    *Объем работ:* web design, cartoon character development  </div>
-</div>
+p(projectContent). !res/images/projects/Cape%2DCod-sm.jpg!:/Projects/CapeCodRentals Дизайн и XHTML верстка сайта компании по аренде недвижимости.
+*Технологии:* web design, UI optimization, HTML/CSS
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/HRN"><img src="res/images/projects/Horse%2DRacing%2DNation%2Dsm.jpg" alt="Horse-Racing-Nation-sm.jpg" title="Horse-Racing-Nation-sm.jpg"/></a></div>
-  <div class="projectDesc">Дизайн для сайта *Horse Racing Nation*
-    *Объем работ:* web design, UI optimization, logo design, XHTML/CSS  </div>
-</div>
+p(projectContent). !res/images/projects/Snapgreet-sm.jpg!:/Projects/Snapgreet Работа над сайтом *SnapGreet*, службой рассылки поздравительных открыток.
+*Технологии:* web design, cartoon character development
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/BBS"><img src="res/images/projects/Branchenbuchsuche%2Dsm.jpg" alt="Branchenbuchsuche-sm.jpg" title="Branchenbuchsuche-sm.jpg"/></a></div>
-  <div class="projectDesc">Дизайн для немецкого онлайн справочника *желтые страницы*.
-    URL: %(nobr)<a href="http://www.branchenbuchsuche.de/">http://www.branchenbuchsuche.de/</a>  
-    *Объем работ:* web design, UI optimization, logo design, icon design, XHTML/CSS  </div>
-</div>
+p(projectContent). !res/images/projects/Horse%2DRacing%2DNation-sm.jpg!:/Projects/HRN Дизайн для сайта *Horse Racing Nation*
+*Технологии:* web design, UI optimization, logo design, XHTML/CSS
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/Carpets"><img src="res/images/projects/kover%2Dsm.jpg" alt="kover-sm.jpg" title="kover-sm.jpg"/></a></div>
-  <div class="projectDesc">*Оформление сайта, планирование интерфеса и юзабилити* для интернет-магазина по продаже ковров.
-   *Объем работ:* design, UI/UX, logo design  </div>
-</div>
+p(projectContent). !res/images/projects/Branchenbuchsuche-sm.jpg!:/Projects/BBS Дизайн для немецкого онлайн справочника *желтые страницы*.URL: "http://www.branchenbuchsuche.de/":http://www.branchenbuchsuche.de/
+*Технологии:* web design, UI optimization, logo design, icon design, XHTML/CSS
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/STN"><img src="res/images/projects/Streaming%2Dsm.jpg" alt="Streaming-sm.jpg" title="Streaming-sm.jpg"/></a></div>
-  <div class="projectDesc">Дизайн для *Streaming The Net*.
-    URL: %(nobr)<a href="http://www.streamingthe.net/">http://www.streamingthe.net/</a>  
-    *Объем работ:* web design, UI optimization, XHTML/CSS  </div>
-</div>
+p(projectContent). !res/images/projects/kover-sm.jpg!:/Projects/Carpets *Оформление сайта, планирование интерфеса и юзабилити* для интернет-магазина по продаже ковров.
+*Технологии:* design, UI/UX, logo design
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/MC"><img src="res/images/projects/mcmotive%2Dsm.jpg" alt="mcmotive-sm.jpg" title="mcmotive-sm.jpg"/></a></div>
-  <div class="projectDesc">Дизайн и его реализация для *MySpace*
-    URL: %(nobr)<a href="http://www.myspace.com/mc_motive">http://www.myspace.com/mc_motive</a>  
-    *Объем работ:* MySpace page design and its implementation  </div>
-</div>
+p(projectContent). !res/images/projects/Streaming-sm.jpg!:/Projects/STN Дизайн для *Streaming The Net*.
+URL: "http://www.streamingthe.net/":http://www.streamingthe.net/ 
+*Технологии:* web design, UI optimization, XHTML/CSS
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/ACS"><img src="res/images/projects/ACS%2Dsm.jpg" alt="ACS-sm.jpg" title="ACS-sm.jpg"/></a></div>
-  <div class="projectDesc">Переделка шапки сайта *American Cycle Supply*
-    URL: %(nobr)<a href="http://www.americancyclesupply.com/">http://www.americancyclesupply.com/</a> 
-    *Объем работ:* header redesign and its HTML/CSS implementation to the existing page  </div>
-</div>
+p(projectContent). !res/images/projects/mcmotive-sm.jpg!:/Projects/MC Дизайн и его реализация для *MySpace*
+URL: "http://www.myspace.com/mc_motive":http://www.myspace.com/mc_motive
+*Технологии:* MySpace page design and its implementation
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/ABC"><img src="res/images/projects/ABC%2Dsm.jpg" alt="ABC-sm.jpg" title="ABC-sm.jpg"/></a></div>
-  <div class="projectDesc">DСайт All Business Cards: отрисовка логотипа, иконок, разработка flash баннера и HTML/CSS верстка
-    URL: %(nobr)<a href="http://allbusinesscards.com/">http://allbusinesscards.com/</a> 
-    *Объем работ:*web design, logo design, Flash banner animation, XHTML/CSS  </div>
-</div>
+p(projectContent). !res/images/projects/ACS-sm.jpg!:/Projects/ACS" Переделка шапки сайта *American Cycle Supply*
+URL: "http://www.americancyclesupply.com/":http://www.americancyclesupply.com/
+*Технологии:* header redesign and its HTML/CSS implementation to the existing page
+
+p(projectContent). !res/images/projects/ABC-sm.jpg!:/Projects/ABC Сайт All Business Cards: отрисовка логотипа, иконок, разработка flash баннера и HTML/CSS верстка
+URL: "http://allbusinesscards.com/":http://allbusinesscards.com/
+*Технологии:*web design, logo design, Flash banner animation, XHTML/CSS
+
 
 h2. Дизайн под iPhone
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/Vindaloo"><img src="res/images/projects/Vinadaloo%2Dsm.jpg" alt="Vinadaloo-sm.jpg" title="Vinadaloo-sm.jpg"/></a></div>
-  <div class="projectDesc">Mobi Menus:  дизайн для мобильной версии меню для ресторана *Vindaloo Nights*
-    *Объем работ:* design, XHTML/CSS optimized for *iPhone*, BB, Nokia (min screen width 240), javascript smooth effect  </div>
-</div>
+p(projectContent). !res/images/projects/Vinadaloo-sm.jpg!:/Projects/Vindaloo Mobi Menus:  дизайн для мобильной версии меню для ресторана *Vindaloo Nights*
+*Технологии:* design, XHTML/CSS optimized for *iPhone*, BB, Nokia (min screen width 240), javascript smooth effect
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/Popeyes"><img src="res/images/projects/Popeyes%2Dsm.jpg" alt="Popeyes-sm.jpg" title="Popeyes-sm.jpg"/></a></div>
-  <div class="projectDesc">Mobi Menus:  дизайн для мобильной версии меню для *Popeyes*
-   *Объем работ:* design, XHTML/CSS optimized for *iPhone*, BB, Nokia (min screen width 240), javascript smooth effect  </div>
-</div>
+p(projectContent). !res/images/projects/Popeyes-sm.jpg!:/Projects/Popeyes Mobi Menus:  дизайн для мобильной версии меню для *Popeyes*
+*Технологии:* design, XHTML/CSS optimized for *iPhone*, BB, Nokia (min screen width 240), javascript smooth effect
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/Manis"><img src="res/images/projects/Manis%2Dsm.jpg" alt="Manis-sm.jpg" title="Manis-sm.jpg"/></a></div>
-  <div class="projectDesc">Mobi Menus: дизайн для мобильной версии меню для *Mani's*. 
-    *Объем работ:* design, HTML/CSS optimized for *iPhone*, BB, Nokia (min screen width 240), javascript smooth effect  </div>
-</div>
+p(projectContent). !res/images/projects/Manis-sm.jpg!:/Projects/Manis Mobi Menus: дизайн для мобильной версии меню для *Mani's*.
+*Технологии:* design, HTML/CSS optimized for *iPhone*, BB, Nokia (min screen width 240), javascript smooth effect
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/iPhone_website"><img src="res/images/projects/iphonepragmasoft%2Dsm.jpg" alt="iphonepragmasoft-sm.jpg" title="iphonepragmasoft-sm.jpg"/></a></div>
-  <div class="projectDesc">Дизайн *веб сайта под iPhone 3G* включая разработку логотипа и  HTML верстку.
-   *Объем работ:* page design, logo design, icon design, HTML/CSS  </div>
-</div>
+p(projectContent). !res/images/projects/iphonepragmasoft-sm.jpg!:/Projects/iPhone_website Дизайн *веб сайта под iPhone 3G* включая разработку логотипа и  HTML верстку.
+*Технологии:* page design, logo design, icon design, HTML/CSS
+
 
 h2. Лого дизайн, веб графика, баннеры
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/DesktopMarketer"><img src="res/images/projects/icons%2Damarko%2Dsm.gif" alt="icons-amarko-sm.gif" title="icons-amarko-sm.gif"/></a></div>
-  <div class="projectDesc">Разработка дизайна для веб-приложения *Desktop Marketer* </div>
-</div>
+p(projectContent). !res/images/projects/icons%2Damarko-sm.gif!:/Projects/DesktopMarketer Разработка дизайна для веб-приложения *Desktop Marketer*
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/FreeTxT"><img src="res/images/projects/Free%2Dtxt%2Dsm.jpg" alt="Free-txt-sm.jpg" title="Free-txt-sm.jpg"/></a></div>
-  <div class="projectDesc">Flash баннеры для рекламы FreeTxT, одного из сервисов компании Vyke.</div>
-</div>
+p(projectContent). !res/images/projects/Free%2Dtxt-sm.jpg!:/Projects/FreeTxT" Flash баннеры для рекламы FreeTxT, одного из сервисов компании Vyke.
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/LogoDesign"><img src="res/images/projects/logo%2Dpragmasoft.jpg" alt="logo-pragmasoft.jpg" title="logo-pragmasoft.jpg"/></a></div>
-  <div class="projectDesc">Разработки нашей студии по лого-дизайну.</div>
-</div>
+p(projectContent). !res/images/projects/logo%2Dpragmasoft.jpg!:/Projects/LogoDesign Разработки нашей студии по лого-дизайну.
 
-<div class="singleProject"><hr/><div class="projectImg"><a href="/Projects/VectorImages"><img src="res/images/projects/Pencil%2Din%2Dvector%2Dsm.gif" alt="Pencil-in-vector-sm.gif" title="Pencil-in-vector-sm.gif"/></a></div>
-  <div class="projectDesc">Образцы векторных работ нашей студии.</div>
-</div>
-</div>
-</div>
+p(projectContent). !res/images/projects/Pencil%2Din%2Dvector-sm.gif!:/Projects/VectorImages Образцы векторных работ нашей студии.

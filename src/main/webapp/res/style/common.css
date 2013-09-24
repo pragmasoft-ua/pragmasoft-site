@@ -448,3 +448,15 @@ div.errormessage { color: red; margin: 4px 0px 4px; padding: 8px 8px 18px 0px; t
 		}
 
 		.zoom img::selection { background-color: transparent; }
+
+/* Projects list*/
+
+.projectContent { width: 512px; display:block; text-align: justify; overflow: hidden; }
+
+p.projectContent > a > img {
+	float: left;
+	padding: 0 25px 25px 0;
+}
+
+p.projectContent::after { content: " "; display: block; border-style: solid; border-width: 0px 0px 1px 0px; width: 512px; border-color: #999999; margin: 15px 0px; clear: both;}
+
