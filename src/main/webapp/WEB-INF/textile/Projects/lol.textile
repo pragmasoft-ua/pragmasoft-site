@@ -1,0 +1,10 @@
+h1. LearnOutLoud.com redesign
+
+URL: "http://www.learnoutloud.com/":http://www.learnoutloud.com/
+
+*Technologies used:* web site redesign, UI optimization, HTML/CSS.
+
+%(zoom#ex3)!{width:482px;height:358px}../res/images/projects/lol/LOLprintscreenbig.jpg!%
+
+*Customer feedback:* “Great designer that gets it right the first time and is helping us complete our redesign. ”
+— learnoutloud

@@ -12,11 +12,8 @@
         <link rel="icon" type="image/x-icon" href="${app}/res/images/style/favicon.ico" />
         
         <#-- OTHER -->
-        <script type="text/javascript" src="${app}/res/prototype.js"></script>
         <script type="text/javascript" src="${app}/res/js/common.js"></script>
         <script type="text/javascript" src="${app}/res/js/swfobject.js"></script>
-        <link type="text/css" rel="stylesheet" href="${app}/res/floatbox/floatbox.css" />
-        <script type="text/javascript" src="${app}/res/floatbox/floatbox.js"></script>
         <link href="https://plus.google.com/101843999873125528372" rel="publisher" />
         <script type="text/javascript">
             (function() 
@@ -37,16 +34,17 @@
 	    </script>
     </head>
     <body id="body">
-        <div id="fb-root"></div>
-        <script>
-            (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1&appId=119171458143800";
-            fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-        </script>
+       <div id="fb-root"></div>
+       <script src="//connect.facebook.net/en_US/all.js"></script>
+       <script>
+          FB.init({
+          appId  : '119171458143800',
+          status: true, // check login status
+          cookie: true, // enable cookies to allow server to access session,
+          xfbml: true, // enable XFBML and social plugins
+          oauth: true, // enable OAuth 2.0     
+        });
+       </script>
         <div class="main_container">
             <!-- Header -->
             <div class="header">

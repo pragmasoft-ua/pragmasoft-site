@@ -32,7 +32,7 @@ public class LanguageFilter implements Filter {
 
 		HttpSession session = httpRequest.getSession(true);
 		Cookie cookie;
-
+		
 		// Initialize language
 		if (session.getAttribute(LANGUAGE) == null) {			
 			Cookie[] cookies = httpRequest.getCookies();

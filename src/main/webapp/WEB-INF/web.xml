@@ -22,10 +22,12 @@ id="WebApp_ID" version="2.5">
             <param-name>TemplatePath</param-name>
             <param-value>/</param-value>
         </init-param>
+        
         <init-param>
             <param-name>NoCache</param-name>
             <param-value>true</param-value>
         </init-param>
+        
         <init-param>
             <param-name>ContentType</param-name>
             <!-- Forces UTF-8 output encoding -->
@@ -38,6 +40,7 @@ id="WebApp_ID" version="2.5">
             <param-value>0</param-value>
             <!-- 0 is for development only! Use higher value otherwise. -->
         </init-param>
+        
         <init-param>
             <!-- The encoding of the template files. -->
             <param-name>default_encoding</param-name>
@@ -120,6 +123,11 @@ id="WebApp_ID" version="2.5">
         <error-code>404</error-code>
         <location>/ErrorHandler</location>
     </error-page>
+    
+    <!-- ========== Listeners ======== -->
+    <listener>
+      <listener-class>ua.com.pragmasoft.listener.ContextListener</listener-class>
+    </listener>
 
     <!-- ========= Filters ========= -->
     <!-- Encoding filter -->
@@ -155,7 +163,18 @@ id="WebApp_ID" version="2.5">
         <filter-name>LanguageFilter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
- 
+
+    <!-- EHCache filter -->
+    <filter>
+      <filter-name>SimplePageCachingFilter</filter-name>
+      <filter-class>net.sf.ehcache.constructs.web.filter.SimplePageCachingFilter
+      </filter-class>
+    </filter>  
+    <filter-mapping>
+      <filter-name>SimplePageCachingFilter</filter-name>
+      <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    
     <!--
         Prevent the visiting of MVC Views from outside the servlet container.
         RequestDispatcher.forward/include should and will still work. Removing

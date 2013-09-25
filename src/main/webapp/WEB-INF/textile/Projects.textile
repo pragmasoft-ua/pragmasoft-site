@@ -77,7 +77,7 @@ h2(heading-1#HGraphicandwebdesignprojects). %Graphic and web design projects%
 
 h2. Designs optimized for PC browsers
 
-p(projectContent). !res/images/projects/LOLlogo.png!:# *LearnOutLoud.com:* destination for audio and video learning - over 30,000 educational audio books, MP3 downloads, podcasts and videos.
+p(projectContent). !res/images/projects/LOLlogo.png!:/Projects/lol *LearnOutLoud.com:* destination for audio and video learning - over 30,000 educational audio books, MP3 downloads, podcasts and videos.
 URL: "http://www.learnoutloud.com/":http://www.learnoutloud.com/
 *Technologies used:* web site redesign, HTML/CSS.
 
