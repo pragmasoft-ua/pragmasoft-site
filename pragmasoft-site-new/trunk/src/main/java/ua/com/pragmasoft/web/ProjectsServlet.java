@@ -10,12 +10,17 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import ua.com.pragmasoft.util.FileReader;
 import ua.com.pragmasoft.util.TextProcessorFactory;
 
 public class ProjectsServlet extends HttpServlet {
 	private static final long serialVersionUID = 8671904882708526278L;
 	private static final String FILE_NAME_EN = "Projects";
+	
+	private static final Logger logger = LoggerFactory.getLogger(ProjectsServlet.class);
 
 	@Override
 	protected void doGet(HttpServletRequest request,
@@ -41,7 +46,7 @@ public class ProjectsServlet extends HttpServlet {
 
 		// Check address validity
 		if (is == null) {
-			// if (request.getAttribute(Constants.LANGUAGE).equals("ru"))
+			logger.warn("Page not found. Redirecting to error page.");
 			response.sendError(404, "Page not found!");
 			return;
 		}

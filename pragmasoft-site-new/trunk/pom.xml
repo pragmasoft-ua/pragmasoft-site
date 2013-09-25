@@ -53,8 +53,7 @@
 	  <groupId>net.java.dev.textile-j</groupId>
 	  <artifactId>textile-j</artifactId>
 	  <version>2.2.864</version>
-    </dependency> -->
-            
+    </dependency> -->            
     
     <!-- slf4j Logger -->
     <dependency>
@@ -69,6 +68,20 @@
       <artifactId>log4j</artifactId>
       <version>1.2.16</version>
     </dependency>
+    
+    <!-- Cache realization - EHCatche -->
+    <dependency>
+	  <groupId>net.sf.ehcache</groupId>
+	  <artifactId>ehcache-web</artifactId>
+	  <version>2.0.4</version>
+    </dependency>
+    
+    <dependency>
+	  <groupId>net.sf.ehcache</groupId>
+	  <artifactId>ehcache-core</artifactId>
+	  <version>2.6.6</version>
+    </dependency>
+            
   </dependencies>
 
   <build>
@@ -91,7 +104,6 @@
         <artifactId>tomcat-maven-plugin</artifactId>
         <version>1.1</version>
         <configuration>
-          <!--<url>http://pragmasoft.com.ua/manager</url>-->
           <url>${deployURL}</url>
           <server>${deployServer}</server>
           <path>${deployPath}</path>

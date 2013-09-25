@@ -20,6 +20,7 @@ Icons like these:
 
 Flash banner like this (click on the image below to see the animated banner):
 
+
 <a href="../res/images/projects/ABC/ABC.swf" title="ABC.swf" rel="floatbox" rev="width:640 height:170 scrolling:no theme:white hideFlash:true caption:`ABC` showHints:never">
     <div class="image_part ">
         <div>
@@ -32,8 +33,6 @@ Flash banner like this (click on the image below to see the animated banner):
 ABC is a nice example of our HTML/CSS coding. Cross-browser testing was conveyed by our QA team.
 
 Well, this project was special since its major limitations (page width, header width, navigation menu style, background pattern), though we managed to give the site a decent appearance. Work was challenging, and we should admit we like challenges!
-
-<hr/>
 
 Все было и так хорошо, но компания «All Business Cards» решила сделать редизайн. Эта версия дизайна немного проще, но это и необходимость, которую нужно было обыграть в новой версии.
 

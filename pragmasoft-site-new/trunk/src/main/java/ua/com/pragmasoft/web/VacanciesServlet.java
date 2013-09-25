@@ -10,6 +10,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import ua.com.pragmasoft.util.FileReader;
 import ua.com.pragmasoft.util.TextProcessorFactory;
 
@@ -18,6 +21,8 @@ public class VacanciesServlet extends HttpServlet {
 	
 	private static final String FILE_NAME_EN = "vacancies.textile";
 	private static final String FILE_NAME_RU = "vacancies_ru.textile";
+	
+	private static final Logger logger = LoggerFactory.getLogger(VacanciesServlet.class);
 	
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
@@ -41,7 +46,13 @@ public class VacanciesServlet extends HttpServlet {
 				.textToHtml(formattedText);
 		
 		// Reading first line (skip "h1. ", end with CRLF)
-		String title = "Hello";//formattedText.substring(4, formattedText.indexOf("\n"));
+		String title = null;
+		try {
+			title = formattedText.substring(4, formattedText.indexOf("\n")); 
+		} catch (IndexOutOfBoundsException ex) {
+			logger.warn("Header in .textile file was not set. Setting default value.");
+		}
+		
 		request.setAttribute("title", "Pragmasoft - " + title);
 		
 		request.setAttribute("text", content);

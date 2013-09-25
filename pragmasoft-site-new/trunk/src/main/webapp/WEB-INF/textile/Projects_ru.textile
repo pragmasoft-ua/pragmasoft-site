@@ -78,7 +78,7 @@ h2(heading-1#HGraphicandwebdesignprojects). Проекты по графичес
 
 h2. Designs optimized for PC browsers
 
-p(projectContent). !res/images/projects/LOLlogo.png!:# *LearnOutLoud.com:* удобный онлайн сервис с аудио и видео контентом для обучения - более 30,000 аудиокниг, MP3 загрузок, подкастов и видео файлов. 
+p(projectContent). !res/images/projects/LOLlogo.png!:/Projects/lol *LearnOutLoud.com:* удобный онлайн сервис с аудио и видео контентом для обучения - более 30,000 аудиокниг, MP3 загрузок, подкастов и видео файлов. 
 URL: "http://www.learnoutloud.com/":http://www.learnoutloud.com/
 *Технологии:* web site redesign, HTML/CSS.
 
