@@ -1,3 +1,6 @@
+title:Pragmasoft - About Pragmsoft
+keywords:software|development|Pragmasoft
+
 h1. About Pragmasoft
 
 Pragmasoft is a team of *dedicated software development pros* which was set up in 2004 in Kharkiv, Ukraine. Pragmasoft is a relatively young IT company, however, it is made up of great professionals with solid work experience. Within 6 years of work numerous outsorcing projects were successfully completed, some of which are presented in "Our projects":/Projects.

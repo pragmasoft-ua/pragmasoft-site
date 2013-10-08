@@ -1,3 +1,6 @@
+title:Pragmasoft - Pragmsoft Project
+keywords:software|development|Pragmasoft
+
 h1. CMIS Gadget
 
 *Technologies used:* CMIS SOAP/REST API, iGoogle API, Google Desktop API, JQuery, JavaScript

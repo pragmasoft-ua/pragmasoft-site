@@ -1,3 +1,6 @@
+title:Pragmasoft - Pragmsoft Project
+keywords:software|development|Pragmasoft
+
 h1. Facebook Places and Deals App
 
 *Technologies used:*  Facebook JS SDK, Google maps API, jQuery

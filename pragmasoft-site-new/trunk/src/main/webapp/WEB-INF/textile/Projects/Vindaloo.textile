@@ -1,3 +1,6 @@
+title:Pragmasoft - Pragmsoft Project
+keywords:software|development|Pragmasoft
+
 h1. Mobi Menus: Vindaloo Night Restaurant
 
 *Goal:* to design a mobile version of takeaway menu with cool iPhone effects

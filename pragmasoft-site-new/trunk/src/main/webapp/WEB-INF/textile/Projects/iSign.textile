@@ -1,3 +1,6 @@
+title:Pragmasoft - Pragmsoft Project
+keywords:software|development|Pragmasoft
+
 h1. iSign: iPad app for document processing
 
 URL: "Lite Free version":http://itunes.apple.com/ru/app/i-sign-business-lite/id458825717?mt=8

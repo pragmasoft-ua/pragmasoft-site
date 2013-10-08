@@ -1,3 +1,6 @@
+title:Pragmasoft - Pragmsoft Project
+keywords:software|development|Pragmasoft
+
 h1. Storelocator Goes Mobile
 
 URL: "http://storelocator.no/storelocator-goes-mobile/":http://storelocator.no/storelocator-goes-mobile/

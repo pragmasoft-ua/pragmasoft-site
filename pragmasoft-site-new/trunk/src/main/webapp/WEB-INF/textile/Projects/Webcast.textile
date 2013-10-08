@@ -1,3 +1,6 @@
+title:Pragmasoft - Pragmsoft Project
+keywords:software|development|Pragmasoft
+
 h1. Webcast
 
 This project was carried out on the outsourcing basis for Cape Cod E-Com. Pragmasoft delievered logo, web design (both in Web 2.0 style) with integrated usability, web graphics and HTML/CSS within Blueprint CSS grid framework. Our QA team conducted cross-browser testing.

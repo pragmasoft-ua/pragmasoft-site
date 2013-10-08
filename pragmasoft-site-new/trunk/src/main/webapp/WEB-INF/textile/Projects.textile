@@ -1,3 +1,6 @@
+title:Pragmasoft - Our projects
+keywords:Pragmasoft|web design|software|Flash|iPhone|HTML|CSS
+
 h1. Our projects
 
 h2(heading-1#HSoftwareandwebdevelopmentprojects). %Software and web development projects%

@@ -2,6 +2,7 @@ package ua.com.pragmasoft.web;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Map;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
@@ -40,27 +41,27 @@ public class ProjectsServlet extends HttpServlet {
 		} 
 
 		ServletContext context = request.getSession().getServletContext();
-		InputStream is = context
+		InputStream textAsStream = context
 				.getResourceAsStream(Constants.PATH_TO_TEXTILE_TEMPLATES
 						+ requestUri + ".textile");
 
 		// Check address validity
-		if (is == null) {
+		if (textAsStream == null) {
 			logger.warn("Page not found. Redirecting to error page.");
 			response.sendError(404, "Page not found!");
 			return;
 		}
 
-		// Read and convert to html .textile file
-		String formattedText = FileReader.getTextFromStream(is);
-
+		FileReader.getInstance().parse(textAsStream);
+		
+		for (Map.Entry<String, String> entry: FileReader.getInstance().getMetaInfo().entrySet()) {
+			session.setAttribute(entry.getKey(), entry.getValue());
+		}
+		
+		String formattedText = FileReader.getInstance().getTextileMarkup();
 		String content = TextProcessorFactory.getMarkdownProcessor()
 				.textToHtml(formattedText);
 
-		// Reading first line (skip "h1. ", end with CRLF)
-		String title = formattedText.substring(4, formattedText.indexOf("\n"));
-
-		request.setAttribute("title", "Pragmasoft - " + title);
 		request.setAttribute("text", content);
 		request.getRequestDispatcher("/pages/content.ftl").forward(request,
 				response);

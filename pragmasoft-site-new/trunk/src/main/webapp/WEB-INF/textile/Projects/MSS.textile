@@ -1,3 +1,6 @@
+title:Pragmasoft - Pragmsoft Project
+keywords:software|development|Pragmasoft
+
 h1. mySportSite
 
 URL: "http://www.mysportsite.com/":http://www.mysportsite.com/

@@ -1,3 +1,6 @@
+title:Pragmasoft - Pragmsoft Project
+keywords:software|development|Pragmasoft
+
 h1. Story Chimes Coloring Book App
 
 *Technologies used:* Facebook API, Media Player Framework, Core Graphics Framework, Web View Control, HTML

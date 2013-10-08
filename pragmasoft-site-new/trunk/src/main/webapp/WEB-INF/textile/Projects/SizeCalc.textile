@@ -1,3 +1,6 @@
+title:Pragmasoft - Pragmsoft Project
+keywords:software|development|Pragmasoft
+
 h1. iPhone Web Application: Size Calculator
 
 *Technologies used:* iPhone User Interface (iUI) Library for Safari development on iPhone; SQLite database; offline application cache, CSS3 transitions and transformation effects

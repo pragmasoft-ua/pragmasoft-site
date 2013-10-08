@@ -1,3 +1,6 @@
+title:Pragmasoft - Pragmsoft Project
+keywords:software|development|Pragmasoft
+
 h1. Vyke
 
 "https://www.vyke.com/":https://www.vyke.com/

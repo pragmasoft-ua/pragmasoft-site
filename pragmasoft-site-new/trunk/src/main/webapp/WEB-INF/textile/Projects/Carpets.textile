@@ -1,3 +1,6 @@
+title:Pragmasoft - Pragmsoft Project
+keywords:software|development|Pragmasoft
+
 h1. Carpets ecommerce portal
 
 The work under e-commerce portal was especially interesting for our design studio - before starting, we made a thorough investigation of carpet ecommerce industry world-wide and in Russia in particular. We strived to develop our web-design so that it is attractive and eye-catching, the UI is comfortable in use, self-explainatory, everything is at hand for the customer, he is not worried about anything else but the carpet pattern! And we believe that we managed to meet all our goals.

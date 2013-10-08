@@ -1,3 +1,6 @@
+title:Pragmasoft - Pragmsoft Project
+keywords:software|development|Pragmasoft
+
 h1. Email Manager
 
 *Technologies used:* UIKit, Custom Table View Control, Async Web Requests, JSON, Core Graphics Framework, Localization

@@ -1,3 +1,6 @@
+title:Pragmasoft - Pragmsoft Project
+keywords:software|development|Pragmasoft
+
 h1. SnapGreet
 
 While working on SnapGreet, we have tried out different approaches to gain the most efficient and most stunning solution. The client was a perfectionist and in terms of our project we managed to produce numerous design drafts. And we should say that we are proud of the results, as any designer is proud of a truly successful and creative work.

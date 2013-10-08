@@ -1,3 +1,6 @@
+title:Pragmasoft - Pragmsoft Project
+keywords:software|development|Pragmasoft
+
 h1. Cape Cod Rentals
 
 *Scope:* web design, UI optimization, XHTMl/CSS, Javascript banner rotator

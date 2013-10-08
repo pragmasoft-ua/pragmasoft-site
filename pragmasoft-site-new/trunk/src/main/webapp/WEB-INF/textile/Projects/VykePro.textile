@@ -1,3 +1,6 @@
+title:Pragmasoft - Pragmsoft Project
+keywords:software|development|Pragmasoft
+
 h1. Vyke Pro
 
 Vyke Pro is a small software you download and install on your mobile. Whenever you need to set-up an international call or send a text message, you do it through the Vyke Pro software to save money! To make a call or send a text, open Vyke Pro, select the number you like to call or text. Click Call in Vyke Pro, and your phone connects to the Vyke server via GPRS/EDGE/3G and within seconds you receive a callback from Vyke. Answer the call, within seconds you get connected to the destination phone. You can also send FREE SMS from Vyke Pro to all other Vyke Pro customers. When you send an SMS to non Vyke customers, it is just cheap!

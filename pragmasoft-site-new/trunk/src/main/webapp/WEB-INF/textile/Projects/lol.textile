@@ -1,3 +1,6 @@
+title:Pragmasoft - Pragmsoft Project
+keywords:software|development|Pragmasoft
+
 h1. LearnOutLoud.com redesign
 
 URL: "http://www.learnoutloud.com/":http://www.learnoutloud.com/

@@ -1,3 +1,6 @@
+title:Pragmasoft - Контактная информация
+keywords:software|development|Pragmasoft
+
 h1. Контактная информация
 
 С любыми вопросами/предложениями пишите нам на "info@pragmasoft.com.ua":mailto:info@pragmasoft.com.ua

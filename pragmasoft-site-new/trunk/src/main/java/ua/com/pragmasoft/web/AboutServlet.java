@@ -2,6 +2,7 @@ package ua.com.pragmasoft.web;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Map;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
@@ -37,14 +38,15 @@ public class AboutServlet extends HttpServlet {
 				.getResourceAsStream(Constants.PATH_TO_TEXTILE_TEMPLATES
 						+ fileName);
 
-		String formattedText = FileReader.getTextFromStream(textAsStream);
+		FileReader.getInstance().parse(textAsStream);
+		
+		for (Map.Entry<String, String> entry: FileReader.getInstance().getMetaInfo().entrySet()) {
+			session.setAttribute(entry.getKey(), entry.getValue());
+		}
+		
+		String formattedText = FileReader.getInstance().getTextileMarkup();
 		String content = TextProcessorFactory.getMarkdownProcessor()
 				.textToHtml(formattedText);
-
-		// Reading first line (skip "h1. ", end with CRLF)
-		String title = formattedText.substring(4, formattedText.indexOf("\n"));
-
-		request.setAttribute("title", "Pragmasoft - " + title);
 
 		request.setAttribute("text", content);
 		request.getRequestDispatcher("/pages/content.ftl").forward(request,
