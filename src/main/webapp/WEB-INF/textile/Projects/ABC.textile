@@ -1,3 +1,6 @@
+title:Pragmasoft - Pragmsoft Project
+keywords:software|development|Pragmasoft
+
 h1. All Business Cards: Easy as ABC
 
 URL: "http://allbusinesscards.com":http://allbusinesscards.com/
@@ -16,19 +19,11 @@ Logo like this:
 
 Icons like these:
 
-!../res/images/projects/ABC/Icons.jpg"!
+!../res/images/projects/ABC/Icons.jpg!
 
-Flash banner like this (click on the image below to see the animated banner):
+Flash banner like this:
 
-
-<a href="../res/images/projects/ABC/ABC.swf" title="ABC.swf" rel="floatbox" rev="width:640 height:170 scrolling:no theme:white hideFlash:true caption:`ABC` showHints:never">
-    <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/ABC/Flash.jpg" title="" alt=""/>
-        </div>
-        <div class="cl_b"></div>
-    </div>
-</a>
+!../res/images/projects/ABC/Flash.jpg!
 
 ABC is a nice example of our HTML/CSS coding. Cross-browser testing was conveyed by our QA team.
 

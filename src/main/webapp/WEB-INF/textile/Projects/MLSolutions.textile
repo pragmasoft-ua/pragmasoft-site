@@ -1,3 +1,6 @@
+title:Pragmasoft - Pragmsoft Project
+keywords:software|development|Pragmasoft
+
 h1. Mobile Learning Solution
 
 Mobile learning solution uses innovative idea to apply LMS (Learning Management Systems) to mobile platforms. The entire solution consists of learning module designer (Desktop application), which can build self-contained rich learning content applications for a number of mobile platforms (JavaME, Windows Mobile, Pocket PC, Symbian, WAP browsers, Web browsers). Additionally platform contains web server for modules distribution, web/wap modules deployment, result tracking and integration with other learning systems (Blackboard, Moodle).

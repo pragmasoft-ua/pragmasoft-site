@@ -1,3 +1,6 @@
+title:Pragmasoft - Pragmsoft Project
+keywords:software|development|Pragmasoft
+
 h1. Horse Racing Nation
 
 *Horse Racing Nation* is a nice example of sport site design, which corresponds to main tendencies pointed out in "Smashing magazine sport site showcase":http://www.smashingmagazine.com/2009/04/04/showcase-of-beautiful-sports-websites/. Please have a look at the final variant of the design approved:

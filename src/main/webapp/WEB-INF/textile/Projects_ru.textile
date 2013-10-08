@@ -1,3 +1,6 @@
+title:Pragmasoft - Наши проекты
+keywords:Pragmasoft|web design|software|Flash|iPhone|HTML|CSS
+
 h1. Наши проекты
 
 h2(heading-1#HSoftwareandwebdevelopmentprojects). %Мобильные и веб проекты%

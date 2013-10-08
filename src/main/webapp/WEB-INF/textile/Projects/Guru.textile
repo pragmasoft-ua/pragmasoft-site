@@ -1,3 +1,6 @@
+title:Pragmasoft - Pragmsoft Project
+keywords:software|development|Pragmasoft
+
 h1. Gurus Way
 
 Within Gurus Way project Pragmasoft developed a logo and a layout for a travel tips site. The task was to implement bellied Buddha in the design, and make the design in eastern style, which would at the same time spell the idea of traveling.

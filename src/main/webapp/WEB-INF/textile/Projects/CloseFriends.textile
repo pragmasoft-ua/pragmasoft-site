@@ -1,3 +1,6 @@
+title:Pragmasoft - Pragmsoft Project
+keywords:software|development|Pragmasoft
+
 h1. Close Friends
 
 Close Friends social network was designed to accumulate the best features of modern social networking sites. And since nice design guarantees about 40% of the project success, we gathered all our creativity to come up with something really outstanding. First we developed a nice looking logo, showing a variety of moods of literally close cartoon characters. And after a couple of design drafts, we came up with the final web design that was approved:

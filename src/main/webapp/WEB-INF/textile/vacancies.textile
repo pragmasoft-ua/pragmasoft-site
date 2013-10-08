@@ -1,4 +1,7 @@
-h1. Vacancies 
+title:Pragmasoft - Vacancies
+keywords:Pragmasoft|Java|JavaEE|AJAX|QA
+
+h1. Vacancies
 
 h2(heading-1#HJavaEEdeveloper). %Java EE developer% 
 

@@ -1,3 +1,6 @@
+title:Pragmasoft - Pragmsoft Project
+keywords:software|development|Pragmasoft
+
 h1. Tasks on Steroids
 
 URL: "http://www.tasksonsteroids.com/":http://www.tasksonsteroids.com/

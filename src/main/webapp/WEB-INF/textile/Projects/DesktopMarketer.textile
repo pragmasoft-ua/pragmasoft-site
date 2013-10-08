@@ -1,3 +1,6 @@
+title:Pragmasoft - Pragmsoft Project
+keywords:software|development|Pragmasoft
+
 h1. Desktop Marketer
 
 *Technologies used:* JavaEE, Spring, Hibernate, Java Web Start, SWT: The Standard Widget Toolkit, Apache Jackrabbit, PayPal SDK

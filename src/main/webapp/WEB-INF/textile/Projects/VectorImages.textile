@@ -1,3 +1,6 @@
+title:Pragmasoft - Pragmsoft Project
+keywords:software|development|Pragmasoft
+
 h1. Pencil into Vector
 
 %(zoom#ex3)!{width:512px;height:436px}../res/images/projects/VectorImages/vector1.jpg!%

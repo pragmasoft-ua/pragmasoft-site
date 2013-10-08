@@ -53,7 +53,6 @@ public class TextProcessorFactory {
 
 		public TextileTextProcessorImpl() {
 			parser = new MarkupParser(new TextileLanguage());
-			//parser = new MarkupParser(new TextileDialect());
 		}
 
 		public String textToHtml(final String text) {

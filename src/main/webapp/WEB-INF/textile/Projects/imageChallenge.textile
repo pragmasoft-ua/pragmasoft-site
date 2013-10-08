@@ -1,3 +1,6 @@
+title:Pragmasoft - Pragmsoft Project
+keywords:software|development|Pragmasoft
+
 h1. Image Challenge: iPhone app
 
 *Technologies used:* iAd Framework; Image Capture Customization, Async image loading, UIKit Framework, Web View Control, HTML

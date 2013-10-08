@@ -1,3 +1,6 @@
+title:Pragmasoft - Pragmsoft Project
+keywords:software|development|Pragmasoft
+
 h1. iPhone account top up application
 
 *Technologies used:* JSF, AJAX, Facelet, iPhone SDK Toolkit, "iWebkit":http://iwebkit.net/, "Dashcode development environment":http://developer.apple.com/leopard/overview/dashcode.html

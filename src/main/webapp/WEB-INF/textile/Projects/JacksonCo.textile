@@ -1,3 +1,6 @@
+title:Pragmasoft - Pragmsoft Project
+keywords:software|development|Pragmasoft
+
 h1. JacksonCo Supply
 
 URL: "http://www.jacksoncosupply.com/":http://www.jacksoncosupply.com/
@@ -16,13 +19,6 @@ Applying trial and error method, we have finally reached the variant to satisfy 
 
 All in all, JacksonCo Supply gave us a nice challenge to overcome: we have worked side by side with the customer to find the best solution for the logo, site design, Flash banner concept and animation. And we proudly present the current project for your attention.
 
-Flash banner like this (click on the image below to see the animated banner):
+Flash banner like this:
 
-<a href="../res/images/projects/JacksonCo/JS%2D2.swf" title="JS-2.swf" rel="floatbox" rev="width:930 height:242 scrolling:no theme:white hideFlash:true caption:`JacksonCo Supply` showHints:never">
-        <div class="image_part ">
-        <div>
-            <img src="../res/images/projects/JacksonCo/JS2.jpg" title="" alt=""/>
-        </div>
-	    <div class="cl_b"></div>
-    </div>
-</a>
+!../res/images/projects/JacksonCo/JS-2.jpg!

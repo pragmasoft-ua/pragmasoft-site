@@ -1,3 +1,6 @@
+title:Pragmasoft - Pragmsoft Project
+keywords:software|development|Pragmasoft
+
 h1. Rootwars
 
 *Online web security game* has 10 levels. Each level requires to break some specific vulnerability of a web page to obtain password and skip to next level.
