@@ -1,4 +1,4 @@
-title:Pragmasoft - About Pragmsoft
+title:Pragmasoft - About Pragmasoft
 keywords:software|development|Pragmasoft
 
 h1. About Pragmasoft

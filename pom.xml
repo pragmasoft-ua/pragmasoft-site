@@ -104,6 +104,7 @@
         <artifactId>tomcat-maven-plugin</artifactId>
         <version>1.1</version>
         <configuration>
+          <!--<url>http://pragmasoft.com.ua/manager</url>-->
           <url>${deployURL}</url>
           <server>${deployServer}</server>
           <path>${deployPath}</path>
