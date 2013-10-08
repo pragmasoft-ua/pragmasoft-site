@@ -11,12 +11,17 @@ import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
+import org.apache.log4j.Logger;
+
 public class ContextPathFilter implements Filter {
 
-	HttpSession session;
+	private final static Logger log = Logger.getLogger(ContextPathFilter.class);
+	
+	private HttpSession session;
+	
 	@Override
 	public void init(FilterConfig filterConfig) throws ServletException {
-		// do nothing
+		log.debug("Filter initialized");
 	}
 
 	@Override
@@ -36,7 +41,7 @@ public class ContextPathFilter implements Filter {
 
 	@Override
 	public void destroy() {
-		// do nothing
+		log.debug("Filter destroyed");
 	}
 
 }

@@ -6,10 +6,6 @@ xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns
 id="WebApp_ID" version="2.5">
  
     <display-name>Pragmasoft</display-name>
-    
-    <welcome-file-list>
-      <welcome-file>index.html</welcome-file>
-    </welcome-file-list>
  
     <!-- ========= SERVLETS ========= -->
     <!-- Freemarker servlet -->
@@ -161,6 +157,16 @@ id="WebApp_ID" version="2.5">
     </filter>
     <filter-mapping>
         <filter-name>LanguageFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    
+    <!-- Redirect from main page filter -->
+    <filter>
+        <filter-name>RedirectFromMainPageFilter</filter-name>
+        <filter-class>ua.com.pragmasoft.filter.RedirectFromMainPageFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>RedirectFromMainPageFilter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
 
