@@ -13,14 +13,18 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import org.apache.log4j.Logger;
+
 public class LanguageFilter implements Filter {
 	private static final String LANG_RU = "ru";
 	private static final String LANG_EN = "en";
 	private static final String LANGUAGE = "language";
+	
+	private final static Logger log = Logger.getLogger(LanguageFilter.class);
 
 	@Override
 	public void init(FilterConfig filterConfig) throws ServletException {
-		// do nothing
+		log.debug("Filter started");
 	}
 
 	@Override
@@ -29,7 +33,6 @@ public class LanguageFilter implements Filter {
 
 		HttpServletRequest httpRequest = (HttpServletRequest) request;
 		HttpServletResponse httpResponse = (HttpServletResponse) response;
-
 		HttpSession session = httpRequest.getSession(true);
 		Cookie cookie;
 		
@@ -50,10 +53,12 @@ public class LanguageFilter implements Filter {
 						if (cookie.getValue().equals(LANG_EN) || 
 							  cookie.getValue().equals(LANG_RU)) {							
 							session.setAttribute(LANGUAGE, cookie.getValue());
+							log.debug("Language property loaded from cookie: " + cookie.getValue());
 						} else {
 							cookie = new Cookie(LANGUAGE, LANG_EN);
 							httpResponse.addCookie(cookie);
 							session.setAttribute(LANGUAGE, LANG_EN);
+							log.debug("Language property added to cookie: " + cookie.getValue());
 						}
 						break;
 					}
@@ -73,10 +78,12 @@ public class LanguageFilter implements Filter {
 				cookie = new Cookie(LANGUAGE, LANG_EN);
 				httpResponse.addCookie(cookie);
 				session.setAttribute(LANGUAGE, LANG_EN);
+				log.debug("Language property was changed to: " + cookie.getValue());
 			} else if (language.equals(LANG_RU)) {
 				cookie = new Cookie(LANGUAGE, LANG_RU);
 				httpResponse.addCookie(cookie);
 				session.setAttribute(LANGUAGE, LANG_RU);
+				log.debug("Language property was changed to: " + cookie.getValue());
 			}
 		}
 
@@ -85,7 +92,7 @@ public class LanguageFilter implements Filter {
 
 	@Override
 	public void destroy() {
-		// do nothing
+		log.debug("Filter destroyed");
 	}
 
 }

@@ -10,31 +10,28 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 
-public class EncodingFilter implements Filter {
+import org.apache.log4j.Logger;
 
-	String encoding;
+public class RedirectFromMainPageFilter implements Filter {
+
+	private final static Logger log = Logger.getLogger(RedirectFromMainPageFilter.class);
 	
 	@Override
 	public void init(FilterConfig filterConfig) throws ServletException {
-		encoding = filterConfig.getInitParameter("encoding");		
+		log.debug("Filter initialized");
 	}
 
 	@Override
 	public void doFilter(ServletRequest request, ServletResponse response,
 			FilterChain chain) throws IOException, ServletException {
-
-		System.out.println(((HttpServletRequest)request).getRequestURI());//--------------------
-		String requestEncoding = request.getCharacterEncoding();
-		if (requestEncoding == null) {
-			request.setCharacterEncoding(encoding);
-		}
-
-		chain.doFilter(request, response);		
+		System.out.println(((HttpServletRequest)request).getContextPath());
+		chain.doFilter(request, response);
+		
 	}
 
 	@Override
 	public void destroy() {
-		// do nothing		
+		log.debug("Filter destroyed");		
 	}
 
 }

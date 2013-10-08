@@ -69,7 +69,7 @@ public class FileReader {
 		StringBuilder sb = new StringBuilder();
 
 		while (br.ready()) {
-			sb.append(br.readLine()/*currentLine*/ + "\n");
+			sb.append(br.readLine() + "\n");
 		}
 		textileMarkup = sb.toString();
 	}
