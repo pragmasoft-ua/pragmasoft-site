@@ -34,23 +34,19 @@ public class AboutServlet extends HttpServlet {
 		}
 
 		ServletContext context = request.getSession().getServletContext();
-		InputStream textAsStream = context
-				.getResourceAsStream(Constants.PATH_TO_TEXTILE_TEMPLATES
-						+ fileName);
+		InputStream textAsStream = context.getResourceAsStream(Constants.PATH_TO_TEXTILE_TEMPLATES + fileName);
 
-		FileReader.getInstance().parse(textAsStream);
-		
-		for (Map.Entry<String, String> entry: FileReader.getInstance().getMetaInfo().entrySet()) {
-			session.setAttribute(entry.getKey(), entry.getValue());
+		synchronized (AboutServlet.class) {			
+			FileReader.getInstance().parse(textAsStream);			
+			for (Map.Entry<String, String> entry: FileReader.getInstance().getMetaInfo().entrySet()) {
+				session.setAttribute(entry.getKey(), entry.getValue());
+			}			
+			String formattedText = FileReader.getInstance().getTextileMarkup();
+			String content = TextProcessorFactory.getMarkdownProcessor().textToHtml(formattedText);	
+			
+			request.setAttribute("text", content);
 		}
-		
-		String formattedText = FileReader.getInstance().getTextileMarkup();
-		String content = TextProcessorFactory.getMarkdownProcessor()
-				.textToHtml(formattedText);
-
-		request.setAttribute("text", content);
-		request.getRequestDispatcher("/pages/content.ftl").forward(request,
-				response);
+		request.getRequestDispatcher("/pages/content.ftl").forward(request, response);
 
 	}
 }

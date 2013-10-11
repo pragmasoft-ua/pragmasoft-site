@@ -36,19 +36,19 @@ public class ContactsServlet extends HttpServlet {
 		ServletContext context = request.getSession().getServletContext();
 		InputStream textAsStream = context.getResourceAsStream(Constants.PATH_TO_TEXTILE_TEMPLATES + fileName);
 
-		FileReader.getInstance().parse(textAsStream);
-		
-		for (Map.Entry<String, String> entry: FileReader.getInstance().getMetaInfo().entrySet()) {
-			session.setAttribute(entry.getKey(), entry.getValue());
-		}
-		
-		String formattedText = FileReader.getInstance().getTextileMarkup();
-		String content = TextProcessorFactory.getMarkdownProcessor()
-				.textToHtml(formattedText);
+		synchronized (ContactsServlet.class) {
 
-		request.setAttribute("text", content);
-		request.getRequestDispatcher("/pages/content.ftl").forward(request,
-				response);
+			FileReader.getInstance().parse(textAsStream);
+			for (Map.Entry<String, String> entry : FileReader.getInstance()
+					.getMetaInfo().entrySet()) {
+				session.setAttribute(entry.getKey(), entry.getValue());
+			}
+
+			String formattedText = FileReader.getInstance().getTextileMarkup();
+			String content = TextProcessorFactory.getMarkdownProcessor().textToHtml(formattedText);
+			request.setAttribute("text", content);
+		}
+		request.getRequestDispatcher("/pages/content.ftl").forward(request, response);
 	}
 
 }
