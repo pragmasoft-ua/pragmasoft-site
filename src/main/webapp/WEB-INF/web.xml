@@ -6,6 +6,9 @@ xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns
 id="WebApp_ID" version="2.5">
  
     <!-- <display-name>Pragmasoft</display-name> -->
+    <welcome-file-list>
+    	<welcome-file>About</welcome-file>
+    </welcome-file-list>
  
     <!-- ========= SERVLETS ========= -->
     <!-- Freemarker servlet -->
