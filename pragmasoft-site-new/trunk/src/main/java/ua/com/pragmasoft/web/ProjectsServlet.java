@@ -21,12 +21,13 @@ public class ProjectsServlet extends HttpServlet {
 	private static final long serialVersionUID = 8671904882708526278L;
 	private static final String FILE_NAME_EN = "Projects";
 	
-	private static final Logger logger = LoggerFactory.getLogger(ProjectsServlet.class);
+	private static final Logger log = LoggerFactory.getLogger(ProjectsServlet.class);
 
 	@Override
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 
+		log.info("Request received URL: %s", request.getRequestURI());
 		HttpSession session = ((HttpServletRequest) request).getSession();
 
 		// Get project name
@@ -47,7 +48,7 @@ public class ProjectsServlet extends HttpServlet {
 
 		// Check address validity
 		if (textAsStream == null) {
-			logger.warn("Page not found. Redirecting to error page.");
+			log.warn("Page not found. Redirecting to error page.");
 			response.sendError(404, "Page not found!");
 			return;
 		}

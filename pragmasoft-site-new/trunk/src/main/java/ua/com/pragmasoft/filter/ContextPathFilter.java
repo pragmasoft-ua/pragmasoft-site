@@ -11,12 +11,13 @@ import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class ContextPathFilter implements Filter {
 
-	private final static Logger log = Logger.getLogger(ContextPathFilter.class);
-	
+	private static final String APP = "app";
+	private final static Logger log = LoggerFactory.getLogger(ContextPathFilter.class);	
 	private HttpSession session;
 	
 	@Override
@@ -31,8 +32,8 @@ public class ContextPathFilter implements Filter {
 		session = httpRequest.getSession();
 
 		// Parameter for freemarker
-		if (session.getAttribute("app") == null) {
-			session.setAttribute("app", httpRequest.getContextPath());
+		if (null == session.getAttribute(APP)) {
+			session.setAttribute(APP, httpRequest.getContextPath());
 		}
 		session.setAttribute("currentPath", httpRequest.getRequestURI());
 		chain.doFilter(request, response);
