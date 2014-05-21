@@ -11,10 +11,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class FileReader {	
-	static FileReader instance = new FileReader();
-	
+	static FileReader instance = new FileReader();	
 	static final Logger logger = LoggerFactory.getLogger(FileReader.class);
-
 	private static Map<String, String> metaInfo;
 	private static String textileMarkup;
 	

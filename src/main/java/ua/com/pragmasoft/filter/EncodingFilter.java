@@ -9,30 +9,32 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class EncodingFilter implements Filter {
 
-	String encoding;
+	private final static Logger log = LoggerFactory.getLogger(EncodingFilter.class);
+	private String encoding;
 	
 	@Override
 	public void init(FilterConfig filterConfig) throws ServletException {
-		encoding = filterConfig.getInitParameter("encoding");		
+		encoding = filterConfig.getInitParameter("encoding");
+		log.debug("Encoding set to %s", encoding);
 	}
 
 	@Override
 	public void doFilter(ServletRequest request, ServletResponse response,
 			FilterChain chain) throws IOException, ServletException {
 
-		String requestEncoding = request.getCharacterEncoding();
-		if (requestEncoding == null) {
+		if (null == request.getCharacterEncoding()) {
 			request.setCharacterEncoding(encoding);
 		}
-
 		chain.doFilter(request, response);		
 	}
 
 	@Override
 	public void destroy() {
-		// do nothing		
 	}
 
 }

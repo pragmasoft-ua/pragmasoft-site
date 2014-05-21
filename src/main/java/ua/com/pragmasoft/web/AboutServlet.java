@@ -11,19 +11,24 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import ua.com.pragmasoft.util.FileReader;
 import ua.com.pragmasoft.util.TextProcessorFactory;
 
 public class AboutServlet extends HttpServlet {
-	private static final long serialVersionUID = 1L;
-
-	private static final String FILE_NAME_EN = "about.textile";
 	private static final String FILE_NAME_RU = "about_ru.textile";
+	private static final String FILE_NAME_EN = "about.textile";
+
+	private static final long serialVersionUID = 8586400821948626881L;
+	private static final Logger log = LoggerFactory.getLogger(AboutServlet.class);
 
 	@Override
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
-
+		log.info("Request received URL: %s", request.getRequestURI());
+		
 		HttpSession session = ((HttpServletRequest) request).getSession();
 		String fileName;
 

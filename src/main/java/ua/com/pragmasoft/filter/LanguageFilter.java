@@ -13,14 +13,15 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class LanguageFilter implements Filter {
 	private static final String LANG_RU = "ru";
 	private static final String LANG_EN = "en";
 	private static final String LANGUAGE = "language";
 	
-	private final static Logger log = Logger.getLogger(LanguageFilter.class);
+	private final static Logger log = LoggerFactory.getLogger(LanguageFilter.class);
 
 	@Override
 	public void init(FilterConfig filterConfig) throws ServletException {

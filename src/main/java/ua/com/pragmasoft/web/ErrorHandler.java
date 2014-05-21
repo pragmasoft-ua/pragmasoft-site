@@ -7,12 +7,17 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class ErrorHandler extends HttpServlet {
 	private static final long serialVersionUID = -7654362757290913082L;
+	private static final Logger log = LoggerFactory.getLogger(ErrorHandler.class);
 	
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
+		log.info("Request received URL: %s", req.getRequestURI());
 		req.getRequestDispatcher("/pages/404.ftl").forward(req, resp);
 	}
 	
