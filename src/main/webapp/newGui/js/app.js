@@ -1,5 +1,17 @@
 // Page effects initialization
 $(document).ready(function() {
+
+	$('body').css('overflow', 'scroll');
+	// Viewport width with scroll bar.
+	var widthWithScrollBars = $(window).width();
+	$('body').css('overflow', 'hidden');
+	// Viewport width without scroll bar.
+	var widthNoScrollBars = $(window).width();
+	// Scroll bar size for this particular client browser
+	var scrollbarWidth = widthWithScrollBars - widthNoScrollBars;
+	// Set the overflow css property back to whatever value it had before running this code. (default is auto)
+	$('body').css('overflow', 'auto');
+
 	// Title animation
 	$('.htitl').animate({left: "+=1000"}, 1000);
 	
@@ -45,44 +57,14 @@ $(document).ready(function() {
 	$('.parallax.bkg').scrolly({bgParallax: true});
 
 
-	$('.hello').click(function(event) {
+	$('.menuItem').click(function(event) {
 		event.stopPropagation();
+		var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 		var $this = $(this);
-
-		var parent = $this.data('parent');
-		var actives = parent && $(parent).find('.collapse.in');
-
-		// From bootstrap itself
-		if (actives /*&& actives.length*/) {
-			// hasData = actives.data('collapse');
-			//if (hasData && hasData.transitioning) return;
-			actives.collapse('hide');
+		var target = $this.attr('data-parent');
+		if (width < 769) {
+			$(target).collapse('toggle');			
 		}
-
-		var target = $this.attr('data-target') || (href = $this.attr('href')) && href.replace(/.*(?=#[^\s]+$)/, ''); //strip for ie7
-
-		$(target).collapse('toggle');
 	});
 
 });
-
-// $(document).load(function() {
-// 	$(document).on('click', '.hello', function(event) {
-// 		event.stopPropagation();
-// 		var $this = $(this);
-
-// 		var parent = $this.data('parent');
-// 		var actives = parent && $(parent).find('.collapse.in');
-
-// 		// From bootstrap itself
-// 		if (actives && actives.length) {
-// 			hasData = actives.data('collapse');
-// 			//if (hasData && hasData.transitioning) return;
-// 			actives.collapse('hide');
-// 		}
-
-// 		var target = $this.attr('data-target') || (href = $this.attr('href')) && href.replace(/.*(?=#[^\s]+$)/, ''); //strip for ie7
-
-// 		$(target).collapse('toggle');
-// 	});
-// });
