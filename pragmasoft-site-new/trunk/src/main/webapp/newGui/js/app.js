@@ -44,4 +44,45 @@ $(document).ready(function() {
 	$('.parallax.top').scrolly();
 	$('.parallax.bkg').scrolly({bgParallax: true});
 
+
+	$('.hello').click(function(event) {
+		event.stopPropagation();
+		var $this = $(this);
+
+		var parent = $this.data('parent');
+		var actives = parent && $(parent).find('.collapse.in');
+
+		// From bootstrap itself
+		if (actives /*&& actives.length*/) {
+			// hasData = actives.data('collapse');
+			//if (hasData && hasData.transitioning) return;
+			actives.collapse('hide');
+		}
+
+		var target = $this.attr('data-target') || (href = $this.attr('href')) && href.replace(/.*(?=#[^\s]+$)/, ''); //strip for ie7
+
+		$(target).collapse('toggle');
+	});
+
 });
+
+// $(document).load(function() {
+// 	$(document).on('click', '.hello', function(event) {
+// 		event.stopPropagation();
+// 		var $this = $(this);
+
+// 		var parent = $this.data('parent');
+// 		var actives = parent && $(parent).find('.collapse.in');
+
+// 		// From bootstrap itself
+// 		if (actives && actives.length) {
+// 			hasData = actives.data('collapse');
+// 			//if (hasData && hasData.transitioning) return;
+// 			actives.collapse('hide');
+// 		}
+
+// 		var target = $this.attr('data-target') || (href = $this.attr('href')) && href.replace(/.*(?=#[^\s]+$)/, ''); //strip for ie7
+
+// 		$(target).collapse('toggle');
+// 	});
+// });

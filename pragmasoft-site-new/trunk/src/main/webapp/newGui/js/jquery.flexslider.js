@@ -1025,10 +1025,8 @@
 
   // Ensure the slider isn't focussed if the window loses focus.
   $( window ).blur( function ( e ) {
-    console.log('blur');
     focused = false;
   }).focus( function ( e ) {
-    console.log('focus');
     focused = true;
   });
 

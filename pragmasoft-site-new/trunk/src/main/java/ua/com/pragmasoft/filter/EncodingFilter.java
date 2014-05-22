@@ -20,7 +20,7 @@ public class EncodingFilter implements Filter {
 	@Override
 	public void init(FilterConfig filterConfig) throws ServletException {
 		encoding = filterConfig.getInitParameter("encoding");
-		log.debug("Encoding set to %s", encoding);
+		log.debug("Encoding set to " + encoding);
 	}
 
 	@Override
