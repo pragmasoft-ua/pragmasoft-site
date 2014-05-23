@@ -15,7 +15,7 @@
     <freemarker.version>2.3.20</freemarker.version>
     <deployURL>http://127.0.0.1:8080/manager</deployURL>
     <deployServer>TomcatServer</deployServer>
-    <deployPath>/testPragmasoft</deployPath>
+    <deployPath>/pragmasoft</deployPath>
   </properties>
 
   <dependencies>
@@ -48,12 +48,6 @@
       <artifactId>textile-core</artifactId>
       <version>1.4</version>
     </dependency>
-    
-    <!-- <dependency>
-	  <groupId>net.java.dev.textile-j</groupId>
-	  <artifactId>textile-j</artifactId>
-	  <version>2.2.864</version>
-    </dependency> -->            
     
     <!-- slf4j Logger -->
     <dependency>
