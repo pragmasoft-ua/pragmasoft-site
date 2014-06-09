@@ -5,7 +5,6 @@ import javax.servlet.ServletContextListener;
 
 import net.sf.ehcache.CacheManager;
 
-import org.apache.log4j.BasicConfigurator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,7 +18,6 @@ public class ContextListener implements ServletContextListener {
 	
 	@Override
 	public void contextInitialized(ServletContextEvent sce) {
-		BasicConfigurator.configure();
 		logger.debug("Servlet context initialization finished.");
 	}
 

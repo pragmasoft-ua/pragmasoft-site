@@ -17,7 +17,7 @@ public class ErrorHandler extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
-		log.info("Request received URL: %s", req.getRequestURI());
+		log.info("Request received URL: {}", req.getRequestURI());
 		req.getRequestDispatcher("/pages/404.ftl").forward(req, resp);
 	}
 	
