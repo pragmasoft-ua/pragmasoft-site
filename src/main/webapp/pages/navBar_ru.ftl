@@ -1,21 +1,39 @@
-<div class="main_menu" style="width:786px;">
-    <table border="0" cellpadding="0" cellspacing="0" width="100%">
-        <tr>
-            <td class='left_tab'>
-               <a title="Blog" href="${app}/Blog" onfocus="this.blur();"><img src="${app}/res/images/style/icon_menu_bul_small.gif" width="9" height="9" alt="" /> <span>Блог</span></a>
-            </td>
-            <td class=''>
-               <a title="Our projects" href="${app}/Projects" onfocus="this.blur();"><img src="${app}/res/images/style/icon_menu_bul_small.gif" width="9" height="9" alt="" /> <span>Наши проекты</span></a>
-            </td>
-            <td class='active'>
-               <a title="About us" href="${app}" onfocus="this.blur();"><img src="${app}/res/images/style/icon_menu_bul_big.gif" width="9" height="9" alt="" /> <span>О нас</span></a>
-            </td>
-            <td class=''>
-               <a title="Vacancies" href="${app}/Vacancies" onfocus="this.blur();"><img src="${app}/res/images/style/icon_menu_bul_small.gif" width="9" height="9" alt="" /> <span>Вакансии</span></a>
-            </td>
-               <td class=''>
-               <a title="Contacts" href="${app}/Contacts" onfocus="this.blur();"><img src="${app}/res/images/style/icon_menu_bul_small.gif" width="9" height="9" alt="" /> <span>Контакты</span></a>
-            </td>
-        </tr>
-    </table>
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="logo backtotop"><a href="#" ><img src="${app}/res/img/pragmasoft.png" alt="Pragmasoft"></a></div>
+    <div class="logo-sm"><img src="${app}/res/img/pragmasoft-sm.png" alt="Pragmasoft"></div>
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="sr-only">navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div class="tnavbar navbar-collapse collapse" id="menu" style="height: 1px;">
+      <ul class="nav navbar-nav">
+        <li><a href="${app}#nas" id="nas" class="menuItem" data-parent=".tnavbar" onclick="return anchorScroller(this)">О нас</a></li>
+        <li><a href="${app}#projects" id="projects" class="menuItem" data-parent=".tnavbar" onclick="return anchorScroller(this)">Проекты</a></li>
+        <li class="comd"><a href="${app}#comand" id="comand" class="menuItem" data-parent=".tnavbar" onclick="return anchorScroller(this)">Наша команда</a></li>
+        <li><a href="${app}#quality" id="quality" class="menuItem" data-parent=".tnavbar" onclick="return anchorScroller(this)">Качество</a></li>
+        <li><a href="${app}/vacancies">Вакансии</a></li>
+        <li class="npnm"><a href="#" data-toggle="modal" data-target="#myModal">Написать нам</a></li>
+        <ul class="sm-navlang">
+          <li class="act"><a href="#">RU</a></li>
+          <li><a href="${currentPath}?language=en">EN</a></li>
+        </ul>
+        <ul class="sm-soc">
+          <li><a href="#" data-toggle="modal" data-target="#myModal"><img src="${app}/res/img/2_mail.png"></a></li>
+          <li><a href="#"><img src="${app}/res/img/2_vk.png"></a></li>
+          <li><a href="#"><img src="${app}/res/img/2_fb.png"></a></li>
+          <li><a href="#"><img src="${app}/res/img/2_g+.png"></a></li>
+        </ul>
+      </ul>
+    </div>
+    <div class="tmail" data-toggle="modal" data-target="#myModal"></div>
+    <div class="lang">
+      <ul class="navlang">
+        <li class="active"><a href="#">RU</a></li>
+        <li><a href="${currentPath}?language=en">EN</a></li>
+      </ul>
+    </div>
+  </div>
 </div>
