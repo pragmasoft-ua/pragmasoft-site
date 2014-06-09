@@ -28,7 +28,7 @@ public class VacanciesServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		
-		log.info("Request received URL: %s", request.getRequestURI());
+		log.debug("Request received URL: {}", request.getRequestURI());
 		HttpSession session = ((HttpServletRequest)request).getSession();
 		String fileName;
 		

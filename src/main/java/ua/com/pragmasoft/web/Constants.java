@@ -3,7 +3,7 @@ package ua.com.pragmasoft.web;
 public final class Constants {
 	
 	private Constants() {
-		// do not instantiate
+		// hidden
 	}
 	
 	public static final String LANGUAGE = "language";
