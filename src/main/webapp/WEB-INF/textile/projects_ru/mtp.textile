@@ -1,0 +1,36 @@
+title:Pragmasoft - MoMeCo - Mobile Ticketing Platform
+keywords:software|development|Pragmasoft
+
+h1. MoMeCo - Mobile Ticketing Platform
+
+
+<div class="vc-box">
+
+*Технологии:* JavaEE6, AWS, EC2, DynamoDB, S3, CloudFront, JPA для работы с базами данных, EJB3,  CDI, JAX-RS, JCA коннекторы, MySQL для хранения данных, Jboss AS 6 Appserver, Apache Cordova/PhoneGap Android, JQuery Mobile и Backbone.js для реализации пользовательского интерфейса, OAuth2.
+
+Цель приложения Mobile Ticketing Platform - дать возможность европейским потребителям приобретать билеты на произвольные мероприятия, в музеи и т.д. с помощью одного согласованного мобильного пользовательского интерфейса.
+
+Приложение имеет три основных функциональных требования:
+
+* Исчерпывающая информация о культурных предложениях в городе
+* Последовательная и простая покупка билета, в независимости от того где приобретается билет
+* Управление купленными билетами, бронирование (предстоящих и прошедших)
+
+Приложение на стороне сервера создано на основе JavaEE6 и использует облачные технологии (AWS, EC2, DynamoDB, S3, CloudFront) для обеспечения масштабируемости и отказоустойчивости, а также набор современных интерфейсов JavaEE - JPA для работы с базами данных, EJB3 для бизнес-логики, CDI для внедрения зависимостей, JAX-RS для RESTful API, JCA коннекторы для интеграции со сторонними системами покупки билетов.
+Приложение использует Jboss AS 6 Appserver и базы данных MySQL для постоянного хранения.
+
+Клиентская часть реализована в виде Apache Cordova/PhoneGap Android и IOS клиентов, используя JQuery Mobile и Backbone.js в качестве пользовательского интерфейса и MVC каркасов. Особое внимание уделялось многоязычной поддержке и безопасности. OAuth2 было использовано для упрощения идентификации пользователя.
+
+<div class="p-img">
+
+!../res/img/project/cloud/mtp-1.jpg!
+
+!../res/img/project/cloud/mtp-2.jpg!
+
+!../res/img/project/cloud/mtp-3.jpg!
+
+!../res/img/project/cloud/mtp-4.jpg!
+
+!../res/img/project/cloud/mtp-5.jpg!
+
+</div></div>

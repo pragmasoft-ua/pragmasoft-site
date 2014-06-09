@@ -1,0 +1,27 @@
+title:Pragmasoft - Isign
+keywords:software|development|Pragmasoft
+
+h1. Isign
+
+
+<div class="vc-box">
+
+*Технологии:* Network Reachability, Core Graphics Framework, Quartz Core Framework, Navigation Controller with custom animation, Email sending customization, PDF generating/viewing,  Core Text Framework, Context menu customization, Undo manager, Printing documents.
+
+iSign это удобная программа для тех, кому постоянно приходится иметь дело с многочисленными документами. С iSign вы можете легко создавать, редактировать и делиться различные документы. Вы также можете легко экспортировать все документы на ПК.
+
+<div class="p-img">
+
+!../res/img/project/mobile/isign1.jpg!
+
+!../res/img/project/mobile/isign2.jpg!
+
+!../res/img/project/mobile/isign3.jpg!
+
+!../res/img/project/mobile/isign4.jpg!
+
+!../res/img/project/mobile/isign5.jpg!
+
+!../res/img/project/mobile/isign6.jpg!
+
+</div></div>

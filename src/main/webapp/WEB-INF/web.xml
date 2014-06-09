@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xmlns="http://java.sun.com/xml/ns/javaee"
-xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
-xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
-id="WebApp_ID" version="2.5">
+		xmlns="http://java.sun.com/xml/ns/javaee"
+		xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+		xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+		id="WebApp_ID" version="2.5">
  
     <display-name>Pragmasoft</display-name>
     <welcome-file-list>
-    	<welcome-file>About</welcome-file>
+    	<welcome-file>Home</welcome-file>
     </welcome-file-list>
  
-    <!-- ========= SERVLETS ========= -->
+    <!-- ======== Servlets ======== -->
     <!-- Freemarker servlet -->
     <servlet>
         <servlet-name>freemarker</servlet-name>
@@ -51,61 +51,52 @@ id="WebApp_ID" version="2.5">
         </init-param>
  
         <load-on-startup>1</load-on-startup>
-    </servlet> 
-    <servlet-mapping>
-        <servlet-name>freemarker</servlet-name>
-        <url-pattern>*.ftl</url-pattern>
-    </servlet-mapping> 
- 
+    </servlet>
     <!-- Error handler -->
     <servlet>
         <servlet-name>ErrorHandler</servlet-name>
         <servlet-class>ua.com.pragmasoft.web.ErrorHandler</servlet-class>
     </servlet>
-    <servlet-mapping>
-        <servlet-name>ErrorHandler</servlet-name>
-        <url-pattern>/ErrorHandler</url-pattern>
-    </servlet-mapping>
-    
-    <!-- About servlet -->
+    <!-- Homepage servlet -->
     <servlet>
-        <servlet-name>AboutServlet</servlet-name>
-        <servlet-class>ua.com.pragmasoft.web.AboutServlet</servlet-class>
+        <servlet-name>HomepageServlet</servlet-name>
+        <servlet-class>ua.com.pragmasoft.web.HomepageServlet</servlet-class>
     </servlet>
-    <servlet-mapping>
-        <servlet-name>AboutServlet</servlet-name>
-        <url-pattern>/About</url-pattern>
-    </servlet-mapping>
-    
     <!-- Vacancies servlet -->
     <servlet>
         <servlet-name>VacanciesServlet</servlet-name>
         <servlet-class>ua.com.pragmasoft.web.VacanciesServlet</servlet-class>
     </servlet>
-    <servlet-mapping>
-        <servlet-name>VacanciesServlet</servlet-name>
-        <url-pattern>/Vacancies</url-pattern>
-    </servlet-mapping>
-    
-    <!-- Contacts servlet -->
-    <servlet>
-        <servlet-name>ContactsServlet</servlet-name>
-        <servlet-class>ua.com.pragmasoft.web.ContactsServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>ContactsServlet</servlet-name>
-        <url-pattern>/Contacts</url-pattern>
-    </servlet-mapping>
-    
     <!-- Projects servlet -->
     <servlet>
         <servlet-name>ProjectsServlet</servlet-name>
         <servlet-class>ua.com.pragmasoft.web.ProjectsServlet</servlet-class>
     </servlet>
+    
+    <!-- ======== Servlet mappings ======== -->
+    <servlet-mapping>
+        <servlet-name>freemarker</servlet-name>
+        <url-pattern>*.ftl</url-pattern>
+    </servlet-mapping> 
+    <!-- Error handler -->
+    <servlet-mapping>
+        <servlet-name>ErrorHandler</servlet-name>
+        <url-pattern>/ErrorHandler</url-pattern>
+    </servlet-mapping>    
+    <!-- Homepage servlet -->
+    <servlet-mapping>
+        <servlet-name>HomepageServlet</servlet-name>
+        <url-pattern>/Home</url-pattern>
+    </servlet-mapping>    
+    <!-- Vacancies servlet -->
+    <servlet-mapping>
+        <servlet-name>VacanciesServlet</servlet-name>
+        <url-pattern>/vacancies</url-pattern>
+    </servlet-mapping>    
+    <!-- Projects servlet -->
     <servlet-mapping>
         <servlet-name>ProjectsServlet</servlet-name>
-        <url-pattern>/Projects/*</url-pattern>
-        <!-- <url-pattern>/Projects/*/</url-pattern> -->
+        <url-pattern>/project/*</url-pattern>
     </servlet-mapping>
     
     <!-- Tomcat default servlet -->

@@ -1,0 +1,21 @@
+title:Pragmasoft - Handpoint
+keywords:software|development|Pragmasoft
+
+h1. Handpoint
+
+
+<div class="vc-box">
+
+*Технологии:* AndroidSDK
+
+Мобильное POS приложение Handpoint позволяет принимать платежи с помощью дебетовых и кредитных карт, посредством чипа, пина и магнитной полосы в сочетании с устройством для считывания карты Handpoint.
+
+<div class="p-img">
+
+!../res/img/project/java/handpoint_1.png!
+
+!../res/img/project/java/handpoint_2.png!
+
+!../res/img/project/java/handpoint_3.png!
+
+</div></div>

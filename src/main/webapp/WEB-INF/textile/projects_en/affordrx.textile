@@ -1,0 +1,28 @@
+title:Pragmasoft - AffordRX
+keywords:software|development|Pragmasoft
+
+h1. AffordRX
+
+
+<div class="vc-box">
+
+*Technologies:* JavaEE, RestEASY, HTMLEasy, MySQL, Hibernate, Jboss7, Twitter Bootstrap, jQuery.
+
+Affordrx.com is a site that provide up to 75% discount on medication with free prescription drug card.
+
+* Database development
+* Import databases from external sources
+* Server-side development (JavaEE)
+* Client-side development (HTML, Twitter Bootstrap, jQuery)
+
+Another redesign project went live recently: American Cycle Supply. The task was to redesign site's header, to make it less brutal, but still in the biker's style. That's what it is now:
+
+<div class="p-img">
+
+!../res/img/project/java/AffordRX.jpg!
+
+!../res/img/project/java/AffordRX_1.jpg!
+
+!../res/img/project/java/AffordRX_3.jpg!
+
+</div></div>

@@ -1,0 +1,23 @@
+title:Pragmasoft - Strange Parcel
+keywords:software|development|Pragmasoft
+
+h1. Strange Parcel
+
+
+<div class="vc-box">
+
+*Технологии:* web design, logo restyling, UI optimization, XHTML/CSS.
+
+Веб-сайт Thundermist был разработан, чтобы погрузить пользователей в морскую атмосферу, а также чтобы обеспечить исчерпывающую витрину прекрасных лодок которые производит Thundermist. Дизайн чист и креативен - мы им гордимся.
+
+<div class="p-img">
+
+!../res/img/project/design/thundermist1.jpg!
+
+!../res/img/project/design/thundermist2.jpg!
+
+!../res/img/project/design/thundermist3.jpg!
+
+!../res/img/project/design/thundermist4.jpg!
+
+</div></div>

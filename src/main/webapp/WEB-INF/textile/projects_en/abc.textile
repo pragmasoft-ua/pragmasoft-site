@@ -1,0 +1,30 @@
+title:Pragmasoft - All Business Cards (ABC)
+keywords:software|development|Pragmasoft
+
+h1. All Business Cards (ABC)
+
+
+<div class="vc-box">
+
+*Technologies:* web design, logo design, Flash banner animation, XHTML/CSS.
+
+All Business Cards: Easy as ABC
+
+Do you need an easy way to get yourself business cards done? - just visit All Business Cards!
+
+There you can also enjoy a wonderful fresh and lively design by Pragmasoft design studio.
+
+ABC is a nice example of our HTML/CSS coding. Cross-browser testing was conveyed by our QA team.
+
+Well, this project was special since its major limitations (page width, header width, navigation menu style, background pattern), though we managed to give the site a decent appearance. Work was challenging, and we should admit we like challenges!
+
+
+<div class="p-img">
+
+!../res/img/project/design/ABC-1.jpg!
+
+!../res/img/project/design/ABC-2.jpg!
+
+!../res/img/project/design/ABC-3.jpg!
+
+</div></div>

@@ -1,0 +1,21 @@
+title:Pragmasoft - Handpoint
+keywords:software|development|Pragmasoft
+
+h1. Handpoint
+
+
+<div class="vc-box">
+
+*Technologies:* AndroidSDK.
+
+The Handpoint mobile POS app enables you to accept debit and credit card payments both chip&pin and magstripe with your smartphone in conjunction with the Handpoint card reader.
+
+<div class="p-img">
+
+!../res/img/project/java/handpoint_1.png!
+
+!../res/img/project/java/handpoint_2.png!
+
+!../res/img/project/java/handpoint_3.png!
+
+</div></div>

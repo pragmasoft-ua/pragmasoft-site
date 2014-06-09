@@ -1,0 +1,23 @@
+title:Pragmasoft - JacksonCo Supply
+keywords:software|development|Pragmasoft
+
+h1. JacksonCo Supply
+
+
+<div class="vc-box">
+
+*Technologies:* web design, logo design, icon design, UI optimization, Flash banner development.
+
+As special as it is, this project is remembered with us for the most numerous count of revisions and drafts.
+
+So the task was: to develop a bright, creative design for a e-store dealing with industrial, cleaning, maintenance and food service goods. The scope of service is wide, so it was challenging to come up with a single concept of design to get the idea of JacksonCo Supply across. But as you know, there is not such word as 'impossible' for Pragmasoft: we pulled all our creativity together and started brainstorming and drafting.
+
+<div class="p-img">
+
+!../res/img/project/design/JacksonCo.jpg!
+
+!../res/img/project/design/JacksonCo2.jpg!
+
+!../res/img/project/design/JacksonCo4.jpg!
+
+</div></div>

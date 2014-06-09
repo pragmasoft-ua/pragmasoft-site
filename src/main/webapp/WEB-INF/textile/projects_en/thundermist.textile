@@ -1,0 +1,23 @@
+title:Pragmasoft - Thundermist
+keywords:software|development|Pragmasoft
+
+h1. Thundermist
+
+
+<div class="vc-box">
+
+*Technologies:* web design, logo restyling, UI optimization, XHTML/CSS.
+
+Thundermist Power Boats web site was designed to immerse users into marine and nautical atmosphere, and to provide a exhaustive showcase to the nice boats Thundermist produces. The design is clean, yet creative - we are proud of it.
+
+<div class="p-img">
+
+!../res/img/project/design/thundermist1.jpg!
+
+!../res/img/project/design/thundermist2.jpg!
+
+!../res/img/project/design/thundermist3.jpg!
+
+!../res/img/project/design/thundermist4.jpg!
+
+</div></div>

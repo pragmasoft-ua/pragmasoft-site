@@ -1,0 +1,28 @@
+title:Pragmasoft - Vyke
+keywords:software|development|Pragmasoft
+
+h1. Vyke
+
+
+<div class="vc-box">
+
+*Технологии:* JavaEE, JSF, RichFaces, AJAX4JSF, SIFR, Facelets, Blueprints CSS.
+
+Программный пакет IP услуг от компании Vyke — это инновационный, не дорогостоящий, высококачественный пользовательский сервис, который базируется на вертикально-интегрированной сети VoIP коммуникаций компании Vyke. Пакет IP услуг с мобильного телефона не зависит от оператора мобильной связи и включает следующие услуги:
+
+* Mobile VoIP (IP-телефония непосредственно с мобильного телефона)
+* IP телефониия с компьютера
+* Пересылка SMS-сообщений
+* Услуга Callback (обратный вызов) с мобильного телефона.
+
+<div class="p-img">
+
+!../res/img/project/java/Vyke-j-1.jpg!
+
+!../res/img/project/java/Vyke-j-2.jpg!
+
+!../res/img/project/java/Vyke-j-3.jpg!
+
+!../res/img/project/java/Vyke-j-4.jpg!
+
+</div></div>

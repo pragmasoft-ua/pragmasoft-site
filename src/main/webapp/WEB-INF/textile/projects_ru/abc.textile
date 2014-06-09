@@ -1,0 +1,27 @@
+title:Pragmasoft - All Business Cards (ABC)
+keywords:software|development|Pragmasoft
+
+h1. All Business Cards (ABC)
+
+<div class="vc-box">
+
+*Технологии:* web design, logo design, Flash banner animation, XHTML/CSS.
+
+Вам нужен простой способ сделать визитные карточки самому? - Просто посетите All Business Cards!
+
+Там же вы можете наслаждаться прекрасным, свежим и живим дизайном разработанным дизайн-студией Pragmasoft.
+
+ABC является хорошим примером нашего кодирования HTML/CSS. Кросс-браузерное тестирование было реализовано нашей командой QA.
+
+Что же, этот проект был особенным, из-за его основных ограничений (ширина страницы, ширине заголовка, стиль меню навигации, фон), хотя нам все же удалось придать сайту достойный внешний вид. Работа была достаточно сложной, и мы должны признать, что нам нравится выполнять непростые задачи!
+
+
+<div class="p-img">
+
+!../res/img/project/design/ABC-1.jpg!
+
+!../res/img/project/design/ABC-2.jpg!
+
+!../res/img/project/design/ABC-3.jpg!
+
+</div></div>

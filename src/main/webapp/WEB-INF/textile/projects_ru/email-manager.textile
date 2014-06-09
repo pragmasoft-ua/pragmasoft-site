@@ -1,0 +1,31 @@
+title:Pragmasoft - Email Manager
+keywords:software|development|Pragmasoft
+
+h1. Email Manager
+
+
+<div class="vc-box">
+
+*Технологии:* UIKit, Custom Table View Control, Async Web Requests, JSON, Core Graphics Framework, Localization
+
+Email manager это iPhone приложение которое было разработано как дополнение к PC веб-приложению "Email Manager":http://www.emailmanager.com/ ("http://www.emailmanager.com/":http://www.emailmanager.com/)
+
+Оно позволяет легко отслеживать статистику и управлять списками рассылки электронной почты из своего мобильного.
+Особое внимание было уделено улучшению времени загрузки и снижению трафика, который накапливается в основном, в ходе асинхронной обработки данных.
+
+Особенности:
+
+* Просмотр отчетов: отчеты отображаются в виде гистограмм
+* Списки: списки почтовых пользователей легко управляются через приложение. Можно легко добавить нового пользователя, редактировать пользователей, удалять пользователей. Существует хороший фильтр для улучшения навигации через списки рассылки.
+* Награда: обзор наград и премий
+* История: просмотр истории
+
+<div class="p-img">
+
+!../res/img/project/mobile/emailmanager1.jpg!
+
+!../res/img/project/mobile/emailmanager2.jpg!
+
+!../res/img/project/mobile/emailmanager4.jpg!
+
+</div></div>

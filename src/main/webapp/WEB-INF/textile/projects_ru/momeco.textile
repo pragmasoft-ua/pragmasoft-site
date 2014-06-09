@@ -1,0 +1,17 @@
+title:Pragmasoft - MoMeCo - QR code mobile site design
+keywords:software|development|Pragmasoft
+
+h1. MoMeCo - QR code mobile site design
+
+
+<div class="vc-box">
+
+*Технологии:* design, iPhone, icon design, HTML, CSS, Blackberry, Nokia.
+
+Дизайн веб сайта под iPhone 3G включая разработку логотипа и HTML верстку.
+
+<div class="p-img">
+
+!../res/img/project/mobile/iphone1.jpg!
+
+</div></div>
