@@ -1,9 +1,5 @@
 <#macro apply title="Pragmasoft" language="en" keywords="Pragmasoft">
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-  	<!-- <#include "header.ftl" /> -->
-  	<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="${keywords}" />
@@ -43,47 +39,4 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
-    <!--Top Navigation  --> 
-    <#include "navBar_${language}.ftl" />
-
-    <!--block1  -->
-    <div class="pagebox">
-      <div class="botimg">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-                <!--Content-->
-                <div class="content">
-                  <#include "orderProject_${language}.ftl" />
-                  
-                  <!-- START NESTED CONTENT -->             
-                  <#nested/>
-                  <!-- END NESTED CONTENT --> 
-                </div>
-                <div class="clearfix"></div>
-                <!--end content-->
-                
-                <div class="ftifl">When ideas<br/>
-                  &nbsp;&nbsp;&nbsp;&nbsp;turn into real<span>it</span>y
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Footer --> 
-    <#include "footer_${language}.ftl" />
-
-    <!-- Contact us -->
-    <#include "contactUs_${language}.ftl" />    
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->    
-    <script src="${app}/res/js/bootstrap.min.js"></script>
-    <script src="${app}/res/js/jquery.scrolly.js"></script>
-  </body>
-  </#macro>
+</#macro>
