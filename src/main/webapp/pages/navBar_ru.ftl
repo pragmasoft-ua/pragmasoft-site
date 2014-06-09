@@ -1,6 +1,6 @@
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
   <div class="container">
-    <div class="logo backtotop"><a href="#" ><img src="${app}/res/img/pragmasoft.png" alt="Pragmasoft"></a></div>
+    <div class="logo backtotop"><a href="${app}" ><img src="${app}/res/img/pragmasoft.png" alt="Pragmasoft"></a></div>
     <div class="logo-sm"><img src="${app}/res/img/pragmasoft-sm.png" alt="Pragmasoft"></div>
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
       <span class="sr-only">navigation</span>

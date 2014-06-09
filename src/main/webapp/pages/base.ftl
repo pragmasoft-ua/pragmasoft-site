@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  	<!-- <#include "header.ftl" /> -->
   	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -56,7 +55,6 @@
             <div class="col-md-12">
                 <!--Content-->
                 <div class="content">
-                  <#include "orderProject_${language}.ftl" />
                   
                   <!-- START NESTED CONTENT -->             
                   <#nested/>
@@ -77,8 +75,8 @@
     <!-- Footer --> 
     <#include "footer_${language}.ftl" />
 
-    <!-- Contact us -->
-    <#include "contactUs_${language}.ftl" />    
+    <!-- Modal -->
+    <#include "orderProject_${language}.ftl" />
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
