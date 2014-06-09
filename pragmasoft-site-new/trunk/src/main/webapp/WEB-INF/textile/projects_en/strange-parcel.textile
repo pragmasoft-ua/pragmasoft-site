@@ -1,0 +1,21 @@
+title:Pragmasoft - Strange Parcel
+keywords:software|development|Pragmasoft
+
+h1. Strange Parcel
+
+
+<div class="vc-box">
+
+*Technologies:* Network Reachability, Core Graphics Framework, Quartz Core Framework, Media Player framework, AVFoundation framework, Complex animations
+
+Strange Parcel - Interactive book for children with titres, voice acting in different languages, animated effects questions, etc.
+
+<div class="p-img">
+
+!../res/img/project/mobile/strange-1.png!
+
+!../res/img/project/mobile/strange-2.png!
+
+!../res/img/project/mobile/strange-3.png!
+
+</div></div>

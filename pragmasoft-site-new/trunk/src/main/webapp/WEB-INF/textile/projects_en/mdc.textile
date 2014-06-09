@@ -1,0 +1,30 @@
+title:Pragmasoft - Medication Discount Card (MDC)
+keywords:software|development|Pragmasoft
+
+h1. Medication Discount Card (MDC)
+
+
+<div class="vc-box">
+
+*Technologies:* JavaEE, RestEASY, HTMLEasy, MySQL, Hibernate, Jboss7, Twitter Bootstrap, jQuery
+
+RESTful API to provide data to third-party sites
+
+So the task was: to develop a bright, creative design for a e-store dealing with industrial, cleaning, maintenance and food service goods. The scope of service is wide, so it was challenging to come up with a single concept of design to get the idea of JacksonCo Supply across. But as you know, there is not such word as 'impossible' for Pragmasoft: we pulled all our creativity together and started brainstorming and drafting.
+
+* Database development
+* Import databases from external sources
+* Server-side development (JavaEE)
+* Client-side development (HTML, Twitter Bootstrap, jQuery )
+
+<div class="p-img">
+
+!../res/img/project/java/mdc_0.jpg!
+
+!../res/img/project/java/MDC-1.jpg!
+
+!../res/img/project/java/MDC-2.jpg!
+
+!../res/img/project/java/MDC-3.jpg!
+
+</div></div>

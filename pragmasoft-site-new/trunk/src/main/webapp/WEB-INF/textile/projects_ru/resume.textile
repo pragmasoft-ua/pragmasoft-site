@@ -1,0 +1,22 @@
+title:Pragmasoft - Resume
+keywords:software|development|Pragmasoft
+
+h1. Resume
+
+
+<div class="vc-box">
+
+*Технологии:* Google Appengine (GAE), JavaEE, JDO, CDI, iText, Freemarker, Memcached, JavaMail, Oauth, OpenID, SASS/Compass, JQuery, JQuery UI, HTML5, CSS3.
+
+Resumes.io это приложение на основе облачных технологий предназначенное для хранения и редактирования резюме.
+
+Это приложение для частных лиц и рекрутинговых компаний, предназаначенное для создания, редактирования, хранения и обработки резюме. 
+Пользователи могут зарегистрироваться и войти с помощью таких служб проверки подлинности OpenID и OAuth2,  как Google, Twitter, Facebook. Оно разработано с учетом отказоустойчивости и масштабируемости, архитектура основана на облачных технологиях. Серверная часть реализована с помощью Google AppEngine (GAE) PaaS, на Java SDK. NoSQL хранилище данных Google используется для хранения резюме. Сгенерированные документы резюме хранятся в Blobstore. Дополнительные системы, такие как Memcached, CDN (Cloudflare) используются для повышения производительности. Интерфейс  пользователя реализован с использованием технологий SASS/Compass, HTML5/CSS3 и JQuery и JQuery UI компонентов, чтобы обеспечить отзывчивый и современный интерфейс.
+
+<div class="p-img">
+
+!../res/img/project/cloud/resume-1.jpg!
+
+!../res/img/project/cloud/resume-2.jpg!
+
+</div></div>

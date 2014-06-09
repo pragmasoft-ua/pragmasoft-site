@@ -1,0 +1,35 @@
+title:Pragmasoft - Vyke Communications
+keywords:software|development|Pragmasoft
+
+h1. Vyke Communications
+
+
+<div class="vc-box">
+
+*Технологии:* JavaEE, Spring, Hibernate, JSF, AJAX (Richfaces), OpenCMS, JavaME.
+
+Vyke пакет IP - позволяет сочетать в себе ключевые технологии и опыт, чтобы обеспечить инновационное, недорогое и высококачественное бытовое обслуживание, основанное на предоставленной Vyke вертикально интегрированной коммуникационной сети VoIP.
+Vyke пакет IP-услуг для конечных потребителей является оператор-независимым и в него входят:
+
+* Мобильный VoIP (VoIP непосредственно с мобильного телефона)
+* ПК и основанные на устройствах VoIP услуги
+* Мобильные сообщения
+* Мобильный сервис обратного вызова.
+
+Биллинговая система Vyke позволяет пользователям Vyke получить доступ к любой услуге, в любое время, на основе баланса общего счета.
+
+<div class="p-img">
+
+!../res/img/project/java/Vyke-com-1.jpg!
+
+!../res/img/project/java/Vyke-com-2.jpg!
+
+!../res/img/project/java/Vyke-com-3.jpg!
+
+!../res/img/project/java/Vyke-com-4.jpg!
+
+!../res/img/project/java/Vyke-com-5.jpg!
+
+!../res/img/project/java/Vyke-com-6.jpg!
+
+</div></div>

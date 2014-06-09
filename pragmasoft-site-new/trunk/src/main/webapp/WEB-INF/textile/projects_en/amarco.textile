@@ -1,0 +1,21 @@
+title:Pragmasoft - Amarco
+keywords:software|development|Pragmasoft
+
+h1. Amarco
+
+
+<div class="vc-box">
+
+*Technologies:* JavaEE, Spring, Hibernate, Java Web Start, SWT: The Standard Widget Toolkit, Apache Jackrabbit, PayPal SDK.
+
+Desktop Marketer helps marketers to spread their ads to a specialized secure subscriber application. The project is divided into 2 blocks: convenient web application designed for marketing campaign publishing, and special user interface for recieveing marketer's news by their subscribers. Web-based application provides marketers with a convenient tool forpublishing marketing campaigns, delivering marketing information to their subscribers, and for analyzing effectiveness of their campaigns.
+
+<div class="p-img">
+
+!../res/img/project/cloud/amarco-1.jpg!
+
+!../res/img/project/cloud/amarco-2.jpg!
+
+!../res/img/project/cloud/amarco-3.jpg!
+
+</div></div>

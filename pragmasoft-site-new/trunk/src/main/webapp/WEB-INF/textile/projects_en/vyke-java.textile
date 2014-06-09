@@ -1,0 +1,30 @@
+title:Pragmasoft - Vyke
+keywords:software|development|Pragmasoft
+
+h1. Vyke
+
+
+<div class="vc-box">
+
+*Technologies:* JavaEE, Spring, Hibernate, JSF, AJAX (Richfaces), OpenCMS, JavaME.
+
+The Vyke suite of IP-enabled services combines this key technology and expertise to provideinnovative, low cost and high quality consumer services that build on the foundation provided by Vyke's vertically integrated VoIP communications network. The Vyke suite of IP-enabled end user services are operator independent and among them are:
+
+* Mobile VoIP (VoIP directly from the mobile phone)
+* PC and device based VoIP services
+* Mobile messaging
+* Mobile call back services.
+
+Vyke's single account billing system allows Vyke users to access any service, at any time, based on a common account balance.
+
+<div class="p-img">
+
+!../res/img/project/java/Vyke-j-1.jpg!
+
+!../res/img/project/java/Vyke-j-2.jpg!
+
+!../res/img/project/java/Vyke-j-3.jpg!
+
+!../res/img/project/java/Vyke-j-4.jpg!
+
+</div></div>

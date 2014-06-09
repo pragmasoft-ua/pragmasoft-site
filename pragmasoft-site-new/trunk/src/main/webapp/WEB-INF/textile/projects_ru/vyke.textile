@@ -1,0 +1,32 @@
+title:Pragmasoft - Vyke
+keywords:software|development|Pragmasoft
+
+h1. Vyke
+
+
+<div class="vc-box">
+
+*Технологии:* AndroidSDK
+
+"Vyke Technologies":http://www.vyke.com/ только выпустили Android Mobile Client, разроботка была выполнена компанией Pragmasoft.
+
+Клиент позволяет осуществлять международные звонки посредством  Android значительно дешевле. Поддерживает Vyke Callback и Callthough  функции. Чтобы позвонить, вы должны открыть  Android Mobile client и выбрать номер на который хотите позвонить. Нажимаете кнопку вызова в мобильном клиенте и телефон соединяет вас с сервером  Vyke через  GPRS/EDGE/3G для осуществления звонка. В течении нескольких секунд вы соединяетесь с необходимым телефонным номером.
+
+Огромное преимущество Мобильного клиента Android — наличие функции Перехват звонка: если вы набираете международный номер на своем телефоне, он автоматически будет осуществлен через Моб. клиент Vyke а не посредством вашего моб. провайдера.
+
+С Vyke Android Mobile Client вы можете:
+
+* Регистрироваться или авторизовываться
+* Просматривать баланс на Vyke клиенте
+* Делать Сквозной набор и Обратный звонок
+* Иметь доступ и использовать адресную книгу Android
+
+<div class="p-img">
+
+!../res/img/project/mobile/AndroidMobile1.jpg!
+
+!../res/img/project/mobile/AndroidMobile2.jpg!
+
+!../res/img/project/mobile/AndroidMobile3.jpg!
+
+</div></div>

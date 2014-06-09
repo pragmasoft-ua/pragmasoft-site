@@ -3,9 +3,9 @@ keywords:Pragmasoft|Java|JavaEE|AJAX|QA
 
 h1. Vacancies
 
-h2(heading-1#HJavaEEdeveloper). %Java EE developer% 
+h2. Java EE developer
 
-h3(heading-1-1#HRequirements3A). %Requirements:% 
+*Requirements:*
 
 # Technical English - fluent technical documentation reading and documenting source code. 
 # Linux as an user.
@@ -19,18 +19,19 @@ h3(heading-1-1#HRequirements3A). %Requirements:%
 # Fluent knowledge of Java SE, including: Exceptions, Java Beans, Generics, Annotations, Threads, synchronization, collections, resources, JDBC, Io, Nio, XML, Networking, Security, Reflection. Certification would be a bonus.
 # Freelancing experience would be a bonus.
 
-h2(heading-1#HJuniorJavaEEdeveloper). %Junior Java EE developer%
 
-h3(heading-1-1#HRequirements3A-1). %Requirements:%
+h2. Junior Java EE developer
+
+*Requirements:*
 
 # Desire to become a Java professional.
 # Technical English - fluent documentation reading.
 # General knowledge in OOP, design patterns.
 # Fluent knowledge of Java SE within the scope of "Sun's Java tutorial":http://java.sun.com/docs/books/tutorial/
 
-h2(heading-1#HQAEngineer). %QA Engineer%
+h2. QA Engineer
 
-h3(heading-1-1#HRequirements3A-2). %Requirements:%
+*Requirements:*
 
 # At least 1-2 years experience of QA engineer
 # Technical English - fluent documentation reading
