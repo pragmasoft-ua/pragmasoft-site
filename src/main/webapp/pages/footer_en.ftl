@@ -5,7 +5,7 @@
       <div class="fot-img-sm"><img src="${app}/res/img/01m_txt.png"></div>
       <div class="col-md-6 col-sm-6 col-xs-12 col-lg-6">
         <img src="${app}/res/img/pragmasoft.png" alt="Pragmasoft">
-        <p>For any questions, please contact<br/>us at<a href="mailto:info@pragmasoft.ua">info@pragmasoft.com.ua</a></p>
+        <p>For any questions, please contact<br/>us at <a href="mailto:info@pragmasoft.ua">info@pragmasoft.com.ua</a></p>
       </div>
       <div class="col-md-6 col-sm-6 col-xs-12 col-lg-6">
         <p class="soc">We are in social networks:</p>
