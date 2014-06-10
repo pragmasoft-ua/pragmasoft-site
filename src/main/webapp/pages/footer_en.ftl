@@ -10,10 +10,10 @@
       <div class="col-md-6 col-sm-6 col-xs-12 col-lg-6">
         <p class="soc">We are in social networks:</p>
         <div class="s-icon-block">
-          <a class="vk" href="http://vk.com/club32131862"></a>
-          <a class="fb" href="https://www.facebook.com/pages/Pragmasoft/681936695176034"></a>
-          <a class="gp" href="https://plus.google.com/u/0/b/118413409251721843650/118413409251721843650/about?hl=ru"></a>
-          <a href="index.html#" data-toggle="modal" data-target="#myModal">
+          <a class="vk" href="http://vk.com/club32131862" target="_blank"></a>
+          <a class="fb" href="https://www.facebook.com/pages/Pragmasoft/681936695176034" target="_blank"></a>
+          <a class="gp" href="https://plus.google.com/u/0/b/118413409251721843650/118413409251721843650/about?hl=ru" target="_blank"></a>
+          <a href="#" data-toggle="modal" data-target="#myModal">
             <div class="mail"></div>
           </a>
         </div>
