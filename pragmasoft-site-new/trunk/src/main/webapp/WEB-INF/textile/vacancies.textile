@@ -19,6 +19,7 @@ h2. Java EE developer
 # Fluent knowledge of Java SE, including: Exceptions, Java Beans, Generics, Annotations, Threads, synchronization, collections, resources, JDBC, Io, Nio, XML, Networking, Security, Reflection. Certification would be a bonus.
 # Freelancing experience would be a bonus.
 
+<br/>
 
 h2. Junior Java EE developer
 
@@ -28,6 +29,8 @@ h2. Junior Java EE developer
 # Technical English - fluent documentation reading.
 # General knowledge in OOP, design patterns.
 # Fluent knowledge of Java SE within the scope of "Sun's Java tutorial":http://java.sun.com/docs/books/tutorial/
+
+<br/>
 
 h2. QA Engineer
 

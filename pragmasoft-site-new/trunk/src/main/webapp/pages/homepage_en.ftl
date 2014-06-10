@@ -312,7 +312,7 @@ Pragmasoft Team has a great experience in server application development. Our ex
               <li>Reduced requirements for the PC processing power (access to the Internet is a must)</li>
               <li>Security</li>
               <li>Fault-tolerance</li>
-            </ul>                 
+            </ul>
             <p>Cloud computing is a profitable opportunity for enterprises to move their servers and IT departments to outsource, thereby reduce overhead costs and focus more on core business.</p><br /><br />
             <p class="uper norm">What we offer</p>
             <p>IaaS (Infrastructure as a Service), PaaS (Platform as a Service), SaaS (Software as a Service), Public, Private, Hybrid Clouds.</p>
@@ -464,8 +464,8 @@ We are constantly evolving to always keep up with fashion trends and make you co
             <ul class="ukr">
               <li>Ukraine is among the five world leaders in export of software products</li>
               <li>Ukraine is among the 30 leading countries in the field of IT-outsourcing</li>
-              <li>Ukraine is the only country in Eastern Europe that has got to the top 25 countries with the best system<br />
-              of higher education (rating was made by The global network<br />
+              <li>Ukraine is the only country in Eastern Europe that has got to the top 25 countries with the best system
+              of higher education (rating was made by The global network
               of research universities "Universitas 21")</li>
               <li>Ukraine is ranked fourth place in the world by number <br />
               of certified IT-specialists</li>

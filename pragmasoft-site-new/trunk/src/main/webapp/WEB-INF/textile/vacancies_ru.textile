@@ -19,6 +19,7 @@ h3. *Требования к кандидату:*
 # Общее хорошее знание java, включая: Exceptions, Java Beans, Generics, Annotations, Threads, cинхронизация потоков, коллекции, ресурсы, JDBC, Io, Nio, XML, Networking, Security, Reflection. сертификат - плюс
 # Опыт фриланса - плюс
 
+<br/>
 
 h2. Java EE подмастерье
 
@@ -29,6 +30,7 @@ h2. Java EE подмастерье
 # Общие знания ООП, паттернов проектирования.
 # Общее хорошее знание java в объеме "Sun's Java tutorial":http://java.sun.com/docs/books/tutorial/
 
+<br/>
 
 h2. Инженер контроля качества
 
