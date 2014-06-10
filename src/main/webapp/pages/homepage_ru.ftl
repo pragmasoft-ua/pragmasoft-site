@@ -131,6 +131,14 @@
 <li>клиентские решения.</li>
 </ul>
             <div class="prodj">
+              <a class="view view-first" href="project/strange-parcel">
+                <img src="${app}/res/img/project/mobile/elfishki.jpg" />
+                <div class="mask">
+                  <h2>Elfishki</h2>
+                  <p>Network Reachability, Core Graphics Framework</p>
+                  <span class="info">Подробнее</span>
+                </div>
+              </a>
               <a class="view view-first" href="project/isign">
                 <img src="${app}/res/img/project/mobile/isign.jpg" />
                 <div class="mask">
