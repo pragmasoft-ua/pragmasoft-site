@@ -12,14 +12,14 @@ Close Friends social network was designed to accumulate the best features of mod
 
 <div class="p-img">
 
-!../res/img/project/design/Close_friends1.jpg!
+!(img-fl-left)../res/img/project/design/Close_friends1.jpg!
 
-!../res/img/project/design/Close_friends3.jpg!
+!(img-fl-left)../res/img/project/design/Close_friends3.jpg!
 
-!../res/img/project/design/Close_friends6.jpg!
+!(img-fl-left)../res/img/project/design/Close_friends6.jpg!
 
-!../res/img/project/design/Close_friends10.jpg!
+!(img-fl-left)../res/img/project/design/Close_friends10.jpg!
 
-!../res/img/project/design/Close_friends11.jpg!
+!(img-fl-left)../res/img/project/design/Close_friends11.jpg!
 
 </div></div>

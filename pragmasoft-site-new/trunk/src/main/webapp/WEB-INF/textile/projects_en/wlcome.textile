@@ -70,12 +70,12 @@ Application features:
 
 <div class="p-img">
 
-!../res/img/project/mobile/wlcome-1.jpg!
+!(img-fl-left)../res/img/project/mobile/wlcome-1.jpg!
 
-!../res/img/project/mobile/wlcome-2.jpg!
+!(img-fl-left)../res/img/project/mobile/wlcome-2.jpg!
 
-!../res/img/project/mobile/wlcome-3.jpg!
+!(img-fl-left)../res/img/project/mobile/wlcome-3.jpg!
 
-!../res/img/project/mobile/wlcome-4.jpg!
+!(img-fl-left)../res/img/project/mobile/wlcome-4.jpg!
 
 </div></div>

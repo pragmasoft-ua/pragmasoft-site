@@ -12,12 +12,12 @@ Thundermist Power Boats web site was designed to immerse users into marine and n
 
 <div class="p-img">
 
-!../res/img/project/design/thundermist1.jpg!
+!(img-fl-left)../res/img/project/design/thundermist1.jpg!
 
-!../res/img/project/design/thundermist2.jpg!
+!(img-fl-left)../res/img/project/design/thundermist2.jpg!
 
-!../res/img/project/design/thundermist3.jpg!
+!(img-fl-left)../res/img/project/design/thundermist3.jpg!
 
-!../res/img/project/design/thundermist4.jpg!
+!(img-fl-left)../res/img/project/design/thundermist4.jpg!
 
 </div></div>

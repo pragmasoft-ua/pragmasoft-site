@@ -22,14 +22,14 @@ The Design Tool deserves a closer look. Pragmasoft has dedicated special attenti
 
 <div class="p-img">
 
-!../res/img/project/java/prinly1.jpg!
+!(img-fl-left)../res/img/project/java/prinly1.jpg!
 
-!../res/img/project/java/prinly2.jpg!
+!(img-fl-left)../res/img/project/java/prinly2.jpg!
 
-!../res/img/project/java/prinly3.jpg!
+!(img-fl-left)../res/img/project/java/prinly3.jpg!
 
-!../res/img/project/java/prinly4.jpg!
+!(img-fl-left)../res/img/project/java/prinly4.jpg!
 
-!../res/img/project/java/prinly5.jpg!
+!(img-fl-left)../res/img/project/java/prinly5.jpg!
 
 </div></div>

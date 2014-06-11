@@ -19,16 +19,16 @@ Vyke's single account billing system allows Vyke users to access any service, 
 
 <div class="p-img">
 
-!../res/img/project/java/Vyke-com-1.jpg!
+!(img-fl-left)../res/img/project/java/Vyke-com-1.jpg!
 
-!../res/img/project/java/Vyke-com-2.jpg!
+!(img-fl-left)../res/img/project/java/Vyke-com-2.jpg!
 
-!../res/img/project/java/Vyke-com-3.jpg!
+!(img-fl-left)../res/img/project/java/Vyke-com-3.jpg!
 
-!../res/img/project/java/Vyke-com-4.jpg!
+!(img-fl-left)../res/img/project/java/Vyke-com-4.jpg!
 
-!../res/img/project/java/Vyke-com-5.jpg!
+!(img-fl-left)../res/img/project/java/Vyke-com-5.jpg!
 
-!../res/img/project/java/Vyke-com-6.jpg!
+!(img-fl-left)../res/img/project/java/Vyke-com-6.jpg!
 
 </div></div>
