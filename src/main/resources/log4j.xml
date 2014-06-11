@@ -20,7 +20,7 @@
     </appender>
     
     <logger name="net.sf.ehcache">
-        <level value="ERROR"/>
+        <level value="DEBUG"/>
         <!-- <appender-ref ref="ROLLING"/> -->
         <appender-ref ref="CONSOLE"/>
     </logger>

@@ -7,34 +7,34 @@
     <meta name="keywords" content="Pragmasoft" />
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="${app}/res/img/favicon.ico">
+    <link rel="shortcut icon" href="${app}res/img/favicon.ico">
 
     <title>Pragmasoft</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="${app}/res/css/bootstrap.min.css" rel="stylesheet">
+    <link href="${app}res/css/bootstrap.min.css" rel="stylesheet">
     <!-- FlexSlider -->
-    <link rel="stylesheet" href="${app}/res/css/flexslider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="${app}res/css/flexslider.css" type="text/css" media="screen" />
 
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="${app}/res/css/parallax.css">
-    <link rel="stylesheet" href="${app}/res/css/style.css">
+    <link rel="stylesheet" href="${app}res/css/parallax.css">
+    <link rel="stylesheet" href="${app}res/css/style.css">
     <!-- CONTAINS BROKEN LINK TO SOME bigimg.jpg -->
-    <link rel="stylesheet" href="${app}/res/css/style1.css">
     <link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto:100italic,300,300italic,400,400italic,100&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script defer src="${app}/res/js/jquery.flexslider.js"></script>
-    <script src="${app}/res/js/anchorscroller.js" type="text/javascript" ></script>
-    <script src="${app}/res/js/smoothscroll.js" type="text/javascript" ></script>
-    <script src="${app}/res/js/jquery.easing.1.3.js" type="text/javascript"></script>
-    <script src="${app}/res/js/jquery.ui.totop.js" type="text/javascript"></script>
+    <script defer src="${app}res/js/jquery.flexslider.js"></script>
+    <script src="${app}res/js/anchorscroller.js" type="text/javascript" ></script>
+    <script src="${app}res/js/smoothscroll.js" type="text/javascript" ></script>
+    <script src="${app}res/js/jquery.easing.1.3.js" type="text/javascript"></script>
+    <script src="${app}res/js/jquery.ui.totop.js" type="text/javascript"></script>
 
-    <script src="${app}/res/js/jquery.ui.totop.js" type="text/javascript"></script>
-    <script src="${app}/res/js/app.js" type="text/javascript"></script>
+    <script src="${app}res/js/jquery.ui.totop.js" type="text/javascript"></script>
+    <script src="${app}res/js/app.js" type="text/javascript"></script>
+    <script src="${app}res/js/highlight.nav.js" type="text/javascript"></script>
     <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="${app}/res/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="${app}res/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -52,9 +52,9 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <div class="htitl"><img src="${app}/res/img/01f_txt.png"></div>
-              <div class="htitl-med"><img src="${app}/res/img/01f_txt.png"></div>
-              <div class="htitl-sm"><img src="${app}/res/img/01m_txt.png"></div>
+              <div class="htitl"><img src="${app}res/img/01f_txt.png"></div>
+              <div class="htitl-med"><img src="${app}res/img/01f_txt.png"></div>
+              <div class="htitl-sm"><img src="${app}res/img/01m_txt.png"></div>
               <div class="tslide flexslider">
                 <ul class="slides">
                   <li><p>«This is a great vendor and I really hope to work with them again. They are professional, knowledgeable and reliable. Great job!»</p></li>
@@ -83,7 +83,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="hndr">
-              <img src="${app}/res/img/10+txt-2.png" alt="">
+              <img src="${app}res/img/10+txt-2.png" alt="">
               <div class="txt1"><span>10</span><br /><br />years<br />of successful<br />software<br />development</div>
               <div class="txt2"><span>100+</span><br /><br />successfully<br />completed<br />projects</div>
               <div class="txt3"><span>100%</span><br /><br />result-<br />oriented<br />company</div>
@@ -91,13 +91,13 @@
             </div>
               
             <div class="bl2-anim">
-              <div class="gus-sm"><img src="${app}/res/img/01_main_b.png"></div>
+              <div class="gus-sm"><img src="${app}res/img/01_main_b.png"></div>
               <div><h2>What we offer</h2></div>
               <div class="bl2-sm">Cutting-edge<br />technologies<hr />Great experience<br />in developing<br />commercially<br />successful projects<hr />Exceptional quality<hr />Wide range<br />of services<hr />Individual approach<br />&amp; fresh ideas</div>             
               <div class="cl2"><div class="alr">Cutting-edge technologies<hr />Great experience in developing commercially successful projects</div></div>
               <div class="cl2"><div class="all">Exceptional quality<hr />Wide range of services<hr />Individual approach<br />&amp; fresh ideas</div></div>
-              <div class="chrph"><img src="${app}/res/img/01_main_che.png"></div>
-              <div class="gus"><img src="${app}/res/img/01_main_b.png"></div>
+              <div class="chrph"><img src="${app}res/img/01_main_che.png"></div>
+              <div class="gus"><img src="${app}res/img/01_main_b.png"></div>
             </div>              
           </div>
         </div>
@@ -124,7 +124,7 @@
             </ul>
             <div class="prodj">
               <a class="view view-first" href="project/strange-parcel">
-                <img src="${app}/res/img/project/mobile/elfishki.jpg" />
+                <img src="${app}res/img/project/mobile/elfishki.jpg" />
                 <div class="mask">
                   <h2>Elfishki</h2>
                   <p>Network Reachability, Core Graphics Framework</p>
@@ -132,7 +132,7 @@
                 </div>
               </a>
               <a class="view view-first" href="project/isign">
-                <img src="${app}/res/img/project/mobile/isign.jpg" />
+                <img src="${app}res/img/project/mobile/isign.jpg" />
                 <div class="mask">
                   <h2>iSIgn</h2>
                   <p>Network Reachability, Core Graphics Framework</p>
@@ -140,7 +140,7 @@
                 </div>
               </a>
               <a class="view view-first"  href="project/mobile-learning-solution" >
-                <img src="${app}/res/img/project/mobile/mls.jpg" />
+                <img src="${app}res/img/project/mobile/mls.jpg" />
                 <div class="mask">
                   <h2>MLS</h2>
                   <p>JavaEE, Spring, Hibernate, JavaME, C++, ATL, WTL, MFC</p>
@@ -148,7 +148,7 @@
                 </div>
               </a> 
               <a class="view view-first"  href="project/momeco">
-                <img src="${app}/res/img/project/mobile/momeco.jpg" />
+                <img src="${app}res/img/project/mobile/momeco.jpg" />
                 <div class="mask">
                   <h2>Memeco</h2>
                   <p>Design, iPhone, icon design, HTML, CSS, Blackberry, Nokia</p>
@@ -156,7 +156,7 @@
                 </div>
               </a>
               <a class="view view-first" href="project/coloring-book-app">
-                <img src="${app}/res/img/project/mobile/story.jpg" />
+                <img src="${app}res/img/project/mobile/story.jpg" />
                 <div class="mask">
                   <h2>COLORING BOOK APP</h2>
                   <p>Facebook API, Media Player Framework</p>
@@ -164,7 +164,7 @@
                 </div>
               </a> 
               <a class="view view-first" href="project/vyke">
-                <img src="${app}/res/img/project/mobile/vike.jpg" />
+                <img src="${app}res/img/project/mobile/vike.jpg" />
                 <div class="mask">
                   <h2>Vyke</h2>
                   <p>AndroidSDK</p>
@@ -172,7 +172,7 @@
                 </div>
               </a>
               <a class="view view-first"  href="project/wlcome">
-                <img src="${app}/res/img/project/mobile/wlcome.jpg" />
+                <img src="${app}res/img/project/mobile/wlcome.jpg" />
                 <div class="mask">
                   <h2>Wlcome</h2>
                   <p>J2EE (EJB 3.0, JPA, JAX-RS), Arquillian for testing</p>
@@ -180,7 +180,7 @@
                 </div>
               </a> 
               <a class="view view-first" href="project/email-manager" >
-                <img src="${app}/res/img/project/mobile/email.jpg" />
+                <img src="${app}res/img/project/mobile/email.jpg" />
                 <div class="mask">
                   <h2>EMAIL MANAGER</h2>
                   <p>UIKit, Custom Table View Control, Async Web Requests</p>
@@ -221,7 +221,7 @@
 Pragmasoft Team has a great experience in server application development. Our experience along with the latest technologies and individual approach to each Сlient will provide you with a reliable partner that can meet your requirements and realize the most challenging ideas.</p>
             <div class="prodj">
               <a class="view view-first"  href="project/affordrx">
-                <img src="${app}/res/img/project/java/affordx.jpg" />
+                <img src="${app}res/img/project/java/affordx.jpg" />
                 <div class="mask">
                   <h2>Affordx</h2>
                   <p>JavaEE, RestEASY, HTMLEasy, MySQL, Hibernate, Jboss7</p>
@@ -229,7 +229,7 @@ Pragmasoft Team has a great experience in server application development. Our ex
                 </div>
               </a>
               <a class="view view-first" href="project/handpoint">
-                <img src="${app}/res/img/project/java/handpoint.jpg" />
+                <img src="${app}res/img/project/java/handpoint.jpg" />
                 <div class="mask">
                   <h2>Handpoint</h2>
                   <p>JavaEE, Spring, Hibernate, JavaME, C++, ATL, WTL, MFC</p>
@@ -237,7 +237,7 @@ Pragmasoft Team has a great experience in server application development. Our ex
                 </div>
               </a> 
               <a class="view view-first" href="project/mdc">
-                <img src="${app}/res/img/project/java/mdc.jpg" />
+                <img src="${app}res/img/project/java/mdc.jpg" />
                 <div class="mask">
                   <h2>Medication Discount Card</h2>
                   <p>JavaEE, RestEASY, HTMLEasy, MySQL, Hibernate, Jboss7</p>
@@ -245,7 +245,7 @@ Pragmasoft Team has a great experience in server application development. Our ex
                 </div>
               </a> 
               <a class="view view-first" href="project/vyke-dashboard">
-                <img src="${app}/res/img/project/java/vyke-dash.jpg" />
+                <img src="${app}res/img/project/java/vyke-dash.jpg" />
                 <div class="mask">
                   <h2>VYKE Dashboard</h2>
                   <p>JavaEE, JSF, RichFaces, AJAX4JSF, SIFR, Facelets</p>
@@ -253,7 +253,7 @@ Pragmasoft Team has a great experience in server application development. Our ex
                 </div>
               </a>              
               <a class="view view-first" href="#" data-toggle="modal" data-target="#myModal">
-                <img src="${app}/res/img/project/free-project2.jpg" />
+                <img src="${app}res/img/project/free-project2.jpg" />
                 <div class="mask">
                   <h2>Order a Project</h2>
                   <p>JavaEE, Spring, Hibernate, JavaME, C++, ATL, WTL, MFC</p>
@@ -261,7 +261,7 @@ Pragmasoft Team has a great experience in server application development. Our ex
                 </div>
               </a>
               <a class="view view-first" href="project/vyke-communications">
-                <img src="${app}/res/img/project/java/vyke-j.jpg" />
+                <img src="${app}res/img/project/java/vyke-j.jpg" />
                 <div class="mask">
                   <h2>Vyke Communications</h2>
                   <p>JavaEE, Spring, Hibernate, JSF, AJAX (Richfaces)</p>
@@ -269,7 +269,7 @@ Pragmasoft Team has a great experience in server application development. Our ex
                 </div>
               </a>
               <a class="view view-first" href="#" data-toggle="modal" data-target="#myModal">
-                <img src="${app}/res/img/project/free-project2.jpg" />
+                <img src="${app}res/img/project/free-project2.jpg" />
                 <div class="mask">
                   <h2>Order a Project</h2>
                   <p>JavaEE, Spring, Hibernate, JavaME, C++, ATL, WTL, MFC</p>
@@ -277,7 +277,7 @@ Pragmasoft Team has a great experience in server application development. Our ex
                 </div>
               </a>
               <a class="view view-first" href="project/prinly">
-                <img src="${app}/res/img/project/java/prinly.jpg" />
+                <img src="${app}res/img/project/java/prinly.jpg" />
                 <div class="mask">
                   <h2>Prinly</h2>
                   <p>Adobe Flex, Java, JavaScript, REST, Spring, Hibernate, Apache Click</p>
@@ -318,7 +318,7 @@ Pragmasoft Team has a great experience in server application development. Our ex
             <p>IaaS (Infrastructure as a Service), PaaS (Platform as a Service), SaaS (Software as a Service), Public, Private, Hybrid Clouds.</p>
             <div class="prodj">
               <a class="view view-first" href="project/amarco">
-                <img src="${app}/res/img/project/cloud/desk-mark.jpg" />
+                <img src="${app}res/img/project/cloud/desk-mark.jpg" />
                 <div class="mask">
                   <h2>AMARCO</h2>
                   <p>JavaEE, Spring, Hibernate, JavaME, C++, ATL, WTL, MFC</p>
@@ -326,7 +326,7 @@ Pragmasoft Team has a great experience in server application development. Our ex
                 </div>
               </a>
               <a class="view view-first" href="project/mtp">
-                <img src="${app}/res/img/project/cloud/Mobile-Ticketing.jpg" />
+                <img src="${app}res/img/project/cloud/Mobile-Ticketing.jpg" />
                 <div class="mask">
                   <h2>Mobile-Ticketing</h2>
                   <p>JavaEE, Spring, Hibernate, JavaME, C++, ATL, WTL, MFC</p>
@@ -334,7 +334,7 @@ Pragmasoft Team has a great experience in server application development. Our ex
                 </div>
               </a>
               <a class="view view-first" href="project/resume">
-                <img src="${app}/res/img/project/cloud/resume-io.jpg" />
+                <img src="${app}res/img/project/cloud/resume-io.jpg" />
                 <div class="mask">
                   <h2>Resume-io</h2>
                   <p>Google Appengine (GAE), JavaEE, JDO, CDI, iText</p>
@@ -342,7 +342,7 @@ Pragmasoft Team has a great experience in server application development. Our ex
                 </div>
               </a>
               <a class="view view-first" href="#" data-toggle="modal" data-target="#myModal">
-                <img src="${app}/res/img/project/free-project.jpg" />
+                <img src="${app}res/img/project/free-project.jpg" />
                 <div class="mask">
                   <h2>Order a project</h2>
                   <p>JavaEE, Spring, Hibernate, JavaME, C++, ATL, WTL, MFC</p>
@@ -378,7 +378,7 @@ Nevertheless, at the heart of our projects are always the business goals of the 
 We are constantly evolving to always keep up with fashion trends and make you contacted us again and again.</p>
             <div class="prodj">
               <a class="view view-first" href="project/abc">
-                <img src="${app}/res/img/project/design/abc.jpg" />
+                <img src="${app}res/img/project/design/abc.jpg" />
                 <div class="mask">
                   <h2>All Business Cards</h2>
                   <p>Web design, logo design, Flash banner animation, XHTML/CSS</p>
@@ -386,7 +386,7 @@ We are constantly evolving to always keep up with fashion trends and make you co
                 </div>
               </a>
               <a class="view view-first" href="project/acs">
-                <img src="${app}/res/img/project/design/acs.jpg" />
+                <img src="${app}res/img/project/design/acs.jpg" />
                 <div class="mask">
                   <h2>Acs</h2>
                   <p>Header redesign, HTML/CSS</p>
@@ -394,7 +394,7 @@ We are constantly evolving to always keep up with fashion trends and make you co
                 </div>
               </a>
               <a class="view view-first" href="project/arcas">
-                <img src="${app}/res/img/project/design/arcas.jpg" />
+                <img src="${app}res/img/project/design/arcas.jpg" />
                 <div class="mask">
                   <h2>Arcas</h2>
                   <p>JavaScript, Jquery, HTML/CSS</p>
@@ -402,7 +402,7 @@ We are constantly evolving to always keep up with fashion trends and make you co
                 </div>
               </a>
               <a class="view view-first" href="project/branchenbuch">
-                <img src="${app}/res/img/project/design/branch.jpg" />
+                <img src="${app}res/img/project/design/branch.jpg" />
                 <div class="mask">
                   <h2>BRANCHENBUCH</h2>
                   <p>JavaEE, Spring, Hibernate, JavaME, C++, ATL, WTL, MFC</p>
@@ -410,7 +410,7 @@ We are constantly evolving to always keep up with fashion trends and make you co
                 </div>
               </a>              
               <a class="view view-first" href="project/close-friends">
-                <img src="${app}/res/img/project/design/friends.jpg" />
+                <img src="${app}res/img/project/design/friends.jpg" />
                 <div class="mask">
                   <h2>Friends</h2>
                   <p>Web design, UI optimization, logo design</p>
@@ -418,7 +418,7 @@ We are constantly evolving to always keep up with fashion trends and make you co
                 </div>
               </a>
               <a class="view view-first" href="project/horse-racing">
-                <img src="${app}/res/img/project/design/horse.jpg" />
+                <img src="${app}res/img/project/design/horse.jpg" />
                 <div class="mask">
                   <h2>HORSE RACING</h2>
                   <p>Web design, UI optimization, logo design, XHTML/CSS</p>
@@ -426,7 +426,7 @@ We are constantly evolving to always keep up with fashion trends and make you co
                 </div>
               </a>
               <a class="view view-first" href="project/jacksonco">
-                <img src="${app}/res/img/project/design/jackson.jpg" />
+                <img src="${app}res/img/project/design/jackson.jpg" />
                 <div class="mask">
                   <h2>JACKSONCO SUPPLY</h2>
                   <p>Web design, logo design, icon design, UI optimization</p>
@@ -434,7 +434,7 @@ We are constantly evolving to always keep up with fashion trends and make you co
                 </div>
               </a>
               <a class="view view-first" href="project/thundermist">
-                <img src="${app}/res/img/project/design/thunder.jpg" />
+                <img src="${app}res/img/project/design/thunder.jpg" />
                 <div class="mask">
                   <h2>THUNDERMIST</h2>
                   <p>JavaEE, Spring, Hibernate, JavaME, C++, ATL, WTL, MFC</p>
@@ -475,7 +475,7 @@ We are constantly evolving to always keep up with fashion trends and make you co
             
             <p>Availability of qualified, certified specialists<br />in combination with a wealth of experience <br />proportionate to the demand of the world market,<br /> has provided Ukraine with a powerful potential.</p>          
             <div class="bl7-bg1"></div>
-            <div class="bl7-bg1-sm"><img src="${app}/res/img/03m_ua.png"></div>
+            <div class="bl7-bg1-sm"><img src="${app}res/img/03m_ua.png"></div>
           </div>
         </div>
       </div>
@@ -496,7 +496,7 @@ We are constantly evolving to always keep up with fashion trends and make you co
               <div></div>
               <div></div>
             </div>
-            <div class="v-btn"><a href="${app}/vacancies">Join the team →</a></div>
+            <div class="v-btn"><a href="${app}vacancies">Join the team →</a></div>
           </div>
         </div>
       </div>
@@ -528,8 +528,8 @@ We are constantly evolving to always keep up with fashion trends and make you co
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->    
-    <script src="${app}/res/js/bootstrap.min.js"></script>
-    <script src="${app}/res/js/jquery.scrolly.js"></script>
+    <script src="${app}res/js/bootstrap.min.js"></script>
+    <script src="${app}res/js/jquery.scrolly.js"></script>
     
   </body>
 </html>

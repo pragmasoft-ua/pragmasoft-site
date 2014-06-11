@@ -17,12 +17,12 @@ h1. Vyke
 
 <div class="p-img">
 
-!../res/img/project/java/Vyke-j-1.jpg!
+!(img-fl-left)../res/img/project/java/Vyke-j-1.jpg!
 
-!../res/img/project/java/Vyke-j-2.jpg!
+!(img-fl-left)../res/img/project/java/Vyke-j-2.jpg!
 
-!../res/img/project/java/Vyke-j-3.jpg!
+!(img-fl-left)../res/img/project/java/Vyke-j-3.jpg!
 
-!../res/img/project/java/Vyke-j-4.jpg!
+!(img-fl-left)../res/img/project/java/Vyke-j-4.jpg!
 
 </div></div>

@@ -16,7 +16,6 @@ import org.slf4j.LoggerFactory;
 
 public class ContextPathFilter implements Filter {
 
-	private static final String APP = "app";
 	private final static Logger log = LoggerFactory.getLogger(ContextPathFilter.class);	
 	private HttpSession session;
 	
@@ -31,11 +30,8 @@ public class ContextPathFilter implements Filter {
 		HttpServletRequest httpRequest = (HttpServletRequest)request;
 		session = httpRequest.getSession();
 
-		// Parameter for freemarker
-		if (null == session.getAttribute(APP)) {
-			session.setAttribute(APP, httpRequest.getContextPath());
-		}
-		session.setAttribute("currentPath", httpRequest.getRequestURI());
+		String requestedUri = httpRequest.getRequestURI();
+		session.setAttribute("currentPath", requestedUri.substring(0, requestedUri.length()));
 		chain.doFilter(request, response);
 		
 	}
