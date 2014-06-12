@@ -12,6 +12,8 @@ public class SessionListener implements HttpSessionListener {
 		String contextPath = session.getServletContext().getContextPath();
 		if (contextPath.equals("")) {			
 			contextPath = "/";
+		} else {
+			contextPath = contextPath.concat("/");
 		}
 		session.setAttribute("app", contextPath);
 	}
