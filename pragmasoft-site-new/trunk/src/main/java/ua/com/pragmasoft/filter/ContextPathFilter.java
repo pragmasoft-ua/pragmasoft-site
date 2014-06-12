@@ -38,11 +38,19 @@ public class ContextPathFilter implements Filter {
 		String contextPath = request.getContextPath();
 		String requestedUrl = request.getRequestURL().toString();
 		String port = String.valueOf(request.getServerPort());
+		String serverName = request.getServerName();
+		String portWithContextPath = port.concat(contextPath);
+		String serverNameWithContextPath = serverName.concat(contextPath);
 		
-		if (!contextPath.isEmpty() || !requestedUrl.contains(port)) {
-			return requestedUrl.substring(0, requestedUrl.indexOf(contextPath) + contextPath.length());
+		if (!contextPath.isEmpty()) {
+			return requestedUrl.contains(port) ?
+				requestedUrl.substring(0, requestedUrl.indexOf(port) + portWithContextPath.length()) :
+				requestedUrl.substring(0, requestedUrl.indexOf(serverName) + serverNameWithContextPath.length());
 		}
-		return requestedUrl.substring(0, requestedUrl.indexOf(port) + port.length());
+		
+		return (requestedUrl.contains(port)) ?
+			requestedUrl.substring(0, requestedUrl.indexOf(port) + port.length()) :
+			requestedUrl.substring(0, requestedUrl.indexOf(serverName) + serverNameWithContextPath.length());		
 	}
 
 	@Override
