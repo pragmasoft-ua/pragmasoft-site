@@ -30,10 +30,20 @@ public class ContextPathFilter implements Filter {
 		HttpServletRequest httpRequest = (HttpServletRequest)request;
 		session = httpRequest.getSession();
 
-		String requestedUri = httpRequest.getRequestURI();
-		session.setAttribute("currentPath", requestedUri.substring(0, requestedUri.length()));
-		chain.doFilter(request, response);
+		session.setAttribute("home", getHomePageUrl(httpRequest));
+		chain.doFilter(request, response);		
+	}
+	
+	private String getHomePageUrl(HttpServletRequest request) {
+		String contextPath = request.getContextPath();
+		String requestedUrl = request.getRequestURL().toString();
 		
+		if (!contextPath.isEmpty()) {
+			return requestedUrl.substring(0, requestedUrl.indexOf(contextPath) + contextPath.length());
+		} else {
+			String port = String.valueOf(request.getServerPort());
+			return requestedUrl.substring(0, requestedUrl.indexOf(port) + port.length());
+		}
 	}
 
 	@Override
