@@ -1,16 +1,15 @@
-<#macro apply title="Pragmasoft" language="en" keywords="Pragmasoft">
 <!DOCTYPE html>
 <html lang="en">
   <head>
   	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="${keywords}" />
+    <meta name="keywords" content="Pragmasoft" />
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="${app}res/img/favicon.ico">
 
-    <title>${title}</title>
+    <title>Pragmasoft</title>
 
     <!-- Bootstrap core CSS -->
     <link href="${app}res/css/bootstrap.min.css" rel="stylesheet">
@@ -32,6 +31,7 @@
 
     <script src="${app}res/js/jquery.ui.totop.js" type="text/javascript"></script>
     <script src="${app}res/js/app.js" type="text/javascript"></script>
+    <script src="${app}res/js/highlight.vacancies.js" type="text/javascript"></script>
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="${app}res/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
@@ -53,14 +53,7 @@
             <div class="col-md-12">
                 <!--Content-->
                 <div class="content">
-                  <#if language = "ru">
-                    <div class="pr-btn-order"><a data-toggle="modal" data-target="#myModal" href="#">Заказать проект</a></div>
-                  <#else>
-                    <div class="pr-btn-order"><a data-toggle="modal" data-target="#myModal" href="#">Order a Project</a></div>
-                  </#if>
-                  <!-- START NESTED CONTENT -->             
-                  <#nested/>
-                  <!-- END NESTED CONTENT --> 
+                  ${text}
                 </div>
                 <div class="clearfix"></div>
                 <!--end content-->
@@ -86,4 +79,3 @@
     <script src="${app}res/js/bootstrap.min.js"></script>
     <script src="${app}res/js/jquery.scrolly.js"></script>
   </body>
-  </#macro>

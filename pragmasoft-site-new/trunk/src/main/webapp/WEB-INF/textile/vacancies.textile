@@ -3,6 +3,9 @@ keywords:Pragmasoft|Java|JavaEE|AJAX|QA
 
 h1. Vacancies
 
+
+<div class="vc-box">
+
 h2. Java EE developer
 
 *Requirements:*
@@ -19,7 +22,9 @@ h2. Java EE developer
 # Fluent knowledge of Java SE, including: Exceptions, Java Beans, Generics, Annotations, Threads, synchronization, collections, resources, JDBC, Io, Nio, XML, Networking, Security, Reflection. Certification would be a bonus.
 # Freelancing experience would be a bonus.
 
-<br/>
+</div>
+
+<div class="vc-box">
 
 h2. Junior Java EE developer
 
@@ -30,7 +35,9 @@ h2. Junior Java EE developer
 # General knowledge in OOP, design patterns.
 # Fluent knowledge of Java SE within the scope of "Sun's Java tutorial":http://java.sun.com/docs/books/tutorial/
 
-<br/>
+</div>
+
+<div class="vc-box">
 
 h2. QA Engineer
 
@@ -46,3 +53,5 @@ h2. QA Engineer
 # Experience in automated/load testing
 # Fluent use of tools: bug and task trackers, virtual machines, test automation tools, load testing tools, source code control
 # Understanding of HTML, CSS, scripting is desirable
+
+</div>
