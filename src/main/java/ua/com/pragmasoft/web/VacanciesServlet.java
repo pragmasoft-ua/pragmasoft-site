@@ -51,6 +51,6 @@ public class VacanciesServlet extends HttpServlet {
 			String content = TextProcessorFactory.getMarkdownProcessor().textToHtml(formattedText);			
 			request.setAttribute("text", content);
 		}
-		request.getRequestDispatcher("/pages/content.ftl").forward(request, response);
+		request.getRequestDispatcher("/pages/vacancies.ftl").forward(request, response);
 	}
 }
