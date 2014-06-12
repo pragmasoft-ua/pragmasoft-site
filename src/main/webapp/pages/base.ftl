@@ -32,6 +32,7 @@
 
     <script src="${app}res/js/jquery.ui.totop.js" type="text/javascript"></script>
     <script src="${app}res/js/app.js" type="text/javascript"></script>
+    <script src="${app}res/js/highlight.vacancies.js" type="text/javascript"></script>
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="${app}res/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
