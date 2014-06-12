@@ -18,6 +18,7 @@ public class ContextPathFilter implements Filter {
 
 	private final static Logger log = LoggerFactory.getLogger(ContextPathFilter.class);	
 	private HttpSession session;
+	private static String homePage;
 	
 	@Override
 	public void init(FilterConfig filterConfig) throws ServletException {
@@ -30,7 +31,11 @@ public class ContextPathFilter implements Filter {
 		HttpServletRequest httpRequest = (HttpServletRequest)request;
 		session = httpRequest.getSession();
 
-		session.setAttribute("home", getHomePageUrl(httpRequest));
+		if (null == homePage) {
+			homePage = getHomePageUrl(httpRequest);
+		}
+		
+		session.setAttribute("home", homePage);
 		chain.doFilter(request, response);		
 	}
 	
