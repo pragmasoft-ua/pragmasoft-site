@@ -8,7 +8,7 @@ h1. Vyke
 
 *Technologies:* AndroidSDK
 
-"Vyke Technologies":http://www.vyke.com/  has just released Android Mobile Client, its development was covered by Pragmasoft.
+"Vyke Technologies":http://www.vyke.com  has just released Android Mobile Client, its development was covered by Pragmasoft.
 
 It lets you make international calls from an Android phone way cheaper. It supports Vyke Callback and Callthough features. To make a call, you should open Android Mobile client and select the number you like to call. Click Call in Mobile Client, and your phone connects to the Vyke server via GPRS/EDGE/3G to make a call. So within seconds you get connected to the destination phone. 
 
