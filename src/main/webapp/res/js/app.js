@@ -18,10 +18,7 @@ $(document).ready(function() {
 		nextText: ""
 	});
 
-	$('.parallax.top').scrolly();
-	$('.parallax.bkg').scrolly({bgParallax: true});
-
-
+	// Hide menu button on click in mobile mode
 	$('.menuItem').click(function(event) {
 		event.stopPropagation();
 		var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
@@ -29,6 +26,34 @@ $(document).ready(function() {
 		var target = $this.attr('data-parent');
 		if (width < 769) {
 			$(target).collapse('toggle');			
+		}
+	});
+	
+	// Initialize form check
+	$('#modalForm').validate({
+		rules: {
+			requesterName: {
+				minlength: 2,
+				required: true
+			},
+			requesterEmail: {
+				email: true,
+				required: true
+			},
+			message: {
+				minlength: 5,
+				required: true
+			}
+		}
+	});		
+
+	$('.m-btn').click(function() {
+		if ($('#modalForm').valid()) {
+			$.post('/email', $('#modalForm').serialize())
+				.done(function() {
+					$('#myModal').trigger("reset");
+					$('#myModal').modal('hide')
+				});
 		}
 	});
 

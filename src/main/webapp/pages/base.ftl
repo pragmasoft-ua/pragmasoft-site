@@ -32,8 +32,10 @@
 
     <script src="${app}res/js/jquery.ui.totop.js" type="text/javascript"></script>
     <script src="${app}res/js/app.js" type="text/javascript"></script>
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="${app}res/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="${app}res/js/jquery.validate.min.js" type="text/javascript"></script>
+    <#if language = "ru">
+    	<script src="${app}res/js/localization/messages_ru.js" type="text/javascript"></script>
+    </#if>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
