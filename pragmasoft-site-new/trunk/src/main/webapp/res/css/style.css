@@ -1051,6 +1051,7 @@ ul.prodj li:hover {
     padding: 10px 35px;
     float: right;
     margin: 25px 8px 0 0;
+    margin-bottom: 60px;
     color: #44464b;
     font-size: 18px
 }
@@ -1112,9 +1113,6 @@ ul.prodj li:hover {
 div.foto > img {
     max-width: 100%;
     height: auto;
-}
-div.v-btn {
-    margin-bottom: 60px;
 }
 /*.block8 .foto div:nth-of-type(1) {
     width: 250px;
