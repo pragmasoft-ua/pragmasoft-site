@@ -30,6 +30,7 @@
     <script src="${app}res/js/jquery.ui.totop.js" type="text/javascript"></script>
     <script src="${app}res/js/app.js" type="text/javascript"></script>
     <script src="${app}res/js/highlight.nav.js" type="text/javascript"></script>
+    <script src="${app}res/js/jquery.validate.min.js" type="text/javascript"></script>    
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -484,6 +485,10 @@ We are constantly evolving to always keep up with fashion trends and make you co
           <div class="col-md-12">
             <h2>Our team</h2>
             <div class="foto">
+              <img src="http://localhost:8080/res/img/foto/1.jpg">
+            </div>
+            <div class="v-btn"><a href="${app}vacancies">Join the team →</a></div>
+            <!-- <div class="foto">
               <div></div>
               <div></div>
               <div></div>
@@ -492,7 +497,7 @@ We are constantly evolving to always keep up with fashion trends and make you co
               <div></div>
             </div>
             <div class="v-btn"><a href="${app}vacancies">Join the team →</a></div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>

@@ -5,7 +5,7 @@
       <div class="fot-img-sm"><img src="${app}res/img/01m_txt.png"></div>
       <div class="col-md-6 col-sm-6 col-xs-12 col-lg-6">
         <img src="${app}res/img/pragmasoft.png" alt="Pragmasoft">
-        <p>С любыми вопросами и предложениями<br />пишите нам на <a href="mailto:info@pragmasoft.ua">info@pragmasoft.com.ua</a></p>
+        <p>С любыми вопросами и предложениями<br />пишите нам на <a href="mailto:info@pragmasoft.com.ua">info@pragmasoft.com.ua</a></p>
       </div>
       <div class="col-md-6 col-sm-6 col-xs-12 col-lg-6">
         <p class="soc">Мы в социальных сетях:</p>
@@ -31,7 +31,7 @@
         <p>© 2014 Pragmasoft. Все права защищены</p>
       </div>
       <div class="col-md-6 col-sm-6 col-xs-12 col-lg-6">
-        <a href="mailto:info@pragmasoft.ua" data-toggle="modal" data-target="#myModal">Свяжитесь с нами</a>
+        <a href="mailto:info@pragmasoft.com.ua" data-toggle="modal" data-target="#myModal">Свяжитесь с нами</a>
       </div>
     </div>
   </div>

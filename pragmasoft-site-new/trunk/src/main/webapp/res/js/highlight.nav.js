@@ -21,4 +21,7 @@ $(document).ready(function() {
 				$('a#we').parent().addClass("active");
 			}
 		});
+
+	$('.parallax.top').scrolly();
+	$('.parallax.bkg').scrolly({bgParallax: true});
 });

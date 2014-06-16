@@ -1081,13 +1081,7 @@ ul.prodj li:hover {
 .block8 .foto {
     clear: both
 }
-.block8 .foto div {
-    float: left;
-    display: inline-block;
-    border: 1px solid #fff;
-    margin: 2px
-}
-.block8 .foto div {
+.block8 .foto img {
     filter: grayscale(100%);
     /* Current draft standard */
     -webkit-filter: grayscale(100%);
@@ -1102,7 +1096,7 @@ ul.prodj li:hover {
     -webkit-filter: grayscale(1);
     /* Old WebKit */
 }
-.block8 .foto div:hover {
+.block8 .foto img:hover {
     /*filter: grayscale(0%); /* Current draft standard */
     -webkit-filter: grayscale(0%);
     /* New WebKit */
@@ -1115,7 +1109,14 @@ ul.prodj li:hover {
     /* Old WebKit */
     cursor: pointer
 }
-.block8 .foto div:nth-of-type(1) {
+div.foto > img {
+    max-width: 100%;
+    height: auto;
+}
+div.v-btn {
+    margin-bottom: 60px;
+}
+/*.block8 .foto div:nth-of-type(1) {
     width: 250px;
     height: 403px;
     background: url(../img/foto/foto-1-col.jpg) no-repeat;
@@ -1144,7 +1145,7 @@ ul.prodj li:hover {
     width: 193px;
     height: 182px;
     background: url(../img/foto/foto-6-col.jpg) no-repeat
-}
+}*/
 /*** block 9 ***/
 
 .block9 {
@@ -1307,7 +1308,7 @@ ul.prodj li:hover {
         background-size: 110%;
         background-position: 40px 80px
     }
-    .block8 .foto div {
+    /*.block8 .foto div {
         border: 1px solid #fff;
         margin: 5px
     }
@@ -1342,7 +1343,7 @@ ul.prodj li:hover {
         width: 167px;
         height: 182px;
         background: url(../img/foto/foto-6-col.jpg) no-repeat
-    }
+    }*/
     .v-btn {
         width: 250px;
         margin: 0 auto
@@ -1375,7 +1376,7 @@ ul.prodj li:hover {
         left: 125px !important;
         line-height: 36px
     }
-    .block8 .foto {
+    /*.block8 .foto {
         width: 720px !important;
         margin: 0 auto 0 !important;
     }
@@ -1414,7 +1415,7 @@ ul.prodj li:hover {
         width: 167px;
         height: 182px;
         background: url(../img/foto/foto-6-col.jpg) no-repeat
-    }
+    }*/
 }
 @media (min-width: 769px) and (max-width: 1000px) {
     .block1 {
@@ -1504,7 +1505,7 @@ ul.prodj li:hover {
     .cl2 {
         height: 235px
     }
-    .block8 .foto div {
+    /*.block8 .foto div {
         border: 1px solid #fff;
         margin: 5px
     }
@@ -1539,7 +1540,7 @@ ul.prodj li:hover {
         width: 167px;
         height: 182px;
         background: url(../img/foto/foto-6-col.jpg) no-repeat
-    }
+    }*/
     .v-btn {
         width: 250px;
         margin: 0 auto

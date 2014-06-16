@@ -29,11 +29,19 @@
 
     <!-- Servlet api -->
     <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>servlet-api</artifactId>
-      <version>2.5</version>
-      <scope>provided</scope>
-    </dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>javax.servlet-api</artifactId>
+        <version>3.0.1</version>
+        <scope>provided</scope>
+	</dependency>
+    
+    <!-- Mail API -->
+    <dependency>
+		<groupId>javax.mail</groupId>
+		<artifactId>mail</artifactId>
+		<version>1.4.7</version>
+		<scope>provided</scope>
+	</dependency>
 
     <!-- Freemarker -->
     <dependency>
@@ -67,6 +75,13 @@
 	  <artifactId>ehcache-web</artifactId>
 	  <version>2.0.4</version>
     </dependency>
+    
+    <!-- Utils -->
+    <dependency>
+		<groupId>org.apache.commons</groupId>
+		<artifactId>commons-lang3</artifactId>
+		<version>3.3.2</version>
+	</dependency>    
     
     <dependency>
 	  <groupId>net.sf.ehcache</groupId>
