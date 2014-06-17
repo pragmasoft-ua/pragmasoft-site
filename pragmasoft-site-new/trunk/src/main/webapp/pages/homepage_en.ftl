@@ -485,7 +485,7 @@ We are constantly evolving to always keep up with fashion trends and make you co
           <div class="col-md-12">
             <h2>Our team</h2>
             <div class="foto">
-              <img src="http://localhost:8080/res/img/foto/1.jpg">
+              <img src="${app}res/img/foto/1.jpg">
             </div>
             <div class="v-btn"><a href="${app}vacancies">Join the team →</a></div>
             <!-- <div class="foto">
