@@ -585,7 +585,7 @@
         <div class="col-md-12">
           <h2>Наша команда</h2>
           <div class="foto">
-            <img src="http://localhost:8080/res/img/foto/1.jpg">
+            <img src="${app}res/img/foto/1.jpg">
           </div>
           <div class="v-btn"><a href="${app}vacancies">Хочу в команду →</a></div>
           <!-- <div class="foto">
