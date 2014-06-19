@@ -501,35 +501,36 @@ We are constantly evolving to always keep up with fashion trends and make you co
         </div>
       </div>
     </div>
+  </div>
  
-    <!--block9 -->
-    <div class="block9"><a class="anc-q" name="quality"></a>
-      <div class="botimg">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <h2>Software Quality<br />Assurance</h2>
-              <p>We put serious attention to quality of our product. We have dedicated QA department, and fair number of devices available for testing, including smart-phones and tablets (IOS, Android, Blackberry and Win Phone powered).</p><br />
-              <p>Our team has wide software testing experience from  simple applications to complicated cross-functional ones to offer our Clients the best software quality assurance services.</p>
-              <div class="ftifl">When ideas<br />
-                &nbsp;&nbsp;&nbsp;&nbsp;turn into real<span>it</span>y
-              </div>
+  <!--block9 -->
+  <div class="block9"><a class="anc-q" name="quality"></a>
+    <div class="botimg">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Software Quality<br />Assurance</h2>
+            <p>We put serious attention to quality of our product. We have dedicated QA department, and fair number of devices available for testing, including smart-phones and tablets (IOS, Android, Blackberry and Win Phone powered).</p><br />
+            <p>Our team has wide software testing experience from  simple applications to complicated cross-functional ones to offer our Clients the best software quality assurance services.</p>
+            <div class="ftifl">When ideas<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;turn into real<span>it</span>y
             </div>
-          </div>  
-        </div>          
-      </div>
+          </div>
+        </div>  
+      </div>          
     </div>
+  </div>
 
-    <#include "footer_en.ftl" />
-      
-    <!-- Modal -->
-    <#include "orderProject_en.ftl" />
+  <#include "footer_en.ftl" />
+    
+  <!-- Modal -->
+  <#include "orderProject_en.ftl" />
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->    
-    <script src="${app}res/js/bootstrap.min.js"></script>
-    <script src="${app}res/js/jquery.scrolly.js"></script>
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->    
+  <script src="${app}res/js/bootstrap.min.js"></script>
+  <script src="${app}res/js/jquery.scrolly.js"></script>
     
   </body>
 </html>
