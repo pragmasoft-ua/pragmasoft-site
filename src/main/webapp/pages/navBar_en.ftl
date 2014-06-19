@@ -10,10 +10,10 @@
     </button>
     <div class="tnavbar navbar-collapse collapse" id="menu" style="height: 1px;">
       <ul class="nav navbar-nav">
-        <li><a href="${home}#nas" id="we" class="menuItem" data-parent=".tnavbar" onclick="return anchorScroller(this)" >About Us</a></li>
-        <li><a href="${home}#projects" id="proj" class="menuItem" data-parent=".tnavbar" onclick="return anchorScroller(this)">Projects</a></li>
-        <li class="comd"><a href="${home}#comand" id="com" class="menuItem" data-parent=".tnavbar" onclick="return anchorScroller(this)">Our team</a></li>
-        <li><a href="${home}#quality" id="qual" class="menuItem" data-parent=".tnavbar" onclick="return anchorScroller(this)">Quality</a></li>
+        <li><a href="${app}#nas" id="we" class="menuItem" data-parent=".tnavbar" onclick="return anchorScroller(this)" >About Us</a></li>
+        <li><a href="${app}#projects" id="proj" class="menuItem" data-parent=".tnavbar" onclick="return anchorScroller(this)">Projects</a></li>
+        <li class="comd"><a href="${app}#comand" id="com" class="menuItem" data-parent=".tnavbar" onclick="return anchorScroller(this)">Our team</a></li>
+        <li><a href="${app}#quality" id="qual" class="menuItem" data-parent=".tnavbar" onclick="return anchorScroller(this)">Quality</a></li>
         <li><a href="${app}vacancies" id="vac">Vacancies</a></li>
         <li class="npnm"><a href="#" data-toggle="modal" data-target="#myModal">Contact us</a></li>
         <ul class="sm-navlang">
