@@ -3,7 +3,7 @@
 
 <log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
     <appender name="ROLLING" class="org.apache.log4j.RollingFileAppender">
-        <param name="File" value="/home/rand0m/log/pragmasoft.log" />
+        <param name="File" value="/var/lib/tomcat7/logs/pragmasoft.log" />
         <param name="maxFileSize" value="100000KB" />
         <param name="maxBackupIndex" value="5" />
         <layout class="org.apache.log4j.PatternLayout">
