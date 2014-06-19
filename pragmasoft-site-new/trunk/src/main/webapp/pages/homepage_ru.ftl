@@ -602,6 +602,7 @@
       </div>
     </div>
   </div>
+  </div>
 
   <!--block9 -->
   <div class="block9">
