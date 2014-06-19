@@ -57,4 +57,7 @@ $(document).ready(function() {
 		}
 	});
 
+	// dirty hack to fire some events in Mozilla
+	$(window).scrollTop($(window).scrollTop()+1);
+
 });
