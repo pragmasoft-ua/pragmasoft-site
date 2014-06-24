@@ -1051,7 +1051,6 @@ ul.prodj li:hover {
     padding: 10px 35px;
     float: right;
     margin: 25px 8px 0 0;
-    margin-bottom: 60px;
     color: #44464b;
     font-size: 18px
 }
@@ -1082,7 +1081,13 @@ ul.prodj li:hover {
 .block8 .foto {
     clear: both
 }
-.block8 .foto img {
+.block8 .foto div {
+    float: left;
+    display: inline-block;
+    border: 1px solid #fff;
+    margin: 2px
+}
+.block8 .foto div {
     filter: grayscale(100%);
     /* Current draft standard */
     -webkit-filter: grayscale(100%);
@@ -1097,7 +1102,7 @@ ul.prodj li:hover {
     -webkit-filter: grayscale(1);
     /* Old WebKit */
 }
-.block8 .foto img:hover {
+.block8 .foto div:hover {
     /*filter: grayscale(0%); /* Current draft standard */
     -webkit-filter: grayscale(0%);
     /* New WebKit */
@@ -1110,40 +1115,60 @@ ul.prodj li:hover {
     /* Old WebKit */
     cursor: pointer
 }
-div.foto > img {
-    max-width: 100%;
-    height: auto;
-}
-/*.block8 .foto div:nth-of-type(1) {
-    width: 250px;
-    height: 403px;
-    background: url(../img/foto/foto-1-col.jpg) no-repeat;
+.block8 .foto div:nth-of-type(1) {
+    width: 220px;
+    height: 444px;
+    background: url(../img/foto/IMG_5946_6.jpg) no-repeat;
 }
 .block8 .foto div:nth-of-type(2) {
-    width: 322px;
-    height: 215px;
-    background: url(../img/foto/foto-2-col.jpg) no-repeat
+    width: 220px;
+    height: 220px;
+    background: url(../img/foto/IMG_5971_6.jpg) no-repeat;
 }
 .block8 .foto div:nth-of-type(3) {
-    width: 350px;
-    height: 215px;
-    background: url(../img/foto/foto-3-col.jpg) no-repeat
+    width: 220px;
+    height: 220px;
+    background: url(../img/foto/IMG_6107_6.jpg) no-repeat;
 }
 .block8 .foto div:nth-of-type(4) {
-    width: 167px;
-    height: 182px;
-    background: url(../img/foto/foto-4-col.jpg) no-repeat
+    width: 220px;
+    height: 444px;
+    background: url(../img/foto/IMG_5975_6.jpg) no-repeat;
 }
 .block8 .foto div:nth-of-type(5) {
-    width: 307px;
-    height: 182px;
-    background: url(../img/foto/foto-5-col.jpg) no-repeat
+    width: 220px;
+    height: 220px;
+    margin-left: -670px;
+    margin-top: 226px;
+    background: url(../img/foto/IMG_5916_6.jpg) no-repeat;
 }
 .block8 .foto div:nth-of-type(6) {
-    width: 193px;
-    height: 182px;
-    background: url(../img/foto/foto-6-col.jpg) no-repeat
-}*/
+    width: 220px;
+    height: 220px;
+    margin-left: -446px;
+    margin-top: 226px;
+    background: url(../img/foto/IMG_6028_6.jpg) no-repeat;
+}
+.block8 .foto div:nth-of-type(7) {
+    width: 220px;
+    height: 220px;
+    background: url(../img/foto/IMG_5962_6.jpg) no-repeat;
+}
+.block8 .foto div:nth-of-type(8) {
+    width: 220px;
+    height: 220px;
+    background: url(../img/foto/IMG_6081_6.jpg) no-repeat;
+}
+.block8 .foto div:nth-of-type(9) {
+    width: 220px;
+    height: 220px;
+    background: url(../img/foto/IMG_5925_6.jpg) no-repeat;
+}
+.block8 .foto div:nth-of-type(10) {
+    width: 220px;
+    height: 220px;
+    background: url(../img/foto/IMG_6035_6.jpg) no-repeat;
+}
 /*** block 9 ***/
 
 .block9 {
@@ -1306,42 +1331,62 @@ div.foto > img {
         background-size: 110%;
         background-position: 40px 80px
     }
-    /*.block8 .foto div {
+    .block8 .foto div {
         border: 1px solid #fff;
         margin: 5px
     }
     .block8 .foto div:nth-of-type(1) {
-        width: 257px;
-        height: 414px;
-        background: url(../img/foto/foto-1-col.jpg) no-repeat;
+        width: 220px;
+        height: 444px;
+        background: url(../img/foto/IMG_5946_6.jpg) no-repeat;
         margin-left: 70px
     }
     .block8 .foto div:nth-of-type(2) {
-        width: 315px;
-        height: 210px;
-        background: url(../img/foto/foto-2-col.jpg) no-repeat
+        width: 220px;
+        height: 220px;
+        background: url(../img/foto/IMG_5971_6.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(3) {
-        width: 315px;
-        height: 194px;
-        background: url(../img/foto/foto-3-col.jpg) no-repeat
+        width: 220px;
+        height: 220px;
+        background: url(../img/foto/IMG_6107_6.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(4) {
-        width: 167px;
-        height: 182px;
-        background: url(../img/foto/foto-4-col.jpg) no-repeat;
+        width: 220px;
+        height: 444px;
+        background: url(../img/foto/IMG_5975_6.jpg) no-repeat;
         margin-left: 30px
     }
     .block8 .foto div:nth-of-type(5) {
-        width: 307px;
-        height: 182px;
-        background: url(../img/foto/foto-5-col.jpg) no-repeat
+        width: 220px;
+        height: 220px;
+        background: url(../img/foto/IMG_5916_6.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(6) {
-        width: 167px;
-        height: 182px;
-        background: url(../img/foto/foto-6-col.jpg) no-repeat
-    }*/
+        width: 220px;
+        height: 220px;
+        background: url(../img/foto/IMG_6028_6.jpg) no-repeat;
+    }
+    .block8 .foto div:nth-of-type(7) {
+        width: 220px;
+        height: 220px;
+        background: url(../img/foto/IMG_5962_6.jpg) no-repeat;
+    }
+    .block8 .foto div:nth-of-type(8) {
+        width: 220px;
+        height: 220px;
+        background: url(../img/foto/IMG_6081_6.jpg) no-repeat;
+    }
+    .block8 .foto div:nth-of-type(9) {
+        width: 220px;
+        height: 220px;
+        background: url(../img/foto/IMG_5925_6.jpg) no-repeat;
+    }
+    .block8 .foto div:nth-of-type(10) {
+        width: 220px;
+        height: 220px;
+        background: url(../img/foto/IMG_6035_6.jpg) no-repeat;
+    }
     .v-btn {
         width: 250px;
         margin: 0 auto
@@ -1374,7 +1419,7 @@ div.foto > img {
         left: 125px !important;
         line-height: 36px
     }
-    /*.block8 .foto {
+    .block8 .foto {
         width: 720px !important;
         margin: 0 auto 0 !important;
     }
@@ -1383,37 +1428,57 @@ div.foto > img {
         margin: 5px
     }
     .block8 .foto div:nth-of-type(1) {
-        width: 257px;
-        height: 414px;
-        background: url(../img/foto/foto-1-col.jpg) no-repeat;
+        width: 220px;
+        height: 444px;
+        background: url(../img/foto/IMG_5946_6.jpg) no-repeat;
         margin-left: 70px !important
     }
     .block8 .foto div:nth-of-type(2) {
-        width: 315px;
-        height: 210px;
-        background: url(../img/foto/foto-2-col.jpg) no-repeat
+        width: 220px;
+        height: 220px;
+        background: url(../img/foto/IMG_5971_6.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(3) {
-        width: 315px;
-        height: 194px;
-        background: url(../img/foto/foto-3-col.jpg) no-repeat
+        width: 220px;
+        height: 220px;
+        background: url(../img/foto/IMG_6107_6.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(4) {
-        width: 167px;
-        height: 182px;
-        background: url(../img/foto/foto-4-col.jpg) no-repeat;
+        width: 220px;
+        height: 444px;
+        background: url(../img/foto/IMG_5975_6.jpg) no-repeat;
         margin-left: 30px
     }
     .block8 .foto div:nth-of-type(5) {
-        width: 307px;
-        height: 182px;
-        background: url(../img/foto/foto-5-col.jpg) no-repeat
+        width: 220px;
+        height: 220px;
+        background: url(../img/foto/IMG_5916_6.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(6) {
-        width: 167px;
-        height: 182px;
-        background: url(../img/foto/foto-6-col.jpg) no-repeat
-    }*/
+        width: 220px;
+        height: 220px;
+        background: url(../img/foto/IMG_6028_6.jpg) no-repeat;
+    }
+    .block8 .foto div:nth-of-type(7) {
+        width: 220px;
+        height: 220px;
+        background: url(../img/foto/IMG_5962_6.jpg) no-repeat;
+    }
+    .block8 .foto div:nth-of-type(8) {
+        width: 220px;
+        height: 220px;
+        background: url(../img/foto/IMG_6081_6.jpg) no-repeat;
+    }
+    .block8 .foto div:nth-of-type(9) {
+        width: 220px;
+        height: 220px;
+        background: url(../img/foto/IMG_5925_6.jpg) no-repeat;
+    }
+    .block8 .foto div:nth-of-type(10) {
+        width: 220px;
+        height: 220px;
+        background: url(../img/foto/IMG_6035_6.jpg) no-repeat;
+    }
 }
 @media (min-width: 769px) and (max-width: 1000px) {
     .block1 {
@@ -1503,42 +1568,62 @@ div.foto > img {
     .cl2 {
         height: 235px
     }
-    /*.block8 .foto div {
+    .block8 .foto div {
         border: 1px solid #fff;
         margin: 5px
     }
     .block8 .foto div:nth-of-type(1) {
-        width: 257px;
-        height: 414px;
-        background: url(../img/foto/foto-1-col.jpg) no-repeat;
+        width: 220px;
+        height: 444px;
+        background: url(../img/foto/IMG_5946_6.jpg) no-repeat;
         margin-left: 70px
     }
     .block8 .foto div:nth-of-type(2) {
-        width: 315px;
-        height: 210px;
-        background: url(../img/foto/foto-2-col.jpg) no-repeat
+        width: 220px;
+        height: 220px;
+        background: url(../img/foto/IMG_5971_6.jpg) no-repeat
     }
     .block8 .foto div:nth-of-type(3) {
-        width: 315px;
-        height: 194px;
-        background: url(../img/foto/foto-3-col.jpg) no-repeat
+        width: 220px;
+        height: 220px;
+        background: url(../img/foto/IMG_6107_6.jpg) no-repeat
     }
     .block8 .foto div:nth-of-type(4) {
-        width: 167px;
-        height: 182px;
-        background: url(../img/foto/foto-4-col.jpg) no-repeat;
+        width: 220px;
+        height: 444px;
+        background: url(../img/foto/IMG_5975_6.jpg) no-repeat;
         margin-left: 30px
     }
     .block8 .foto div:nth-of-type(5) {
-        width: 307px;
-        height: 182px;
-        background: url(../img/foto/foto-5-col.jpg) no-repeat
+        width: 220px;
+        height: 220px;
+        background: url(../img/foto/IMG_5916_6.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(6) {
-        width: 167px;
-        height: 182px;
-        background: url(../img/foto/foto-6-col.jpg) no-repeat
-    }*/
+        width: 220px;
+        height: 220px;
+        background: url(../img/foto/IMG_6028_6.jpg) no-repeat;
+    }
+    .block8 .foto div:nth-of-type(7) {
+        width: 220px;
+        height: 220px;
+        background: url(../img/foto/IMG_5962_6.jpg) no-repeat;
+    }
+    .block8 .foto div:nth-of-type(8) {
+        width: 220px;
+        height: 220px;
+        background: url(../img/foto/IMG_6081_6.jpg) no-repeat;
+    }
+    .block8 .foto div:nth-of-type(9) {
+        width: 220px;
+        height: 220px;
+        background: url(../img/foto/IMG_5925_6.jpg) no-repeat;
+    }
+    .block8 .foto div:nth-of-type(10) {
+        width: 220px;
+        height: 220px;
+        background: url(../img/foto/IMG_6035_6.jpg) no-repeat;
+    }
     .v-btn {
         width: 250px;
         margin: 0 auto
