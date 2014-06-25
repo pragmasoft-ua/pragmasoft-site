@@ -51,7 +51,7 @@
             <div class="col-md-12">
               <div class="htitl"><img src="${app}res/img/01f_txt.png"></div>
               <div class="htitl-med"><img src="${app}res/img/01f_txt.png"></div>
-              <div class="htitl-sm"><img src="${app}res/img/01m_txt.png"></div>
+              <div class="htitl-sm">When ideas turn into real<strong>it</strong>y</div>
               <div class="tslide flexslider">
                 <ul class="slides">
                   <li><p>«This is a great vendor and I really hope to work with them again. They are professional, knowledgeable and reliable. Great job!»</p></li>

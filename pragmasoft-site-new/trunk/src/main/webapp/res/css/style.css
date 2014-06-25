@@ -327,7 +327,7 @@ img.img-fl-left {
     background: url(../img/background.jpg) 0px -5px scroll repeat;
     position: relative;
     margin-top: 57px;
-    min-height: 338px
+    min-height: 338px;
 }
 .top-col-tr {
     background: url(../img/top-calor-tr3.png) top center scroll repeat;
@@ -353,6 +353,9 @@ img.img-fl-left {
 .htitl-sm,
 .htitl-med {
     display: none
+}
+.htitl-sm {
+    color: #31CBAA;
 }
 /*** block 2 ***/
 
@@ -1244,7 +1247,8 @@ ul.prodj li:hover {
     cursor: pointer
 }
 .fot-img-sm {
-    display: none
+    display: none;
+    color: #5D937F;
 }
 .s-icon-block {}
 /*** copyright ***/
@@ -1457,9 +1461,9 @@ ul.prodj li:hover {
 }
 @media (min-width: 769px) and (max-width: 1000px) {
     .block1 {
-        height: 185px !important;
+        height: 140px !important;
         overflow: hidden;
-        min-height: 185px !important;
+        min-height: 0px;       
     }
     .logo {
         margin: 15px 30px 0 6px !important
@@ -1471,15 +1475,12 @@ ul.prodj li:hover {
     }
     .htitl-sm {
         display: block;
-        margin-top: 55px;
-        text-align: center
-    }
-    .htitl-sm img {
-        margin: 0 auto;
-        max-width: 442px;
-    }
-    .htitl-sm span {
-        font-weight: 400
+        margin-top: 40px;
+        text-align: center;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-style: italic;
+        text-transform: uppercase;
+        font-size: 50px;
     }
     .top-col-tr {
         background: transparent !important;
@@ -1622,6 +1623,7 @@ ul.prodj li:hover {
     .tmail,
     .lang,
     .htitl,
+    .gus-sm,
     .tslide,
     .flexslider,
     .hndr,
@@ -1670,9 +1672,11 @@ ul.prodj li:hover {
         margin: 0 !important;
     }
     .block1 {
-        height: 185px !important;
         overflow: hidden;
-        min-height: 185px !important;
+        min-height: 85px !important;
+    }
+    .block1 .top-col-tr {
+        min-height: 0px;
     }
     .top-col-tr {
         background: transparent !important;
@@ -1680,15 +1684,12 @@ ul.prodj li:hover {
     }
     .htitl-sm {
         display: block;
-        margin-top: 55px;
-        text-align: center
-    }
-    .htitl-sm img {
-        margin: 0 auto;
-        max-width: 442px;
-    }
-    .htitl-sm span {
-        font-weight: 400
+        margin-top: 40px;
+        text-align: center;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-style: italic;
+        text-transform: uppercase;
+        font-size: 28px;
     }
     .bl2-anim {
         margin-top: 50px !important
@@ -1924,9 +1925,14 @@ ul.prodj li:hover {
         right: 102px
     }
     .fot-img-sm {
-        display: block;
         margin: 20px auto 10px auto;
-        text-align: center
+        display: block;
+        margin-top: 40px;
+        text-align: center;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-style: italic;
+        text-transform: uppercase;
+        font-size: 28px;
     }
     .copyright {
         height: 70px;

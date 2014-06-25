@@ -2,7 +2,7 @@
 <div class="footer">
   <div class="container">
     <div class="row">
-      <div class="fot-img-sm"><img src="${app}res/img/01m_txt.png"></div>
+      <div class="fot-img-sm">When ideas turn into real<strong>it</strong>y</div>
       <div class="col-md-6 col-sm-6 col-xs-12 col-lg-6">
         <img src="${app}res/img/pragmasoft.png" alt="Pragmasoft">
         <p>С любыми вопросами и предложениями<br />пишите нам на <a href="mailto:info@pragmasoft.com.ua">info@pragmasoft.com.ua</a></p>
