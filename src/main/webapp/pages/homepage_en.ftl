@@ -19,6 +19,7 @@
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="${app}res/css/parallax.css">
     <link rel="stylesheet" href="${app}res/css/style.css">
+    <link rel="stylesheet" href="${app}res/css/gray.css">
     <link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:100italic,300,300italic,400,400italic,100&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
@@ -485,16 +486,16 @@ We are constantly evolving to always keep up with fashion trends and make you co
           <div class="col-md-12">
             <h2>Our team</h2>
             <div class="foto">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
+              <div class="grayscale grayscale-fade"></div>
+              <div class="grayscale grayscale-fade"></div>
+              <div class="grayscale grayscale-fade"></div>
+              <div class="grayscale grayscale-fade"></div>
+              <div class="grayscale grayscale-fade"></div>
+              <div class="grayscale grayscale-fade"></div>
+              <div class="grayscale grayscale-fade"></div>
+              <div class="grayscale grayscale-fade"></div>
+              <div class="grayscale grayscale-fade"></div>
+              <div class="grayscale grayscale-fade"></div>
             </div>
             <div class="v-btn"><a href="${app}vacancies">Join the team →</a></div>
           </div>
@@ -531,6 +532,7 @@ We are constantly evolving to always keep up with fashion trends and make you co
   <!-- Placed at the end of the document so the pages load faster -->    
   <script src="${app}res/js/bootstrap.min.js"></script>
   <script src="${app}res/js/jquery.scrolly.js"></script>
+  <script src="${app}res/js/jquery.gray.min.js"></script>
     
   </body>
 </html>
