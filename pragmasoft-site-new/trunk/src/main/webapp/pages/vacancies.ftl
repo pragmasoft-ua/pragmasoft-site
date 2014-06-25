@@ -7,7 +7,7 @@
     <meta name="keywords" content="Pragmasoft" />
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="${app}res/img/favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
 
     <title>Pragmasoft</title>
 
