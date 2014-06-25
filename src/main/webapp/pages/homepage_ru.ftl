@@ -59,7 +59,7 @@
               <img src="${app}res/img/01f_txt.png">
             </div>
             <div class="htitl-sm">
-              <img src="${app}res/img/01m_txt.png">
+              <div class="htitl-sm">When ideas turn into real<strong>it</strong>y</div>
             </div>
             <div class="tslide flexslider">
               <ul class="slides">
