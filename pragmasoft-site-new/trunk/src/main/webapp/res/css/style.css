@@ -105,6 +105,9 @@ ul.navbar-nav li a:hover {
 .sm-soc {
     display: none !important
 }
+label.error {
+    color: #e2371b;
+}
 .block1,
 .block2 {
     position: relative;
@@ -483,7 +486,7 @@ img.img-fl-left {
 /*** block 3 ***/
 
 .block3 {
-    background: url(../img/bg-blue.jpg) top center repeat;
+    background: #81CDDB;
     overflow: hidden;
     position: relative;
     padding: 50px 0 70px 0;
@@ -630,7 +633,7 @@ ul.prodj li:hover {
 /*** block 4 ***/
 
 .block4 {
-    background: url(../img/bg-orange.jpg) top center repeat;
+    background: #FFB700;
     overflow: hidden;
     position: relative;
     padding: 50px 0 70px 0;
@@ -743,7 +746,7 @@ ul.prodj li:hover {
 /*** block 5 ***/
 
 .block5 {
-    background: url(../img/bg-red.jpg) top center repeat;
+    background: #e2371b;
     overflow: hidden;
     position: relative;
     padding: 50px 0 70px 0;
@@ -845,7 +848,7 @@ ul.prodj li:hover {
 /*** block 6 ***/
 
 .block6 {
-    background: url(../img/bg-dark-blue.jpg) top center repeat;
+    background: #00B0F3;
     overflow: hidden;
     position: relative;
     padding: 50px 0 70px 0;
@@ -981,7 +984,7 @@ ul.prodj li:hover {
 /*** block 7 ***/
 
 .block7 {
-    background: url(../img/bg-ukr.jpg) top center repeat;
+    background: #485365;
     overflow: hidden;
     position: relative;
     padding: 50px 0 60px 0;
