@@ -23,8 +23,8 @@
         <ul class="sm-soc">
           <li><a href="#" data-toggle="modal" data-target="#myModal"><img src="${app}res/img/2_mail.png"></a></li>
           <li><a href="http://vk.com/club32131862" target="_blank"><img src="${app}res/img/2_vk.png"></a></li>
-          <li><a href="https://www.facebook.com/pages/Pragmasoft/681936695176034" target="_blank"><img src="${app}res/img/2_fb.png"></a></li>
-          <li><a href="https://plus.google.com/u/0/b/118413409251721843650/118413409251721843650/about?hl=ru" target="_blank"><img src="${app}res/img/2_g+.png"></a></li>
+          <li><a href="https://www.facebook.com/pages/Pragmasoft/340275132655051" target="_blank"><img src="${app}res/img/2_fb.png"></a></li>
+          <li><a href="https://plus.google.com/u/0/101843999873125528372" target="_blank"><img src="${app}res/img/2_g+.png"></a></li>
         </ul>
       </ul>
     </div>

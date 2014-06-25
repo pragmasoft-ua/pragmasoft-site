@@ -11,8 +11,8 @@
         <p class="soc">Мы в социальных сетях:</p>
         <div class="s-icon-block">
           <a class="vk" href="http://vk.com/club32131862" target="_blank"></a>
-          <a class="fb" href="https://www.facebook.com/pages/Pragmasoft/681936695176034" target="_blank"></a>
-          <a class="gp" href="https://plus.google.com/u/0/b/118413409251721843650/118413409251721843650/about?hl=ru" target="_blank"></a>
+          <a class="fb" href="https://www.facebook.com/pages/Pragmasoft/340275132655051" target="_blank"></a>
+          <a class="gp" href="https://plus.google.com/u/0/101843999873125528372" target="_blank"></a>
           <a href="#" data-toggle="modal" data-target="#myModal">
             <div class="mail"></div>
           </a>
