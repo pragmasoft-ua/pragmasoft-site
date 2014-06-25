@@ -15,8 +15,6 @@ Affordrx.com это сайт, который обеспечивает скидк
 * Разработка на стороне сервера (JavaEE)
 * Разработка на стороне клиента (HTML, Twitter начальной загрузки, JQuery)
 
-Another redesign project went live recently: American Cycle Supply. The task was to redesign site's header, to make it less brutal, but still in the biker's style. That's what it is now:
-
 <div class="p-img">
 
 !../res/img/project/java/AffordRX.jpg!
