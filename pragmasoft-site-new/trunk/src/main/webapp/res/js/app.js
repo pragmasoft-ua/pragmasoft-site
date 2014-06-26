@@ -64,7 +64,7 @@ $(document).ready(function() {
 	});
 
 	// Hide menu button on click in mobile mode
-	$('.menuItem').click(function(event) {
+	$('.menuItem').click(function (event) {
 		if ($('div.tnavbar').hasClass('in')) {
 			disabler.enable_scrolling();
 		}
@@ -74,6 +74,19 @@ $(document).ready(function() {
 		var target = $this.attr('data-parent');
 		if (width < 769) {
 			$(target).collapse('toggle');
+		}
+	});
+
+	// Open email form
+	$('.mail').click(function (event) {
+		disabler.disable_scrolling();
+	});
+
+	// Close email form
+	$('button.close').click(function (event) {
+		// if navbar is still opened
+		if (!$('div.tnavbar').hasClass('in')) {
+			disabler.enable_scrolling();			
 		}
 	});
 
