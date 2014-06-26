@@ -18,17 +18,43 @@ $(document).ready(function() {
 		nextText: ""
 	});
 
+	var disableScrolling = function() {
+		$('html, body').css({
+    		'overflow': 'hidden',
+    		'height': '100%'
+		});
+	};
+
+	var enableScrolling = function() {
+		$('html, body').css({
+		    'overflow': 'auto',
+		    'height': 'auto'
+		});
+	};
+
+	// Disable scrolling while menu is opened in mobile version
+	$('button.navbar-toggle').click(function (event) {
+		if ($('div.tnavbar').hasClass('in')) {
+			enableScrolling();
+		} else {
+			disableScrolling();
+		}
+	});
+
 	// Hide menu button on click in mobile mode
 	$('.menuItem').click(function(event) {
+		if ($('div.tnavbar').hasClass('in')) {
+			enableScrolling();
+		}
 		event.stopPropagation();
 		var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 		var $this = $(this);
 		var target = $this.attr('data-parent');
 		if (width < 769) {
-			$(target).collapse('toggle');			
+			$(target).collapse('toggle');
 		}
 	});
-	
+
 	// Initialize form check
 	$('#modalForm').validate({
 		rules: {
