@@ -15,8 +15,6 @@ Affordrx.com is a site that provide up to 75% discount on medication with free p
 * Server-side development (JavaEE)
 * Client-side development (HTML, Twitter Bootstrap, jQuery)
 
-Another redesign project went live recently: American Cycle Supply. The task was to redesign site's header, to make it less brutal, but still in the biker's style. That's what it is now:
-
 <div class="p-img">
 
 !../res/img/project/java/AffordRX.jpg!
