@@ -1617,7 +1617,7 @@ ul.prodj li:hover {
 }
 @media (max-width: 768px) {
     body {
-        min-width: 380px
+        
     }
     .logo,
     .tmail,

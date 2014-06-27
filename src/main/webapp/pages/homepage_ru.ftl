@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
   <meta name="keywords" content="Pragmasoft" />
   <meta name="description" content="">
   <meta name="author" content="">
@@ -51,7 +51,7 @@
     <div class="top-col-tr">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div>
             <div class="htitl">
               <img src="${app}res/img/01f_txt.png">
             </div>
@@ -59,7 +59,7 @@
               <img src="${app}res/img/01f_txt.png">
             </div>
             <div class="htitl-sm">
-              <div class="htitl-sm">When ideas turn into real<strong>it</strong>y</div>
+              <div class="htitl-sm"><img src="${app}res/img/01m_txt_2.png"></div>
             </div>
             <div class="tslide flexslider">
               <ul class="slides">
