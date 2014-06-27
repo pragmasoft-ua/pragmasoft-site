@@ -1097,61 +1097,61 @@ ul.prodj li:hover {
     float: left;
     display: inline-block;
     border: 1px solid #fff;
-    margin: 2px
+    margin: 2px;
 }
 .block8 .foto div:nth-of-type(1) {
     width: 220px;
     height: 444px;
-    background: url(../img/foto/IMG_5946_6.jpg) no-repeat;
+    background: url(../img/foto/1.jpg) no-repeat;
 }
 .block8 .foto div:nth-of-type(2) {
     width: 220px;
     height: 220px;
-    background: url(../img/foto/IMG_5971_6.jpg) no-repeat;
+    background: url(../img/foto/2.jpg) no-repeat;
 }
 .block8 .foto div:nth-of-type(3) {
     width: 220px;
     height: 220px;
-    background: url(../img/foto/IMG_6107_6.jpg) no-repeat;
+    background: url(../img/foto/3.jpg) no-repeat;
 }
 .block8 .foto div:nth-of-type(4) {
     width: 220px;
-    height: 444px;
-    background: url(../img/foto/IMG_5975_6.jpg) no-repeat;
+    height: 220px;
+    background: url(../img/foto/4.jpg) no-repeat;
 }
 .block8 .foto div:nth-of-type(5) {
     width: 220px;
     height: 220px;
     margin-left: -670px;
     margin-top: 226px;
-    background: url(../img/foto/IMG_5916_6.jpg) no-repeat;
+    background: url(../img/foto/5.jpg) no-repeat;
 }
 .block8 .foto div:nth-of-type(6) {
     width: 220px;
     height: 220px;
     margin-left: -446px;
     margin-top: 226px;
-    background: url(../img/foto/IMG_6028_6.jpg) no-repeat;
+    background: url(../img/foto/6.jpg) no-repeat;
 }
 .block8 .foto div:nth-of-type(7) {
     width: 220px;
     height: 220px;
-    background: url(../img/foto/IMG_5962_6.jpg) no-repeat;
+    background: url(../img/foto/7.jpg) no-repeat;
 }
 .block8 .foto div:nth-of-type(8) {
     width: 220px;
     height: 220px;
-    background: url(../img/foto/IMG_6081_6.jpg) no-repeat;
+    background: url(../img/foto/8.jpg) no-repeat;
 }
 .block8 .foto div:nth-of-type(9) {
     width: 220px;
     height: 220px;
-    background: url(../img/foto/IMG_5925_6.jpg) no-repeat;
+    background: url(../img/foto/9.jpg) no-repeat;
 }
 .block8 .foto div:nth-of-type(10) {
-    width: 220px;
+    width: 444px;
     height: 220px;
-    background: url(../img/foto/IMG_6035_6.jpg) no-repeat;
+    background: url(../img/foto/10.jpg) no-repeat;
 }
 /*** block 9 ***/
 
@@ -1317,60 +1317,60 @@ ul.prodj li:hover {
         background-position: 40px 80px
     }
     .block8 .foto div {
+        /*float: left;*/
+        display: inline-block;
         border: 1px solid #fff;
-        margin: 5px
+        margin: 2px;
     }
     .block8 .foto div:nth-of-type(1) {
         width: 220px;
         height: 444px;
-        background: url(../img/foto/IMG_5946_6.jpg) no-repeat;
-        margin-left: 70px
+        background: url(../img/foto/1.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(2) {
         width: 220px;
         height: 220px;
-        background: url(../img/foto/IMG_5971_6.jpg) no-repeat;
+        background: url(../img/foto/2.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(3) {
         width: 220px;
         height: 220px;
-        background: url(../img/foto/IMG_6107_6.jpg) no-repeat;
+        background: url(../img/foto/3.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(4) {
         width: 220px;
-        height: 444px;
-        background: url(../img/foto/IMG_5975_6.jpg) no-repeat;
-        margin-left: 30px
+        height: 220px;
+        background: url(../img/foto/4.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(5) {
         width: 220px;
         height: 220px;
-        background: url(../img/foto/IMG_5916_6.jpg) no-repeat;
+        background: url(../img/foto/5.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(6) {
         width: 220px;
         height: 220px;
-        background: url(../img/foto/IMG_6028_6.jpg) no-repeat;
+        background: url(../img/foto/6.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(7) {
         width: 220px;
         height: 220px;
-        background: url(../img/foto/IMG_5962_6.jpg) no-repeat;
+        background: url(../img/foto/7.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(8) {
         width: 220px;
         height: 220px;
-        background: url(../img/foto/IMG_6081_6.jpg) no-repeat;
+        background: url(../img/foto/8.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(9) {
         width: 220px;
         height: 220px;
-        background: url(../img/foto/IMG_5925_6.jpg) no-repeat;
+        background: url(../img/foto/9.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(10) {
-        width: 220px;
+        width: 444px;
         height: 220px;
-        background: url(../img/foto/IMG_6035_6.jpg) no-repeat;
+        background: url(../img/foto/10.jpg) no-repeat;
     }
     .v-btn {
         width: 250px;
@@ -1409,60 +1409,60 @@ ul.prodj li:hover {
         margin: 0 auto 0 !important;
     }
     .block8 .foto div {
+        float: left;
+        display: inline-block;
         border: 1px solid #fff;
         margin: 5px
     }
     .block8 .foto div:nth-of-type(1) {
         width: 220px;
         height: 444px;
-        background: url(../img/foto/IMG_5946_6.jpg) no-repeat;
-        margin-left: 70px !important
+        background: url(../img/foto/1.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(2) {
         width: 220px;
         height: 220px;
-        background: url(../img/foto/IMG_5971_6.jpg) no-repeat;
+        background: url(../img/foto/2.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(3) {
         width: 220px;
         height: 220px;
-        background: url(../img/foto/IMG_6107_6.jpg) no-repeat;
+        background: url(../img/foto/3.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(4) {
         width: 220px;
         height: 444px;
-        background: url(../img/foto/IMG_5975_6.jpg) no-repeat;
-        margin-left: 30px
+        background: url(../img/foto/4.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(5) {
         width: 220px;
         height: 220px;
-        background: url(../img/foto/IMG_5916_6.jpg) no-repeat;
+        background: url(../img/foto/5.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(6) {
         width: 220px;
         height: 220px;
-        background: url(../img/foto/IMG_6028_6.jpg) no-repeat;
+        background: url(../img/foto/6.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(7) {
         width: 220px;
         height: 220px;
-        background: url(../img/foto/IMG_5962_6.jpg) no-repeat;
+        background: url(../img/foto/7.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(8) {
         width: 220px;
         height: 220px;
-        background: url(../img/foto/IMG_6081_6.jpg) no-repeat;
+        background: url(../img/foto/8.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(9) {
         width: 220px;
         height: 220px;
-        background: url(../img/foto/IMG_5925_6.jpg) no-repeat;
+        background: url(../img/foto/9.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(10) {
-        width: 220px;
+        width: 444px;
         height: 220px;
-        background: url(../img/foto/IMG_6035_6.jpg) no-repeat;
+        background: url(../img/foto/10.jpg) no-repeat;
     }
 }
 @media (min-width: 769px) and (max-width: 1000px) {
@@ -1551,60 +1551,64 @@ ul.prodj li:hover {
         height: 235px
     }
     .block8 .foto div {
+        float: left;
+        display: inline-block;
         border: 1px solid #fff;
-        margin: 5px
+        margin: 2px;
     }
     .block8 .foto div:nth-of-type(1) {
         width: 220px;
         height: 444px;
-        background: url(../img/foto/IMG_5946_6.jpg) no-repeat;
-        margin-left: 70px
+        background: url(../img/foto/1.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(2) {
         width: 220px;
         height: 220px;
-        background: url(../img/foto/IMG_5971_6.jpg) no-repeat
+        background: url(../img/foto/2.jpg) no-repeat
     }
     .block8 .foto div:nth-of-type(3) {
         width: 220px;
         height: 220px;
-        background: url(../img/foto/IMG_6107_6.jpg) no-repeat
+        background: url(../img/foto/3.jpg) no-repeat
     }
     .block8 .foto div:nth-of-type(4) {
         width: 220px;
-        height: 444px;
-        background: url(../img/foto/IMG_5975_6.jpg) no-repeat;
-        margin-left: 30px
+        height: 220px;
+        background: url(../img/foto/4.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(5) {
+        margin-left: 2px;
+        margin-top: 2px;
         width: 220px;
         height: 220px;
-        background: url(../img/foto/IMG_5916_6.jpg) no-repeat;
+        background: url(../img/foto/5.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(6) {
+        margin-left: 2px;
+        margin-top: 2px;
         width: 220px;
         height: 220px;
-        background: url(../img/foto/IMG_6028_6.jpg) no-repeat;
+        background: url(../img/foto/6.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(7) {
         width: 220px;
         height: 220px;
-        background: url(../img/foto/IMG_5962_6.jpg) no-repeat;
+        background: url(../img/foto/7.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(8) {
         width: 220px;
         height: 220px;
-        background: url(../img/foto/IMG_6081_6.jpg) no-repeat;
+        background: url(../img/foto/8.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(9) {
         width: 220px;
         height: 220px;
-        background: url(../img/foto/IMG_5925_6.jpg) no-repeat;
+        background: url(../img/foto/9.jpg) no-repeat;
     }
     .block8 .foto div:nth-of-type(10) {
-        width: 220px;
+        width: 444px;
         height: 220px;
-        background: url(../img/foto/IMG_6035_6.jpg) no-repeat;
+        background: url(../img/foto/10.jpg) no-repeat;
     }
     .v-btn {
         width: 250px;
