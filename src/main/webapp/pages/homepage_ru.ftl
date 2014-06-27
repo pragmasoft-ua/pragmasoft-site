@@ -42,7 +42,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body class="body-hover">
   <!--Top Navigation  -->
   <#include "navBar_ru.ftl" />
 

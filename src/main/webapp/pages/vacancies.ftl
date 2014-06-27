@@ -36,7 +36,7 @@
         <script src="${app}res/js/localization/messages_ru.js" type="text/javascript"></script>        
     </#if>
   </head>
-  <body>
+  <body class="body-hover">
     <!--Top Navigation  --> 
     <#include "navBar_${language}.ftl" />
 
