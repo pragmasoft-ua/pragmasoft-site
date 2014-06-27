@@ -47,7 +47,7 @@ public class EmailServlet extends HttpServlet {
 			
 			Message message = new MimeMessage(session);
 			message.setRecipients(Message.RecipientType.TO,
-					InternetAddress.parse("info@pragmasoft.com.ua"));
+					InternetAddress.parse("olga@pragmasoft.com.ua")); // TODO replace to original
 			message.setSubject(SUBJECT);
 
 			if (!StringUtils.isEmpty(requesterName) &&
@@ -60,7 +60,7 @@ public class EmailServlet extends HttpServlet {
 			}
  
 		} catch (MessagingException e) {
-			LOGGER.warn("Email sending error: ", e);
+			LOGGER.error("Email sending error: ", e);
 		}
 	}
 
