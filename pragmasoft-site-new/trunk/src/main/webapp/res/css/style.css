@@ -51,10 +51,16 @@ ul.navbar-nav li a {
     border-bottom: 5px solid #464646
 }
 ul.navbar-nav li.active a,
-ul.navbar-nav li a:hover {
+body.body-hover ul.navbar-nav li a:hover {
     border-bottom: 5px solid #2abb9b;
-    background: none !important
+    background: none !important;
+    color: #fff !important;
 }
+
+body.mobile-body-hover ul.navbar-nav li a:hover {
+	color: #999;
+}
+
 .tmail {
     width: 30px;
     height: 30px;
@@ -2098,14 +2104,14 @@ ul.prodj li:hover {
     -ms-transition: all 0.2s linear;
     transition: all 0.2s linear;
 }
-.view-first:hover img {
+body.body-hover .view-first:hover img {
     -webkit-transform: scale(1.1, 1.1);
     -moz-transform: scale(1.1, 1.1);
     -o-transform: scale(1.1, 1.1);
     -ms-transform: scale(1.1, 1.1);
     transform: scale(1.1, 1.1);
 }
-.view-first:hover img {
+body.body-hover .view-first:hover img {
     -webkit-filter: grayscale(100%);
     opacity: 0.4;
 }
@@ -2119,7 +2125,7 @@ ul.prodj li:hover {
     -ms-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 }
-.view-first:hover .mask {
+body.body-hover .view-first:hover .mask {
     -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
     opacity: 1;
