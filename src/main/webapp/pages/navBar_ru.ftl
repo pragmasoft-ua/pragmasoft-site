@@ -28,7 +28,9 @@
         </ul>
       </ul>
     </div>
-    <div class="tmail" data-toggle="modal" data-target="#myModal"></div>
+    <a href="#" data-toggle="modal" data-target="#myModal">
+            <div class="tmail"></div>
+          </a>
     <div class="lang">
       <ul class="navlang">
         <li class="active"><a href="#">RU</a></li>
