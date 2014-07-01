@@ -25,10 +25,4 @@ $(document).ready(function() {
 	$('.parallax.top').scrolly();
 	$('.parallax.bkg').scrolly({bgParallax: true});
 	
-	$('body').one('touchstart', function(event){
-		$(this).removeClass("body-hover").addClass("mobile-body-hover");
-	});
-	
-	
-	/*.mouseenter() and .mouseleave() */
 });

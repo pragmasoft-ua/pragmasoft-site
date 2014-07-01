@@ -121,5 +121,10 @@ $(document).ready(function() {
 
 	// dirty hack to fire some events in Mozilla
 	$(window).scrollTop($(window).scrollTop()+1);
+	
+	$('body').one('touchstart', function(event){
+		$(this).removeClass("body-hover").addClass("mobile-body-hover");
+	});
+	
 
 });
