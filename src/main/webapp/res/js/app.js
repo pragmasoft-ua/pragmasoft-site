@@ -1,6 +1,24 @@
 // Page effects initialization
 $(document).ready(function() {
-
+	var modalForm = $('#modalForm');
+	// Initialize form check
+	var validator = modalForm.validate({
+		rules: {
+			requesterName: {
+				minlength: 2,
+				required: true
+			},
+			requesterEmail: {
+				email: true,
+				required: true
+			},
+			message: {
+				minlength: 5,
+				required: true
+			}
+		}
+	});	
+	
 	// Title animation
 	$('.htitl').animate({left: "+=1000"}, 1000);
 	
@@ -78,42 +96,25 @@ $(document).ready(function() {
 	});
 
 	// Open email form
-	$('.mail').click(function (event) {
+	$('#myModal').on('show.bs.modal', function (e) {
 		disabler.disable_scrolling();
 	});
 
-	// Close email form
-	$('button.close').click(function (event) {
+	$('#myModal').on('hide.bs.modal', function (e) {
+		validator.resetForm();
+		modalForm[0].reset();
 		// if navbar is still opened
 		if (!$('div.tnavbar').hasClass('in')) {
 			disabler.enable_scrolling();			
 		}
 	});
 
-	// Initialize form check
-	$('#modalForm').validate({
-		rules: {
-			requesterName: {
-				minlength: 2,
-				required: true
-			},
-			requesterEmail: {
-				email: true,
-				required: true
-			},
-			message: {
-				minlength: 5,
-				required: true
-			}
-		}
-	});		
-
 	$('.m-btn').click(function() {
 		if ($('#modalForm').valid()) {
 			$.post('/email', $('#modalForm').serialize())
 				.done(function() {
 					$('#myModal').trigger("reset");
-					$('#myModal').modal('hide')
+					$('#myModal').modal('hide');
 				});
 		}
 	});
