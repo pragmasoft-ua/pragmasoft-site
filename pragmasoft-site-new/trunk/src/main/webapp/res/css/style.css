@@ -1948,8 +1948,9 @@ ul.prodj li:hover {
         height: 70px;
         text-align: center
     }
-    /*.copyright .col-md-6 { width: 55%; float: left;}
-    .copyright .col-md-6 + .col-md-6 { width: 43%; float: left;}*/
+    
+    div.copyright div.row div { width: 100%; }
+    
     .copyright p,
     .copyright a {
         text-align: center;
