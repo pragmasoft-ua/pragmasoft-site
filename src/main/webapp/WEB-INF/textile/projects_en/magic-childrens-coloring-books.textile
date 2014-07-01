@@ -7,7 +7,7 @@ h1. Magic Children's Coloring Books
 
 You are welcome to address us with any questions, suggestions, comments about Magic Children's Coloring Books app to our support email: "magicbooks@pragmasoft.com.ua":mailto:magicbooks@pragmasoft.com.ua. 
 
-*Fairy Tales on App Store:*
+p(#fairy-tales). *Fairy Tales on App Store:*
 
 * "Puss In Boots":http://itunes.apple.com/us/app/id494374246 ("Video":http://www.youtube.com/watch?v=nGEpoDjg8ts), 
 * "Cinderella":http://itunes.apple.com/us/app/id513475122 ("Video":http://www.youtube.com/watch?v=DRJFXaHGaLU), 
@@ -22,7 +22,7 @@ You are welcome to address us with any questions, suggestions, comments about Ma
 
 Let your children dive into fascinating world of fairy tales! They can try the role of Charles Perrault and color personages on their own. There are 25 pictures in every tale which can be colored, sent by email, printed, saved to an album or uploaded to Facebook, and that all gives children almost unlimited opportunities. 
 
-*Benefits:*
+p(#benefits). *Benefits:*
 
 * smooth drawing
 * children friendly interface
@@ -47,7 +47,7 @@ Your kids will adore these books. Just give them a chance to develop their imagi
 
 </div>
 
-*Privacy policy*
+p(#privacy-policy). *Privacy policy*
 
 The information we collect when you are using our apps is used to improve our products. We collect anonymous data about things such as your device type/iOS version, your language/country, but it does not tied to any personal information such as your name or email address in any way. We don't provide that info to any third party. We do not collect UDID (unique device identifier), MAC address, or OpenUDID information.
 
