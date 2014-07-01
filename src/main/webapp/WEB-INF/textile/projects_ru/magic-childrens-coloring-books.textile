@@ -1,0 +1,58 @@
+title:Pragmasoft - Magic Children's Coloring Books
+keywords:software|development|Pragmasoft
+
+h1. Magic Children's Coloring Books
+
+<div class="vc-box">
+
+You are welcome to address us with any questions, suggestions, comments about Magic Children's Coloring Books app to our support email: "magicbooks@pragmasoft.com.ua":mailto:magicbooks@pragmasoft.com.ua. 
+
+*Fairy Tales on App Store:*
+
+* "Puss In Boots":http://itunes.apple.com/us/app/id494374246 ("Video":http://www.youtube.com/watch?v=nGEpoDjg8ts), 
+* "Cinderella":http://itunes.apple.com/us/app/id513475122 ("Video":http://www.youtube.com/watch?v=DRJFXaHGaLU), 
+* "Snow White":http://itunes.apple.com/us/app/id517853845 ("Video":http://www.youtube.com/watch?v=EptgWz65kMg), 
+* "Rapunzel":http://itunes.apple.com/us/app/id549231486 ("Video":http://www.youtube.com/watch?v=d_Z5pxOBChs), 
+* "Halloween":http://itunes.apple.com/us/app/id570568864 ("Video":http://www.youtube.com/watch?v=pYcMuUVv0Ig), 
+* The Nutcracker and the Mouse King,
+* Peter Pan, 
+* Goldilocks and the Three Bears, 
+* Little Red Riding Hood
+
+
+Let your children dive into fascinating world of fairy tales! They can try the role of Charles Perrault and color personages on their own. There are 25 pictures in every tale which can be colored, sent by email, printed, saved to an album or uploaded to Facebook, and that all gives children almost unlimited opportunities. 
+
+*Benefits:*
+
+* smooth drawing
+* children friendly interface
+* lots of nice pictures
+* no ads
+* print, email, facebook support
+* imagination developing
+* educational experience
+* entertaining for kids
+* retina support
+* shake for undo/redo
+
+Your kids will adore these books. Just give them a chance to develop their imagination!
+
+<div class="p-img">
+
+!../res/img/project/mobile/1s.png!
+
+!../res/img/project/mobile/2s.png!
+
+!../res/img/project/mobile/3s.png!
+
+</div>
+
+*Privacy policy*
+
+The information we collect when you are using our apps is used to improve our products. We collect anonymous data about things such as your device type/iOS version, your language/country, but it does not tied to any personal information such as your name or email address in any way. We don't provide that info to any third party. We do not collect UDID (unique device identifier), MAC address, or OpenUDID information.
+
+Pragmasoft does not store personal information, unless it is voluntarily provided through our mailing list. Pragmasoft does not sell, exchange or make available to third parties, the email addresses, telephone numbers or mailing addresses of customers.
+
+We respect your device privacy, and use this information responsibly.
+
+</div>
