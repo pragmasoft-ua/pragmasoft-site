@@ -52,15 +52,10 @@
 
     <!-- Textile -->
     <dependency>
-      <groupId>org.fusesource.wikitext</groupId>
-      <artifactId>textile-core</artifactId>
-      <version>1.4</version>
-    </dependency>
-    <!-- <dependency>
 		<groupId>org.eclipse.mylyn.wikitext</groupId>
 		<artifactId>wikitext.textile</artifactId>
 		<version>0.9.4.I20090220-1600-e3x</version>
-	</dependency> -->
+	</dependency>
     
     <!-- slf4j Logger -->
     <dependency>
