@@ -19,11 +19,11 @@
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="${app}res/css/parallax.css">
     <link rel="stylesheet" href="${app}res/css/style.css">
-    <link rel="stylesheet" href="${app}res/css/gray.css">
     <link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:100italic,300,300italic,400,400italic,100&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script defer src="${app}res/js/masonry.pkgd.min.js"></script>
     <script defer src="${app}res/js/jquery.flexslider.js"></script>
     <script src="${app}res/js/anchorscroller.js" type="text/javascript" ></script>
     <script src="${app}res/js/smoothscroll.js" type="text/javascript" ></script>
@@ -479,35 +479,26 @@ We are constantly evolving to always keep up with fashion trends and make you co
     </div>
 
     <!--block8 vakansii  -->
-    <div class="block8">
-    <div class="shad-t"></div>
-    <div class="shad-b"></div>
-    <a class="anc" name="comand"></a>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2>Our team</h2>
+<div id="photo-block" class="block8">    
    <div id="photo-holder">
+   <a class="anc" name="comand"></a>
+   <h2>Out team</h2>
    	<div id="photo-container">
-   		    <div class="item p1 grayscale grayscale-fade"></div>
-   	    	<div class="item p2 grayscale grayscale-fade"></div>
-   	    	<div class="item p3 grayscale grayscale-fade"></div>
-   	    	<div class="item p4 grayscale grayscale-fade"></div>
-   	    	<div class="item p5 grayscale grayscale-fade"></div>
-   	    	<div class="item p6 grayscale grayscale-fade"></div>
-   	    	<div class="item p7 grayscale grayscale-fade"></div>
-   	    	<div class="item p8 grayscale grayscale-fade"></div>
-	   	    <div class="item p9 grayscale grayscale-fade"></div>
-   		    <div class="item p10 grayscale grayscale-fade"></div>
+   		    <div class="item p1"></div>
+   	    	<div class="item p2"></div>
+   	    	<div class="item p3"></div>
+   	    	<div class="item p4"></div>
+   	    	<div class="item p5"></div>
+   	    	<div class="item p6"></div>
+   	    	<div class="item p7"></div>
+   	    	<div class="item p8"></div>
+	   	    <div class="item p9"></div>
+   		    <div class="item p10"></div>
   	 </div>
+  	 <div class="vacancy"><a href="${app}vacancies">Join the team →</a></div>
   	 </div>
-          <div class="v-btn"><a href="${app}vacancies">Join the team →</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
+  	 
+ </div>
     
     
    
@@ -542,7 +533,6 @@ We are constantly evolving to always keep up with fashion trends and make you co
   <!-- Placed at the end of the document so the pages load faster -->    
   <script src="${app}res/js/bootstrap.min.js"></script>
   <script src="${app}res/js/jquery.scrolly.js"></script>
-  <script src="${app}res/js/jquery.gray.min.js"></script>
     
   </body>
 </html>

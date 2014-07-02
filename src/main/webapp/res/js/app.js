@@ -1,5 +1,12 @@
 // Page effects initialization
 $(document).ready(function() {
+	$('#photo-container').masonry({
+		  columnWidth: 220,
+		  itemSelector: '.item',
+		  isFitWidth: true,
+		  gutter: 1
+	});
+	
 	var modalForm = $('#modalForm');
 	// Initialize form check
 	var validator = modalForm.validate({
