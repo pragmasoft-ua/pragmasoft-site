@@ -577,7 +577,8 @@
     </div>
   </div>
   <!--block8 vakansii  -->
-  <div class="block8">
+
+<div class="block8">
     <div class="shad-t"></div>
     <div class="shad-b"></div>
     <a class="anc" name="comand"></a>
@@ -585,25 +586,27 @@
       <div class="row">
         <div class="col-md-12">
           <h2>Наша команда</h2>
-          <div class="foto">
-              <div class="grayscale grayscale-fade"></div>
-              <div class="grayscale grayscale-fade"></div>
-              <div class="grayscale grayscale-fade"></div>
-              <div class="grayscale grayscale-fade"></div>
-              <div class="grayscale grayscale-fade"></div>
-              <div class="grayscale grayscale-fade"></div>
-              <div class="grayscale grayscale-fade"></div>
-              <div class="grayscale grayscale-fade"></div>
-              <div class="grayscale grayscale-fade"></div>
-              <div class="grayscale grayscale-fade"></div>
-          </div>
+   <div id="photo-holder">
+   	<div id="photo-container">
+   		    <div class="item p1 grayscale grayscale-fade"></div>
+   	    	<div class="item p2 grayscale grayscale-fade"></div>
+   	    	<div class="item p3 grayscale grayscale-fade"></div>
+   	    	<div class="item p4 grayscale grayscale-fade"></div>
+   	    	<div class="item p5 grayscale grayscale-fade"></div>
+   	    	<div class="item p6 grayscale grayscale-fade"></div>
+   	    	<div class="item p7 grayscale grayscale-fade"></div>
+   	    	<div class="item p8 grayscale grayscale-fade"></div>
+	   	    <div class="item p9 grayscale grayscale-fade"></div>
+   		    <div class="item p10 grayscale grayscale-fade"></div>
+  	 </div>
+  	 </div>
           <div class="v-btn"><a href="${app}vacancies">Хочу в команду →</a>
           </div>
         </div>
       </div>
     </div>
   </div>
-  </div>
+  </div>  
 
   <!--block9 -->
   <div class="block9">

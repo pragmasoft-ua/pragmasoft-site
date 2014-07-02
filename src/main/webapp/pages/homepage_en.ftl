@@ -479,30 +479,40 @@ We are constantly evolving to always keep up with fashion trends and make you co
     </div>
 
     <!--block8 vakansii  -->
-    <div class="block8"><div class="shad-t"></div><div class="shad-b"></div>
-      <a class="anc" name="comand"></a>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h2>Our team</h2>
-            <div class="foto">
-              <div class="grayscale grayscale-fade"></div>
-              <div class="grayscale grayscale-fade"></div>
-              <div class="grayscale grayscale-fade"></div>
-              <div class="grayscale grayscale-fade"></div>
-              <div class="grayscale grayscale-fade"></div>
-              <div class="grayscale grayscale-fade"></div>
-              <div class="grayscale grayscale-fade"></div>
-              <div class="grayscale grayscale-fade"></div>
-              <div class="grayscale grayscale-fade"></div>
-              <div class="grayscale grayscale-fade"></div>
-            </div>
-            <div class="v-btn"><a href="${app}vacancies">Join the team →</a></div>
+    <div class="block8">
+    <div class="shad-t"></div>
+    <div class="shad-b"></div>
+    <a class="anc" name="comand"></a>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Our team</h2>
+   <div id="photo-holder">
+   	<div id="photo-container">
+   		    <div class="item p1 grayscale grayscale-fade"></div>
+   	    	<div class="item p2 grayscale grayscale-fade"></div>
+   	    	<div class="item p3 grayscale grayscale-fade"></div>
+   	    	<div class="item p4 grayscale grayscale-fade"></div>
+   	    	<div class="item p5 grayscale grayscale-fade"></div>
+   	    	<div class="item p6 grayscale grayscale-fade"></div>
+   	    	<div class="item p7 grayscale grayscale-fade"></div>
+   	    	<div class="item p8 grayscale grayscale-fade"></div>
+	   	    <div class="item p9 grayscale grayscale-fade"></div>
+   		    <div class="item p10 grayscale grayscale-fade"></div>
+  	 </div>
+  	 </div>
+          <div class="v-btn"><a href="${app}vacancies">Join the team →</a>
           </div>
         </div>
       </div>
     </div>
   </div>
+  </div>
+    
+    
+   
+      
+       
  
   <!--block9 -->
   <div class="block9"><a class="anc-q" name="quality"></a>
