@@ -482,7 +482,7 @@ We are constantly evolving to always keep up with fashion trends and make you co
 <div id="photo-block" class="block8">    
    <div id="photo-holder">
    <a class="anc" name="comand"></a>
-   <h2>Out team</h2>
+   <h2>Our team</h2>
    	<div id="photo-container">
    		    <div class="item p1"></div>
    	    	<div class="item p2"></div>
