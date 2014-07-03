@@ -1042,11 +1042,11 @@ ul.prodj li:hover {
     display: none
 }
 
-.vacancy a {
+#photo-block .vacancy a {
     background: #fff;
     padding: 10px 35px;
     float: right;
-    margin: 25px 8px 0 0;
+    margin: 25px 0px 0px 0px;
     color: #44464b;
     font-size: 18px
 }
@@ -1078,7 +1078,6 @@ ul.prodj li:hover {
 #photo-block {
 	background: url(../img/background-2.jpg) top center repeat;
 	width: 100%;
-	background: url(../img/background-2.jpg) top center repeat;
     overflow: hidden;
     position: relative;
     padding: 35px 0 60px 0;
@@ -1096,29 +1095,33 @@ ul.prodj li:hover {
 }
 
 #photo-container div.item {
+	position: relative;
 	width: 220px;
 	height: 220px;
 	border: 1px solid #fff;
 	margin-bottom: 1px;
 	box-sizing: border-box; 
+	overflow: hidden;
 }
+
+#photo-container div.p10 {
+	width: 441px;
+}
+
+#photo-container div.p1-mobile {
+	background: url(../img/foto/1.1.jpg) no-repeat;
+	display: none;
+}
+
+#photo-container div.p10-mobile {
+	background: url(../img/foto/10.1.jpg) no-repeat;
+	display: none;
+}
+
+
 
 #photo-container div.p1 {
 	height: 441px;
-}
-
-#photo-block .item {
-    position: relative;
-}
-
-#photo-block .item:before, #photo-block .item:after {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 1;
 }
 
 #photo-block h2 {
@@ -1126,99 +1129,50 @@ ul.prodj li:hover {
 }
 
 
-#photo-block .item:before {
-    z-index: 1;
-    -webkit-transition: opacity 1s;
-    -moz-transition: opacity 1s;
-    -o-transition: opacity 1s;
-    transition: opacity 1s;
+#photo-block .item img {
+	box-sizing: border-box; 
 }
 
-#photo-block .item:hover:before {
-    opacity: 0;
-}
-
-#photo-block .p1:before {
-	 background: url(../img/foto-greyscale/1.jpg) no-repeat;
-}
-
-#photo-block .p1:after {
+#photo-block .p1 {
 	background: url(../img/foto/1.jpg) no-repeat;
 }
 
-#photo-block .p2:before {
-	 background: url(../img/foto-greyscale/2.jpg) no-repeat;
-}
-
-#photo-block .p2:after {
+#photo-block .p2 {
 	background: url(../img/foto/2.jpg) no-repeat;
 }
 
-#photo-block .p3:before {
-	 background: url(../img/foto-greyscale/3.jpg) no-repeat;
-}
-
-#photo-block .p3:after {
+#photo-block .p3 {
 	background: url(../img/foto/3.jpg) no-repeat;
 }
-#photo-block .p4:before {
-	 background: url(../img/foto-greyscale/4.jpg) no-repeat;
-}
 
-#photo-block .p4:after {
+#photo-block .p4 {
 	background: url(../img/foto/4.jpg) no-repeat;
 }
-#photo-block .p5:before {
-	 background: url(../img/foto-greyscale/5.jpg) no-repeat;
-}
 
-#photo-block .p5:after {
+#photo-block .p5 {
 	background: url(../img/foto/5.jpg) no-repeat;
 }
 
-#photo-block .p6:before {
-	 background: url(../img/foto-greyscale/6.jpg) no-repeat;
-}
-
-#photo-block .p6:after {
+#photo-block .p6 {
 	background: url(../img/foto/6.jpg) no-repeat;
 }
 
-#photo-block .p7:before {
-	 background: url(../img/foto-greyscale/7.jpg) no-repeat;
-}
-
-#photo-block .p7:after {
+#photo-block .p7 {
 	background: url(../img/foto/7.jpg) no-repeat;
 }
 
-#photo-block .p8:before {
-	 background: url(../img/foto-greyscale/8.jpg) no-repeat;
-}
-
-#photo-block .p8:after {
+#photo-block .p8 {
 	background: url(../img/foto/8.jpg) no-repeat;
 }
 
-#photo-block .p9:before {
-	 background: url(../img/foto-greyscale/9.jpg) no-repeat;
-}
-
-#photo-block .p9:after {
+#photo-block .p9 {
 	background: url(../img/foto/9.jpg) no-repeat;
 }
 
-#photo-block .p10:before {
-	 background: url(../img/foto-greyscale/10.jpg) no-repeat;
-}
-
-#photo-block .p10:after {
+#photo-block .p10 {
 	background: url(../img/foto/10.jpg) no-repeat;
 }
 
-#photo-container div.p10 {
-	width: 441px;
-}
 
 
 /*** block 9 ***/
@@ -1563,6 +1517,21 @@ ul.prodj li:hover {
         height: 38px;
         z-index: 5
     }
+    #photo-container div.p1 {
+		display: none;
+	}
+	#photo-container div.p10 {
+		display: none;
+	}
+    
+    #photo-container div.p1-mobile {
+		display: block;
+	}
+
+	#photo-container div.p10-mobile {
+		display: block;
+	}
+    
     .logo-sm > img {
         margin: 0 !important;
     }
@@ -1618,9 +1587,16 @@ ul.prodj li:hover {
     ul.navbar-nav li {
         height: 51px !important
     }
-    ul.navbar-nav li.comd {
-        display: none !important
+    
+    #photo-block div.vacancy {
+    	text-align: center;
     }
+    
+    #photo-block div.vacancy a {
+    	float: none;
+    	display: inline-block;
+    }
+    
     .navbar-toggle.collapsed,
     .navbar-toggle {
         border: none !important
