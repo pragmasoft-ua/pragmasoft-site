@@ -1,11 +1,14 @@
 $(document).ready(function() {
 
-	var projects_top = $('a[name="projects"]').offset().top - 10;
-	var comand_top = $('a[name="comand"]').offset().top - 10;
-	var quality_top = $('a[name="quality"]').offset().top - 300;
-	
+
+	var projects = $('a[name="projects"]');
+	var command = $('a[name="comand"]');
+	var quality = $('a[name="quality"]');
 	
 	$(window).on("scroll resize", function (){
+		var projects_top = projects.offset().top - 10;
+		var comand_top = command.offset().top - 10;
+		var quality_top = quality.offset().top - 300;
 			var window_top = $(window).scrollTop();
 			$("ul.nav li").removeClass("active");
 			if (window_top > quality_top) {

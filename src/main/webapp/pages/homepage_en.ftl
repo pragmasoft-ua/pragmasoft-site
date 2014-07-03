@@ -484,16 +484,18 @@ We are constantly evolving to always keep up with fashion trends and make you co
    <a class="anc" name="comand"></a>
    <h2>Our team</h2>
    	<div id="photo-container">
-   		    <div class="item p1"></div>
-   	    	<div class="item p2"></div>
-   	    	<div class="item p3"></div>
-   	    	<div class="item p4"></div>
-   	    	<div class="item p5"></div>
-   	    	<div class="item p6"></div>
-   	    	<div class="item p7"></div>
-   	    	<div class="item p8"></div>
-	   	    <div class="item p9"></div>
-   		    <div class="item p10"></div>
+   		    <div class="item p1"><img src="${app}res/img/foto-greyscale/1.jpg"></div>
+   		    <div class="item p1-mobile"><img src="${app}res/img/foto-greyscale/1.1.jpg"></div>
+   	    	<div class="item p2"><img src="${app}res/img/foto-greyscale/2.jpg"></div>
+   	    	<div class="item p3"><img src="${app}res/img/foto-greyscale/3.jpg"></div>
+   	    	<div class="item p4"><img src="${app}res/img/foto-greyscale/4.jpg"></div>
+   	    	<div class="item p5"><img src="${app}res/img/foto-greyscale/5.jpg"></div>
+   	    	<div class="item p6"><img src="${app}res/img/foto-greyscale/6.jpg"></div>
+   	    	<div class="item p7"><img src="${app}res/img/foto-greyscale/7.jpg"></div>
+   	    	<div class="item p8"><img src="${app}res/img/foto-greyscale/8.jpg"></div>
+	   	    <div class="item p9"><img src="${app}res/img/foto-greyscale/9.jpg"></div>
+   		    <div class="item p10"><img src="${app}res/img/foto-greyscale/10.jpg"></div>
+   		    <div class="item p10-mobile"><img src="${app}res/img/foto-greyscale/10.1.jpg"></div>
   	 </div>
   	 <div class="vacancy"><a href="${app}vacancies">Join the team →</a></div>
   	 </div>

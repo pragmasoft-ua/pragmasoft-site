@@ -119,5 +119,10 @@ $(document).ready(function() {
 		$(this).removeClass("body-hover").addClass("mobile-body-hover");
 	});
 	
+	$("#photo-block .item img").hover(function(){
+	    $(this).stop().animate({"opacity": 0});
+	},function(){
+	    $(this).stop().animate({"opacity": 1});
+	});
 
 });
