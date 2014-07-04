@@ -5,37 +5,37 @@ h1. Magic Children's Coloring Books
 
 <div class="vc-box">
 
-You are welcome to address us with any questions, suggestions, comments about Magic Children's Coloring Books app to our support email: "magicbooks@pragmasoft.com.ua":mailto:magicbooks@pragmasoft.com.ua. 
+Вы можете обратиться к нам с любыми вопросами, предложениями, замечаниями о приложении "Магические Детские Раскраски" в нашу службу поддержки по электронной почте: "magicbooks@pragmasoft.com.ua":mailto:magicbooks@pragmasoft.com.ua. 
 
-p(#fairy-tales). *Fairy Tales on App Store:*
+p(#fairy-tales). *Сказки на App Store:*
 
-* "Puss In Boots":http://itunes.apple.com/us/app/id494374246 ("Video":http://www.youtube.com/watch?v=nGEpoDjg8ts), 
-* "Cinderella":http://itunes.apple.com/us/app/id513475122 ("Video":http://www.youtube.com/watch?v=DRJFXaHGaLU), 
-* "Snow White":http://itunes.apple.com/us/app/id517853845 ("Video":http://www.youtube.com/watch?v=EptgWz65kMg), 
-* "Rapunzel":http://itunes.apple.com/us/app/id549231486 ("Video":http://www.youtube.com/watch?v=d_Z5pxOBChs), 
-* "Halloween":http://itunes.apple.com/us/app/id570568864 ("Video":http://www.youtube.com/watch?v=pYcMuUVv0Ig), 
-* The Nutcracker and the Mouse King,
-* Peter Pan, 
-* Goldilocks and the Three Bears, 
-* Little Red Riding Hood
+* "Кот в сапогах":http://itunes.apple.com/us/app/id494374246 ("видео":http://www.youtube.com/watch?v=nGEpoDjg8ts), 
+* "Золушка":http://itunes.apple.com/us/app/id513475122 ("видео":http://www.youtube.com/watch?v=DRJFXaHGaLU), 
+* "Белоснежка":http://itunes.apple.com/us/app/id517853845 ("видео":http://www.youtube.com/watch?v=EptgWz65kMg), 
+* "Рапунцель":http://itunes.apple.com/us/app/id549231486 ("видео":http://www.youtube.com/watch?v=d_Z5pxOBChs), 
+* "Хэллоуин":http://itunes.apple.com/us/app/id570568864 ("видео":http://www.youtube.com/watch?v=pYcMuUVv0Ig), 
+* Щелкунчик и Мышиный Король,
+* Питер Пен, 
+* Златовласка и Три медведя, 
+* Красная Шапочка
 
 
-Let your children dive into fascinating world of fairy tales! They can try the role of Charles Perrault and color personages on their own. There are 25 pictures in every tale which can be colored, sent by email, printed, saved to an album or uploaded to Facebook, and that all gives children almost unlimited opportunities. 
+Позвольте вашим детям погрузиться в увлекательный мир сказок! Они могут попробовать себя в роли Шарля Перро и раскрасить персонажей на свой манер. Каждая сказка состоит из 25 картинок, которые могут быть раскрашены, отправлены по почте, распечатаны, сохранены в альбом или загружены на Facebook, и все это дает детям практически безграничные возможности.
 
-p(#benefits). *Benefits:*
+p(#benefits). *Преимущества:*
 
-* smooth drawing
-* children friendly interface
-* lots of nice pictures
-* no ads
-* print, email, facebook support
-* imagination developing
-* educational experience
-* entertaining for kids
-* retina support
-* shake for undo/redo
+* гладкое рисование
+* удобный интерфейс для детей
+* большое количество замечательных картинок
+* отсутствие рекламных объявлений
+* распечатка, отправка, поддержка Facebook
+* развитие воображения
+* образовательный опыт
+* отличное развлечение для детей
+* поддержка ретина скрина
+* функция отмена/повтор
 
-Your kids will adore these books. Just give them a chance to develop their imagination!
+Ваши дети влюбятся в эти книги! Дайте им шанс развить свое воображение!
 
 <div class="p-img">
 
@@ -47,12 +47,11 @@ Your kids will adore these books. Just give them a chance to develop their imagi
 
 </div>
 
-p(#privacy-policy). *Privacy policy*
+p(#privacy-policy). *Политика конфиденциальности*
+Информация, которую мы собираем, когда вы используете наши приложения нужна для улучшения нашей продукции.
 
-The information we collect when you are using our apps is used to improve our products. We collect anonymous data about things such as your device type/iOS version, your language/country, but it does not tied to any personal information such as your name or email address in any way. We don't provide that info to any third party. We do not collect UDID (unique device identifier), MAC address, or OpenUDID information.
+Мы собираем анонимные данные о таких вещах, как тип вашего устройства / версия IOS, вашу страну/язык, но это никак не связано с персональной информацией, такой как имя или адрес электронной почты. Мы не предоставляем эту информацию третьим лицам. Мы не собираем UDID (уникальный идентификатор устройства), MAC-адрес, или OpenUDID информацию. 
 
-Pragmasoft does not store personal information, unless it is voluntarily provided through our mailing list. Pragmasoft does not sell, exchange or make available to third parties, the email addresses, telephone numbers or mailing addresses of customers.
-
-We respect your device privacy, and use this information responsibly.
+Мы уважаем конфеденциальность вашего устройства и используем эту информацию ответственно.
 
 </div>
