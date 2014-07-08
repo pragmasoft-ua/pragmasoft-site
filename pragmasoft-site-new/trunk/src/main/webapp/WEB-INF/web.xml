@@ -83,6 +83,12 @@
     	<servlet-name>EmailServlet</servlet-name>
     	<servlet-class>ua.com.pragmasoft.web.EmailServlet</servlet-class>
     </servlet>
+    <!-- Contact us servlet -->
+    <servlet>
+    	<servlet-name>ContactUsServlet</servlet-name>
+    	<servlet-class>ua.com.pragmasoft.web.ContactUsServlet</servlet-class>
+    </servlet>
+    
     
     <!-- ======== Servlet mappings ======== -->
     <servlet-mapping>
@@ -113,6 +119,11 @@
     <servlet-mapping>
     	<servlet-name>EmailServlet</servlet-name>
     	<url-pattern>/email</url-pattern>
+    </servlet-mapping>
+    <!-- Contact us servlet -->
+    <servlet-mapping>
+    	<servlet-name>ContactUsServlet</servlet-name>
+    	<url-pattern>/contactus</url-pattern>
     </servlet-mapping>
     
     <!-- Tomcat default servlet -->

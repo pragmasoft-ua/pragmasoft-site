@@ -58,6 +58,7 @@ public class EmailServlet extends HttpServlet {
 				Transport.send(message);
 				LOGGER.info("Message from {} ({}) sent", requesterName, requesterEmail);
 			}
+			resp.sendRedirect("");
  
 		} catch (MessagingException e) {
 			LOGGER.error("Email sending error: ", e);

@@ -10,7 +10,7 @@
     <title>${title}</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="${app}res/css/bootstrap.min.css" rel="stylesheet">
+    <link href="${app}res/css/main.css" rel="stylesheet">
     <!-- FlexSlider -->
     <link rel="stylesheet" href="${app}res/css/flexslider.css" type="text/css" media="screen" />
 

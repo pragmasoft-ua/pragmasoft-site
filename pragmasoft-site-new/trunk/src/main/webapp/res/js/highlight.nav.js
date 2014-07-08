@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 
 	var projects = $('a[name="projects"]');
-	var command = $('a[name="comand"]');
+	var command = $('a[name="team"]');
 	var quality = $('a[name="quality"]');
 	
 	$(window).on("scroll resize", function (){
@@ -27,5 +27,4 @@ $(document).ready(function() {
 	
 	$('.parallax.top').scrolly();
 	$('.parallax.bkg').scrolly({bgParallax: true});
-	
 });
