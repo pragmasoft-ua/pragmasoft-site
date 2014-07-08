@@ -13,7 +13,7 @@
   <title>Pragmasoft</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="${app}res/css/bootstrap.min.css" rel="stylesheet">
+  <link href="${app}res/css/main.css" rel="stylesheet">
   <!-- FlexSlider -->
   <link rel="stylesheet" href="${app}res/css/flexslider.css" type="text/css" media="screen" />
 
@@ -24,22 +24,20 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto:100italic,300,300italic,400,400italic,100&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script defer src="${app}res/js/masonry.pkgd.min.js"></script>
   <script defer src="${app}res/js/jquery.flexslider.js"></script>
   <script src="${app}res/js/anchorscroller.js" type="text/javascript"></script>
   <script src="${app}res/js/smoothscroll.js" type="text/javascript"></script>
   <script src="${app}res/js/jquery.easing.1.3.js" type="text/javascript"></script>
   <script src="${app}res/js/jquery.ui.totop.js" type="text/javascript"></script>
   <script src="${app}res/js/app.js" type="text/javascript"></script>
-  <script src="${app}res/js/highlight.nav.js" type="text/javascript"></script>
-  <script src="${app}res/js/jquery.validate.min.js" type="text/javascript"></script>
-  <script src="${app}res/js/localization/messages_ru.js" type="text/javascript"></script>
 
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+      <script src="${app}res/js/highlight.nav.js" type="text/javascript"></script>
 </head>
 
 <body class="body-hover">
@@ -51,7 +49,7 @@
     <div class="top-col-tr">
       <div class="container">
         <div class="row">
-          <div>
+          <div class="main-container">
             <div class="htitl">
               <img src="${app}res/img/01f_txt.png">
             </div>
@@ -109,11 +107,11 @@
 
   <!--block2  -->
   <div class="block2">
-    <a class="anc" name="nas"></a>
+    <a class="anc" name="about"></a>
     <div class="shad-t2"></div>
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="main-container">
           <div class="hndr">
             <img src="${app}res/img/10+txt-2.png" alt="">
             <div class="txt1"><span>10</span>
@@ -157,24 +155,23 @@
               <hr />Индивидуальный подход
               <br />и свежие идеи</div>
 
-            <div class="cl2">
+            <div class="cl2 cl2-left">
               <div class="alr">Передовые технологии
                 <hr />Большой опыт в разработке коммерчески успешных проектов</div>
+              <div class="chrph">
+                <img src="${app}res/img/01_main_che.png">
+              </div>
             </div>
-            <div class="cl2">
+            <div class="cl2 cl2-right">
               <div class="all">Исключительное качество
                 <hr />Широкий спектр услуг
                 <hr />Индивидуальный подход
                 <br />и свежие идеи</div>
-            </div>
-            <div class="chrph">
-              <img src="${app}res/img/01_main_che.png">
-            </div>
-            <div class="gus">
-              <img src="${app}res/img/01_main_b.png">
+                <div class="gus">
+                <img src="${app}res/img/01_main_b.png">
+              </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
@@ -187,7 +184,7 @@
     <a class="anc" name="projects"></a>
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="main-container">
           <h2>Разработка<br />мобильных приложений</h2>
           <p>В современном мире, телефоны давно перестали быть одним лишь средством связи. Они позволяют нам быть на связи с нашими близкими, позволяют быть в курсе событий, убивать время в очередях, часами находиться в соц.сетях или играть в приложения. Мы храним в телефонах столько информации, что с трудом представляем свою жизнь без них. Именно эти потребности и создали такой простор для мобильных разработчиков.</p>
 
@@ -288,7 +285,7 @@
   <div class="block4">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="main-container">
           <h2>Java Серверные приложения</h2>
           <p class="uper norm">Преимущества Серверных приложений</p>
           <p>Серверные приложения обладают целым рядом преимуществ:</p>
@@ -338,7 +335,7 @@
                 <span class="info">Подробнее</span>
               </div>
             </a>
-            <a class="view view-first" href="#" data-toggle="modal" data-target="#myModal">
+            <a class="view view-first" href="${app}contactus">
               <img src="${app}res/img/project/free-project2.jpg" />
               <div class="mask">
                 <h2>Order a Project</h2>
@@ -354,7 +351,7 @@
                 <span class="info">Подробнее</span>
               </div>
             </a>
-            <a class="view view-first" href="#" data-toggle="modal" data-target="#myModal">
+            <a class="view view-first" href="${app}contactus">
               <img src="${app}res/img/project/free-project2.jpg" />
               <div class="mask">
                 <h2>Order a Project</h2>
@@ -389,7 +386,7 @@
   <div class="block5">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="main-container">
           <h2>Облачные<br />вычисления</h2>
           <p class="uper norm">Преимущества облачных вычислений</p>
           <ul class="tpage">
@@ -430,7 +427,7 @@
                 <span class="info">Подробнее</span>
               </div>
             </a>
-            <a class="view view-first" href="#" data-toggle="modal" data-target="#myModal">
+            <a class="view view-first" href="${app}contactus">
               <img src="${app}res/img/project/free-project.jpg" />
               <div class="mask">
                 <h2>Order a project</h2>
@@ -457,7 +454,7 @@
   <div class="block6">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="main-container">
           <h2>веб дизайн<br />и графика</h2> 
           <p>Специалисты Прагмасофт предоставляют клиентам услуги по разработке веб-сайтов, графического дизайна, иллюстраций, в течение почти 10 лет. Наш опыт позволяет нам выполнять дизайн-проекты в различных сферах и на разных уровнях сложности.
             <br />Спектр услуг, предоставляемых нашей компанией включает в себя брендинг с разработкой корпоративного стиля, разработку логотипов, как с самого начала вашего бизнеса, так и легкое обновление уже существующих концепций. Мы также можем предоставить вам как нарисованные от руки, так и векторные картинки либо предложить разработку яркой и стильной анимации.
@@ -552,7 +549,7 @@
   <div class="block7">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="main-container">
           <h2>Почему  Украина</h2>
           <ul class="ukr">
             <li>Украина входит пятерку мировых лидеров по экспорту программной продукции</li>
@@ -578,8 +575,10 @@
   </div>
   <!--block8 vakansii  -->
 <div id="photo-block" class="block8">    
-   <div id="photo-holder">
-   <a class="anc" name="comand"></a>
+	<div class="container">
+   <div class="row">
+   <div class="main-container">
+   <a class="anc" name="team"></a>
    <h2>Наша команда</h2>
    	<div id="photo-container">
    		    <div class="item p1"><img src="${app}res/img/foto-greyscale/1.jpg"></div>
@@ -597,7 +596,8 @@
   	 </div>
   	 <div class="vacancy"><a href="${app}vacancies">Хочу в команду →</a></div>
   	 </div>
-  	 
+  	 </div>
+  	 </div>
  </div>
   <!--block9 -->
   <div class="block9">
@@ -605,7 +605,7 @@
     <div class="botimg">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="main-container">
             <h2>Обеспечение качества<br />программного продукта</h2>
             <p>Мы уделяем большое внимание качеству нашей продукции. У нас есть квалифицированный отдел контроля качества, а также значительное количество устройств, доступных для тестирования, включая смартфоны и планшеты (IOS, Android, Blackberry и телефон на базе Win).</p>
             <br />
@@ -621,15 +621,9 @@
 
   <!-- Footer -->
   <#include "footer_ru.ftl" />
-
-  <!-- Modal -->
-  <#include "orderProject_ru.ftl" />
-
-  <!-- Bootstrap core JavaScript
-    ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script src="${app}res/js/bootstrap.min.js"></script>
-  <script src="${app}res/js/jquery.scrolly.js"></script>
+  
+      <!-- Placed at the end of the document so the pages load faster -->    
+    <script src="${app}res/js/bootstrap.min.js"></script>
+    <script src="${app}res/js/jquery.scrolly.js"></script>
 </body>
-
 </html>

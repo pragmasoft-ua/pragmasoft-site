@@ -12,32 +12,32 @@
     <title>Pragmasoft</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="${app}res/css/bootstrap.min.css" rel="stylesheet">
+    <link href="${app}res/css/main.css" rel="stylesheet">
     <!-- FlexSlider -->
     <link rel="stylesheet" href="${app}res/css/flexslider.css" type="text/css" media="screen" />
 
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="${app}res/css/parallax.css">
-    <link rel="stylesheet" href="${app}res/css/style.css">
+    
     <link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:100italic,300,300italic,400,400italic,100&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script defer src="${app}res/js/masonry.pkgd.min.js"></script>
     <script defer src="${app}res/js/jquery.flexslider.js"></script>
     <script src="${app}res/js/anchorscroller.js" type="text/javascript" ></script>
     <script src="${app}res/js/smoothscroll.js" type="text/javascript" ></script>
     <script src="${app}res/js/jquery.easing.1.3.js" type="text/javascript"></script>
     <script src="${app}res/js/jquery.ui.totop.js" type="text/javascript"></script>
-    <script src="${app}res/js/app.js" type="text/javascript"></script>
-    <script src="${app}res/js/highlight.nav.js" type="text/javascript"></script>
-    <script src="${app}res/js/jquery.validate.min.js" type="text/javascript"></script>    
-
+    
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    <link rel="stylesheet" href="${app}res/css/style.css">
+    <script src="${app}res/js/app.js" type="text/javascript"></script>
+    <script src="${app}res/js/highlight.nav.js" type="text/javascript"></script>
   </head>
   <body class="body-hover">
     <!--Top Navigation  --> 
@@ -48,7 +48,7 @@
       <div class="top-col-tr">
         <div class="container">
           <div class="row">
-            <div>
+            <div class="main-container">
               <div class="htitl"><img src="${app}res/img/01f_txt.png"></div>
               <div class="htitl-med"><img src="${app}res/img/01f_txt.png"></div>
               <div class="htitl-sm"><img src="${app}res/img/01m_txt_2.png"></div>
@@ -75,10 +75,10 @@
     </div>
   
     <!--block2  -->      
-    <div class="block2"><a class="anc" name="nas"></a><div class="shad-t2"></div>
+    <div class="block2"><a class="anc" name="about"></a><div class="shad-t2"></div>
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="main-container">
             <div class="hndr">
               <img src="${app}res/img/10+txt-2.png" alt="">
               <div class="txt1"><span>10</span><br /><br />years<br />of successful<br />software<br />development</div>
@@ -91,10 +91,12 @@
               <div class="gus-sm"><img src="${app}res/img/01_main_b.png"></div>
               <div><h2>What we offer</h2></div>
               <div class="bl2-sm">Cutting-edge<br />technologies<hr />Great experience<br />in developing<br />commercially<br />successful projects<hr />Exceptional quality<hr />Wide range<br />of services<hr />Individual approach<br />&amp; fresh ideas</div>             
-              <div class="cl2"><div class="alr">Cutting-edge technologies<hr />Great experience in developing commercially successful projects</div></div>
-              <div class="cl2"><div class="all">Exceptional quality<hr />Wide range of services<hr />Individual approach<br />&amp; fresh ideas</div></div>
+              <div class="cl2 cl2-left"><div class="alr">Cutting-edge technologies<hr />Great experience in developing commercially successful projects</div>
               <div class="chrph"><img src="${app}res/img/01_main_che.png"></div>
+              </div>
+              <div class="cl2 cl2-right"><div class="all">Exceptional quality<hr />Wide range of services<hr />Individual approach<br />&amp; fresh ideas</div>
               <div class="gus"><img src="${app}res/img/01_main_b.png"></div>
+              </div>
             </div>              
           </div>
         </div>
@@ -106,7 +108,7 @@
       <a class="anc" name="projects"></a>
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="main-container">
             <h2>Mobile App<br />Development</h2>
             <p>In today's world, phones have long ceased to be a communication means only. They enable us to be in touch with our near and dear ones, to stay tuned, to kill time in queues,to stay in social networks for hours  or to play applications. We keep so much information in our phones that can hardly imagine life without them. Precisely these needs created a great space for mobile developers.</p>
             <p>We really are professionals in mobile software development and can offer you not only a full cycle software development process for IOS, Android, Blackberry mobile platforms, but also the server-side.</p><br /><br />
@@ -201,7 +203,7 @@
     <div class="block4">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="main-container">
             <h2>Java Server applications</h2>
             <p class="uper norm">Advantages of Server application</p>
             <p>Server applications have a number of advantages:</p>
@@ -249,7 +251,7 @@ Pragmasoft Team has a great experience in server application development. Our ex
                   <span class="info">Read More</span>
                 </div>
               </a>              
-              <a class="view view-first" href="#" data-toggle="modal" data-target="#myModal">
+              <a class="view view-first" href="${app}contactus">
                 <img src="${app}res/img/project/free-project2.jpg" />
                 <div class="mask">
                   <h2>Order a Project</h2>
@@ -265,7 +267,7 @@ Pragmasoft Team has a great experience in server application development. Our ex
                   <span class="info">Read More</span>
                 </div>
               </a>
-              <a class="view view-first" href="#" data-toggle="modal" data-target="#myModal">
+              <a class="view view-first" href="${app}contactus">
                 <img src="${app}res/img/project/free-project2.jpg" />
                 <div class="mask">
                   <h2>Order a Project</h2>
@@ -299,7 +301,7 @@ Pragmasoft Team has a great experience in server application development. Our ex
     <div class="block5">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="main-container">
             <h2>Cloud<br />computing</h2>
             <p class="uper norm">Advantages of cloud computing</p>
             <ul  class="tpage">
@@ -338,7 +340,7 @@ Pragmasoft Team has a great experience in server application development. Our ex
                   <span class="info">Read More</span>
                 </div>
               </a>
-              <a class="view view-first" href="#" data-toggle="modal" data-target="#myModal">
+              <a class="view view-first" href="${app}contactus">
                 <img src="${app}res/img/project/free-project.jpg" />
                 <div class="mask">
                   <h2>Order a project</h2>
@@ -364,7 +366,7 @@ Pragmasoft Team has a great experience in server application development. Our ex
     <div class="block6">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="main-container">
             <h2>Graphic<br />&amp; Web design</h2>               
             <p>Pragmasoft specialists provide clients with website development, graphic design, illustrations, for almost 10 years. Some of our results you can find in our gallery. Our expertise enables us to perform design projects in various spheres and on different levels of complexity.<br />
 Range of services provided by our company includes branding with corporate style concept, logo design from the very start of your business or slightly refreshing of existed one. We also can provide you with  hand-drawn and vectorized development or offer you a bright and stylish animation.<br />
@@ -456,7 +458,7 @@ We are constantly evolving to always keep up with fashion trends and make you co
     <div class="block7">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="main-container">
             <h2>Why Ukraine</h2>
             <ul class="ukr">
               <li>Ukraine is among the five world leaders in export of software products</li>
@@ -480,10 +482,13 @@ We are constantly evolving to always keep up with fashion trends and make you co
 
     <!--block8 vakansii  -->
 <div id="photo-block" class="block8">    
-   <div id="photo-holder">
-   <a class="anc" name="comand"></a>
+	<div class="container">
+   <div class="row">
+   <div class="main-container">
+   <a class="anc" name="team"></a>
    <h2>Our team</h2>
-   	<div id="photo-container">
+   
+   	<div id="photo-container" class="clearfix">
    		    <div class="item p1"><img src="${app}res/img/foto-greyscale/1.jpg"></div>
    		    <div class="item p1-mobile"><img src="${app}res/img/foto-greyscale/1.1.jpg"></div>
    	    	<div class="item p2"><img src="${app}res/img/foto-greyscale/2.jpg"></div>
@@ -499,7 +504,8 @@ We are constantly evolving to always keep up with fashion trends and make you co
   	 </div>
   	 <div class="vacancy"><a href="${app}vacancies">Join the team →</a></div>
   	 </div>
-  	 
+  	 </div>
+  	 </div>
  </div>
     
     
@@ -512,7 +518,7 @@ We are constantly evolving to always keep up with fashion trends and make you co
     <div class="botimg">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="main-container">
             <h2>Software Quality<br />Assurance</h2>
             <p>We put serious attention to quality of our product. We have dedicated QA department, and fair number of devices available for testing, including smart-phones and tablets (IOS, Android, Blackberry and Win Phone powered).</p><br />
             <p>Our team has wide software testing experience from  simple applications to complicated cross-functional ones to offer our Clients the best software quality assurance services.</p>
@@ -527,14 +533,9 @@ We are constantly evolving to always keep up with fashion trends and make you co
 
   <#include "footer_en.ftl" />
     
-  <!-- Modal -->
-  <#include "orderProject_en.ftl" />
-
-  <!-- Bootstrap core JavaScript
-  ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->    
-  <script src="${app}res/js/bootstrap.min.js"></script>
-  <script src="${app}res/js/jquery.scrolly.js"></script>
     
+        <!-- Placed at the end of the document so the pages load faster -->    
+    <script src="${app}res/js/bootstrap.min.js"></script>
+    <script src="${app}res/js/jquery.scrolly.js"></script>
   </body>
 </html>

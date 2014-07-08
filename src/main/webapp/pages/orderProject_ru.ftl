@@ -1,29 +1,22 @@
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-      <form role="form" id="modalForm">
-        <div class="modal-header">
-          <h4 class="modal-title" id="myModalLabel">Свяжитесь с нами</h4>
-        </div>
-        <div class="modal-body">
+        <form role="form" id="orderForm" action="email" method="post">
+          <h4 class="form-title">Свяжитесь с нами</h4>
+        <div>
           <div class="form-group">
-            <label for="exampleInputFio">ФИО:</label>
-            <input type="text" class="form-control" name="requesterName" placeholder="">
+            <label for="requesterName">ФИО:</label>
+            <input type="text" class="form-control" id="requesterName" name="requesterName" placeholder="">
           </div>
           <div class="form-group">
-            <label for="exampleInputEmail1">Электронная почта:</label>
-            <input type="email" class="form-control" name="requesterEmail" placeholder="">
+            <label for="requesterEmail">Электронная почта:</label>
+            <input type="email" class="form-control" id="requesterEmail" name="requesterEmail" placeholder="">
           </div>
           <div class="form-group">
-            <label for="exampleInputMessage">Текст сообщения:</label>
-            <textarea class="form-control" rows="6" name="message"></textarea>
+            <label for="message">Текст сообщения:</label>
+            <textarea class="form-control" rows="6" id="message" name="message"></textarea>
           </div>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="m-btn">Отправить сообщение →</button>
+        <div>
+          <input type="submit" class="m-btn" value="Отправить сообщение →"></input>
+        </div>
         </div>
       </form>
-    </div>
-  </div>
-</div>
+      

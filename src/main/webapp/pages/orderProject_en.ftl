@@ -1,29 +1,21 @@
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-      <form role="form" id="modalForm">
-        <div class="modal-header">
-          <h4 class="modal-title" id="myModalLabel">contact us</h4>
-        </div>
-        <div class="modal-body">
+      <form role="form" id="orderForm" action="email" method="post">
+          <h4 class="form-title">contact us</h4>
+        <div>
           <div class="form-group">
-            <label for="exampleInputFio">Name:</label>
-            <input type="text" class="form-control" name="requesterName" placeholder="">
+            <label for="requesterName">Name:</label>
+            <input type="text" class="form-control" id="requesterName" name="requesterName" placeholder="">
           </div>
           <div class="form-group">
-            <label for="exampleInputEmail1">Email:</label>
-            <input type="email" class="form-control" name="requesterEmail" placeholder="">
+            <label for="requesterEmail">Email:</label>
+            <input type="email" class="form-control" id="requesterEmail" name="requesterEmail" placeholder="">
           </div>
           <div class="form-group">
-            <label for="exampleInputMessage">Message:</label>
-            <textarea class="form-control" rows="6" name="message"></textarea>
+            <label for="message">Message:</label>
+            <textarea class="form-control" rows="6" id="message" name="message"></textarea>
           </div>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="m-btn">Send message →</button>
+        <div>
+          <input type="submit" class="m-btn" value="Send message →"></input>
+        </div>
         </div>
       </form>
-    </div>
-  </div>
-</div>
