@@ -427,7 +427,7 @@
                 <span class="info">Подробнее</span>
               </div>
             </a>
-            <a class="view view-first" href="${app}contactus">
+            <a class="view view-first mobile-hide" href="${app}contactus">
               <img src="${app}res/img/project/free-project.jpg" />
               <div class="mask">
                 <h2>Order a project</h2>
