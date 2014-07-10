@@ -25,8 +25,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script defer src="${app}res/js/jquery.flexslider.js"></script>
-    <script src="${app}res/js/anchorscroller.js" type="text/javascript" ></script>
-    <script src="${app}res/js/smoothscroll.js" type="text/javascript" ></script>
     <script src="${app}res/js/jquery.easing.1.3.js" type="text/javascript"></script>
     <script src="${app}res/js/jquery.ui.totop.js" type="text/javascript"></script>
 

@@ -1,9 +1,7 @@
 $(document).ready(function() {
-
-
-	var projects = $('a[name="projects"]');
-	var command = $('a[name="team"]');
-	var quality = $('a[name="quality"]');
+	var projects = $('#projects');
+	var command = $('#team');
+	var quality = $('#quality');
 	
 	$(window).on("scroll resize", function (){
 		var projects_top = projects.offset().top - 10;

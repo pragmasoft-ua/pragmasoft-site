@@ -8,6 +8,17 @@ $(document).ready(function() {
 	$('.backtotop').click(function(){
 		$('html, body').animate({scrollTop:0}, 'slow');
 	});
+	
+	var main = $('html, body');
+	
+	$('.nav li a').click(function(){
+		main.stop(true);
+		main.animate({
+	        scrollTop: $( $.attr(this, 'href').substr(1) ).offset().top
+	    }, 800);
+	    return true;
+	});
+	
 
 	// Flexislider
 	$('.flexslider').flexslider({

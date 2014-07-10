@@ -24,8 +24,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script defer src="${app}res/js/jquery.flexslider.js"></script>
-    <script src="${app}res/js/anchorscroller.js" type="text/javascript" ></script>
-    <script src="${app}res/js/smoothscroll.js" type="text/javascript" ></script>
     <script src="${app}res/js/jquery.easing.1.3.js" type="text/javascript"></script>
     <script src="${app}res/js/jquery.ui.totop.js" type="text/javascript"></script>
     
@@ -74,8 +72,9 @@
       </div>
     </div>
   
+  <div id="about"></div>
     <!--block2  -->      
-    <div class="block2"><a class="anc" name="about"></a><div class="shad-t2"></div>
+    <div class="block2"><div class="shad-t2"></div>
       <div class="container">
         <div class="row">
           <div class="main-container">
@@ -103,9 +102,9 @@
       </div>    
     </div>
  
+ <div id="projects"></div>
     <!--block3  -->      
     <div class="block3">
-      <a class="anc" name="projects"></a>
       <div class="container">
         <div class="row">
           <div class="main-container">
@@ -480,12 +479,12 @@ We are constantly evolving to always keep up with fashion trends and make you co
       </div>
     </div>
 
+<div id="team"></div>
     <!--block8 vakansii  -->
 <div id="photo-block" class="block8">    
 	<div class="container">
    <div class="row">
    <div class="main-container">
-   <a class="anc" name="team"></a>
    <h2>Our team</h2>
    
    	<div id="photo-container" class="clearfix">
@@ -512,9 +511,9 @@ We are constantly evolving to always keep up with fashion trends and make you co
    
       
        
- 
+ <div id="quality"></div>
   <!--block9 -->
-  <div class="block9"><a class="anc-q" name="quality"></a>
+  <div class="block9">
     <div class="botimg">
       <div class="container">
         <div class="row">
