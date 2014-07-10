@@ -25,8 +25,6 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script defer src="${app}res/js/jquery.flexslider.js"></script>
-  <script src="${app}res/js/anchorscroller.js" type="text/javascript"></script>
-  <script src="${app}res/js/smoothscroll.js" type="text/javascript"></script>
   <script src="${app}res/js/jquery.easing.1.3.js" type="text/javascript"></script>
   <script src="${app}res/js/jquery.ui.totop.js" type="text/javascript"></script>
   <script src="${app}res/js/app.js" type="text/javascript"></script>
@@ -105,9 +103,9 @@
     </div>
   </div>
 
+<div id="about"></div>
   <!--block2  -->
   <div class="block2">
-    <a class="anc" name="about"></a>
     <div class="shad-t2"></div>
     <div class="container">
       <div class="row">
@@ -179,9 +177,8 @@
   </div>
 
   <!--block3  -->
-
+<div id="projects"></div>
   <div class="block3">
-    <a class="anc" name="projects"></a>
     <div class="container">
       <div class="row">
         <div class="main-container">
@@ -574,11 +571,12 @@
     </div>
   </div>
   <!--block8 vakansii  -->
+  
+  <div id="team"></div>
 <div id="photo-block" class="block8">    
 	<div class="container">
    <div class="row">
    <div class="main-container">
-   <a class="anc" name="team"></a>
    <h2>Наша команда</h2>
    	<div id="photo-container">
    		    <div class="item p1"><img src="${app}res/img/foto-greyscale/1.jpg"></div>
@@ -599,9 +597,9 @@
   	 </div>
   	 </div>
  </div>
+ <div id="quality"></div>
   <!--block9 -->
   <div class="block9">
-    <a class="anc-q" name="quality"></a>
     <div class="botimg">
       <div class="container">
         <div class="row">
