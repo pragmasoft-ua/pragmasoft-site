@@ -22,10 +22,13 @@
     <link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:100italic,300,300italic,400,400italic,100&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
+	<link rel="stylesheet" href="${app}res/css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script defer src="${app}res/js/jquery.flexslider.js"></script>
     <script src="${app}res/js/jquery.easing.1.3.js" type="text/javascript"></script>
     <script src="${app}res/js/jquery.ui.totop.js" type="text/javascript"></script>
+       
+    <script src="${app}res/js/app.js" type="text/javascript"></script>
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -33,8 +36,6 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-    <link rel="stylesheet" href="${app}res/css/style.css">
-    <script src="${app}res/js/app.js" type="text/javascript"></script>
     <script src="${app}res/js/highlight.nav.js" type="text/javascript"></script>
   </head>
   <body class="body-hover">

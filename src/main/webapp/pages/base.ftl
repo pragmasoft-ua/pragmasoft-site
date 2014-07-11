@@ -49,14 +49,14 @@
             <div class="main-container">
                 <!--Content-->
                 <div class="content">
+                  <!-- START NESTED CONTENT -->             
+                  <#nested/>
+                  <!-- END NESTED CONTENT --> 
                   <#if language = "ru">
                     <div class="pr-btn-order"><a href="${app}contactus">Заказать проект</a></div>
                   <#else>
                     <div class="pr-btn-order"><a href="${app}contactus">Order a Project</a></div>
                   </#if>
-                  <!-- START NESTED CONTENT -->             
-                  <#nested/>
-                  <!-- END NESTED CONTENT --> 
                 </div>
                 <div class="clearfix"></div>
                 <!--end content-->
