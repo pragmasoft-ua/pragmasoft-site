@@ -11,7 +11,7 @@ $(document).ready(function() {
 	
 	var main = $('html, body');
 	
-	$('.nav li a').click(function(){
+	$('a.menuItem').click(function(){
 		main.stop(true);
 		main.animate({
 	        scrollTop: $( $.attr(this, 'href').substr(1) ).offset().top
@@ -31,8 +31,21 @@ $(document).ready(function() {
 	// dirty hack to fire some events in Mozilla
 	$(window).scrollTop($(window).scrollTop()+1);
 	
+	var navBar = $('.navbar');
+	
 	$('body').one('touchstart', function(event){
 		$(this).removeClass("body-hover").addClass("mobile-body-hover");
 	});
+	
+	$('.mobile-nav-collapse').on('hide.bs.collapse', function (e) {
+		if (navBar.offset().top > 10) {
+			$('html, body').animate({scrollTop:0}, 800);
+			e.preventDefault();
+		}
+    }).on('show.bs.collapse', function(e) {
+    	if (navBar.offset().top > 10) {
+			$('html, body').animate({scrollTop:0}, 800);
+		}
+    });
 	
 });

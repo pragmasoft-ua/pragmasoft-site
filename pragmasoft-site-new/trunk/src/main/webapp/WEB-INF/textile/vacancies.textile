@@ -4,7 +4,7 @@ keywords:Pragmasoft|Java|JavaEE|AJAX|QA
 h1. Vacancies
 
 
-<div class="vc-box">
+<div class="vc-box-v">
 
 h2. Java EE developer
 
@@ -24,7 +24,7 @@ h2. Java EE developer
 
 </div>
 
-<div class="vc-box">
+<div class="vc-box-v">
 
 h2. Junior Java EE developer
 
