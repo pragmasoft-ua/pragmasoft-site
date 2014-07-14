@@ -2034,6 +2034,7 @@ ul.prodj li:hover {
     position: relative;
     font-size: 21px;
     padding: 10px;
+    background: #50A0BE;
     background: rgba(80, 160, 190, 0.9);
     margin: 20px 0 0 0;
 }
