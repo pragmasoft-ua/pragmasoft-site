@@ -28,6 +28,13 @@ public class EmailServlet extends HttpServlet {
 	private static final long serialVersionUID = -5252164430615219628L;
 	
 	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		req.setAttribute("path", "email_sent.ftl");
+		req.getRequestDispatcher("/pages/contactUs.ftl").forward(req, resp);
+	}
+	
+	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 		
