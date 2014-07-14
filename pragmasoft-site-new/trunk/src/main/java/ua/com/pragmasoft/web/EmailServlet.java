@@ -58,7 +58,7 @@ public class EmailServlet extends HttpServlet {
 				LOGGER.info("Message from {} ({}) sent", requesterName, requesterEmail);
 			}
 			
-			req.setAttribute("path", "/pages/email_sent.ftl");
+			req.setAttribute("path", "email_sent.ftl");
 			req.getRequestDispatcher("/pages/contactUs.ftl").forward(req, resp);
  
 		} catch (MessagingException e) {

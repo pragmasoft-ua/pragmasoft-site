@@ -16,8 +16,8 @@ public class ContactUsServlet extends HttpServlet {
 	private static final long serialVersionUID = -5714177759316176506L;
 	private static final Logger log = LoggerFactory.getLogger(ContactUsServlet.class);
 	
-	private static final String PATH_TO_CONTACT_US_EN = "/pages/orderProject_en.ftl";
-	private static final String PATH_TO_CONTACT_US_RU = "/pages/orderProject_ru.ftl";
+	private static final String PATH_TO_CONTACT_US_EN = "orderProject_en.ftl";
+	private static final String PATH_TO_CONTACT_US_RU = "orderProject_ru.ftl";
 
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
