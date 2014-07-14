@@ -1329,6 +1329,15 @@ ul.prodj li:hover {
     position: relative;
     z-index: 18
 }
+
+#message-sent {
+	margin-top: 100px;
+	margin-bottom: 150px;
+}
+
+
+
+
 .ftifl {
     color: #fff;
     font-family: 'Roboto', sans-serif;
@@ -1339,7 +1348,8 @@ ul.prodj li:hover {
     position: relative;
     bottom: -280px;
     left: 125px;
-    line-height: 36px
+    line-height: 36px;
+    width: 500px;
 }
 .ftifl span {
     font-weight: 400
@@ -1491,7 +1501,7 @@ ul.prodj li:hover {
         margin: 25px auto 0 auto;
     }
     .ftifl {
-        position: absolute;
+        position: relative;
         bottom: -280px;
         left: 25px;
         line-height: 36px
@@ -1535,7 +1545,7 @@ ul.prodj li:hover {
         margin-right: 45px
     }
     .ftifl {
-        position: absolute;
+        position: relative;
         bottom: -280px;
         left: 25px;
         line-height: 36px

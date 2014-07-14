@@ -29,6 +29,13 @@ public class EmailServlet extends HttpServlet {
 	
 	
 	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		req.setAttribute("path", "/pages/email_sent.ftl");
+		req.getRequestDispatcher("/pages/contactUs.ftl").forward(req, resp);
+	}
+	
+	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 		
@@ -58,7 +65,9 @@ public class EmailServlet extends HttpServlet {
 				Transport.send(message);
 				LOGGER.info("Message from {} ({}) sent", requesterName, requesterEmail);
 			}
-			resp.sendRedirect("");
+			
+			req.setAttribute("path", "/pages/email_sent.ftl");
+			req.getRequestDispatcher("/pages/contactUs.ftl").forward(req, resp);
  
 		} catch (MessagingException e) {
 			LOGGER.error("Email sending error: ", e);

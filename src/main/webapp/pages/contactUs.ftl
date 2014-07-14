@@ -42,6 +42,7 @@
     </#if>
   </head>
   <body class="body-hover">
+  
     <!--Top Navigation  --> 
     <#include "navBar_${language}.ftl" />
 
@@ -53,11 +54,14 @@
             <div class="col-md-8 col-md-offset-2">
                 <!--Content-->
                 <div class="content">
-                  <#include "orderProject_${language}.ftl" />
+                  <#include "${path}" />
                 </div>
-                <div class="clearfix"></div>
+                
                 <!--end content-->
             </div>
+            <div class="ftifl">When ideas<br/>
+                  &nbsp;&nbsp;&nbsp;&nbsp;turn into real<span>it</span>y
+                </div>
           </div>
         </div>
       </div>
@@ -71,4 +75,5 @@
     <!-- Placed at the end of the document so the pages load faster -->    
     <script src="${app}res/js/bootstrap.min.js"></script>
     <script src="${app}res/js/jquery.scrolly.js"></script>
+    
   </body>
