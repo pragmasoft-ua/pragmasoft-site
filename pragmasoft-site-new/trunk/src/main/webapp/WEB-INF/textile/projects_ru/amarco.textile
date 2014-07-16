@@ -12,10 +12,10 @@ Desktop Marketer предназначен для распространения
 
 <div class="p-img">
 
-!../res/img/project/cloud/amarco-1.jpg!
+!../../res/img/project/cloud/amarco-1.jpg!
 
-!../res/img/project/cloud/amarco-2.jpg!
+!../../res/img/project/cloud/amarco-2.jpg!
 
-!../res/img/project/cloud/amarco-3.jpg!
+!../../res/img/project/cloud/amarco-3.jpg!
 
 </div></div>

@@ -9,7 +9,6 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -30,13 +29,12 @@ public class ProjectsServlet extends HttpServlet {
 			HttpServletResponse response) throws ServletException, IOException {
 
 		log.debug("Request URI: {}", request.getRequestURI());
-		HttpSession session = ((HttpServletRequest) request).getSession();
 
 		String requestUri = request.getRequestURL().toString();
 		String projectName = requestUri.substring(requestUri.indexOf(ROOT_DIRECTORY) + ROOT_DIRECTORY.length());
 
 		String pathToTemplate;
-		if (session.getAttribute(Constants.LANGUAGE).equals("en")) {
+		if (request.getAttribute(Constants.LANGUAGE).equals("en")) {
 			pathToTemplate = PROJECTS_EN_PATH + projectName;
 		} else {
 			pathToTemplate = PROJECTS_RU_PATH + projectName;
@@ -56,13 +54,14 @@ public class ProjectsServlet extends HttpServlet {
 		synchronized (ProjectsServlet.class) {			
 			FileReader.getInstance().parse(textAsStream);			
 			for (Map.Entry<String, String> entry: FileReader.getInstance().getMetaInfo().entrySet()) {
-				session.setAttribute(entry.getKey(), entry.getValue());
+				request.setAttribute(entry.getKey(), entry.getValue());
 			}
 			
 			String formattedText = FileReader.getInstance().getTextileMarkup();
 			String content = TextProcessorFactory.getMarkdownProcessor().textToHtml(formattedText);	
 			request.setAttribute("text", content);
 		}
+		
 		request.getRequestDispatcher("/pages/content.ftl").forward(request, response);
 	}
 

@@ -1,5 +1,6 @@
 package ua.com.pragmasoft.listener;
 
+import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 
@@ -18,6 +19,9 @@ public class ContextListener implements ServletContextListener {
 	
 	@Override
 	public void contextInitialized(ServletContextEvent sce) {
+		
+		ServletContext context = sce.getServletContext();
+		context.setAttribute("app", context.getContextPath().concat("/"));
 		logger.debug("Servlet context initialization finished.");
 	}
 

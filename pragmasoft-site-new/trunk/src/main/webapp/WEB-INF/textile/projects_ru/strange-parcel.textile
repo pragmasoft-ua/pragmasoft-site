@@ -12,10 +12,10 @@ Strange Parcel - интерактивная книжка для детей с т
 
 <div class="p-img">
 
-!../res/img/project/mobile/strange-1.png!
+!../../res/img/project/mobile/strange-1.png!
 
-!../res/img/project/mobile/strange-2.png!
+!../../res/img/project/mobile/strange-2.png!
 
-!../res/img/project/mobile/strange-3.png!
+!../../res/img/project/mobile/strange-3.png!
 
 </div></div>

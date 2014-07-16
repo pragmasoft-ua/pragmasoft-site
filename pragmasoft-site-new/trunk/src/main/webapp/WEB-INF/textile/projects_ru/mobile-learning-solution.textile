@@ -15,6 +15,6 @@ Mobile Learning Solution использует инновационную иде�
 
 <div class="p-img">
 
-!../res/img/project/mobile/bb.jpg!
+!../../res/img/project/mobile/bb.jpg!
 
 </div></div>

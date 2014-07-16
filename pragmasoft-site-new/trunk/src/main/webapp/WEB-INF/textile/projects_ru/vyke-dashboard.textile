@@ -14,8 +14,8 @@ Pragmasoft дизайн-студия предоставила стильный �
 
 <div class="p-img">
 
-!../res/img/project/java/Adminka.jpg!
+!../../res/img/project/java/Adminka.jpg!
 
-!../res/img/project/java/Adminka5.jpg!
+!../../res/img/project/java/Adminka5.jpg!
 
 </div></div>

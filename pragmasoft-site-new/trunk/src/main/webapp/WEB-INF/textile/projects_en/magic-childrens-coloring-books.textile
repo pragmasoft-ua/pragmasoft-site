@@ -39,11 +39,11 @@ Your kids will adore these books. Just give them a chance to develop their imagi
 
 <div class="p-img">
 
-!../res/img/project/mobile/1s.png!
+!../../res/img/project/mobile/1s.png!
 
-!../res/img/project/mobile/2s.png!
+!../../res/img/project/mobile/2s.png!
 
-!../res/img/project/mobile/3s.png!
+!../../res/img/project/mobile/3s.png!
 
 </div>
 

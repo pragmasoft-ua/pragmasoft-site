@@ -13,7 +13,7 @@
           <a class="vk" href="http://vk.com/club32131862" target="_blank"></a>
           <a class="fb" href="https://www.facebook.com/pages/Pragmasoft/340275132655051" target="_blank"></a>
           <a class="gp" href="https://plus.google.com/u/0/101843999873125528372" target="_blank"></a>
-          <a href="${app}contactus">
+          <a href="${app}${language}/contactus">
             <div class="mail"></div>
           </a>
         </div>
@@ -31,7 +31,7 @@
         <p>© 2014 Pragmasoft. All rights reserved</p>
       </div>
       <div class="col-md-6 col-sm-6 col-xs-12 col-lg-6">
-        <a href="${app}contactus">Contact Us</a>
+        <a href="${app}${language}/contactus">Contact Us</a>
       </div>
     </div>
   </div>

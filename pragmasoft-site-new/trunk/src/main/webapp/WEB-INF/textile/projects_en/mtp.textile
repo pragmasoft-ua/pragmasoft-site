@@ -29,14 +29,14 @@ authentication.
 
 <div class="p-img">
 
-!(img-fl-left)../res/img/project/cloud/mtp-1.jpg!
+!(img-fl-left)../../res/img/project/cloud/mtp-1.jpg!
 
-!(img-fl-left)../res/img/project/cloud/mtp-2.jpg!
+!(img-fl-left)../../res/img/project/cloud/mtp-2.jpg!
 
-!(img-fl-left)../res/img/project/cloud/mtp-3.jpg!
+!(img-fl-left)../../res/img/project/cloud/mtp-3.jpg!
 
-!(img-fl-left)../res/img/project/cloud/mtp-4.jpg!
+!(img-fl-left)../../res/img/project/cloud/mtp-4.jpg!
 
-!(img-fl-left)../res/img/project/cloud/mtp-5.jpg!
+!(img-fl-left)../../res/img/project/cloud/mtp-5.jpg!
 
 </div></div>

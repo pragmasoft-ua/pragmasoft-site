@@ -1,0 +1,6 @@
+<groups xmlns="http://www.isdc.ro/wro">
+  <group name="pragmasoft">
+    <js>/wro/js/*.js</js>
+    <css>/wro/css/*.css</css>
+  </group>
+</groups>

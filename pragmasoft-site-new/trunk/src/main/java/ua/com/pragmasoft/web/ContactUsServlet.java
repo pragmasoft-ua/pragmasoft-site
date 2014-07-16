@@ -6,7 +6,6 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,10 +23,9 @@ public class ContactUsServlet extends HttpServlet {
 			throws ServletException, IOException {
 		log.debug("Request URI: {}", request.getRequestURI());
 		
-		HttpSession session = ((HttpServletRequest) request).getSession();
 		String path;
 
-		if (session.getAttribute(Constants.LANGUAGE).equals("ru")) {
+		if (request.getAttribute(Constants.LANGUAGE).equals("ru")) {
 			path = PATH_TO_CONTACT_US_RU;
 		} else {
 			path = PATH_TO_CONTACT_US_EN;

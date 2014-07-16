@@ -16,10 +16,10 @@ h1. JacksonCo Supply
 
 <div class="p-img">
 
-!../res/img/project/design/JacksonCo.jpg!
+!../../res/img/project/design/JacksonCo.jpg!
 
-!../res/img/project/design/JacksonCo2.jpg!
+!../../res/img/project/design/JacksonCo2.jpg!
 
-!../res/img/project/design/JacksonCo4.jpg!
+!../../res/img/project/design/JacksonCo4.jpg!
 
 </div></div>

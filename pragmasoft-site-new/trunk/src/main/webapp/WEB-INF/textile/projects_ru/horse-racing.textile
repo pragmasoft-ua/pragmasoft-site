@@ -14,16 +14,16 @@ Horse Racing Nation является прекрасным примером ди�
 
 <div class="p-img">
 
-!(img-fl-left)../res/img/project/design/Horse_2.jpg!
+!(img-fl-left)../../res/img/project/design/Horse_2.jpg!
 
-!(img-fl-left)../res/img/project/design/Horse_3.jpg!
+!(img-fl-left)../../res/img/project/design/Horse_3.jpg!
 
-!(img-fl-left)../res/img/project/design/Horse_1.jpg!
+!(img-fl-left)../../res/img/project/design/Horse_1.jpg!
 
-!(img-fl-left)../res/img/project/design/Horse_4.jpg!
+!(img-fl-left)../../res/img/project/design/Horse_4.jpg!
 
-!(img-fl-left)../res/img/project/design/Horse_5.jpg!
+!(img-fl-left)../../res/img/project/design/Horse_5.jpg!
 
-!(img-fl-left)../res/img/project/design/Horse_6.jpg!
+!(img-fl-left)../../res/img/project/design/Horse_6.jpg!
 
 </div></div>

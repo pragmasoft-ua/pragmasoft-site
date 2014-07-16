@@ -2172,3 +2172,25 @@ body.body-hover .view-first:hover .mask, body.body-hover .view-first:hover span.
     -ms-transition-delay: 0.2s;
     transition-delay: 0.2s;
 }
+
+.story1{
+    /*background: url(../img/bg-piramid.png) 50% 0 no-repeat fixed;*/
+    margin: 0;
+    height: 1000px;
+    position:absolute;
+    width:100%;
+    top:0;left:0;
+    z-index:1
+}
+
+.story2 {
+    background: url(../img/nike.png) 50% 0 no-repeat fixed;
+    margin: 0;
+    height: 1000px;
+    position:absolute;
+    top:0px;left:100px;
+    width:100%;
+    z-index:1
+}
+
+.parallax-item{position:absolute;z-index:5;top:40px;left:400px;}

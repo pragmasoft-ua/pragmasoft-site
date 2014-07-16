@@ -15,23 +15,18 @@
     <link rel="stylesheet" href="${app}res/css/flexslider.css" type="text/css" media="screen" />
 
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="${app}res/css/parallax.css">
-    <link rel="stylesheet" href="${app}res/css/style.css">
-    <!-- CONTAINS BROKEN LINK TO SOME bigimg.jpg -->
-    <link rel="stylesheet" href="${app}res/css/style1.css">
+    
     <link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:100italic,300,300italic,400,400italic,100&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
+	<link rel="stylesheet" href="${app}res/css/pragmasoft.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script defer src="${app}res/js/jquery.flexslider.js"></script>
-    <script src="${app}res/js/jquery.easing.1.3.js" type="text/javascript"></script>
-    <script src="${app}res/js/jquery.ui.totop.js" type="text/javascript"></script>
-
-    <script src="${app}res/js/jquery.ui.totop.js" type="text/javascript"></script>
-    <script src="${app}res/js/app.js" type="text/javascript"></script>
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="${app}res/js/ie8-responsive-file-warning.js"></script><![endif]-->
-
+    <script defer src="${app}res/js/jquery.flexslider-min.js"></script>
+    <script src="${app}res/js/jquery.easing.1.3.min.js" type="text/javascript"></script>
+    <script src="${app}res/js/jquery.ui.totop.min.js" type="text/javascript"></script>
+    <script src="${app}res/js/pragmasoft.js" type="text/javascript"></script>
+    <script src="${app}res/js/jquery.validate.min.js" type="text/javascript"></script>
+     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>

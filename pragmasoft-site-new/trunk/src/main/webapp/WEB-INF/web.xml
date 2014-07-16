@@ -104,26 +104,36 @@
     <servlet-mapping>
         <servlet-name>HomepageServlet</servlet-name>
         <url-pattern>/home</url-pattern>
+        <url-pattern>/en/home</url-pattern>
+        <url-pattern>/ru/home</url-pattern>
     </servlet-mapping>    
     <!-- Vacancies servlet -->
     <servlet-mapping>
         <servlet-name>VacanciesServlet</servlet-name>
         <url-pattern>/vacancies</url-pattern>
+        <url-pattern>/en/vacancies</url-pattern>
+        <url-pattern>/ru/vacancies</url-pattern>
     </servlet-mapping>    
     <!-- Projects servlet -->
     <servlet-mapping>
         <servlet-name>ProjectsServlet</servlet-name>
         <url-pattern>/project/*</url-pattern>
+        <url-pattern>/en/project/*</url-pattern>
+        <url-pattern>/ru/project/*</url-pattern>
     </servlet-mapping>
     <!-- Email servlet -->
     <servlet-mapping>
     	<servlet-name>EmailServlet</servlet-name>
     	<url-pattern>/email</url-pattern>
+    	<url-pattern>/en/email</url-pattern>
+    	<url-pattern>/ru/email</url-pattern>
     </servlet-mapping>
     <!-- Contact us servlet -->
     <servlet-mapping>
     	<servlet-name>ContactUsServlet</servlet-name>
     	<url-pattern>/contactus</url-pattern>
+    	<url-pattern>/en/contactus</url-pattern>
+    	<url-pattern>/ru/contactus</url-pattern>
     </servlet-mapping>
     
     <!-- Tomcat default servlet -->
@@ -145,9 +155,6 @@
     <!-- ========== Listeners ======== -->
     <listener>
       <listener-class>ua.com.pragmasoft.listener.ContextListener</listener-class>
-    </listener>
-    <listener>
-    	<listener-class>ua.com.pragmasoft.listener.SessionListener</listener-class>
     </listener>
 
     <!-- ========= Filters ========= -->
@@ -172,11 +179,26 @@
     </filter>
     <filter-mapping>
         <filter-name>LanguageFilter</filter-name>
-        <url-pattern>/*</url-pattern>
+        <url-pattern>/home</url-pattern>
+        <url-pattern>/vacancies</url-pattern>
+        <url-pattern>/project/*</url-pattern>
+        <url-pattern>/contactus</url-pattern>
+        <url-pattern>/email</url-pattern>
+    </filter-mapping>
+    
+    
+    <filter>
+        <filter-name>GetLanguageFilter</filter-name>
+        <filter-class>ua.com.pragmasoft.filter.GetLanguageFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>GetLanguageFilter</filter-name>
+        <url-pattern>/ru/*</url-pattern>
+        <url-pattern>/en/*</url-pattern>
     </filter-mapping>
 
     <!-- EHCache filter -->
-    <!-- <filter>
+   <filter>
       <filter-name>SimplePageCachingFilter</filter-name>
       <filter-class>net.sf.ehcache.constructs.web.filter.SimplePageCachingFilter
       </filter-class>
@@ -184,7 +206,7 @@
     <filter-mapping>
       <filter-name>SimplePageCachingFilter</filter-name>
       <url-pattern>/*</url-pattern>
-    </filter-mapping> -->
+    </filter-mapping>
     
     <!--
         Prevent the visiting of MVC Views from outside the servlet container.

@@ -21,10 +21,10 @@ Features:
 
 <div class="p-img">
 
-!../res/img/project/mobile/emailmanager1.jpg!
+!../../res/img/project/mobile/emailmanager1.jpg!
 
-!../res/img/project/mobile/emailmanager2.jpg!
+!../../res/img/project/mobile/emailmanager2.jpg!
 
-!../res/img/project/mobile/emailmanager4.jpg!
+!../../res/img/project/mobile/emailmanager4.jpg!
 
 </div></div>

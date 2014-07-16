@@ -14,10 +14,10 @@ So the task was: to develop a bright, creative design for a e-store dealing with
 
 <div class="p-img">
 
-!../res/img/project/design/JacksonCo.jpg!
+!../../res/img/project/design/JacksonCo.jpg!
 
-!../res/img/project/design/JacksonCo2.jpg!
+!../../res/img/project/design/JacksonCo2.jpg!
 
-!../res/img/project/design/JacksonCo4.jpg!
+!../../res/img/project/design/JacksonCo4.jpg!
 
 </div></div>
