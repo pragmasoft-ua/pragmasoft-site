@@ -7,13 +7,13 @@
 
     <diskStore path="java.io.tmpdir"/>
          
-    <cache name="SimplePageCachingFilter"
+    <cache name="CachedPage2Cache"
            maxEntriesLocalHeap="10000"
            maxEntriesLocalDisk="1000"
            eternal="false"
            overflowToDisk="true"
            timeToIdleSeconds="300"
-           timeToLiveSeconds="600"
+           timeToLiveSeconds="3600"
            memoryStoreEvictionPolicy="LFU"
             />
 </ehcache>
