@@ -198,14 +198,25 @@
     </filter-mapping>
 
     <!-- EHCache filter -->
-   <filter>
-      <filter-name>SimplePageCachingFilter</filter-name>
-      <filter-class>net.sf.ehcache.constructs.web.filter.SimplePageCachingFilter
-      </filter-class>
-    </filter>  
+    <filter>
+	    <filter-name>SimpleCachingHeadersPageCachingFilter</filter-name>    
+		<filter-class>
+		 net.sf.ehcache.constructs.web.filter.SimpleCachingHeadersPageCachingFilter
+	    </filter-class>
+		<init-param>
+			<param-name>suppressStackTrace</param-name>
+			<param-value>false</param-value>
+		</init-param>
+		<init-param>
+		    <param-name>cacheName</param-name>
+	 		<param-value>CachedPage2Cache</param-value>
+	    </init-param>
+ 	</filter>
+    
     <filter-mapping>
-      <filter-name>SimplePageCachingFilter</filter-name>
-      <url-pattern>/*</url-pattern>
+      <filter-name>SimpleCachingHeadersPageCachingFilter</filter-name>
+      <url-pattern>/ru/*</url-pattern>
+      <url-pattern>/en/*</url-pattern>
     </filter-mapping>
     
     <!--
