@@ -23,10 +23,10 @@ The Design Tool deserves a closer look. Pragmasoft has dedicated special attenti
 
 <div class="p-img">
 
-!../res/img/project/java/webmll-1.jpg!
+!../../res/img/project/java/webmll-1.jpg!
 
-!../res/img/project/java/webmll-2.jpg!
+!../../res/img/project/java/webmll-2.jpg!
 
-!../res/img/project/java/webmll-3.jpg!
+!../../res/img/project/java/webmll-3.jpg!
 
 </div></div>

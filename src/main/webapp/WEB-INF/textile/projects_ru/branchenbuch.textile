@@ -19,8 +19,8 @@ h1. Branchenbuch
 
 <div class="p-img">
 
-!../res/img/project/design/Branchenbuch-1.jpg!
+!../../res/img/project/design/Branchenbuch-1.jpg!
 
-!../res/img/project/design/Branchenbuch-2.jpg!
+!../../res/img/project/design/Branchenbuch-2.jpg!
 
 </div></div>

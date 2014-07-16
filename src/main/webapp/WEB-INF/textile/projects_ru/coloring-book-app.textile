@@ -14,6 +14,6 @@ Story Chimes это Phone приложение - раскраска. Она ве
 
 <div class="p-img">
 
-!../res/img/project/mobile/storychimes.jpg!
+!../../res/img/project/mobile/storychimes.jpg!
 
 </div></div>

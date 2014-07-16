@@ -12,6 +12,6 @@ Website design for iPhone 3G including logo design and HTML layout.
 
 <div class="p-img">
 
-!../res/img/project/mobile/iphone1.jpg!
+!../../res/img/project/mobile/iphone1.jpg!
 
 </div></div>

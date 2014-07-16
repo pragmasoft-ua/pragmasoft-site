@@ -12,12 +12,12 @@ h1. Thundermist
 
 <div class="p-img">
 
-!(img-fl-left)../res/img/project/design/thundermist1.jpg!
+!(img-fl-left)../../res/img/project/design/thundermist1.jpg!
 
-!(img-fl-left)../res/img/project/design/thundermist2.jpg!
+!(img-fl-left)../../res/img/project/design/thundermist2.jpg!
 
-!(img-fl-left)../res/img/project/design/thundermist3.jpg!
+!(img-fl-left)../../res/img/project/design/thundermist3.jpg!
 
-!(img-fl-left)../res/img/project/design/thundermist4.jpg!
+!(img-fl-left)../../res/img/project/design/thundermist4.jpg!
 
 </div></div>

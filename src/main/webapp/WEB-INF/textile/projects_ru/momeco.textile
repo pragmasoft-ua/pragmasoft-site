@@ -12,6 +12,6 @@ h1. MoMeCo - QR code mobile site design
 
 <div class="p-img">
 
-!../res/img/project/mobile/iphone1.jpg!
+!../../res/img/project/mobile/iphone1.jpg!
 
 </div></div>

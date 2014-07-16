@@ -12,10 +12,10 @@ Publisher Arcas produces scientific and popular publications allow readers to le
 
 <div class="p-img">
 
-!../res/img/project/design/arcas-1.jpg!
+!../../res/img/project/design/arcas-1.jpg!
 
-!../res/img/project/design/arcas-2.jpg!
+!../../res/img/project/design/arcas-2.jpg!
 
-!../res/img/project/design/arcas-3.jpg!
+!../../res/img/project/design/arcas-3.jpg!
 
 </div></div>

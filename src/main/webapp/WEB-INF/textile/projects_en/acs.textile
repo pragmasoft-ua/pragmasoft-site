@@ -12,8 +12,8 @@ Another redesign project went live recently: American Cycle Supply. The task was
 
 <div class="p-img">
 
-!../res/img/project/design/ACS_1.jpg!
+!../../res/img/project/design/ACS_1.jpg!
 
-!../res/img/project/design/ACS_2.jpg!
+!../../res/img/project/design/ACS_2.jpg!
 
 </div></div>

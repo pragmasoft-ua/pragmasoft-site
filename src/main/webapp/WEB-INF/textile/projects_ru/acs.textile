@@ -12,8 +12,8 @@ h1. American Cycle Supply (ACS)
 
 <div class="p-img">
 
-!../res/img/project/design/ACS_1.jpg!
+!../../res/img/project/design/ACS_1.jpg!
 
-!../res/img/project/design/ACS_2.jpg!
+!../../res/img/project/design/ACS_2.jpg!
 
 </div></div>

@@ -17,10 +17,10 @@ Affordrx.com это сайт, который обеспечивает скидк
 
 <div class="p-img">
 
-!../res/img/project/java/AffordRX.jpg!
+!../../res/img/project/java/AffordRX.jpg!
 
-!../res/img/project/java/AffordRX_1.jpg!
+!../../res/img/project/java/AffordRX_1.jpg!
 
-!../res/img/project/java/AffordRX_3.jpg!
+!../../res/img/project/java/AffordRX_3.jpg!
 
 </div></div>

@@ -18,6 +18,10 @@ public class ErrorHandler extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 		log.info("Request received URL: {}", req.getRequestURI());
+		String contextPath = req.getContextPath().concat("/");
+		req.setAttribute("app", contextPath);
+		
+		req.setAttribute("noLangPath", "/");
 		req.getRequestDispatcher("/pages/404.ftl").forward(req, resp);
 	}
 	

@@ -1,4 +1,4 @@
-      <form role="form" id="orderForm" action="email" method="post">
+      <form role="form" id="orderForm" action="${app}${language}/email" method="post">
           <h4 class="form-title">contact us</h4>
         <div>
           <div class="form-group">

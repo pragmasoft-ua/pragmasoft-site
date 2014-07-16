@@ -17,10 +17,10 @@ Affordrx.com is a site that provide up to 75% discount on medication with free p
 
 <div class="p-img">
 
-!../res/img/project/java/AffordRX.jpg!
+!../../res/img/project/java/AffordRX.jpg!
 
-!../res/img/project/java/AffordRX_1.jpg!
+!../../res/img/project/java/AffordRX_1.jpg!
 
-!../res/img/project/java/AffordRX_3.jpg!
+!../../res/img/project/java/AffordRX_3.jpg!
 
 </div></div>

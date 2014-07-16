@@ -14,8 +14,8 @@ This is multitenant application for individuals and recruiting companies to edit
 
 <div class="p-img">
 
-!../res/img/project/cloud/resume-1.jpg!
+!../../res/img/project/cloud/resume-1.jpg!
 
-!../res/img/project/cloud/resume-2.jpg!
+!../../res/img/project/cloud/resume-2.jpg!
 
 </div></div>

@@ -23,10 +23,10 @@ With Vyke Android Mobile Client you can:
 
 <div class="p-img">
 
-!../res/img/project/mobile/AndroidMobile1.jpg!
+!../../res/img/project/mobile/AndroidMobile1.jpg!
 
-!../res/img/project/mobile/AndroidMobile2.jpg!
+!../../res/img/project/mobile/AndroidMobile2.jpg!
 
-!../res/img/project/mobile/AndroidMobile3.jpg!
+!../../res/img/project/mobile/AndroidMobile3.jpg!
 
 </div></div>

@@ -20,8 +20,8 @@ What is there else to say - just take a look at the design!
 
 <div class="p-img">
 
-!../res/img/project/design/Branchenbuch-1.jpg!
+!../../res/img/project/design/Branchenbuch-1.jpg!
 
-!../res/img/project/design/Branchenbuch-2.jpg!
+!../../res/img/project/design/Branchenbuch-2.jpg!
 
 </div></div>

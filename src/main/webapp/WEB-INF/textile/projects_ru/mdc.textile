@@ -17,12 +17,12 @@ RESTful API для предоставления данных сторонним 
 
 <div class="p-img">
 
-!../res/img/project/java/mdc_0.jpg!
+!../../res/img/project/java/mdc_0.jpg!
 
-!../res/img/project/java/MDC-1.jpg!
+!../../res/img/project/java/MDC-1.jpg!
 
-!../res/img/project/java/MDC-2.jpg!
+!../../res/img/project/java/MDC-2.jpg!
 
-!../res/img/project/java/MDC-3.jpg!
+!../../res/img/project/java/MDC-3.jpg!
 
 </div></div>

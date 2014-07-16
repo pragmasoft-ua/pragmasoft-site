@@ -13,8 +13,9 @@ $(document).ready(function() {
 	
 	$('a.menuItem').click(function(){
 		main.stop(true);
+		var href = $.attr(this, 'href');
 		main.animate({
-	        scrollTop: $( $.attr(this, 'href').substr(1) ).offset().top
+	        scrollTop: $( href.substr(href.indexOf('#')) ).offset().top
 	    }, 800);
 	    return true;
 	});
@@ -47,5 +48,23 @@ $(document).ready(function() {
 			$('html, body').animate({scrollTop:0}, 800);
 		}
     });
+	
+	// Initialize form check
+	$('#orderForm').validate({
+		rules: {
+			requesterName: {
+				minlength: 2,
+				required: true
+			},
+			requesterEmail: {
+				email: true,
+				required: true
+			},
+			message: {
+				minlength: 5,
+				required: true
+			}
+		}
+	});	
 	
 });

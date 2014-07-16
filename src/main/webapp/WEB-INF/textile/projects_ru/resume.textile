@@ -15,8 +15,8 @@ Resumes.io это приложение на основе облачных тех
 
 <div class="p-img">
 
-!../res/img/project/cloud/resume-1.jpg!
+!../../res/img/project/cloud/resume-1.jpg!
 
-!../res/img/project/cloud/resume-2.jpg!
+!../../res/img/project/cloud/resume-2.jpg!
 
 </div></div>

@@ -21,10 +21,10 @@ Well, this project was special since its major limitations (page width, header w
 
 <div class="p-img">
 
-!../res/img/project/design/ABC-1.jpg!
+!../../res/img/project/design/ABC-1.jpg!
 
-!../res/img/project/design/ABC-2.jpg!
+!../../res/img/project/design/ABC-2.jpg!
 
-!../res/img/project/design/ABC-3.jpg!
+!../../res/img/project/design/ABC-3.jpg!
 
 </div></div>

@@ -9,7 +9,6 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -29,10 +28,9 @@ public class VacanciesServlet extends HttpServlet {
 			throws ServletException, IOException {
 		
 		log.debug("Request received URL: {}", request.getRequestURI());
-		HttpSession session = ((HttpServletRequest)request).getSession();
 		String fileName;
 		
-		if (session.getAttribute(Constants.LANGUAGE).equals("ru")) {
+		if (request.getAttribute(Constants.LANGUAGE).equals("ru")) {
 			fileName = FILE_NAME_RU;
 		} else {
 			fileName = FILE_NAME_EN;
@@ -44,7 +42,7 @@ public class VacanciesServlet extends HttpServlet {
 		synchronized (VacanciesServlet.class) {			
 			FileReader.getInstance().parse(textAsStream);			
 			for (Map.Entry<String, String> entry: FileReader.getInstance().getMetaInfo().entrySet()) {
-				session.setAttribute(entry.getKey(), entry.getValue());
+				request.setAttribute(entry.getKey(), entry.getValue());
 			}
 			
 			String formattedText = FileReader.getInstance().getTextileMarkup();
