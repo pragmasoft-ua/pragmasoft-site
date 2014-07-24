@@ -24,8 +24,7 @@ JAX-RS for RESTful API, JCA connectors to integrate with 3rd party ticketing sys
 It uses Jboss AS 6 Appserver and MySQL database for persistent storage.
 
 Client side is implemented as Apache Cordova/Phonegap Android and iOS clients, using jQuery Mobile and Backbone.js 
-as UI and MVC frameworks. Special care was taken for multilingual support and security. Oauth2 was used to simplify user's 
-authentication.
+as UI and MVC frameworks. Special care was taken for multilingual support and security. Oauth2 was used to simplify user's authentication.
 
 <div class="p-img">
 
