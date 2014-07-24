@@ -1600,6 +1600,12 @@ ul.prodj li:hover {
     }
 }
 @media (max-width: 767px) {
+	.logo {
+		margin: 5px 30px 0px 0px;
+		float: right;
+		height: 40px;
+	}
+	
 	#quality, #team, #about, #projects {
 		top: -30px;
 	}
@@ -1641,7 +1647,6 @@ ul.prodj li:hover {
 	}
 	
     .mobile-hide,
-    .logo,
     .tmail,
     .lang,
     .htitl,
@@ -1975,8 +1980,16 @@ ul.prodj li:hover {
     .pr-btn-order {
         top: -40px;
     }
+    
+    .content h1 {
+    	margin: 40px 0px 30px 0px;
+    }
 }
 @media (max-width: 460px) {
+	.logo {
+		margin: 5px 10px 0px 0px;
+	}
+	
 	#photo-container {
 		width: 221px;
 	}

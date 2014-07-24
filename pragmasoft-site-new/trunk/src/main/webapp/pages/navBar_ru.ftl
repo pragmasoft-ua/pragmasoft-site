@@ -1,14 +1,13 @@
 <div class="mobile-navbar-top mobile-only"></div>
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
   <div class="container">
-    <div class="logo backtotop"><a href="${app}${language}/" ><img src="${app}res/img/pragmasoft.png" alt="Pragmasoft"></a></div>
-    <div class="logo-sm"><img src="${app}res/img/pragmasoft-sm.png" alt="Pragmasoft"></div>
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".mobile-nav-collapse">
       <span class="sr-only">navigation</span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
+    <div class="logo backtotop"><a href="${app}${language}/" ><img src="${app}res/img/pragmasoft.png" alt="Pragmasoft"></a></div>
     <div class="tnavbar navbar-collapse collapse" id="menu" style="height: 1px;">
       <ul class="nav navbar-nav">
         <li><a href="${app}${language}/#about" id="we" class="menuItem" data-parent=".tnavbar">О нас</a></li>

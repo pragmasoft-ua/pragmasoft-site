@@ -10,8 +10,6 @@ h1. Medication Discount Card (MDC)
 
 RESTful API to provide data to third-party sites
 
-So the task was: to develop a bright, creative design for a e-store dealing with industrial, cleaning, maintenance and food service goods. The scope of service is wide, so it was challenging to come up with a single concept of design to get the idea of JacksonCo Supply across. But as you know, there is not such word as 'impossible' for Pragmasoft: we pulled all our creativity together and started brainstorming and drafting.
-
 * Database development
 * Import databases from external sources
 * Server-side development (JavaEE)
