@@ -89,6 +89,9 @@ body.body-hover .mobile-nav-collapse>ul>li a:hover {
 	font-size: 21px;
 	padding: 17px 8px 13px 20px;
 }
+.container img {
+        max-width: 100%;
+}
 
 body {
     color: #464646;
@@ -1896,7 +1899,6 @@ ul.prodj li:hover {
         display: none
     }
     .container img {
-        max-width: 100%;
         margin: 10px auto
     }
     .footer {

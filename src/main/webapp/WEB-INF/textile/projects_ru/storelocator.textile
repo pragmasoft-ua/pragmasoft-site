@@ -15,8 +15,6 @@ Storelocator теперь доступен для Android телефонов, е
 
 <div class="p-img">
 
-!../../res/img/project/mobile/store_locator_1.jpg!
-
 !../../res/img/project/mobile/store_locator_2.jpg!  !../../res/img/project/mobile/store_locator_3.jpg! !../../res/img/project/mobile/store_locator_4.jpg!
 
 </div></div>
