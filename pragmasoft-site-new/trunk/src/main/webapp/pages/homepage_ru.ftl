@@ -224,13 +224,13 @@
                 <span class="info">Подробнее</span>
               </div>
             </a>
-            <a class="view view-first" href="project/momeco">
-              <img src="${app}res/img/project/mobile/momeco.jpg" />
-              <div class="mask">
-                <h2>Memeco</h2>
-                <p>Design, iPhone, icon design, HTML, CSS, Blackberry, Nokia</p>
-                <span class="info">Подробнее</span>
-              </div>
+            <a class="view view-first"  href="project/storelocator">
+                <img src="${app}res/img/project/mobile/storelocator-logo.png" />
+                <div class="mask">
+                  <h2>Storelocator</h2>
+                  <p>Apache Cordova/PhoneGap, jQuery mobile, Facebook and Google OAuth 2.0</p>
+                  <span class="info">Подробнее</span>
+                </div>
             </a>
             <a class="view view-first" href="project/coloring-book-app">
               <img src="${app}res/img/project/mobile/story.jpg" />
@@ -333,14 +333,14 @@
                 <span class="info">Подробнее</span>
               </div>
             </a>
-            <a class="view view-first" href="${app}${language}/contactus">
-              <img src="${app}res/img/project/free-project2.jpg" />
-              <div class="mask">
-                <h2>Order a Project</h2>
-                <p>JavaEE, Spring, Hibernate, JavaME, C++, ATL, WTL, MFC</p>
-                <span class="info">Заказать проект</span>
-              </div>
-            </a>
+            <a class="view view-first" href="project/fna">
+                <img src="${app}res/img/project/java/fna-logo.png" />
+                <div class="mask">
+                  <h2>FNA</h2>
+                  <p>JD3.JS, SWG, Require JS, Grunt, LESS, Bootstrap, MVVM architecture</p>
+                  <span class="info">Подробнее</span>
+                </div>
+              </a>
             <a class="view view-first" href="project/vyke-communications">
               <img src="${app}res/img/project/java/vyke-j.jpg" />
               <div class="mask">

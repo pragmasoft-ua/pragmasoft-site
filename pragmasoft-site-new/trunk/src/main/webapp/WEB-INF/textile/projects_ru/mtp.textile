@@ -1,7 +1,7 @@
 title:Pragmasoft - MoMeCo - Mobile Ticketing Platform
 keywords:software|development|Pragmasoft
 
-h1. MoMeCo - Mobile Ticketing Platform
+h1. Mobile Ticketing Platform
 
 
 <div class="vc-box">

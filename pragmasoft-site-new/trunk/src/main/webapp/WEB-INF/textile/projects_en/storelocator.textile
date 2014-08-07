@@ -15,8 +15,6 @@ If you like traveling and shopping, then Storelocator for mobile is the ultimate
 
 <div class="p-img">
 
-!../../res/img/project/mobile/store_locator_1.jpg!
-
 !../../res/img/project/mobile/store_locator_2.jpg! !../../res/img/project/mobile/store_locator_3.jpg! !../../res/img/project/mobile/store_locator_4.jpg!
 
 </div></div>
