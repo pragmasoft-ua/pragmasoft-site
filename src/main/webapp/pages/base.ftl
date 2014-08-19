@@ -1,4 +1,4 @@
-<#macro apply title="Pragmasoft" language="en" keywords="Pragmasoft">
+<#macro apply title="Pragmasoft" keywords="Pragmasoft">
 <!DOCTYPE html>
 <html lang="en">
   <head>

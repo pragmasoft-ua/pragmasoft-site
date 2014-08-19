@@ -334,7 +334,7 @@
               </div>
             </a>
             <a class="view view-first" href="project/fna">
-                <img src="${app}res/img/project/java/fna-logo.png" />
+                <img src="${app}res/img/project/java/fna-logo.jpg" />
                 <div class="mask">
                   <h2>FNA</h2>
                   <p>JD3.JS, SWG, Require JS, Grunt, LESS, Bootstrap, MVVM architecture</p>
