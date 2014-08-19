@@ -1,4 +1,4 @@
 <#import "base.ftl" as base />
-<@base.apply title="${title}" language="${language}" keywords="${keywords}">
+<@base.apply title="${title}" keywords="${keywords}">
 		${text}
 </@base.apply>
