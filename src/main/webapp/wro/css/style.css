@@ -15,6 +15,10 @@
 	margin: 10px auto;
 }
 
+.view img {
+	max-width: 100%;
+}
+
 @media (min-width: 768px) {
 	.mobile-nav-collapse.collapse {
 		display: none !important;
@@ -351,6 +355,7 @@ p {
     -moz-box-shadow: 0 0 1px #50a0be;
     box-shadow: 0 0 1px #50a0be;
 }
+
 .pr-btn-order a:hover {
     background: #1f8c75;
     color: #fff;
@@ -1601,6 +1606,9 @@ ul.prodj li:hover {
     }
 }
 @media (max-width: 767px) {
+	.navbar .container {
+		max-height: 49px;
+	}
 	.logo {
 		margin: 5px 30px 0px 0px;
 		float: right;
