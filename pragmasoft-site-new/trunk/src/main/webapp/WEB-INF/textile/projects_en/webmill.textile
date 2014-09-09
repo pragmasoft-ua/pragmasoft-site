@@ -8,7 +8,6 @@ h1. Webmill
 
 *Technologies:* Adobe Flex, Java, JavaScript, REST, Spring, Hibernate, Apache Click, FreeMaker, Batik, Jersey, jQuery.
 
-
 Prinly is a powerful online Design Tool to let you design an identity kit online, and have it shipped straight to your door. You can easily design business cards, letterheads, envelopes and postcards with the help of Prinly Design Tool.
 
 Pragmasoft has contributed significant effort to make the interaction with Prinly intuitive, easy and pleasant. Prinly Designer turned out to be a modern tool built using cutting edge technologies. Now you don't have to address a design studio, and neither you have to master any complex design application, you can easily create a business card on your own in a Prinly Online Designer. It's fast, it's cheap, and the result is nice!

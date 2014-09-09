@@ -8,7 +8,7 @@ h1. Vyke Communications
 
 *Technologies:* JavaEE, Spring, Hibernate, JSF, AJAX (Richfaces), OpenCMS, JavaME.
 
-The Vyke suite of IP-enabled services combines this key technology and expertise to provideinnovative, low cost and high quality consumer services that build on the foundation provided by Vyke's vertically integrated VoIP communications network. The Vyke suite of IP-enabled end user services are operator independent and among them are:
+The Vyke suite of IP-enabled services combines this key technology and expertise to provide innovative, low cost and high quality consumer services that build on the foundation provided by Vyke's vertically integrated VoIP communications network. The Vyke suite of IP-enabled end user services are operator independent and among them are:
 
 * Mobile VoIP (VoIP directly from the mobile phone)
 * PC and device based VoIP services
