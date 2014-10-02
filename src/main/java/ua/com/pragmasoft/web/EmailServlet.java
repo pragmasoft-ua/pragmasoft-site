@@ -53,7 +53,7 @@ public class EmailServlet extends HttpServlet {
 			
 			Message message = new MimeMessage(session);
 			message.setRecipients(Message.RecipientType.TO,
-					InternetAddress.parse("olga@pragmasoft.com.ua")); // TODO replace to original
+					InternetAddress.parse("info@pragmasoft.com.ua")); // TODO replace to original
 			message.setSubject(SUBJECT);
 
 			if (!StringUtils.isEmpty(requesterName) &&
