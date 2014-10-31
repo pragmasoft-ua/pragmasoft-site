@@ -1,5 +1,6 @@
 title:Pragmasoft - Vyke Dashboard
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, Java server application, VYKE DASHBOARD
+description:VYKE DASHBOARD – While working on VYKE Dashboard, our aim was to provide an integrated access point to Vyke administration facilities. We used advantages of Atlassian Crowd. Developed by Pragmasoft
 
 h1. Vyke Dashboard
 

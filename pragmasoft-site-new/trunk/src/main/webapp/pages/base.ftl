@@ -1,23 +1,31 @@
-<#macro apply title="Pragmasoft" keywords="Pragmasoft">
+<#macro content>
+<!-- START NESTED CONTENT -->             
+<#nested/>
+<!-- END NESTED CONTENT --> 
+</#macro>
+<#macro apply title="Pragmasoft" header="">
 <!DOCTYPE html>
-<html lang="en">
+<html lang="${language!"en"}">
   <head>
   	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-    <meta name="keywords" content="${keywords}" />
-    <meta name="description" content="">
+	<meta name="keywords" content="${keywords!"Pragmasoft, mobile development, Java development, iOS development"}" />
+	<#if language="en">
+    	<meta name="description" content="${description!"Pragmasoft Ukraine. Software development. Mobile development. Java server development."}">
+	<#elseif language="ru">
+    	<meta name="description" content="${description!"Pragmasoft Украина. Разработка ПО. Мобильная разработка. Серверная Java разработка."}">
+	</#if>
+
     <meta name="author" content="">
     <link rel="shortcut icon" href="${app}res/img/favicon.ico">
 
     <title>${title}</title>
 
-   <title>Pragmasoft</title>
+   	<title>Pragmasoft</title>
 
     <!-- Bootstrap core CSS -->
     <link href="${app}res/css/main.css" rel="stylesheet">
-    <!-- FlexSlider -->
-    <link rel="stylesheet" href="${app}res/css/flexslider.css" type="text/css" media="screen" />
 
     <!-- Custom styles for this template -->
     
@@ -26,55 +34,25 @@
 
 	<link rel="stylesheet" href="${app}res/css/pragmasoft.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script defer src="${app}res/js/jquery.flexslider-min.js"></script>
     <script src="${app}res/js/jquery.easing.1.3.min.js" type="text/javascript"></script>
     <script src="${app}res/js/jquery.ui.totop.min.js" type="text/javascript"></script>
     <script src="${app}res/js/pragmasoft.js" type="text/javascript"></script>
-    <script src="${app}res/js/jquery.validate.min.js" type="text/javascript"></script>
      
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
-    
+    ${header!}
   </head>
   <body class="body-hover">
     <!--Top Navigation  --> 
-    <#include "navBar_${language}.ftl" />
-
-    <!--block1  -->
-    <div class="pagebox">
-      <div class="botimg">
-        <div class="container">
-          <div class="row">
-            <div class="main-container">
-                <!--Content-->
-                <div class="content">
-                  <!-- START NESTED CONTENT -->             
-                  <#nested/>
-                  <!-- END NESTED CONTENT --> 
-                  <#if language = "ru">
-                    <div class="pr-btn-order"><a href="${app}${language}/contactus">Заказать проект</a></div>
-                  <#else>
-                    <div class="pr-btn-order"><a href="${app}${language}/contactus">Order a Project</a></div>
-                  </#if>
-                </div>
-                <div class="clearfix"></div>
-                <!--end content-->
-                
-                <div class="ftifl">When ideas<br/>
-                  &nbsp;&nbsp;&nbsp;&nbsp;turn into real<span>it</span>y
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
+    <#include "${language}/navBar.ftl" />
+    <@content>
+    	<#nested/>    
+    </@content>
     <!-- Footer --> 
-    <#include "footer_${language}.ftl" />
+    <#include "${language}/footer.ftl" />
 
 
     <!-- Placed at the end of the document so the pages load faster -->    

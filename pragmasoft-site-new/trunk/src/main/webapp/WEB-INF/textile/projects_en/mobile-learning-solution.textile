@@ -1,5 +1,6 @@
 title:Pragmasoft - Mobile Learning Solution
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, mobile development, MOBILE LEARNING SOLUTION
+description:Mobile learning solution uses innovative idea to apply LMS (Learning Management Systems) to mobile platforms developed by Pragmasoft
 
 h1. Mobile Learning Solution
 

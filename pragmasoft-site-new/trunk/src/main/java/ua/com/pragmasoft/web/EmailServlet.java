@@ -30,8 +30,8 @@ public class EmailServlet extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
-		req.setAttribute("path", "email_sent.ftl");
-		req.getRequestDispatcher("/pages/contactUs.ftl").forward(req, resp);
+		String language = (String) req.getAttribute("language");
+		req.getRequestDispatcher("/pages/" + language + "/email_sent.ftl").forward(req, resp);
 	}
 	
 	@Override
@@ -65,8 +65,8 @@ public class EmailServlet extends HttpServlet {
 				LOGGER.info("Message from {} ({}) sent", requesterName, requesterEmail);
 			}
 			
-			req.setAttribute("path", "email_sent.ftl");
-			req.getRequestDispatcher("/pages/contactUs.ftl").forward(req, resp);
+			String language = (String) req.getAttribute("language");
+			req.getRequestDispatcher("/pages/" + language + "/email_sent.ftl").forward(req, resp);
  
 		} catch (MessagingException e) {
 			LOGGER.error("Email sending error: ", e);

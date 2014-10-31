@@ -1,5 +1,6 @@
 title:Pragmasoft - Storelocator
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, mobile development, STORELOCATOR
+description:Storelocator is now available for Android phones. Open STORELOCATOR on your smartphone, get the shops right while walking. Developed by Pragmasoft
 
 h1. Storelocator
 

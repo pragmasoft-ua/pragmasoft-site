@@ -1,5 +1,6 @@
 title:Pragmasoft - Medication Discount Card (MDC)
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, Java server application, MEDICATION DISCOUNT CARD (MDC)
+description:MEDICATION DISCOUNT CARD (MDC) – RESTful API to provide data to third-party sites Developed by Pragmasoft
 
 h1. Medication Discount Card (MDC)
 

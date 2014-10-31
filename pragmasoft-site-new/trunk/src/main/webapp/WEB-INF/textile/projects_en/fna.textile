@@ -1,5 +1,6 @@
 title:Pragmasoft - FNA
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, Java server application, FNA
+description:FNA – an analytics platform that helps financial institutions. Developed by Pragmasoft
 
 h1. FNA
 

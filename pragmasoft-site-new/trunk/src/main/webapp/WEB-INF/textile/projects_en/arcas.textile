@@ -1,12 +1,13 @@
 title:Pragmasoft - Arcas
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, web design, ARCAS
+description:ARCAS – Publisher Arcas produces scientific and popular publications allow readers to lead more healthy and fulfilling life. Developed by Pragmasoft
 
 h1. Arcas
 
 
 <div class="vc-box">
 
-*Technologies:* JavaScript, Jquery, HTML/CSS
+*Technologies:* JavaScript, jQuery, HTML/CSS
 
 Publisher Arcas produces scientific and popular publications allow readers to lead more healthy and fulfilling life.
 

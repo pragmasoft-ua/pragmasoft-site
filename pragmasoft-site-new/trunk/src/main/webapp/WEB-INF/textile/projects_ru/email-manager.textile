@@ -1,5 +1,6 @@
 title:Pragmasoft - Email Manager
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, разработка мобильных приложений, EMAIL MANAGER
+description:EMAIL MANAGER - отслеживает статистику, управляет электронной почтой с iPhone разработана компанией Прагмасофт
 
 h1. Email Manager
 

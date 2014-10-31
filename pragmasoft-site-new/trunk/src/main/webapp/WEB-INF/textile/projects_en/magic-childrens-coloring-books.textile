@@ -1,5 +1,6 @@
 title:Pragmasoft - Magic Children's Coloring Books
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, mobile development, MAGIC CHILDREN’S COLORING BOOKS
+description:MAGIC CHILDREN’S COLORING BOOKS – Let your children dive into fascinating world of fairy tales! They can try the role of Charles Perrault and color personages on their own. Developed by Pragmasoft
 
 h1. Magic Children's Coloring Books
 

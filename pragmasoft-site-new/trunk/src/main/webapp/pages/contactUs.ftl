@@ -4,8 +4,7 @@
   	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-    <meta name="keywords" content="Pragmasoft" />
-    <meta name="description" content="">
+    <#include "meta_${language}.ftl" />
     <meta name="author" content="">
     <link rel="shortcut icon" href="${app}res/img/favicon.ico">
 
@@ -27,12 +26,8 @@
     <script src="${app}res/js/jquery.easing.1.3.min.js" type="text/javascript"></script>
     <script src="${app}res/js/jquery.ui.totop.min.js" type="text/javascript"></script>
     <script src="${app}res/js/pragmasoft.js" type="text/javascript"></script>
-    <script src="${app}res/js/jquery.validate.min.js" type="text/javascript"></script>
      
      
-     <#if language = "ru">
-     	<script src="${app}res/js/localization/messages_ru.js" type="text/javascript"></script>
-     </#if>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -52,7 +47,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <!--Content-->
                 <div class="content">
-                  <#include "${path}" />
+                  <#include "orderProject_${language}.ftl" />
                 </div>
                 
                 <!--end content-->

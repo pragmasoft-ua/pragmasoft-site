@@ -1,5 +1,6 @@
 title:Pragmasoft - Amarco
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, облачные вычисления, AMARCO
+description:AMARCO - предназначен для распространения рекламной информации. Разработано компанией Прагмасофт
 
 h1. Amarco
 

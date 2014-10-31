@@ -1,5 +1,6 @@
 title:Pragmasoft - Strange Parcel
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, mobile development, TRANGE PARCEL
+description:Strange Parcel – Interactive book for children with titres, voice acting in different languages, etc. developed by Pragmasoft
 
 h1. Strange Parcel
 

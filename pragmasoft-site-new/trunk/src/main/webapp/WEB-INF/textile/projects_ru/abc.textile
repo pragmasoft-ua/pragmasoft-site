@@ -1,5 +1,6 @@
 title:Pragmasoft - All Business Cards (ABC)
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, веб дизайн, ALL BUSINESS CARDS (ABC)
+description:ALL BUSINESS CARDS (ABC) - простой способ сделать визитные карточки. Посетите All Business Cards! Разработано Прагмасофт
 
 h1. All Business Cards (ABC)
 

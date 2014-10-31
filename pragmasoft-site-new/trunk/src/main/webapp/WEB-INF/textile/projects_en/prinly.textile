@@ -1,5 +1,6 @@
 title:Pragmasoft - Prinly
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, Java server application, PRINLY
+description:PRINLY – powerful online Design Tool to let you design an identity kit online. You can easily design business cards and postcards with the help of Prinly Design Tool. Developed by Pragmasoft
 
 h1. Prinly
 

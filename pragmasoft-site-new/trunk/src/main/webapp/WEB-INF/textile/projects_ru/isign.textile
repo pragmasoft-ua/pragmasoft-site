@@ -1,5 +1,6 @@
 title:Pragmasoft - Isign
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, разработка мобильных приложений, ISIGN
+description:iSign - удобная программа для создания, редактирования документов разработана компанией Прагмасофт
 
 h1. Isign
 

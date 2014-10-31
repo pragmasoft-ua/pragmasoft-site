@@ -25,4 +25,5 @@ $(document).ready(function() {
 	
 	$('.parallax.top').scrolly();
 	$('.parallax.bkg').scrolly({bgParallax: true});
+	$('.flexslider').flexslider({animation:"slide",controlNav:false,prevText:"",nextText:""});
 });

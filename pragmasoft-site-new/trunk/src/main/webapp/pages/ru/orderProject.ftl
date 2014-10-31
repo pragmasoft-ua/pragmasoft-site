@@ -1,4 +1,11 @@
-        <form role="form" id="orderForm" action="${app}${language}/email" method="post">
+<#assign headerContent>
+	<script src="${app}res/js/jquery.validate.min.js" type="text/javascript"></script>
+	<script src="${app}res/js/validate.js" type="text/javascript"></script>
+	<script src="${app}res/js/localization/messages_ru.js" type="text/javascript"></script>
+</#assign>
+<#import "../formContent.ftl" as base />
+<@base.apply header=headerContent>
+	<form role="form" id="orderForm" action="${app}${language}/email" method="post">
           <h4 class="form-title">Свяжитесь с нами</h4>
         <div>
           <div class="form-group">
@@ -19,4 +26,4 @@
         </div>
         </div>
       </form>
-      
+</@base.apply>

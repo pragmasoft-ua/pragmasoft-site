@@ -1,5 +1,6 @@
 title:Pragmasoft - Thundermist
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, web design, THUNDERMIST
+description:THUNDERMIST – web site was designed to immerse users into marine and nautical atmosphere, and to provide a exhaustive showcase to the nice boats Thundermist produces. Developed by Pragmasoft
 
 h1. Thundermist
 

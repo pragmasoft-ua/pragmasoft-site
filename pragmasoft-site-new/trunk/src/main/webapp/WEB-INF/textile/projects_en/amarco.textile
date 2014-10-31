@@ -1,5 +1,6 @@
 title:Pragmasoft - Amarco
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, cloud computing, AMARCO
+description:AMARCO – helps marketers to spread their ads to a specialized secure subscriber application. The project is divided into 2 blocks: web application and user interface. Developed by Pragmasoft
 
 h1. Amarco
 

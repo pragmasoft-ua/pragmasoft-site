@@ -20,15 +20,6 @@ $(document).ready(function() {
 	    return true;
 	});
 	
-
-	// Flexislider
-	$('.flexslider').flexslider({
-		animation: "slide",
-		controlNav: false,
-		prevText: "",
-		nextText: ""
-	});
-
 	// dirty hack to fire some events in Mozilla
 	$(window).scrollTop($(window).scrollTop()+1);
 	
@@ -48,23 +39,5 @@ $(document).ready(function() {
 			$('html, body').animate({scrollTop:0}, 800);
 		}
     });
-	
-	// Initialize form check
-	$('#orderForm').validate({
-		rules: {
-			requesterName: {
-				minlength: 2,
-				required: true
-			},
-			requesterEmail: {
-				email: true,
-				required: true
-			},
-			message: {
-				minlength: 5,
-				required: true
-			}
-		}
-	});	
 	
 });

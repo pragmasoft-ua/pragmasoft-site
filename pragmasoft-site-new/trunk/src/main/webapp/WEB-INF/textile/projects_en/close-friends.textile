@@ -1,5 +1,6 @@
 title:Pragmasoft - Close Friends
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, web design, CLOSE FRIENDS
+description:CLOSE FRIENDS – social network was designed to accumulate the best features of modern social networking sites. Developed by Pragmasof
 
 h1. Close Friends
 

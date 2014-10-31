@@ -1,5 +1,6 @@
 title:Pragmasoft - MoMeCo - Mobile Ticketing Platform
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, облачные вычисления, MOBILE TICKETING PLATFORM
+description:MOBILE TICKETING PLATFORM - дает возможность приобретать билеты в музеи с помощью мобильного. Разработано Прагмасофт
 
 h1. Mobile Ticketing Platform
 

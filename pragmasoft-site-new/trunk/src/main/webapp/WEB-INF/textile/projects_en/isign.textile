@@ -1,5 +1,6 @@
 title:Pragmasoft - Isign
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, mobile development, ISIGN
+description:iSign is a handy app for those who have to deal with numerous paperwork constantly. With iSign you can easily create, export, edit documents. Developed by Pragmasoft
 
 h1. Isign
 

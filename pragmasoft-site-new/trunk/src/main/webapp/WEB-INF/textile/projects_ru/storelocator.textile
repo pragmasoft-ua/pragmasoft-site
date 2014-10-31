@@ -1,5 +1,6 @@
 title:Pragmasoft - Storelocator
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, разработка мобильных приложений, STORELOCATOR
+description:Открывайте STORELOCATOR на Android, найдите магазины прямо во время прогулки. Разработана компанией Прагмасофт
 
 h1. Storelocator
 

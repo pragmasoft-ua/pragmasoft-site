@@ -1,5 +1,6 @@
 title:Pragmasoft - JacksonCo Supply
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, web design, JACKSONCO SUPPLY
+description:JACKSONCO SUPPLY – bright, creative design for a e-store dealing with industrial and food service goods. Developed by Pragmasoft
 
 h1. JacksonCo Supply
 

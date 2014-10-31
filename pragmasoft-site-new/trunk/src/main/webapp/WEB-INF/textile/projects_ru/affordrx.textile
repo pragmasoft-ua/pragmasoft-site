@@ -1,5 +1,6 @@
 title:Pragmasoft - AffordRX
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, JAVA серверные приложения, AFFORDRX
+description:AFFORDRX - дает скидку до 75% на лекарства с бесплатной рецептурной картой. Разработано компанией Прагмасофт
 
 h1. AffordRX
 

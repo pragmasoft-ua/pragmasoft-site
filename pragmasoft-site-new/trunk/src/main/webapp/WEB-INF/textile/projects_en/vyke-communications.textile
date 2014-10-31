@@ -1,5 +1,6 @@
 title:Pragmasoft - Vyke Communications
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, Java server application, VYKE COMMUNICATIONS
+description:VYKE COMMUNICATIONS – IP-enabled services provide innovative, low cost and high quality consumer services that build on the foundation provided by Vyke’s VoIP network. Developed by Pragmasoft
 
 h1. Vyke Communications
 

@@ -1,5 +1,6 @@
 title:Pragmasoft - Mobile Learning Solution
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, разработка мобильных приложений, MOBILE LEARNING SOLUTION
+description:Mobile Learning Solution - это обучающая система для пользователей мобильных телефонов разработана компанией Прагмасофт
 
 h1. Mobile Learning Solution
 

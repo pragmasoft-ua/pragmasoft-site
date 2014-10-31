@@ -1,5 +1,6 @@
 title:Pragmasoft - Resume
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, облачные вычисления, RESUME
+description:RESUME - приложение для хранения, редактирования резюме. Зазработано компанией Прагмасофт
 
 h1. Resume
 
