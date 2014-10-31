@@ -1,5 +1,6 @@
 title:Pragmasoft - FNA
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, JAVA серверные приложения, FNA
+description:FNA - аналитическая платформа для финансовых учреждений. Разработана компанией Прагмасофт
 
 h1. FNA
 

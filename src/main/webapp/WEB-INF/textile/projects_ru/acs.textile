@@ -1,5 +1,6 @@
 title:Pragmasoft - American Cycle Supply (ACS)
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, веб дизайн, AMERICAN CYCLE SUPPLY (ACS)
+description:AMERICAN CYCLE SUPPLY (ACS) - проект по редизайну сайта: American Cycle Supply. Разработан компанией Прагмасофт
 
 h1. American Cycle Supply (ACS)
 

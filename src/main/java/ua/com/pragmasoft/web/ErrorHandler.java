@@ -1,9 +1,7 @@
 package ua.com.pragmasoft.web;
 
 import java.io.IOException;
-import java.util.HashSet;
 import java.util.Locale;
-import java.util.Set;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -13,19 +11,13 @@ import javax.servlet.http.HttpServletResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import ua.com.pragmasoft.util.Utils;
+
 public class ErrorHandler extends HttpServlet {
 	private static final long serialVersionUID = -7654362757290913082L;
 	private static final Logger log = LoggerFactory.getLogger(ErrorHandler.class);
 	
-	private static final String LANG_RU = "ru";
-	private static final String LANG_EN = "en";
 	
-	private static final Set<String> AVAILABLE_LANGUAGES = new HashSet<String>();
-	
-	static {
-		AVAILABLE_LANGUAGES.add(LANG_RU);
-		AVAILABLE_LANGUAGES.add(LANG_EN);
-	}
 	
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
@@ -37,13 +29,13 @@ public class ErrorHandler extends HttpServlet {
 		
 		String contextPath = req.getContextPath().concat("/");
 		String language = "";
-		if (pathParts.length > 0 && AVAILABLE_LANGUAGES.contains(pathParts[0])) {
+		if (pathParts.length > 0 && Utils.AVAILABLE_LANGUAGES.contains(pathParts[0])) {
 			language = pathParts[0];
 		} else {
 			Locale locale = req.getLocale();
-			language = LANG_EN;
+			language = Constants.LANG_EN;
 			if (locale.getLanguage() == "ru") {
-				language = LANG_RU;
+				language = Constants.LANG_RU;
 			} 
 			resp.sendRedirect(contextPath + language + "/" + path);
 			return;
@@ -52,7 +44,7 @@ public class ErrorHandler extends HttpServlet {
 		req.setAttribute("language", language);
 		req.setAttribute("app", contextPath);
 		req.setAttribute("noLangPath", "/");
-		req.getRequestDispatcher("/pages/404.ftl").forward(req, resp);
+		req.getRequestDispatcher("/pages/" + language + "/404.ftl").forward(req, resp);
 	}
 	
 }

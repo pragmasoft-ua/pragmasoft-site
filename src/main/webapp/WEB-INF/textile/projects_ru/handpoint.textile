@@ -1,5 +1,6 @@
 title:Pragmasoft - Handpoint
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, JAVA серверные приложения, HANDPOINT
+description:HANDPOINT - мобильное POS приложение, принмает платежи с дебетовых карт. Разработано компанией Прагмасофт
 
 h1. Handpoint
 

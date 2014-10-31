@@ -1,5 +1,6 @@
 title:Pragmasoft - Email Manager
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, mobile development, EMAIL MANAGER
+description:EMAIL MANAGER - lets one easily track stats on and manage email mailing lists from one’s iPhone. Developed by Pragmasoft
 
 h1. Email Manager
 

@@ -1,5 +1,6 @@
 title:Pragmasoft - Strange Parcel
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, веб дизайн, THUNDERMIST
+description:THUNDERMIST - погружает пользователей в морскую атмосферу, представляет все лодки от Thundermist. Разработан компанией Прагмасофт
 
 h1. Thundermist
 

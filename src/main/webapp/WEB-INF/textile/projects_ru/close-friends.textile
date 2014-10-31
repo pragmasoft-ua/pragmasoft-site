@@ -1,5 +1,6 @@
 title:Pragmasoft - Close Friends
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, веб дизайн, CLOSE FRIENDS
+description:CLOSE FRIENDS - социальная сеть Close Friends с лучшими чертами современных сайтов. Разработано компанией Прагмасофт
 
 h1. Close Friends
 

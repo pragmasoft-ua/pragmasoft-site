@@ -1,5 +1,6 @@
 title:Pragmasoft - Branchenbuch
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, web design, BRANCHENBUCH
+description:BRANCHENBUCH – clean design for a German online yellow pages directory. The main requirement for this project was to provide clean Web 2.0, Google-like design. Developed by Pragmasoft
 
 h1. Branchenbuch
 

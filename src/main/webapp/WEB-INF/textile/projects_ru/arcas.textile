@@ -1,12 +1,13 @@
 title:Pragmasoft - Arcas
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, веб дизайн, ARCAS
+description:ARCAS - научно-популярные публикации позволяющие вести здоровую жизнь. Разработано компанией Прагмасофт
 
 h1. Arcas
 
 
 <div class="vc-box">
 
-*Технологии:* JavaScript, Jquery, HTML/CSS
+*Технологии:* JavaScript, jQuery, HTML/CSS
 
 Издательство Аrcas выпускает научно-популярные публикации позволяющие читателям вести более здоровую и полноценную жизнь.
 

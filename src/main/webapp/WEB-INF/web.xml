@@ -139,6 +139,8 @@
     <!-- Tomcat default servlet -->
     <servlet-mapping>
         <servlet-name>default</servlet-name>
+        <url-pattern>/robots.txt</url-pattern>
+        <url-pattern>/res/sitemap.xml</url-pattern>
         <url-pattern>*.ico</url-pattern>
         <url-pattern>*.js</url-pattern>
         <url-pattern>*.css</url-pattern>

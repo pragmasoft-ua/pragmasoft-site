@@ -1,5 +1,4 @@
 title:Pragmasoft - Вакансии
-keywords:Pragmasoft|Java|JavaEE|AJAX|QA
 
 h1. Вакансии
 

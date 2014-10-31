@@ -1,5 +1,6 @@
 title:Pragmasoft - All Business Cards (ABC)
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, web design, ALL BUSINESS CARDS (ABC)
+description:ALL BUSINESS CARDS (ABC) – easy way to get yourself business cards done. Just visit All Business Cards! There you can also enjoy lively design by Pragmasoft design studio. Developed by Pragmasoft
 
 h1. All Business Cards (ABC)
 

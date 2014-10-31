@@ -1,5 +1,6 @@
 title:Pragmasoft - JacksonCo Supply
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, веб дизайн, JACKSONCO SUPPLY
+description:JACKSONCO SUPPLY - дизайн магазина промышленных товаров и товаров питания. Разработан компанией Прагмасофт
 
 h1. JacksonCo Supply
 

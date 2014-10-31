@@ -1,5 +1,6 @@
 title:Pragmasoft - Vyke Dashboard
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, JAVA серверные приложения, VYKE DASHBOARD
+description:VYKE DASHBOARD - нашей целью было обеспечить интегрированную точку доступа к Vyke. Разработано компанией Прагмасофт
 
 h1. Vyke Dashboard
 

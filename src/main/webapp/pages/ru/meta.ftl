@@ -1,0 +1,2 @@
+<meta name="keywords" content="Pragmasoft, mobile development, Java development,  iOS development" />
+<meta name="description" content="Pragmasoft Украина. Разработка ПО. Мобильная разработка. Серверная Java разработка.">

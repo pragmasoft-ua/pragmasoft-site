@@ -1,5 +1,6 @@
 title:Pragmasoft - Resume
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, cloud computing, RESUME
+description:RESUME – cloud based resumes management and hosting application. This is multitenant application for individuals and recruiting companies. Developed by Pragmasoft
 
 h1. Resume
 

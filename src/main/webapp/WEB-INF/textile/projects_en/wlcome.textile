@@ -1,5 +1,6 @@
 title:Pragmasoft - Wlcome
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, mobile development, WLCOME
+description:WLCOME – Set of applications for implementation loyalty program using mobile devices. Developed by Pragmasoft
 
 h1. Wlcome
 

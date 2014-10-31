@@ -1,5 +1,6 @@
 title:Pragmasoft - Branchenbuch
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, веб дизайн, BRANCHENBUCH
+description:BRANCHENBUCH - чистый дизайн для немецкого онлайн-каталога желтых страниц. Разработано компанией Прагмасофт
 
 h1. Branchenbuch
 

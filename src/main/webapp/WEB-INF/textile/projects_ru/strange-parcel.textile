@@ -1,5 +1,6 @@
 title:Pragmasoft - Strange Parcel
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, разработка мобильных приложений, TRANGE PARCEL
+description:Strange Parcel - интерактивная книжка для детей с титрами, озвучкой разработана компанией Прагмасофт
 
 h1. Strange Parcel
 

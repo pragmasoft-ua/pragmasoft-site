@@ -1,5 +1,6 @@
 title:Pragmasoft - Horse racing
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, web design, HORSE RACING
+description:HORSE RACING – nice example of sport site design, which corresponds to main tendencies pointed out in Smashing magazine sport site showcase. Developed by Pragmasoft
 
 h1. Horse racing
 

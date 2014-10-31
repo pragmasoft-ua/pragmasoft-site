@@ -1,8 +1,9 @@
-<#macro apply title="Pragmasoft" language="en" keywords="Pragmasoft">
+<#macro apply title="Pragmasoft" language="en">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-    <meta name="keywords" content="${keywords}" />
+    <meta name="keywords" content="${keywords!}" />
+    <meta name="description" content="${description!}">
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="${app}res/img/favicon.ico">

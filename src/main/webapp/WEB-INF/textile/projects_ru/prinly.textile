@@ -1,5 +1,6 @@
 title:Pragmasoft - Prinly
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, JAVA серверные приложения, PRINLY
+description:PRINLY - онлайн инструмент для разработки индивидуальной продукции. Pазработана компанией Прагмасофт
 
 h1. Prinly
 

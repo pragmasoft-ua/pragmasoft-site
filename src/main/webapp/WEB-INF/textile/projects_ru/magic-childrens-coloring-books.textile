@@ -1,5 +1,6 @@
 title:Pragmasoft - Magic Children's Coloring Books
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, разработка мобильных приложений, MAGIC CHILDREN’S COLORING BOOKS
+description:MAGIC CHILDREN’S COLORING BOOKS Позвольте вашим детям погрузиться в мир сказок! Разработана компанией Прагмасофт
 
 h1. Magic Children's Coloring Books
 

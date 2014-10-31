@@ -1,5 +1,6 @@
 title:Pragmasoft - Vyke
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, разработка мобильных приложений, VYKE
+description:VYKE - позволяет осуществлять международные звонки посредством Android дешевле. Разработано компанией Прагмасофт
 
 h1. Vyke
 

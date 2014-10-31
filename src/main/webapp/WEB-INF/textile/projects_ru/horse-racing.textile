@@ -1,5 +1,6 @@
 title:Pragmasoft - Horse racing
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, веб дизайн, HORSE RACING
+description:HORSE RACING - прекрасный пример дизайна спортивного сайта. Разработан компанией Прагмасофт
 
 h1. Horse racing
 

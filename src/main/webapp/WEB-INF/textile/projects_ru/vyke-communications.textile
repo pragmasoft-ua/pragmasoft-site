@@ -1,5 +1,6 @@
 title:Pragmasoft - Vyke Communications
-keywords:software|development|Pragmasoft
+keywords:Pragmasoft, JAVA серверные приложения, VYKE COMMUNICATIONS
+description:VYKE COMMUNICATIONS - высококачественное обслуживание коммуникационной сети VoI. Pразработана компанией Прагмасофт
 
 h1. Vyke Communications
 
