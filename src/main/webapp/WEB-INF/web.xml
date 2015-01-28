@@ -160,6 +160,17 @@
     </listener>
 
     <!-- ========= Filters ========= -->
+
+	<filter>
+	    <filter-name>UrlRewriteFilter</filter-name>
+	    <filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>
+	</filter>
+	<filter-mapping>
+	    <filter-name>UrlRewriteFilter</filter-name>
+	    <url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+
     <!-- Encoding filter -->
     <filter>
         <filter-name>EncodingFilter</filter-name>
@@ -221,17 +232,6 @@
       <url-pattern>/en/*</url-pattern>
     </filter-mapping>
     
-    
-	<filter>
-	    <filter-name>UrlRewriteFilter</filter-name>
-	    <filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>
-	</filter>
-	<filter-mapping>
-	    <filter-name>UrlRewriteFilter</filter-name>
-	    <url-pattern>/*</url-pattern>
-	    <dispatcher>REQUEST</dispatcher>
-	    <dispatcher>FORWARD</dispatcher>
-	</filter-mapping>
     
     <!--
         Prevent the visiting of MVC Views from outside the servlet container.
