@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 4.0//EN"
+        "http://www.tuckey.org/res/dtds/urlrewrite4.0.dtd">
+<urlrewrite>
+
+ 	<rule>
+        <name>Domain Name Check</name>
+        <condition name="host" operator="notequal">www.pragmasoft.com.ua</condition>
+        <from>^(.*)$</from>
+        <to type="redirect">https://www.pragmasoft.com.ua/context$1</to>
+    </rule>
+
+</urlrewrite>
