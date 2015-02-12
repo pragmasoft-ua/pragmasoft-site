@@ -30,13 +30,11 @@ public class TextProcessorFactory {
 
 		@Override
 		protected TextProcessor initialValue() {
-			return DEFAULT_TEXT_PROCESSOR;
+			return new TextileTextProcessorImpl();
 		}
 		
 	};
 
-	public static TextProcessor DEFAULT_TEXT_PROCESSOR = new TextileTextProcessorImpl();
-	
 	public static TextProcessor getMarkdownProcessor() {
 		return threadLocalProcessor.get();
 	}
