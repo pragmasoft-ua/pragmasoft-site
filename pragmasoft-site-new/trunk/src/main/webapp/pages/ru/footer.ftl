@@ -28,7 +28,7 @@
     <!-- Example row of columns -->
     <div class="row">
       <div class="col-md-6 col-sm-6 col-xs-12 col-lg-6">
-        <p>© 2014 Pragmasoft. Все права защищены</p>
+        <p>© ${year} Pragmasoft. Все права защищены</p>
       </div>
       <div class="col-md-6 col-sm-6 col-xs-12 col-lg-6">
         <a href="${app}${language}/contactus">Свяжитесь с нами</a>

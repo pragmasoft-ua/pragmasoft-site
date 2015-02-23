@@ -1,5 +1,7 @@
 package ua.com.pragmasoft.listener;
 
+import java.util.Calendar;
+
 import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
@@ -22,6 +24,7 @@ public class ContextListener implements ServletContextListener {
 		
 		ServletContext context = sce.getServletContext();
 		context.setAttribute("app", context.getContextPath().concat("/"));
+		context.setAttribute("year", Calendar.getInstance().get(Calendar.YEAR));
 		logger.debug("Servlet context initialization finished.");
 	}
 
