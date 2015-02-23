@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: http://pragmasoft.ru/res/sitemap.xml
+Sitemap: http://pragmasoft.com.ua/res/sitemap.xml
