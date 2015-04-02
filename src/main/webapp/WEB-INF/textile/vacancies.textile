@@ -9,15 +9,19 @@ h2. Java EE developer
 
 *Requirements:*
 
-# Technical English - fluent technical documentation reading and documenting source code. 
+# Intermediate technical English - fluent technical documentation reading and documenting source code. 
 # Linux as an user.
 # Common OOP knowledge, patterns, code metrics. UML (reading) - advantage.
-# Experience with java development tools - ant, maven, junit, svn, IDE, debug, profiling, app servers - deployment
+# Experience with java development tools - maven, junit, SCM (svn/git/mercurial), IDE, debug, profiling, app servers - deployment
 # Not less than 3 years of permanent practical Server side java experience, including:
-** SQL, databases, ORM - JPA or Hibernate
-** HTTP (including common headers, cookies, authorization, SSL), HTML, AJAX - advantage
-** JavaEE including, JSP, JSTL, custom taglibs, JSF - advantage.
-** Spring framework, Spring security - advantage.
+** Java language and JVM platform, JDK tools
+** Java SDK including concurrency, io, nio, networking, collections, classloading, security
+** JavaEE including Servlets, JSP, JSTL, EJB3, JPA, JMS, CDI, JAX-RS.
+** SQL, databases, ORM - JPA or Hibernate. NoSQL - advantage
+** HTTP (including common headers, cookies, authorization, SSL)
+** Frontend (HTML, CSS, JS, Ajax). Frontend MVC frameworks, SPA, Less/Sass, Grunt/Gulp - advantage
+** JavaEE including Servlets, JSP, JSTL, EJB3, JPA, JMS, CDI, JAX-RS.
+** Spring framework, Spring security.
 # Fluent knowledge of Java SE, including: Exceptions, Java Beans, Generics, Annotations, Threads, synchronization, collections, resources, JDBC, Io, Nio, XML, Networking, Security, Reflection. Certification would be a bonus.
 # Freelancing experience would be a bonus.
 
@@ -30,27 +34,14 @@ h2. Junior Java EE developer
 *Requirements:*
 
 # Desire to become a Java professional.
-# Technical English - fluent documentation reading.
-# General knowledge in OOP, design patterns.
+# Intermediate Technical English - fluent documentation reading.
+# General knowledge of OOP, design patterns.
 # Fluent knowledge of Java SE within the scope of "Sun's Java tutorial":http://java.sun.com/docs/books/tutorial/
+# Basic knowledge of JavaEE technologies - Servlet, JSP
+# Basic knowledge of SQL databases and ORM - JPA or Hibernate, NoSQL - advantage
+# Basic knowledge of frontend technologies - HTML, CSS, Javascript
+
 
 </div>
 
-<div class="vc-box">
 
-h2. QA Engineer
-
-*Requirements:*
-
-# At least 1-2 years experience of QA engineer
-# Technical English - fluent documentation reading
-# Deep knowledge of QA process
-# Understanding of software development process, methodologies, quality metrics
-# Experience in web applications testing including security testing
-# Experience in mobile applications testing
-# Writing of test plans, test cases, reporting documents
-# Experience in automated/load testing
-# Fluent use of tools: bug and task trackers, virtual machines, test automation tools, load testing tools, source code control
-# Understanding of HTML, CSS, scripting is desirable
-
-</div>
