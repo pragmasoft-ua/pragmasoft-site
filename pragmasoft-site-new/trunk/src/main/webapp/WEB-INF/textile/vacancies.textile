@@ -9,27 +9,25 @@ h2. Java EE developer
 
 *Requirements:*
 
-# Intermediate technical English - fluent technical documentation reading and documenting source code. 
-# Linux as an user.
-# Common OOP knowledge, patterns, code metrics. UML (reading) - advantage.
-# Experience with java development tools - maven, junit, SCM (svn/git/mercurial), IDE, debug, profiling, app servers - deployment
+# Intermediate technical English - fluent technical documentation reading and documenting source code
+# Linux as an user
+# Common OOP knowledge, patterns, code metrics. UML (reading) - advantage
+# Experience with java development tools - maven, junit, SCM (svn/git/mercurial), IDE, debug, profiling, app servers
 # Not less than 3 years of permanent practical Server side java experience, including:
-** Java language and JVM platform, JDK tools
-** Java SDK including concurrency, io, nio, networking, collections, classloading, security
+** Java language and JVM platform, JDK tools. OCP certificate - advantage
+** Java SDK including concurrency, io, nio, networking, collections, classloading, security, reflection, jdbc, annotations, generics
 ** JavaEE including Servlets, JSP, JSTL, EJB3, JPA, JMS, CDI, JAX-RS.
 ** SQL, databases, ORM - JPA or Hibernate. NoSQL - advantage
 ** HTTP (including common headers, cookies, authorization, SSL)
 ** Frontend (HTML, CSS, JS, Ajax). Frontend MVC frameworks, SPA, Less/Sass, Grunt/Gulp - advantage
-** JavaEE including Servlets, JSP, JSTL, EJB3, JPA, JMS, CDI, JAX-RS.
 ** Spring framework, Spring security.
-# Fluent knowledge of Java SE, including: Exceptions, Java Beans, Generics, Annotations, Threads, synchronization, collections, resources, JDBC, Io, Nio, XML, Networking, Security, Reflection. Certification would be a bonus.
-# Freelancing experience would be a bonus.
+# Freelancing experience - advantage
 
 </div>
 
 <div class="vc-box-v">
 
-h2. Junior Java EE developer
+h2. Junior Java EE developer (currently unavailable)
 
 *Requirements:*
 
@@ -40,7 +38,7 @@ h2. Junior Java EE developer
 # Basic knowledge of JavaEE technologies - Servlet, JSP
 # Basic knowledge of SQL databases and ORM - JPA or Hibernate, NoSQL - advantage
 # Basic knowledge of frontend technologies - HTML, CSS, Javascript
-
+# Working JavaEE sample projects
 
 </div>
 
