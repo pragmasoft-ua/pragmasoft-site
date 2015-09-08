@@ -6,6 +6,8 @@ h1. Magic Children's Coloring Books
 
 <div class="vc-box">
 
+*Технологии:* Facebook API, Media Player Framework, Core Graphics Framework, Web View Control, HTML.
+
 Вы можете обратиться к нам с любыми вопросами, предложениями, замечаниями о приложении "Магические Детские Раскраски" в нашу службу поддержки по электронной почте: "magicbooks@pragmasoft.com.ua":mailto:magicbooks@pragmasoft.com.ua. 
 
 p(#fairy-tales). *Сказки на App Store:*

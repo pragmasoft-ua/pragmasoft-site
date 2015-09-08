@@ -229,6 +229,22 @@
                 <span class="info">Подробнее</span>
               </div>
             </a>
+            <a class="view view-first" href="project/FaceRecognizer">
+              <img src="${app}res/img/project/mobile/email.jpg" />
+              <div class="mask">
+                <h2>FACE RECOGNIZER</h2>
+                <p>OpenCV</p>
+                <span class="info">Подробнее</span>
+              </div>
+            </a>
+          <a class="view view-first" href="project/trakit">
+              <img src="${app}res/img/project/mobile/trak_logo.png" />
+              <div class="mask">
+                <h2>TRAK</h2>
+                <p>OpenEars, Tesseract OCR, REST API, Network Reachability, Async Web Requests.</p>
+                <span class="info">Подробнее</span>
+              </div>
+            </a>  
           </div>
         </div>
       </div>
@@ -302,7 +318,7 @@
                 <img src="${app}res/img/project/java/fna-logo.jpg" />
                 <div class="mask">
                   <h2>FNA</h2>
-                  <p>JD3.JS, SWG, Require JS, Grunt, LESS, Bootstrap, MVVM architecture</p>
+                  <p>JD3.JS, SVG, Require JS, Grunt, LESS, Bootstrap, MVVM architecture</p>
                   <span class="info">Подробнее</span>
                 </div>
               </a>
@@ -317,7 +333,7 @@
             <a class="view view-first" href="${app}${language}/contactus">
               <img src="${app}res/img/project/free-project2.jpg" />
               <div class="mask">
-                <h2>Order a Project</h2>
+                <h2>Заказать проект</h2>
                 <p>JavaEE, Spring, Hibernate, JavaME, C++, ATL, WTL, MFC</p>
                 <span class="info">Заказать проект</span>
               </div>
@@ -330,7 +346,23 @@
                 <span class="info">Подробнее</span>
               </div>
             </a>
-          </div>
+			<a class="view view-first" href="project/highestcockpit">
+                <img src="${app}res/img/project/java/HIGHESTcockpit_icon.jpg" />
+                <div class="mask">
+                  <h2>Highestcockpit</h2>
+                  <p>Java, Spring, Rubix, React, JPA</p>
+                  <span class="info">Подробнее</span>
+                </div>
+              </a> 
+              <a class="view view-first" href="project/openemm">
+                <img src="${app}res/img/project/java/openemm_logo.png" />
+                <div class="mask">
+                  <h2>OpenEMM</h2>
+                  <p>Java, JavaMail, Spring, Spring-WS, Struts, JDBC, MySQL, Oracle, Ehcache</p>
+                  <span class="info">Подробнее</span>
+                </div>
+              </a>   
+            </div>
         </div>
       </div>
     </div>
@@ -377,7 +409,7 @@
             <a class="view view-first" href="project/mtp">
               <img src="${app}res/img/project/cloud/Mobile-Ticketing.jpg" />
               <div class="mask">
-                <h2>Mobile-Ticketing</h2>
+                <h2>Ticket Gretchen</h2>
                 <p>JavaEE, Spring, Hibernate, JavaME, C++, ATL, WTL, MFC</p>
                 <span class="info">Подробнее</span>
               </div>
@@ -393,9 +425,17 @@
             <a class="view view-first mobile-hide" href="${app}${language}/contactus">
               <img src="${app}res/img/project/free-project.jpg" />
               <div class="mask">
-                <h2>Order a project</h2>
+                <h2>Заказать проект</h2>
                 <p>JavaEE, Spring, Hibernate, JavaME, C++, ATL, WTL, MFC</p>
                 <span class="info">Заказать проект</span>
+              </div>
+            </a>
+             <a class="view view-first" href="project/jagermeister">
+              <img src="${app}res/img/project/cloud/Jagermeister_logo.png" />
+              <div class="mask">
+                <h2>Jagermeister</h2>
+                <p>Java, Spring Security, Google Guava, JClouds, React JS, React Router, Grunt</p>
+                <span class="info">Подробнее</span>
               </div>
             </a>
           </div>
@@ -493,6 +533,15 @@
                 <span class="info">Подробнее</span>
               </div>
             </a>
+             </a>
+  				<a class="view view-first" href="project/acai">
+                <img src="${app}res/img/project/design/acai_ico.png" />
+                <div class="mask">
+                  <h2>ACAI AUTHOR</h2>
+                  <p>Bootstrap, Spring, Tiles, JQuery, MarkItUp!, DZSlides</p>
+                  <span class="info">Подробнее</span>
+                </div>
+              </a>
           </div>
         </div>
       </div>

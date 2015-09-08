@@ -1,0 +1,24 @@
+title:Pragmasoft - Acai Author
+keywords:Pragmasoft, web-design, ACAI AUTHOR
+description:
+
+h1. Acai Author
+
+
+<div class="vc-box">
+
+Web application for creation/viewing/running presentations and tests for students, pupils, etc. In general Application can be used for any audiences: school, university, some courses, etc. Big number of options allow to create very difference modules.
+
+Features:
+* content optimized for mobile devices
+* offline mode (for already downloaded modules)
+* big number of content type which can be used for presentations: text (with formatting), images, audio files.
+
+<div class="p-img">
+
+!../../res/img/project/design/acai1.png!
+!../../res/img/project/design/acai2.png!
+!../../res/img/project/design/acai3.png!
+
+
+</div></div>

@@ -1,8 +1,8 @@
-title:Pragmasoft - Mobile Ticketing Platform
-keywords:Pragmasoft, cloud computing, MOBILE TICKETING PLATFORM
-description:MOBILE TICKETING PLATFORM – The purpose of Mobile Ticketing Platform application is to enable customers to buy tickets for arbitrary events, museums through one mobile. Developed by Pragmasoft
+title:Pragmasoft - Ticket Gretchen
+keywords:Pragmasoft, cloud computing, TICKET GRETCHEN
+description:TICKET GRETCHEN – The purpose of Ticket Gretchen application is to enable customers to buy tickets for arbitrary events, museums through one mobile. Developed by Pragmasoft
 
-h1. Mobile Ticketing Platform
+h1. Ticket Gretchen
 
 
 <div class="vc-box">
@@ -10,7 +10,7 @@ h1. Mobile Ticketing Platform
 *Technologies:* JavaEE6 based and uses cloud technologies (AWS, EC2, DynamoDB, S3, CloudFront) for scalability and fault tolerance, as well of set of modern JavaEE APIs - JPA for persistence, EJB3 for business logic, CDI for dependency injection, JAX-RS for RESTful API, JCA connectors to integrate with 3rd party ticketing systems. 
 It uses Jboss AS 6 Appserver and MySQL database for persistent storage.
 
-The purpose of Mobile Ticketing Platform application is to enable european customers to buy tickets for arbitrary events, museums, etc. through one consistent mobile user interface.
+The purpose of Ticket Gretchen application is to enable european customers to buy tickets for arbitrary events, museums, etc. through one consistent mobile user interface. Ticket Gretchen is now available "here":http://ticketgretchen.com/.
 
 The app has three main functional requirements:
 

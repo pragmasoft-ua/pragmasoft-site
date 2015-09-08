@@ -7,7 +7,7 @@ h1. FNA
 
 <div class="vc-box">
 
-*Technologies:* D3.JS, SWG, Require JS, Grunt, LESS, Bootstrap, MVVM architecture, AWS Technologies.
+*Technologies:* D3.JS, SVG, Require JS, Grunt, LESS, Bootstrap, MVVM architecture, AWS Technologies.
 
 FNA is an analytics platform that helps financial institutions and regulators gain insights from complex financial data with network analysis and visualization.
 FNA Platform is a complete solution designed for advanced analysis and visualization of financial networks.

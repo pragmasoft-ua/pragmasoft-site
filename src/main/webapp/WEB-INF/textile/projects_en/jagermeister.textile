@@ -1,0 +1,22 @@
+title:Pragmasoft - Jagermeister
+keywords:Pragmasoft, cloud computing, JAGERMEISTER
+description: project for simple and scheduled running instances on cloud providers. Developed by Pragmasoft.
+
+h1. Jagermeister
+
+
+<div class="vc-box">
+
+*Technologies:* Java, Spring Framework, Spring Security, Google Guava, JClouds, React JS, React Router, Grunt.
+
+ Project extensively uses API of Cloud Providers, such as AWS EC2, Google Cloud Engine, Microsoft Azure to run, pause, stop and terminate instances by given simple or cron schedule.
+
+<div class="p-img">
+
+!../../res/img/project/cloud/Jag1.png!
+!../../res/img/project/cloud/Jag2.png!
+!../../res/img/project/cloud/Jag3.png!
+!../../res/img/project/cloud/Jag4.png!
+!../../res/img/project/cloud/Jag5.png!
+
+</div></div>

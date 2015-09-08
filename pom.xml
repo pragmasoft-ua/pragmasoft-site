@@ -8,7 +8,6 @@
 	<packaging>war</packaging>
 	<version>1.0-SNAPSHOT</version>
 	<name>pragmasoft</name>
-	<url>http://pragmasoft.com.ua</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -32,7 +31,6 @@
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.0.1</version>
-			<scope>provided</scope>
 		</dependency>
 
 		<!-- Mail API -->
@@ -40,7 +38,6 @@
 			<groupId>javax.mail</groupId>
 			<artifactId>mail</artifactId>
 			<version>1.4.7</version>
-			<scope>provided</scope>
 		</dependency>
 
 		<!-- Freemarker -->
@@ -96,6 +93,14 @@
 		<finalName>pragmasoftSite</finalName>
 		<plugins>
 
+			<plugin>
+				  <groupId>org.apache.tomcat.maven</groupId>
+				  <artifactId>tomcat7-maven-plugin</artifactId>
+				  <version>2.1</version>
+				  <configuration>
+					<path>/</path>
+				  </configuration>
+			</plugin>	
 
 			<plugin>
 				<groupId>org.lesscss</groupId>
@@ -171,4 +176,5 @@
 
 		</plugins>
 	</build>
+	<url>http://pragmasoft.com.ua</url>
 </project>

@@ -1,0 +1,23 @@
+title:Pragmasoft - Jagermeister
+keywords:Pragmasoft, cloud computing, JAGERMEISTER
+description: проект для создания и использования виртуальных машин на облачных сервисах единоразово и по расписанию. Разработан компанией Прагмасофт.
+
+h1. Jagermeister
+
+
+<div class="vc-box">
+
+*Технологии:* Java, Spring Framework, Spring Security, Google Guava, JClouds, React JS, React Router, Grunt.
+
+ Проект широко использует API облачных провайдеров таких как AWS EC2, Google Cloud Engine, Microsoft Azure для создания и использования 
+ виртуальных машин единоразово и по расписанияю.
+ 
+<div class="p-img">
+
+!../../res/img/project/cloud/Jag1.png!
+!../../res/img/project/cloud/Jag2.png!
+!../../res/img/project/cloud/Jag3.png!
+!../../res/img/project/cloud/Jag4.png!
+!../../res/img/project/cloud/Jag5.png!
+
+</div></div>

@@ -1,0 +1,28 @@
+title:Pragmasoft - Face Recognizer
+keywords:Pragmasoft, mobile development, FACE RECOGNIZER
+description:
+
+h1. Face Recognizer
+
+
+<div class="vc-box">
+
+*Technologies:* OpenCV library.
+
+Prototype of project for recognizing faces, based on the list of selected parameters of person's photo:
+
+* Eyes color
+* Hair color
+* Skin color
+
+Library OpenCV was used during working on project.
+
+h2. Screenshots from simulator
+
+<div class="p-img">
+
+!../../res/img/project/mobile/FR1.png!
+!../../res/img/project/mobile/FR2.png!
+
+
+</div></div>
