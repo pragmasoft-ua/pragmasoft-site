@@ -534,14 +534,14 @@
               </div>
             </a>
              </a>
-  				<a class="view view-first" href="project/acai">
+  			<!--	<a class="view view-first" href="project/acai">
                 <img src="${app}res/img/project/design/acai_ico.png" />
                 <div class="mask">
                   <h2>ACAI AUTHOR</h2>
                   <p>Bootstrap, Spring, Tiles, JQuery, MarkItUp!, DZSlides</p>
                   <span class="info">Подробнее</span>
                 </div>
-              </a>
+              </a> -->
           </div>
         </div>
       </div>
