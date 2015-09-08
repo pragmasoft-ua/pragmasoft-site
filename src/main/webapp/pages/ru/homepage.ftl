@@ -229,14 +229,14 @@
                 <span class="info">Подробнее</span>
               </div>
             </a>
-            <a class="view view-first" href="project/FaceRecognizer">
+        <!--  <a class="view view-first" href="project/FaceRecognizer">
               <img src="${app}res/img/project/mobile/email.jpg" />
               <div class="mask">
                 <h2>FACE RECOGNIZER</h2>
                 <p>OpenCV</p>
                 <span class="info">Подробнее</span>
               </div>
-            </a>
+            </a> -->
           <a class="view view-first" href="project/trakit">
               <img src="${app}res/img/project/mobile/trak_logo.png" />
               <div class="mask">
