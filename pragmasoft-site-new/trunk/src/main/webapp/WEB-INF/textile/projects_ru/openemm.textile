@@ -1,0 +1,11 @@
+title:Pragmasoft - OpenEMM - приложение для автоматизации маркетинговых рассылок.
+keywords:software|development|Pragmasoft
+
+h1. OpenEMM
+
+
+<div class="vc-box">
+
+*Технологии:* Java, JavaMail, Spring, Spring-WS, Struts, JDBC, MySQL, Oracle, Ehcache.
+ 
+OpenEMM - это приложение для автоматизации маркетинговых рассылок. Инструмент позволяет создавать и отправлять сообщения и сервисные письма.

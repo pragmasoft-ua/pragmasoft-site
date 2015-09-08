@@ -6,6 +6,8 @@ h1. Magic Children's Coloring Books
 
 <div class="vc-box">
 
+*Technologies:* Facebook API, Media Player Framework, Core Graphics Framework, Web View Control, HTML.
+
 You are welcome to address us with any questions, suggestions, comments about Magic Children's Coloring Books app to our support email: "magicbooks@pragmasoft.com.ua":mailto:magicbooks@pragmasoft.com.ua. 
 
 p(#fairy-tales). *Fairy Tales on App Store:*

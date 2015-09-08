@@ -13,6 +13,7 @@
           <a class="vk" href="http://vk.com/club32131862" target="_blank"></a>
           <a class="fb" href="https://www.facebook.com/pages/Pragmasoft/340275132655051" target="_blank"></a>
           <a class="gp" href="https://plus.google.com/u/0/101843999873125528372" target="_blank"></a>
+           <a class="lin" href="https://www.linkedin.com/company/pragmasoft-ukraine" target="_blank"></a>
           <a href="${app}${language}/contactus">
             <div class="mail"></div>
           </a>

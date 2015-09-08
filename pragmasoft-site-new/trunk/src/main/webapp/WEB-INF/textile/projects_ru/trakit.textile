@@ -1,0 +1,30 @@
+title:Pragmasoft - TrakIt
+keywords:Pragmasoft, Разработка мобильных приложений, TRAKIT
+description: проект платежной системы, основанной на QR кодах. Разработан компанией Прагмасофт
+
+h1. TrakIt
+
+
+<div class="vc-box">
+
+*Technologies:* QR codes scanner, OpenEars, Tesseract for OCR discount cards, REST API, Network Reachability, Async Web Requests.
+
+Проект платежной системы, основанной на QR кодах. Проект состоит из двух частей: килиентской (рзработана нашей командой) и серверной (предоставленной заказчиком).
+Приложение предполагает две стратегии использования:
+
+* Как покупатель
+* Как продавец
+
+Для работы как покупатель необходимо настроить свой кошелек и привязать кредитную карту или PayPal аккаунт.Для осуществления
+покупки необходимо отсканировать QR код и получить по продукту информацию с сервера (цена, размеры, цвет), выбрать
+все необходимые опции как размер, цвет, адрес доставки и пр. и оплатить. 
+
+<div class="p-img">
+
+!../../res/img/project/mobile/TI1.png!
+!../../res/img/project/mobile/TI2.png!
+!../../res/img/project/mobile/TI3.png!
+!../../res/img/project/mobile/TI4.png!
+!../../res/img/project/mobile/TI5.png!
+
+</div></div>

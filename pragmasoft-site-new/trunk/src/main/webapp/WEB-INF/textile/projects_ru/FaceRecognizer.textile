@@ -1,0 +1,28 @@
+title:Pragmasoft - Face Recognizer
+keywords:Pragmasoft, РАЗРАБОТКА МОБИЛЬНЫХ ПРИЛОЖЕНИЙ, FACE RECOGNIZER
+description: прототип проекта по распознаванию людей. Разработана компанией Прагмасофт
+
+h1. Face Recognizer
+
+
+<div class="vc-box">
+
+*Technologies:* библиотека OpenCV.
+
+Прототип проекта по распознаванию людей по фотографии из набора заданых и определению различных атрибутов, таких как: 
+
+* Цвет глаз
+* Цвет волос
+* Цвет кожи
+
+Во время разработки была использована библиотека OpenCV.
+
+h2. Скриншоты (эмулятор)
+
+<div class="p-img">
+
+!../../res/img/project/mobile/FR1.png!
+!../../res/img/project/mobile/FR2.png!
+
+
+</div></div>

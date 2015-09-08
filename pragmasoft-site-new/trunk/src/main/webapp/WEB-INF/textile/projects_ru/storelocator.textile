@@ -9,13 +9,19 @@ h1. Storelocator
 
 *Технологии:*  Apache Cordova/PhoneGap, jQuery mobile, Facebook and Google OAuth 2.0, Google Maps API, Geolocation API.
 
-Storelocator теперь доступен для Android телефонов, его можно скачать "здесь":https://play.google.com/store/apps/details?id=com.phonegap.storelocator.
+Storelocator теперь доступен для мобильных телефонов, его можно скачать "здесь":http://storelocator.no/.
 Наконец Storelocator доступен для мобильного телефона и просто необходим для тех, кто любит ходит по магазинам. Теперь вы можете сэкономить время бегая в незнакомых городах в поисках нужного вам магазина. Простой поиск быстро найдет магазины, где интересующий вас бренд есть в наличие.
 
 Если вы любите путешествовать и ходить по магазинам, то Storelocator для мобильных устройств является основным инструментом для покупок подкованных клиентов. Планируйте свою поездку заранее, создавая онлайн гидов и добавляйте магазин в список желаемых посетить. После того как вы прибыли в пункт назначения, открывайте руководство на вашем смартфоне, находите магазины и осуществляйте покупки прямо во время прогулки.  
 
 <div class="p-img">
 
-!../../res/img/project/mobile/store_locator_2.jpg!  !../../res/img/project/mobile/store_locator_3.jpg! !../../res/img/project/mobile/store_locator_4.jpg!
+h2. Screenshots:
+
+!../../res/img/project/mobile/Store_Locator_2_1.png!
+!../../res/img/project/mobile/Store_Locator_1_1_1.png!
+!../../res/img/project/mobile/Store_Locator_landscape_1_1_1.png! 
+!../../res/img/project/mobile/Store_Locator_ipad_1_3.png!
+!../../res/img/project/mobile/Store_Locator_ipad_3_1.png!
 
 </div></div>

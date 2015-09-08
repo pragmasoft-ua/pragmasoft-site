@@ -1395,7 +1395,7 @@ ul.prodj li:hover {
     height: 29px;
     position: absolute;
     top: 20px;
-    right: 130px;
+    right: 10px;
     border: none
 }
 .footer .fb {
@@ -1407,6 +1407,7 @@ ul.prodj li:hover {
     right: 90px;
     border: none
 }
+
 .footer .gp {
     background: url(../img/2_g+.png) top center no-repeat;
     width: 29px;
@@ -1416,18 +1417,29 @@ ul.prodj li:hover {
     right: 50px;
     border: none
 }
+
+.footer .lin {
+    background: url(../img/2_l.png) top center no-repeat;
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    top: 20px;
+    right: 130px;
+    border: none
+}
 .footer .mail {
     background: url(../img/2_mail.png) top center no-repeat;
     width: 29px;
     height: 29px;
     position: absolute;
     top: 20px;
-    right: 10px;
+    right: -30px;
     border: none
 }
 .footer .vk:hover,
 .footer .fb:hover,
 .footer .gp:hover,
+.footer .lin:hover,
 .footer .mail:hover {
     cursor: pointer
 }
@@ -1931,6 +1943,7 @@ ul.prodj li:hover {
     .footer .vk,
     .footer .fb,
     .footer .gp,
+    .footer .lin,
     .footer .mail {
         top: 5px;
         position: absolute;
@@ -1945,8 +1958,11 @@ ul.prodj li:hover {
     .footer .gp {
         right: 68px
     }
-    .footer .mail {
+    .footer .lin {
         right: 102px
+    }
+    .footer .mail {
+        right: 136px
     }
     .fot-img-sm {
         margin: 20px auto 10px auto;

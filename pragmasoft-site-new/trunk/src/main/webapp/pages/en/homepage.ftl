@@ -12,7 +12,6 @@
       <div class="top-col-tr">
         <div class="container">
           <div class="row">
-            <div class="main-container">
               <div class="htitl"><img src="${app}res/img/01f_txt.png"></div>
               <div class="htitl-med"><img src="${app}res/img/01f_txt.png"></div>
               <div class="htitl-sm"><img src="${app}res/img/01m_txt_2.png"></div>
@@ -150,6 +149,22 @@
                   <p>UIKit, Custom Table View Control, Async Web Requests</p>
                   <span class="info">Read More</span>
                 </div>
+                <a class="view view-first" href="project/FaceRecognizer" >
+                <img src="${app}res/img/project/mobile/email.jpg" />
+                <div class="mask">
+                  <h2>FACE RECOGNIZER</h2>
+                  <p>OpenCV</p>
+                  <span class="info">Read More</span>
+                </div>
+              </a>
+              <a class="view view-first" href="project/trakit" >
+                <img src="${app}res/img/project/mobile/trak_logo.png" />
+                <div class="mask">
+                  <h2>TrakIt</h2>
+                  <p>OpenEars, Tesseract OCR, REST API, Network Reachability, Async Web Requests.</p>
+                  <span class="info">Read More</span>
+                </div>
+              </a>
               </a> 
             </div>
           </div>
@@ -220,7 +235,7 @@ Pragmasoft Team has a great experience in server application development. Our ex
                 <img src="${app}res/img/project/java/fna-logo.jpg" />
                 <div class="mask">
                   <h2>FNA</h2>
-                  <p>JD3.JS, SWG, Require JS, Grunt, LESS, Bootstrap, MVVM architecture</p>
+                  <p>JD3.JS, SVG, Require JS, Grunt, LESS, Bootstrap, MVVM architecture</p>
                   <span class="info">Read More</span>
                 </div>
               </a>
@@ -247,7 +262,23 @@ Pragmasoft Team has a great experience in server application development. Our ex
                   <p>Adobe Flex, Java, JavaScript, REST, Spring, Hibernate, Apache Click</p>
                   <span class="info">Read More</span>
                 </div>
-              </a>                
+              </a>       
+              <a class="view view-first" href="project/highestcockpit">
+                <img src="${app}res/img/project/java/HIGHESTcockpit_icon.jpg" />
+                <div class="mask">
+                  <h2>Highestcockpit</h2>
+                  <p>Java, Spring, Rubix, React, JPA</p>
+                  <span class="info">Read More</span>
+                </div>
+              </a>
+              <a class="view view-first" href="project/openemm">
+                <img src="${app}res/img/project/java/openemm_logo.png" />
+                <div class="mask">
+                  <h2>OpenEMM</h2>
+                  <p>Java, JavaMail, Spring, Spring-WS, Struts, JDBC, MySQL, Oracle, Ehcache</p>
+                  <span class="info">Read More</span>
+                </div>
+              </a>                 
             </div>
           </div>
         </div>
@@ -292,7 +323,7 @@ Pragmasoft Team has a great experience in server application development. Our ex
               <a class="view view-first" href="project/mtp">
                 <img src="${app}res/img/project/cloud/Mobile-Ticketing.jpg" />
                 <div class="mask">
-                  <h2>Mobile-Ticketing</h2>
+                  <h2>Ticket Gretchen</h2>
                   <p>JavaEE, Spring, Hibernate, JavaME, C++, ATL, WTL, MFC</p>
                   <span class="info">Read More</span>
                 </div>
@@ -313,6 +344,14 @@ Pragmasoft Team has a great experience in server application development. Our ex
                   <span class="info">Order a project</span>
                 </div>
               </a> 
+              <a class="view view-first" href="project/jagermeister">
+                <img src="${app}res/img/project/cloud/Jagermeister_logo.png" />
+                <div class="mask">
+                  <h2>Jagermeister</h2>
+                  <p>Java, Spring Security, Google Guava, JClouds, React JS, React Router, Grunt</p>
+                  <span class="info">Read More</span>
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -397,11 +436,19 @@ We are constantly evolving to always keep up with fashion trends and make you co
                   <span class="info">Read More</span>
                 </div>
               </a>
-              <a class="view view-first" href="project/thundermist">
+           		<a class="view view-first" href="project/thundermist">
                 <img src="${app}res/img/project/design/thunder.jpg" />
                 <div class="mask">
                   <h2>THUNDERMIST</h2>
                   <p>JavaEE, Spring, Hibernate, JavaME, C++, ATL, WTL, MFC</p>
+                  <span class="info">Read More</span>
+                </div>
+              </a>
+  				<a class="view view-first" href="project/acai">
+                <img src="${app}res/img/project/design/acai_ico.png" />
+                <div class="mask">
+                  <h2>ACAI AUTHOR</h2>
+                  <p>Bootstrap, Spring, Tiles, JQuery, MarkItUp!, DZSlides</p>
                   <span class="info">Read More</span>
                 </div>
               </a>

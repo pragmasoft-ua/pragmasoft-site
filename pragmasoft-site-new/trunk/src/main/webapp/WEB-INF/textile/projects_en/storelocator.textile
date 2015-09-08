@@ -9,13 +9,19 @@ h1. Storelocator
 
 *Technologies:*  Apache Cordova/PhoneGap, jQuery mobile, Facebook and Google OAuth 2.0, Google Maps API, Geolocation API.
 
-Storelocator is now available for Android phones and can be downloaded "here":https://play.google.com/store/apps/details?id=com.phonegap.storelocator.
+Storelocator is now available for mobile devices and can be downloaded "here":http://storelocator.no/.
 Finally Storelocator is available for the mobile phone, a must-have for anyone who loves shopping. Now you can save time running around in alien cities not finding the stores you are looking for. Simple search will quickly locate the stores selling the brand you are looking for. 
 
 If you like traveling and shopping, then Storelocator for mobile is the ultimate tool for the shopping savvy customer. Plan your trip in advance by creating shopping guides online and add the stores you wish to visit. Once you have arrived at your destination, open the guide on your smart phone and finding the stores will make shopping a walk in the park. 
 
 <div class="p-img">
 
-!../../res/img/project/mobile/store_locator_2.jpg! !../../res/img/project/mobile/store_locator_3.jpg! !../../res/img/project/mobile/store_locator_4.jpg!
+h2. Screenshots:
+
+!../../res/img/project/mobile/Store_Locator_2_1.png!
+!../../res/img/project/mobile/Store_Locator_1_1_1.png!
+!../../res/img/project/mobile/Store_Locator_landscape_1_1_1.png! 
+!../../res/img/project/mobile/Store_Locator_ipad_1_3.png!
+!../../res/img/project/mobile/Store_Locator_ipad_3_1.png!
 
 </div></div>

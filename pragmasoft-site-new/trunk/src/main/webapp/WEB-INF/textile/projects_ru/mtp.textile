@@ -1,15 +1,15 @@
-title:Pragmasoft - MoMeCo - Mobile Ticketing Platform
-keywords:Pragmasoft, облачные вычисления, MOBILE TICKETING PLATFORM
+title:Pragmasoft - MoMeCo - Ticket Gretchen
+keywords:Pragmasoft, облачные вычисления, Ticket Gretchen
 description:MOBILE TICKETING PLATFORM - дает возможность приобретать билеты в музеи с помощью мобильного. Разработано Прагмасофт
 
-h1. Mobile Ticketing Platform
+h1. Ticket Gretchen
 
 
 <div class="vc-box">
 
 *Технологии:* JavaEE6, AWS, EC2, DynamoDB, S3, CloudFront, JPA для работы с базами данных, EJB3,  CDI, JAX-RS, JCA коннекторы, MySQL для хранения данных, Jboss AS 6 Appserver, Apache Cordova/PhoneGap Android, JQuery Mobile и Backbone.js для реализации пользовательского интерфейса, OAuth2.
 
-Цель приложения Mobile Ticketing Platform - дать возможность европейским потребителям приобретать билеты на произвольные мероприятия, в музеи и т.д. с помощью одного согласованного мобильного пользовательского интерфейса.
+Цель приложения Ticket Gretchen - дать возможность европейским потребителям приобретать билеты на произвольные мероприятия, в музеи и т.д. с помощью одного согласованного мобильного пользовательского интерфейса. Ticket Gretchen доступен "здесь":http://ticketgretchen.com/.
 
 Приложение имеет три основных функциональных требования:
 
