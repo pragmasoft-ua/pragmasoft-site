@@ -149,14 +149,14 @@
                   <p>UIKit, Custom Table View Control, Async Web Requests</p>
                   <span class="info">Read More</span>
                 </div>
-                <a class="view view-first" href="project/FaceRecognizer" >
+           <!--   <a class="view view-first" href="project/FaceRecognizer" >
                 <img src="${app}res/img/project/mobile/email.jpg" />
                 <div class="mask">
                   <h2>FACE RECOGNIZER</h2>
                   <p>OpenCV</p>
                   <span class="info">Read More</span>
                 </div>
-              </a>
+              </a> -->
               <a class="view view-first" href="project/trakit" >
                 <img src="${app}res/img/project/mobile/trak_logo.png" />
                 <div class="mask">
