@@ -9,7 +9,7 @@ h1. Jagermeister
 
 *Technologies:* Java, Spring Framework, Spring Security, Google Guava, JClouds, React JS, React Router, Grunt.
 
- Project extensively uses API of Cloud Providers, such as AWS EC2, Google Cloud Engine, Microsoft Azure to run, pause, stop and terminate instances by given simple or cron schedule.
+Project extensively uses API of Cloud Providers, such as AWS EC2, Google Cloud Engine, Microsoft Azure to run, pause, stop and terminate instances by given simple or cron schedule.
 
 <div class="p-img">
 
