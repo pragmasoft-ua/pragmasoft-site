@@ -240,7 +240,7 @@
           <a class="view view-first" href="project/trakit">
               <img src="${app}res/img/project/mobile/trak_logo.png" />
               <div class="mask">
-                <h2>TRAK</h2>
+                <h2>TRAKIT</h2>
                 <p>OpenEars, Tesseract OCR, REST API, Network Reachability, Async Web Requests</p>
                 <span class="info">Подробнее</span>
               </div>
