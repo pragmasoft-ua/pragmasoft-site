@@ -241,10 +241,18 @@
               <img src="${app}res/img/project/mobile/trak_logo.png" />
               <div class="mask">
                 <h2>TRAK</h2>
-                <p>OpenEars, Tesseract OCR, REST API, Network Reachability, Async Web Requests.</p>
+                <p>OpenEars, Tesseract OCR, REST API, Network Reachability, Async Web Requests</p>
                 <span class="info">Подробнее</span>
               </div>
-            </a>  
+            </a>
+            <a class="view view-first" href="project/careinnovations">
+              <img src="${app}res/img/project/mobile/cilogo.png" />
+              <div class="mask">
+                <h2>Care Innovations</h2>
+                <p>Google PlayStore SDK, Google API Client Library for Java, Android SDK</p>
+                <span class="info">Подробнее</span>
+              </div>
+            </a>    
           </div>
         </div>
       </div>

@@ -1,0 +1,20 @@
+title:Pragmasoft - Care Innovations
+keywords:Pragmasoft, mobile development, CARE INNOVATIONS
+description: Android application for filling in Google Forms. Developed by Pragmasoft.
+
+h1. Care Innovations
+
+
+<div class="vc-box">
+
+*Technologies:* Google PlayStore SDK, Google API Client Library for Java, Android SDK.
+
+Android application - demonstrator technologies/proof of concept. Project for filling in and validation Google Forms. Asynchronous data sending for Google Forms via Android Sync Adapter realization.
+
+
+<div class="p-img">
+
+!../../res/img/project/mobile/ci1.png!
+!../../res/img/project/mobile/ci2.png!
+
+</div></div>
