@@ -361,7 +361,15 @@
                   <p>Java, JavaMail, Spring, Spring-WS, Struts, JDBC, MySQL, Oracle, Ehcache</p>
                   <span class="info">Подробнее</span>
                 </div>
-              </a>   
+              </a>  
+              	<a class="view view-first" href="project/acai">
+                <img src="${app}res/img/project/design/acai_ico.png" />
+                <div class="mask">
+                  <h2>ACAI AUTHOR</h2>
+                  <p>Bootstrap, Spring, Tiles, JQuery, MarkItUp!, DZSlides</p>
+                  <span class="info">Подробнее</span>
+                </div>
+              </a>
             </div>
         </div>
       </div>
@@ -534,15 +542,7 @@
               </div>
             </a>
              </a>
-  			<!--	<a class="view view-first" href="project/acai">
-                <img src="${app}res/img/project/design/acai_ico.png" />
-                <div class="mask">
-                  <h2>ACAI AUTHOR</h2>
-                  <p>Bootstrap, Spring, Tiles, JQuery, MarkItUp!, DZSlides</p>
-                  <span class="info">Подробнее</span>
-                </div>
-              </a> -->
-          </div>
+  		  </div>
         </div>
       </div>
     </div>
