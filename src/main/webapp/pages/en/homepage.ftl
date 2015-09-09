@@ -165,6 +165,14 @@
                   <span class="info">Read More</span>
                 </div>
               </a>
+              <a class="view view-first"  href="project/careinnovations">
+                <img src="${app}res/img/project/mobile/cilogo.png" />
+                <div class="mask">
+                  <h2>Care Innovations</h2>
+                  <p>Google PlayStore SDK, Google API Client Library for Java, Android SDK</p>
+                  <span class="info">Read More</span>
+                </div>
+              </a>
               </a> 
             </div>
           </div>
