@@ -17,7 +17,7 @@ Prototype of project for recognizing faces, based on the list of selected parame
 
 Library OpenCV was used during working on project.
 
-h2. Screenshots from simulator
+h2. Screenshots from emulator
 
 <div class="p-img">
 
