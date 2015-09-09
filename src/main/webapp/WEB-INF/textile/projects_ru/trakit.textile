@@ -7,7 +7,7 @@ h1. TrakIt
 
 <div class="vc-box">
 
-*Technologies:* QR codes scanner, OpenEars, Tesseract for OCR discount cards, REST API, Network Reachability, Async Web Requests.
+*Технологии:* QR codes scanner, OpenEars, Tesseract for OCR discount cards, REST API, Network Reachability, Async Web Requests.
 
 Проект платежной системы, основанной на QR кодах. Проект состоит из двух частей: килиентской (рзработана нашей командой) и серверной (предоставленной заказчиком).
 Приложение предполагает две стратегии использования:
