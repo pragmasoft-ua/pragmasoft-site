@@ -13,10 +13,9 @@ h1. Handpoint
 
 <div class="p-img">
 
-!(img-fl-left)../../res/img/project/java/handpoint_1.png!
+!../../res/img/project/java/hp1.png!
 
-!(img-fl-left)../../res/img/project/java/handpoint_2.png!
+!../../res/img/project/java/hp2.png!
 
-!(img-fl-left)../../res/img/project/java/handpoint_3.png!
 
 </div></div>
