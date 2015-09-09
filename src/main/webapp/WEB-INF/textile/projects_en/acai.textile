@@ -7,6 +7,8 @@ h1. Acai Author
 
 <div class="vc-box">
 
+*Technologies:* Sping MVC, Spring Security, Spring Data JPA, Tiles, Bootstrap, JQuery, MarkItUp!, DZSlides.
+
 Web application for creation/viewing/running presentations and tests for students, pupils, etc. In general Application can be used for any audiences: school, university, some courses, etc. Big number of options allow to create very difference modules.
 
 Features:
