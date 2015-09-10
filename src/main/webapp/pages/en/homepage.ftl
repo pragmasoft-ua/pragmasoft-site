@@ -271,14 +271,14 @@ Pragmasoft Team has a great experience in server application development. Our ex
                   <span class="info">Read More</span>
                 </div>
               </a>       
-        <!--       <a class="view view-first" href="project/highestcockpit">
+           <a class="view view-first" href="project/highestcockpit">
                 <img src="${app}res/img/project/java/HIGHESTcockpit_icon.jpg" />
                 <div class="mask">
                   <h2>Highestcockpit</h2>
-                  <p>Java, Spring, Rubix, React, JPA</p>
+                  <p>ReactJS, Gupl, SASS, Spring, SpringData, SpringBoot, JHipster</p>
                   <span class="info">Read More</span>
                 </div>
-              </a> -->
+              </a>
               <a class="view view-first" href="project/openemm">
                 <img src="${app}res/img/project/java/openemm_logo.png" />
                 <div class="mask">
