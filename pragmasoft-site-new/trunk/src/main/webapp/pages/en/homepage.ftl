@@ -173,6 +173,14 @@
                   <span class="info">Read More</span>
                 </div>
               </a>
+                  <a class="view view-first" href="project/voyage" >
+                <img src="${app}res/img/project/mobile/v_logo.png" />
+                <div class="mask">
+                  <h2>VOYAGES</h2>
+                  <p>GPS, maps, geocodes, json, restful api, core data, async networking</p>
+                  <span class="info">Read More</span>
+                </div>
+              </a>
               </a> 
             </div>
           </div>
@@ -340,7 +348,7 @@ Pragmasoft Team has a great experience in server application development. Our ex
                 <img src="${app}res/img/project/cloud/Mobile-Ticketing.jpg" />
                 <div class="mask">
                   <h2>Ticket Gretchen</h2>
-                  <p>JavaEE, Spring, Hibernate, JavaME, C++, ATL, WTL, MFC</p>
+                  <p>JavaEE6, AWS, DynamoDB, JPA, EJB3</p>
                   <span class="info">Read More</span>
                 </div>
               </a>
