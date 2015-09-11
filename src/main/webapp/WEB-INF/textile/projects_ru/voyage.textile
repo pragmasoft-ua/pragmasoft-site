@@ -1,0 +1,27 @@
+title:Pragmasoft - Voyage
+keywords:Pragmasoft, mobile development, VOYAGE
+description:
+
+h1. Voyages
+
+
+<div class="vc-box">
+
+*Технологии:* GPS, maps, geocodes, json, restful api, core data, async networking.
+
+Приложение для iPhone которое позволяет делиться впечатлениями о посещенных достопримечательностях, отмечать посещенные места на карте, публиковать фотографии, комментировать, отправлять друзьям сообщения.
+
+<div class="p-img">
+
+!(img-fl-left)../../res/img/project/mobile/v1.png!
+
+!(img-fl-left)../../res/img/project/mobile/v2.png!
+
+!(img-fl-left)../../res/img/project/mobile/v3.png!
+
+!(img-fl-left)../../res/img/project/mobile/v4.png!
+
+!(img-fl-left)../../res/img/project/mobile/v5.png!
+
+
+</div></div>
