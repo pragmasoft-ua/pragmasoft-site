@@ -13,16 +13,17 @@ iSign is a handy app for those who have to deal with numerous paperwork constant
 
 <div class="p-img">
 
-!(img-fl-left)../../res/img/project/mobile/isign1.jpg!
 
-!(img-fl-left)../../res/img/project/mobile/isign2.jpg!
+!(img-fl-left)../../res/img/project/mobile/is1.png!
 
-!(img-fl-left)../../res/img/project/mobile/isign3.jpg!
+!(img-fl-left)../../res/img/project/mobile/is2.png!
 
-!(img-fl-left)../../res/img/project/mobile/isign4.jpg!
+!(img-fl-left)../../res/img/project/mobile/is3.png!
 
-!(img-fl-left)../../res/img/project/mobile/isign5.jpg!
+!(img-fl-left)../../res/img/project/mobile/is4.png!
 
-!(img-fl-left)../../res/img/project/mobile/isign6.jpg!
+!(img-fl-left)../../res/img/project/mobile/is5.png!
+
+!(img-fl-left)../../res/img/project/mobile/is6.png!
 
 </div></div>
