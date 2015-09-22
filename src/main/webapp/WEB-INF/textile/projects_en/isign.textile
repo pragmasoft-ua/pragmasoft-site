@@ -14,6 +14,8 @@ iSign is a handy app for those who have to deal with numerous paperwork constant
 <div class="p-img">
 
 
+!(img-fl-left)../../res/img/project/mobile/is7.png!
+
 !(img-fl-left)../../res/img/project/mobile/is1.png!
 
 !(img-fl-left)../../res/img/project/mobile/is2.png!
