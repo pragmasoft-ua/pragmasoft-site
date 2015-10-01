@@ -310,7 +310,7 @@
               <img src="${app}res/img/project/java/handpoint.jpg" />
               <div class="mask">
                 <h2>Handpoint</h2>
-                <p>JavaEE, Spring, Hibernate, JavaME, C++, ATL, WTL, MFC</p>
+                <p>AndroidSDK</p>
                 <span class="info">Подробнее</span>
               </div>
             </a>
@@ -426,7 +426,7 @@
               <img src="${app}res/img/project/cloud/desk-mark.jpg" />
               <div class="mask">
                 <h2>AMARCO</h2>
-                <p>JavaEE, Spring, Hibernate, JavaME, C++, ATL, WTL, MFC</p>
+                <p>JavaEE, Spring, Hibernate, Java Web Start, Apache Jackrabbit, PayPal SDK</p>
                 <span class="info">Подробнее</span>
               </div>
             </a>
@@ -490,7 +490,7 @@
           <br />
           <br />
           <p class="uper norm">Что мы предлагаем</p>
-          <p>На стороне сервера, на стороне клиента, front end, back-end технологии, web, JavaScript, HTML CSS3.
+          <p>Разработка на стороне сервера, на стороне клиента, front end, back-end технологии, web, JavaScript, HTML CSS3.
             <br>Мы постоянно развиваемся, чтобы всегда идти в ногу с модными тенденциями и чтобы вы обращались к нам снова и снова.</p>
           <div class="prodj">
             <a class="view view-first" href="project/abc">
@@ -521,7 +521,7 @@
               <img src="${app}res/img/project/design/branch.jpg" />
               <div class="mask">
                 <h2>BRANCHENBUCH</h2>
-                <p>JavaEE, Spring, Hibernate, JavaME, C++, ATL, WTL, MFC</p>
+                <p>Web design, UI optimization, logo design, icon design, XHTML/CSS</p>
                 <span class="info">Подробнее</span>
               </div>
             </a>
@@ -553,7 +553,7 @@
               <img src="${app}res/img/project/design/thunder.jpg" />
               <div class="mask">
                 <h2>THUNDERMIST</h2>
-                <p>JavaEE, Spring, Hibernate, JavaME, C++, ATL, WTL, MFC</p>
+                <p>Web design, logo restyling, UI optimization, XHTML</p>
                 <span class="info">Подробнее</span>
               </div>
             </a>
@@ -580,10 +580,10 @@
         <div class="main-container">
           <h2>Почему  Украина</h2>
           <ul class="ukr">
-            <li>Украина входит пятерку мировых лидеров по экспорту программной продукции</li>
+            <li>Украина входит в 5 мировых лидеров по экспорту программной продукции</li>
             <li>Украина входит в 30 ведущих стран в сфере IT-аутсорсинга</li>
             <li>Украина стала единственной страной из Восточной Европы, попавшей в топ-25 стран с лучшей системой высшего образования (рейтинг составлен Мировой сетью исследовательских университетов "Universitas 21").</li>
-            <li>Украина заняла четвёртое место в мире по количеству
+            <li>Украина заняла 4 место в мире по количеству
               <br />сертифицированных IT-специалистов</li>
             <li>Каждый год украинские вузы выпускают
               <br />около 16 тысяч специалистов в сфере IT.</li>

@@ -74,16 +74,16 @@
         <div class="row">
           <div class="main-container">
             <h2>Mobile App<br />Development</h2>
-            <p>In today's world, phones have long ceased to be a communication means only. They enable us to be in touch with our near and dear ones, to stay tuned, to kill time in queues,to stay in social networks for hours  or to play applications. We keep so much information in our phones that can hardly imagine life without them. Precisely these needs created a great space for mobile developers.</p>
-            <p>We really are professionals in mobile software development and can offer you not only a full cycle software development process for IOS, Android, Blackberry mobile platforms, but also the server-side.</p><br /><br />
+            <p>Nowadays, phones have become not just a means of communication. We are enable to be in touch, stay tuned, spend hours in social networks, play applications or just kill time with them. We keep so much information in our phones that can hardly imagine life without them. Exactly these needs created such a great space for mobile developers.</p>
+            <p>We are professionals in mobile software development. Our team can offer you not only a full cycle software development process for IOS, Android, Blackberry mobile platforms, but also the server-side.</p><br /><br />
 
             <p class="uper norm">What we offer</p>
             <ul class="tpage">
-              <li>IOS,</li>
-              <li>Android,</li>
-              <li>Cross platform,</li>
-              <li>Server-side,</li>
-              <li>Client solutions.</li>
+              <li>IOS</li>
+              <li>Android</li>
+              <li>Cross platform</li>
+              <li>Server-side</li>
+              <li>Client solutions</li>
             </ul>
             <div class="prodj">
               <a class="view view-first" href="project/strange-parcel">
@@ -201,10 +201,10 @@
         <div class="row">
           <div class="main-container">
             <h2>Java Server applications</h2>
-            <p class="uper norm">Advantages of Server application</p>
+           <!-- <p class="uper norm">Advantages of Server application</p> -->
             <p>Server applications have a number of advantages:</p>
             <ul class="tpage">
-              <li>The integrity of the data and code. With business logic on a single server, you can guarantee updating and improvement applications for all users. There is no risk that the old version of the application can access data or could to change them old inconsistent manner.</li>
+              <li>The integrity of the data and code. Using a single server for a business logic location can guarantee updating and improvement applications for all users. There is no risk that the old version of the application access and change data.</li>
               <li>Safety. The application server is the central point that allows you to remove the responsibility from potentially unsafe client level to the application server level, optionally hiding the database level.</li>
               <li>Centralized configuration and management. Any changes in the application settings can be performed centrally.</li>
               <li>Transaction support. Possibility to reduce cost and time for development.</li>
@@ -213,7 +213,8 @@
 
             <p class="uper norm">What we offer</p>
             <p>Server-side/client-side high quality Java applications.<br />
-Pragmasoft Team has a great experience in server application development. Our experience along with the latest technologies and individual approach to each Сlient will provide you with a reliable partner that can meet your requirements and realize the most challenging ideas.</p>
+Pragmasoft Team has a great experience in server application development.
+Our experience along with the latest technologies and individual approach to each Сlient will provide you a reliable partner that can satisfy your requirements and realize the most ambitious ideas.</p>
             <div class="prodj">
               <a class="view view-first"  href="project/affordrx">
                 <img src="${app}res/img/project/java/affordx.jpg" />
@@ -227,7 +228,7 @@ Pragmasoft Team has a great experience in server application development. Our ex
                 <img src="${app}res/img/project/java/handpoint.jpg" />
                 <div class="mask">
                   <h2>Handpoint</h2>
-                  <p>JavaEE, Spring, Hibernate, JavaME, C++, ATL, WTL, MFC</p>
+                  <p>AndroidSDK</p>
                   <span class="info">Read More</span>
                 </div>
               </a> 
@@ -328,7 +329,7 @@ Pragmasoft Team has a great experience in server application development. Our ex
               <li>Disk space saving</li>
               <li>High speed of data processing</li>
               <li>Reduction of costs for hardware, software, maintenance and  electricity</li>
-              <li>Reduced requirements for the PC processing power (access to the Internet is a must)</li>
+              <li>Reduced requirements for the PC processing power (Internet access required)</li>
               <li>Security</li>
               <li>Fault-tolerance</li>
             </ul>
@@ -340,7 +341,7 @@ Pragmasoft Team has a great experience in server application development. Our ex
                 <img src="${app}res/img/project/cloud/desk-mark.jpg" />
                 <div class="mask">
                   <h2>AMARCO</h2>
-                  <p>JavaEE, Spring, Hibernate, JavaME, C++, ATL, WTL, MFC</p>
+                  <p>JavaEE, Spring, Hibernate, Java Web Start, Apache Jackrabbit, PayPal SDK</p>
                   <span class="info">Read More</span>
                 </div>
               </a>
@@ -396,13 +397,13 @@ Pragmasoft Team has a great experience in server application development. Our ex
         <div class="row">
           <div class="main-container">
             <h2>Graphic<br />&amp; Web design</h2>               
-            <p>Pragmasoft specialists provide clients with website development, graphic design, illustrations, for almost 10 years. Some of our results you can find in our gallery. Our expertise enables us to perform design projects in various spheres and on different levels of complexity.<br />
-Range of services provided by our company includes branding with corporate style concept, logo design from the very start of your business or slightly refreshing of existed one. We also can provide you with  hand-drawn and vectorized development or offer you a bright and stylish animation.<br />
-We propose a wide range of solutions in website development from simple informational sites to complex multifunctional social networks. We have wide experience in development of complicated, cross functional web sites with development of complex schedules, using front-end technology rather than ready-made components.<br />
+            <p>Pragmasoft specialists provides website development, illustrations and graphic design services  for almost 10 years. Some of our results you can find in our gallery. Our experience enables us to perform design projects in various spheres and with different levels of complexity.
+Range of services provided by our company includes branding with corporate style concept, logo design from the very start or refreshing of existing ones. We can also provide you bright and stylish animation or hand-drawn and vectorized images.
+We propose a wide range of solutions in website development from simple informational sites to complex multifunctional social networks. We have wide experience in development of complicated cross functional web sites with application of complex schedules, using front-end technology rather than ready-made components.
 Nevertheless, at the heart of our projects are always the business goals of the Client and our specialists are always full of fresh ideas and original solutions.</p><br /><br />
 <p class="uper norm">What we offer</p>
-<p>Server side, client side, front end, back-end realization, web, Javascript, HTML5, CSS3.<br />
-We are constantly evolving to always keep up with fashion trends and make you contacted us again and again.</p>
+<p>Server side, client side, front-end, back-end realization, web, Javascript, HTML5, CSS3.<br />
+We are constantly evolving to keep up with fashion trends and waiting you.</p>
             <div class="prodj">
               <a class="view view-first" href="project/abc">
                 <img src="${app}res/img/project/design/abc.jpg" />
@@ -432,7 +433,7 @@ We are constantly evolving to always keep up with fashion trends and make you co
                 <img src="${app}res/img/project/design/branch.jpg" />
                 <div class="mask">
                   <h2>BRANCHENBUCH</h2>
-                  <p>JavaEE, Spring, Hibernate, JavaME, C++, ATL, WTL, MFC</p>
+                  <p>Web design, UI optimization, logo design, icon design, XHTML/CSS</p>
                   <span class="info">Read More</span>
                 </div>
               </a>              
@@ -464,7 +465,7 @@ We are constantly evolving to always keep up with fashion trends and make you co
                 <img src="${app}res/img/project/design/thunder.jpg" />
                 <div class="mask">
                   <h2>THUNDERMIST</h2>
-                  <p>JavaEE, Spring, Hibernate, JavaME, C++, ATL, WTL, MFC</p>
+                  <p>Web design, logo restyling, UI optimization, XHTML/CSS</p>
                   <span class="info">Read More</span>
                 </div>
               </a>
@@ -489,12 +490,12 @@ We are constantly evolving to always keep up with fashion trends and make you co
           <div class="main-container">
             <h2>Why Ukraine</h2>
             <ul class="ukr">
-              <li>Ukraine is among the five world leaders in export of software products</li>
+              <li>Ukraine is among the 5 world leaders in export of software products</li>
               <li>Ukraine is among the 30 leading countries in the field of IT-outsourcing</li>
               <li>Ukraine is the only country in Eastern Europe that has got to the top 25 countries with the best system
               of higher education (rating was made by The global network
               of research universities "Universitas 21")</li>
-              <li>Ukraine is ranked fourth place in the world by number <br />
+              <li>Ukraine is ranked 4 place in the world by number <br />
               of certified IT-specialists</li>
               <li>Each year, Ukrainian universities graduate<br />
               about 16,000 specialists in IT sphere.</li>

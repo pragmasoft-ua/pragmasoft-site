@@ -9,7 +9,7 @@ h1. Face Recognizer
 
 *Technologies:* OpenCV library.
 
-Prototype of project for recognizing faces, based on the list of selected parameters of person's photo:
+Prototype of iPhone application for recognizing faces, based on the list of selected parameters of person's photo:
 
 * Eyes color
 * Hair color
