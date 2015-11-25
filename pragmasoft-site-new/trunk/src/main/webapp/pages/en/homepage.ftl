@@ -173,6 +173,16 @@
                   <span class="info">Read More</span>
                 </div>
               </a>
+              
+                </a>  
+            <a class="view view-first" href="project/mtp">
+                <img src="${app}res/img/project/cloud/Mobile-Ticketing.jpg" />
+                <div class="mask">
+                  <h2>Ticket Gretchen</h2>
+                  <p>JavaEE6, AWS, DynamoDB, JPA, EJB3, Cordova</p>
+                  <span class="info">Read More</span>
+                </div>
+             </a> 
                   <a class="view view-first" href="project/voyage" >
                 <img src="${app}res/img/project/mobile/v_logo.png" />
                 <div class="mask">
@@ -349,7 +359,7 @@ Our experience along with the latest technologies and individual approach to eac
                 <img src="${app}res/img/project/cloud/Mobile-Ticketing.jpg" />
                 <div class="mask">
                   <h2>Ticket Gretchen</h2>
-                  <p>JavaEE6, AWS, DynamoDB, JPA, EJB3</p>
+                  <p>JavaEE6, AWS, DynamoDB, JPA, EJB3, Cordova</p>
                   <span class="info">Read More</span>
                 </div>
               </a>
@@ -370,7 +380,7 @@ Our experience along with the latest technologies and individual approach to eac
                 </div>
               </a> 
               <a class="view view-first" href="project/jagermeister">
-                <img src="${app}res/img/project/cloud/Jagermeister_logo.png" />
+                <img src="${app}res/img/project/cloud/Jagermeister_logo2.png" />
                 <div class="mask">
                   <h2>Jagermeister</h2>
                   <p>Java, Spring Security, Google Guava, JClouds, React JS, React Router, Grunt</p>

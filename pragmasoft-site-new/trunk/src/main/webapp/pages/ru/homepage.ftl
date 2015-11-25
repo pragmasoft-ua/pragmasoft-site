@@ -148,7 +148,7 @@
     <div class="container">
       <div class="row">
         <div class="main-container">
-          <h2>Разработка<br />мобильных приложений</h2>
+          <h2>Разработка <br /> мобильных приложений</h2>
           <p>В современном мире, телефоны давно перестали быть одним лишь средством связи. Они позволяют нам быть на связи с нашими близкими, позволяют быть в курсе событий, убивать время в очередях, часами находиться в соц.сетях или играть в приложения. Мы храним в телефонах столько информации, что с трудом представляем свою жизнь без них. Именно эти потребности и создали такой простор для мобильных разработчиков.</p>
 
           <p>Мы действительно являемся профессионалами в сфере мобильной разработки программного обеспечения и можем предложить Вам не только полный цикл процесса разработки программного обеспечения для мобильных платформ IOS, Android, Blackberry, но также и разработку серверной части.</p>
@@ -253,6 +253,14 @@
                 <span class="info">Подробнее</span>
               </div>
             </a>  
+            <a class="view view-first" href="project/mtp">
+                <img src="${app}res/img/project/cloud/Mobile-Ticketing.jpg" />
+                <div class="mask">
+                  <h2>Ticket Gretchen</h2>
+                  <p>JavaEE6, AWS, DynamoDB, JPA, EJB3, Cordova</p>
+                  <span class="info">Подробнее</span>
+                </div>
+             </a>  
             <a class="view view-first" href="project/voyage">
               <img src="${app}res/img/project/mobile/v_logo.png" />
               <div class="mask">
@@ -434,7 +442,7 @@
               <img src="${app}res/img/project/cloud/Mobile-Ticketing.jpg" />
               <div class="mask">
                 <h2>Ticket Gretchen</h2>
-                <p>JavaEE6, AWS, DynamoDB, JPA, EJB3</p>
+                <p>JavaEE6, AWS, DynamoDB, JPA, EJB3, Cordova</p>
                 <span class="info">Подробнее</span>
               </div>
             </a>
@@ -455,7 +463,7 @@
               </div>
             </a>
              <a class="view view-first" href="project/jagermeister">
-              <img src="${app}res/img/project/cloud/Jagermeister_logo.png" />
+              <img src="${app}res/img/project/cloud/Jagermeister_logo2.png" />
               <div class="mask">
                 <h2>Jagermeister</h2>
                 <p>Java, Spring Security, Google Guava, JClouds, React JS, React Router, Grunt</p>

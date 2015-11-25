@@ -27,14 +27,14 @@ h2. Java EE разработчик
 
 <div class="vc-box-v">
 
-h2. Java EE подмастерье (на данный момент вакансия закрыта)
+h2. Java EE подмастерье 
 
 *Требования к кандидату:*
 
 # Желание стать профессионалом в java
 # Технический английский уровня Intermediate. Беглое чтение технической документации и документирование кода.
 # Общие знания ООП, паттернов проектирования.
-# Общее хорошее знание java в объеме "Sun's Java tutorial":http://java.sun.com/docs/books/tutorial/
+# Общее хорошее знание java в объеме "Oracle Java tutorial":http://java.sun.com/docs/books/tutorial/
 # Общее знание JavaEE технологий - Servlet, JSP
 # Общее знание SQL баз данных и ORM - JPA or Hibernate, NoSQL - плюс
 # Общее знание frontend технологий - HTML, CSS, Javascript
