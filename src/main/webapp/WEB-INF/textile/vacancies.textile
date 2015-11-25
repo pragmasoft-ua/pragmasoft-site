@@ -27,14 +27,14 @@ h2. Java EE developer
 
 <div class="vc-box-v">
 
-h2. Junior Java EE developer (currently unavailable)
+h2. Junior Java EE developer 
 
 *Requirements:*
 
 # Desire to become a Java professional.
 # Intermediate Technical English - fluent documentation reading.
 # General knowledge of OOP, design patterns.
-# Fluent knowledge of Java SE within the scope of "Sun's Java tutorial":http://java.sun.com/docs/books/tutorial/
+# Fluent knowledge of Java SE within the scope of "Oracle Java tutorial":http://java.sun.com/docs/books/tutorial/
 # Basic knowledge of JavaEE technologies - Servlet, JSP
 # Basic knowledge of SQL databases and ORM - JPA or Hibernate, NoSQL - advantage
 # Basic knowledge of frontend technologies - HTML, CSS, Javascript
