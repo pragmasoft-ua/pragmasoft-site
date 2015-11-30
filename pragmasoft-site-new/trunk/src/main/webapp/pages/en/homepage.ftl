@@ -313,7 +313,25 @@ Our experience along with the latest technologies and individual approach to eac
                   <p>Bootstrap, Spring, Tiles, JQuery, MarkItUp!, DZSlides</p>
                   <span class="info">Read More</span>
                 </div>
-              </a>              
+              </a>         
+              <a class="view view-first" href="project/echo-tracking">
+                <img src="${app}res/img/project/java/Echo_tracking_logo.png" />
+                <div class="mask">
+                  <h2>Echo Tracking</h2>
+                  <p>Neo4j, Javascript, Google Maps API</p>
+                  <span class="info">Read More</span>
+                </div>
+              </a> 
+              
+              <a class="view view-first" href="project/zpc">
+                <img src="${app}res/img/project/java/zpc.png" />
+                <div class="mask">
+                  <h2>Z. P. C.</h2>
+                  <p>Rubix, React JS</p>
+                  <span class="info">Read More</span>
+                </div>
+              </a> 
+                         
             </div>
           </div>
         </div>
@@ -380,7 +398,7 @@ Our experience along with the latest technologies and individual approach to eac
                 </div>
               </a> 
               <a class="view view-first" href="project/jagermeister">
-                <img src="${app}res/img/project/cloud/Jagermeister_logo2.png" />
+                <img src="${app}res/img/project/cloud/Jagermeister_logo3.png" />
                 <div class="mask">
                   <h2>Jagermeister</h2>
                   <p>Java, Spring Security, Google Guava, JClouds, React JS, React Router, Grunt</p>
