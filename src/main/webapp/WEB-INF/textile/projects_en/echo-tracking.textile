@@ -1,0 +1,26 @@
+title:Pragmasoft - Echo Tracking
+keywords:Pragmasoft, Javascript, Echo Tracking
+description:
+
+h1. Echo Tracking
+
+
+<div class="vc-box">
+
+*Technologies:* Neo4j, Javascript, Google Maps API.
+
+Web application for transport companies which includes next functionality:
+* route building
+* AVG revenue calculation
+* AVG margin calculation
+* AVG margin rate calculation
+
+<div class="p-img">
+
+!../../res/img/project/java/ET1.png!
+!../../res/img/project/java/ET2.png!
+!../../res/img/project/java/ET3.png!
+
+
+
+</div></div>
