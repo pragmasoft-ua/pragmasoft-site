@@ -23,7 +23,7 @@ Domain model has 2 hierarchical entities:
 
 1) Requirement spec terms with features, subfeatures, etc.
 
-2) Test siutes, containing nested test suites of arbitrary levels, containing test cases
+2) Test siutes, containing nested test suites of arbitrary levels, containing test cases.
 
 These are related to each other as many to many, ie one feature can be covered by many or none tests, and one test can cover many features.
 
@@ -32,7 +32,7 @@ Both pages should have freetext search field, entering text there will filter th
 <div class="p-img">
 
 !../../res/img/project/java/zpc1.png!
-!../../res/img/project/java/zpc1.png!
+!../../res/img/project/java/zpc2.png!
 
 
 
