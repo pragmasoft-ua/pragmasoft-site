@@ -322,11 +322,11 @@
                 <span class="info">Подробнее</span>
               </div>
             </a>
-            <a class="view view-first" href="project/mdc">
-              <img src="${app}res/img/project/java/mdc.jpg" />
+            <a class="view view-first" href="project/rxgo">
+              <img src="${app}res/img/project/java/rxgo.jpg" />
               <div class="mask">
                 <h2>Medication Discount Card</h2>
-                <p>JavaEE, RestEASY, HTMLEasy, MySQL, Hibernate, Jboss7</p>
+                <p>JavaEE, Widfly Swarm, AWS Elastic Beanstalk, Docker, Hibernate</p>
                 <span class="info">Подробнее</span>
               </div>
             </a>

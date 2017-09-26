@@ -242,11 +242,11 @@ Our experience along with the latest technologies and individual approach to eac
                   <span class="info">Read More</span>
                 </div>
               </a> 
-              <a class="view view-first" href="project/mdc">
-                <img src="${app}res/img/project/java/mdc.jpg" />
+              <a class="view view-first" href="project/rxgo">
+                <img src="${app}res/img/project/java/rxgo.jpg" />
                 <div class="mask">
-                  <h2>Medication Discount Card</h2>
-                  <p>JavaEE, RestEASY, HTMLEasy, MySQL, Hibernate, Jboss7</p>
+                  <h2>Prescription Discount Card (RXGO)</h2>
+                  <p>JavaEE, Widfly Swarm, AWS Elastic Beanstalk, Docker, Hibernate</p>
                   <span class="info">Read More</span>
                 </div>
               </a> 
