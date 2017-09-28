@@ -325,7 +325,7 @@
             <a class="view view-first" href="project/rxgo">
               <img src="${app}res/img/project/java/rxgo.png" />
               <div class="mask">
-                <h2>Medication Discount Card</h2>
+                <h2>Prescription Discount Card (RXGO)</h2>
                 <p>JavaEE, Widfly Swarm, AWS Elastic Beanstalk, Docker, Hibernate</p>
                 <span class="info">Подробнее</span>
               </div>
