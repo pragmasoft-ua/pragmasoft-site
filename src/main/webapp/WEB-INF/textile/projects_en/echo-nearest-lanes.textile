@@ -9,28 +9,28 @@ h1. Echo Nearest Lanes
 
 *Technologies:* Spring Boot, Spring Batch, Spring Data, Spring Security SAML Provider, Google JavaScript Maps API, Postgres SQL, Redshift, AWS Elastic Beanstalk, AWS Data Pipeline, AWS RDS
 
-Application makes complex statistical calculations every day based on historical data about transportations and visualize results of those calculations in Web UI.
+Application is being used by logistic company for prediction of cost of load transportation from one location to other.
+The prediction bases on proprietary statistical algorithm, that analyzes history of transportations.
 
 Application consists of 2 parts :
-* Scheduled ETL process that 
-** loads data about history of company's transportations from export FTP foler into DB
+* Scheduled ETL process, that 
+** imports history of transportations from FTP folder into DB
 ** makes statistical calculations
-** saves results to DB for visualzation in Web UI
-** uploads results of statistical calculations to company's import FTP folder.
-* Web UI to visualize results of statistical calculations that 
-** Authorize users with OneLogin.com SAML
-** Visualize transportation route and comparable historical trasporations routes on Google Maps
-** Displays statistic of historical data for the trasportation route
+** saves results to DB for visualization in Web UI
+** exports results of statistical calculations to FTP folder.
+* Web UI for visualizations of results of calculations, that
+** Authorize users with OneLogin.com SAML Connector
+** Visualize transportation route and comparable historical transportation routes on Google Maps
+** Displays details of comparable historical transportations
+** Shows a statistical prediction of transportation cost.
 
-
-Scheduled ETL process is built with Spring Batch framework and deployed to AWS Data Pipeline infrastructure.
-Web UI is written with Angular JS frontend framework and communicates via REST with backend created with Spring MVC framework.   
+Scheduled ETL process is coded with Spring Batch framework and deployed to AWS Data Pipeline infrastructure.
+Web UI is written with Angular JS frontend framework and communicates via REST with Spring MVC backend.   
  
 <div class="p-img">
 
 !../../res/img/project/java/Echo_ETL1.png!
 !../../res/img/project/java/Echo_ETL2.png!
-
-
+!../../res/img/project/java/Echo_ETL3.png!
 
 </div></div>
