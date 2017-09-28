@@ -1,0 +1,36 @@
+title:Pragmasoft - Echo Nearest Lanes
+keywords:Pragmasoft, Javascript, AWS, Echo Nearest Lanes, Spring Batch, Spring Boot, Spring Data, Spring MVC, REST, Angular
+description:
+
+h1. Echo Nearest Lanes
+
+
+<div class="vc-box">
+
+*Technologies:* Spring Boot, Spring Batch, Spring Data, Spring Security SAML Provider, Google JavaScript Maps API, Postgres SQL, Redshift, AWS Elastic Beanstalk, AWS Data Pipeline, AWS RDS
+
+Application makes complex statistical calculations every day based on historical data about transportations and visualize results of those calculations in Web UI.
+
+Application consists of 2 parts :
+* Scheduled ETL process that 
+** loads data about history of company's transportations from export FTP foler into DB
+** makes statistical calculations
+** saves results to DB for visualzation in Web UI
+** uploads results of statistical calculations to company's import FTP folder.
+* Web UI to visualize results of statistical calculations that 
+** Authorize users with OneLogin.com SAML
+** Visualize transportation route and comparable historical trasporations routes on Google Maps
+** Displays statistic of historical data for the trasportation route
+
+
+Scheduled ETL process is built with Spring Batch framework and deployed to AWS Data Pipeline infrastructure.
+Web UI is written with Angular JS frontend framework and communicates via REST with backend created with Spring MVC framework.   
+ 
+<div class="p-img">
+
+!../../res/img/project/java/Echo_ETL1.png!
+!../../res/img/project/java/Echo_ETL2.png!
+
+
+
+</div></div>
