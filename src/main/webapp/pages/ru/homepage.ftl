@@ -323,7 +323,7 @@
               </div>
             </a>
             <a class="view view-first" href="project/rxgo">
-              <img src="${app}res/img/project/java/rxgo.jpg" />
+              <img src="${app}res/img/project/java/rxgo.png" />
               <div class="mask">
                 <h2>Medication Discount Card</h2>
                 <p>JavaEE, Widfly Swarm, AWS Elastic Beanstalk, Docker, Hibernate</p>

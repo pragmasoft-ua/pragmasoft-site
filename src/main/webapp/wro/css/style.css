@@ -871,10 +871,10 @@ ul.prodj li:hover {
     cursor: pointer
 }
 .block4 ul.prodj li:nth-of-type(3) {
-    background: url(../img/project/java/rxgo-grey.jpg) top center no-repeat
+    background: url(../img/project/java/rxgo-grey.png) top center no-repeat
 }
 .block4 ul.prodj li:nth-of-type(3):hover {
-    background: url(../img/project/java/rxgo.jpg) top center no-repeat;
+    background: url(../img/project/java/rxgo.png) top center no-repeat;
     cursor: pointer
 }
 .block4 ul.prodj li:nth-of-type(4) {
