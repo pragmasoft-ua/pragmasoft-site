@@ -20,10 +20,10 @@ RESTful API to provide data to third-party sites
 
 !../../res/img/project/java/rxgo_0.jpg!
 
-!../../res/img/project/java/rxgo-1.jpg!
+!../../res/img/project/java/rxgo_1.jpg!
 
-!../../res/img/project/java/rxgo-2.jpg!
+!../../res/img/project/java/rxgo_2.jpg!
 
-!../../res/img/project/java/rxgo-3.jpg!
+!../../res/img/project/java/rxgo_3.jpg!
 
 </div></div>
