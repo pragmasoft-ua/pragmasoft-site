@@ -322,7 +322,14 @@ Our experience along with the latest technologies and individual approach to eac
                   <span class="info">Read More</span>
                 </div>
               </a> 
-              
+              <a class="view view-first" href="project/echo-nearest-lanes">
+                <img src="${app}res/img/project/java/Echo_tracking_logo.png" />
+                <div class="mask">
+                  <h2>Echo Nearest Lanes</h2>
+                  <p>Angular, Google Maps API, Spring, AWS</p>
+                  <span class="info">Read More</span>
+                </div>
+              </a> 
               <a class="view view-first" href="project/zpc">
                 <img src="${app}res/img/project/java/zpc.png" />
                 <div class="mask">
