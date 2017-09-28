@@ -1,0 +1,29 @@
+title:Pragmasoft - Prescription Discount Card (RXGO)
+keywords:Pragmasoft, Java server application, Prescription Discount Card (RXGO)
+description:Prescription Discount Card (RXGO) – RESTful API to provide data to third-party sites Developed by Pragmasoft
+
+h1. Prescription Discount Card (RXGO)
+
+
+<div class="vc-box">
+
+*Technologies:* JavaEE, Widfly Swarm, AWS Elastic Beanstalk, Docker, RestEASY, HTMLEasy, MySQL, Hibernate, Twitter Bootstrap, jQuery
+
+RESTful API to provide data to third-party sites
+
+* Database development
+* Import databases from external sources
+* Server-side development (JavaEE)
+* Client-side development (HTML, Twitter Bootstrap, jQuery )
+
+<div class="p-img">
+
+!../../res/img/project/java/rxgo_0.jpg!
+
+!../../res/img/project/java/rxgo-1.jpg!
+
+!../../res/img/project/java/rxgo-2.jpg!
+
+!../../res/img/project/java/rxgo-3.jpg!
+
+</div></div>
