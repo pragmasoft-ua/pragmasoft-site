@@ -18,6 +18,9 @@ h1. Acai Author
 
 <div class="p-img">
 
+!../../res/img/project/design/acai0_1.png!
+!../../res/img/project/design/acai0_2.png!
+!../../res/img/project/design/acai0_3.png!
 !../../res/img/project/design/acai1.png!
 !../../res/img/project/design/acai2.png!
 !../../res/img/project/design/acai3.png!
