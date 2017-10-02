@@ -19,7 +19,7 @@ Features:
 <div class="p-img">
 
 !../../res/img/project/design/acai1.png!
-!=../../res/img/project/design/acai2.png!
+!{display: block;margin-left: auto;margin-right: auto;}../../res/img/project/design/acai2.png!
 !../../res/img/project/design/acai3.png!
 
 
