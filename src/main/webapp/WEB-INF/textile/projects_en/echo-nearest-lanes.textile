@@ -29,8 +29,8 @@ Web UI is written with Angular JS frontend framework and communicates via REST w
  
 <div class="p-img">
 
-!../../res/img/project/java/Echo_ETL1.png!
-!../../res/img/project/java/Echo_ETL2.png!
-!../../res/img/project/java/Echo_ETL3.png!
+!../../res/img/project/cloud/Echo_ETL1.png!
+!../../res/img/project/cloud/Echo_ETL2.png!
+!../../res/img/project/cloud/Echo_ETL3.png!
 
 </div></div>
