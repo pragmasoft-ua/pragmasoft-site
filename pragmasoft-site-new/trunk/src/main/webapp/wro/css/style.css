@@ -986,6 +986,13 @@ ul.prodj li:hover {
     background: url(../img/project/cloud/resume-io.jpg) top center no-repeat;
     cursor: pointer
 }
+.block5 ul.prodj li:nth-of-type(4) {
+    background: url(../img/project/cloud/ReadyTech-LogoGrey.png) top center no-repeat
+}
+.block5 ul.prodj li:nth-of-type(4):hover {
+    background: url(../img/project/cloud/ReadyTech-Logo.png) top center no-repeat;
+    cursor: pointer
+}
 /*** block 6 ***/
 
 .block6 {

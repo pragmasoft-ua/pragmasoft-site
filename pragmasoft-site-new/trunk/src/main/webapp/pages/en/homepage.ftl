@@ -412,6 +412,14 @@ Our experience along with the latest technologies and individual approach to eac
                   <span class="info">Read More</span>
                 </div>
               </a>
+              <a class="view view-first" href="project/readytech">
+                 <img src="${app}res/img/project/cloud/ReadyTech-Logo.png" />
+                 <div class="mask">
+                   <h2>ReadyTech Axis</h2>
+                   <p>Spring Boot, Hibernate, Redis, Docker, Amazon Web Services, Google Cloud Platform, Microsoft Azure, AngularJS</p>
+                   <span class="info">Read More</span>
+                 </div>
+              </a>
             </div>
           </div>
         </div>

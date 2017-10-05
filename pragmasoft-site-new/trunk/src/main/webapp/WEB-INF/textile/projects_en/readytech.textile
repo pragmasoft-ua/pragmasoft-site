@@ -1,0 +1,26 @@
+title:Pragmasoft - ReadyTech Axis
+keywords:Pragmasoft, JAVA, cloud computing, ReadyTech Axis
+description:ReadyTech Axis - This is the SAAS platform for planning consistent cloud resources. Developed by Pragmasoft
+
+h1. ReadyTech Axis
+
+
+<div class="vc-box">
+
+*Technologies:* Spring Boot, Hibernate, Redis, Docker, Amazon Web Services, Google Cloud Platform, Microsoft Azure, AngularJS, Bootstrap, Websockets, Recurly payment gateway
+
+ReadyTech Axis is a SAAS platform allows for a complex scheduling of coordinated cloud resources for the purpose of organizing training events
+
+* Supports automated management of cloud resources on major cloud providers
+* The application is built using DDD principles
+* Clustered and load balanced backend allows for horizontal scalability and failover
+
+<div class="p-img">
+
+!../../res/img/project/cloud/readytech1.png!
+
+!../../res/img/project/cloud/readytech2.png!
+
+!../../res/img/project/cloud/readytech3.png!
+
+</div></div>
