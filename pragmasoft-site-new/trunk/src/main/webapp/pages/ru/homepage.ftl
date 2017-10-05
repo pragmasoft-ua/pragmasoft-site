@@ -401,16 +401,7 @@
                   <p>Neo4j, Javascript, Google Maps API</p>
                   <span class="info">Подробнее</span>
                 </div>
-              </a> 
-              <a class="view view-first" href="project/echo-nearest-lanes">
-                <img src="${app}res/img/project/java/Echo_tracking_logo.png" />
-                <div class="mask">
-                  <h2>Echo Nearest Lanes</h2>
-                  <p>Angular, Google Maps API, Spring, AWS</p>
-                  <span class="info">Read More</span>
-                </div>
-              </a> 
-              
+              </a>
                <a class="view view-first" href="project/zpc">
                 <img src="${app}res/img/project/java/zpc.png" />
                 <div class="mask">
@@ -503,6 +494,14 @@
                  <p>Spring Boot, Hibernate, Redis, Docker, Amazon Web Services, Google Cloud Platform, Microsoft Azure, AngularJS</p>
                  <span class="info">Подробнее</span>
               </div>
+            </a>
+            <a class="view view-first" href="project/echo-nearest-lanes">
+               <img src="${app}res/img/project/java/Echo_tracking_logo.png" />
+               <div class="mask">
+                  <h2>Echo Nearest Lanes</h2>
+                  <p>Angular, Google Maps API, Spring, AWS</p>
+                  <span class="info">Read More</span>
+                </div>
             </a>
           </div>
         </div>
