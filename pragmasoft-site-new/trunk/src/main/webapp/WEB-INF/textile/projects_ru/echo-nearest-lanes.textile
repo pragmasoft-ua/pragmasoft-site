@@ -29,8 +29,8 @@ Web UI написно на Angular JS frontend framework и взаимодейс
  
 <div class="p-img">
 
-!../../res/img/project/java/Echo_ETL1.png!
-!../../res/img/project/java/Echo_ETL2.png!
-!../../res/img/project/java/Echo_ETL3.png!
+!../../res/img/project/cloud/Echo_ETL1.png!
+!../../res/img/project/cloud/Echo_ETL2.png!
+!../../res/img/project/cloud/Echo_ETL3.png!
 
 </div></div>
