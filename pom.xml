@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>ua.com.pragmasoft</groupId>
@@ -8,6 +7,7 @@
 	<packaging>war</packaging>
 	<version>1.0-SNAPSHOT</version>
 	<name>pragmasoft</name>
+	<url>https://www.pragmasoft.com.ua</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -25,7 +25,7 @@
 			<version>4.11</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<!-- Servlet api -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -89,6 +89,13 @@
 			<version>4.0.4</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/javax.annotation/javax.annotation-api -->
+		<dependency>
+			<groupId>javax.annotation</groupId>
+			<artifactId>javax.annotation-api</artifactId>
+			<version>1.3.2</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -96,13 +103,13 @@
 		<plugins>
 
 			<plugin>
-				  <groupId>org.apache.tomcat.maven</groupId>
-				  <artifactId>tomcat7-maven-plugin</artifactId>
-				  <version>2.1</version>
-				  <configuration>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<version>2.1</version>
+				<configuration>
 					<path>/</path>
-				  </configuration>
-			</plugin>	
+				</configuration>
+			</plugin>
 
 			<plugin>
 				<groupId>org.lesscss</groupId>
@@ -128,7 +135,7 @@
 			<plugin>
 				<groupId>ro.isdc.wro4j</groupId>
 				<artifactId>wro4j-maven-plugin</artifactId>
-				<version>1.7.6</version>
+				<version>1.9.0</version>
 				<executions>
 					<execution>
 						<phase>compile</phase>
@@ -153,11 +160,18 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.0</version>
+				<version>3.10.1</version>
 				<configuration>
-					<source>1.6</source>
-					<target>1.6</target>
+					<source>11</source>
+					<target>11</target>
 				</configuration>
+			</plugin>
+
+			<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-war-plugin -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>3.3.2</version>
 			</plugin>
 
 			<!-- Maven Tomcat plugin -->
@@ -166,17 +180,12 @@
 				<artifactId>tomcat-maven-plugin</artifactId>
 				<version>1.1</version>
 				<configuration>
-					<!--<url>http://pragmasoft.com.ua/manager</url> -->
 					<url>${deployURL}</url>
 					<server>${deployServer}</server>
 					<path>${deployPath}</path>
 					<update>true</update>
 				</configuration>
 			</plugin>
-
-
-
 		</plugins>
 	</build>
-	<url>http://pragmasoft.com.ua</url>
 </project>

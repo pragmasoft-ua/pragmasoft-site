@@ -1,43 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns="http://java.sun.com/xml/ns/javaee"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
-      version="3.0">
- 
-    <display-name>Pragmasoft</display-name>
-    <welcome-file-list>
-    	<welcome-file>home</welcome-file>
-    </welcome-file-list>
-    
-    <resource-ref>  		
-  		<res-ref-name>java:/comp/env/mail/Session</res-ref-name>
-  		<res-type>javax.mail.Session</res-type>
-  		<res-auth>Container</res-auth>
-	</resource-ref>
- 
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+
     <!-- ======== Servlets ======== -->
     <!-- Freemarker servlet -->
     <servlet>
         <servlet-name>freemarker</servlet-name>
         <servlet-class>freemarker.ext.servlet.FreemarkerServlet</servlet-class>
- 
+
         <!-- FreemarkerServlet settings: -->
         <init-param>
             <param-name>TemplatePath</param-name>
             <param-value>/</param-value>
         </init-param>
-        
+
         <init-param>
             <param-name>NoCache</param-name>
             <param-value>true</param-value>
         </init-param>
-        
+
         <init-param>
             <param-name>ContentType</param-name>
             <!-- Forces UTF-8 output encoding -->
             <param-value>text/html; charset=UTF-8</param-value>
         </init-param>
- 
+
         <!-- FreeMarker settings: -->
         <init-param>
             <param-name>template_update_delay</param-name>
@@ -45,7 +31,7 @@
             <param-value>60000</param-value>
             <!-- 0 is for development only! Use higher value otherwise. -->
         </init-param>
-        
+
         <init-param>
             <!-- The encoding of the template files. -->
             <param-name>default_encoding</param-name>
@@ -55,7 +41,7 @@
             <param-name>number_format</param-name>
             <param-value>0.##########</param-value>
         </init-param>
- 
+
         <!-- <load-on-startup>1</load-on-startup> -->
     </servlet>
     <!-- Error handler -->
@@ -80,40 +66,40 @@
     </servlet>
     <!-- Email servlet -->
     <servlet>
-    	<servlet-name>EmailServlet</servlet-name>
-    	<servlet-class>ua.com.pragmasoft.web.EmailServlet</servlet-class>
+        <servlet-name>EmailServlet</servlet-name>
+        <servlet-class>ua.com.pragmasoft.web.EmailServlet</servlet-class>
     </servlet>
     <!-- Contact us servlet -->
     <servlet>
-    	<servlet-name>ContactUsServlet</servlet-name>
-    	<servlet-class>ua.com.pragmasoft.web.ContactUsServlet</servlet-class>
+        <servlet-name>ContactUsServlet</servlet-name>
+        <servlet-class>ua.com.pragmasoft.web.ContactUsServlet</servlet-class>
     </servlet>
-    
-    
+
+
     <!-- ======== Servlet mappings ======== -->
     <servlet-mapping>
         <servlet-name>freemarker</servlet-name>
         <url-pattern>*.ftl</url-pattern>
-    </servlet-mapping> 
+    </servlet-mapping>
     <!-- Error handler -->
     <servlet-mapping>
         <servlet-name>ErrorHandler</servlet-name>
         <url-pattern>/ErrorHandler</url-pattern>
-    </servlet-mapping>    
+    </servlet-mapping>
     <!-- Homepage servlet -->
     <servlet-mapping>
         <servlet-name>HomepageServlet</servlet-name>
         <url-pattern>/home</url-pattern>
         <url-pattern>/en/home</url-pattern>
         <url-pattern>/ru/home</url-pattern>
-    </servlet-mapping>    
+    </servlet-mapping>
     <!-- Vacancies servlet -->
     <servlet-mapping>
         <servlet-name>VacanciesServlet</servlet-name>
         <url-pattern>/vacancies</url-pattern>
         <url-pattern>/en/vacancies</url-pattern>
         <url-pattern>/ru/vacancies</url-pattern>
-    </servlet-mapping>    
+    </servlet-mapping>
     <!-- Projects servlet -->
     <servlet-mapping>
         <servlet-name>ProjectsServlet</servlet-name>
@@ -123,19 +109,19 @@
     </servlet-mapping>
     <!-- Email servlet -->
     <servlet-mapping>
-    	<servlet-name>EmailServlet</servlet-name>
-    	<url-pattern>/email</url-pattern>
-    	<url-pattern>/en/email</url-pattern>
-    	<url-pattern>/ru/email</url-pattern>
+        <servlet-name>EmailServlet</servlet-name>
+        <url-pattern>/email</url-pattern>
+        <url-pattern>/en/email</url-pattern>
+        <url-pattern>/ru/email</url-pattern>
     </servlet-mapping>
     <!-- Contact us servlet -->
     <servlet-mapping>
-    	<servlet-name>ContactUsServlet</servlet-name>
-    	<url-pattern>/contactus</url-pattern>
-    	<url-pattern>/en/contactus</url-pattern>
-    	<url-pattern>/ru/contactus</url-pattern>
+        <servlet-name>ContactUsServlet</servlet-name>
+        <url-pattern>/contactus</url-pattern>
+        <url-pattern>/en/contactus</url-pattern>
+        <url-pattern>/ru/contactus</url-pattern>
     </servlet-mapping>
-    
+
     <!-- Tomcat default servlet -->
     <servlet-mapping>
         <servlet-name>default</servlet-name>
@@ -148,27 +134,27 @@
         <url-pattern>*.jpg</url-pattern>
         <url-pattern>*.png</url-pattern>
     </servlet-mapping>
-    
+
     <error-page>
         <error-code>404</error-code>
         <location>/ErrorHandler</location>
     </error-page>
-    
+
     <!-- ========== Listeners ======== -->
     <listener>
-      <listener-class>ua.com.pragmasoft.listener.ContextListener</listener-class>
+        <listener-class>ua.com.pragmasoft.listener.ContextListener</listener-class>
     </listener>
 
     <!-- ========= Filters ========= -->
 
-	<filter>
-	    <filter-name>UrlRewriteFilter</filter-name>
-	    <filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>
-	</filter>
-	<filter-mapping>
-	    <filter-name>UrlRewriteFilter</filter-name>
-	    <url-pattern>/*</url-pattern>
-	</filter-mapping>
+    <filter>
+        <filter-name>UrlRewriteFilter</filter-name>
+        <filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>UrlRewriteFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
 
 
     <!-- Encoding filter -->
@@ -198,8 +184,8 @@
         <url-pattern>/contactus</url-pattern>
         <url-pattern>/email</url-pattern>
     </filter-mapping>
-    
-    
+
+
     <filter>
         <filter-name>GetLanguageFilter</filter-name>
         <filter-class>ua.com.pragmasoft.filter.GetLanguageFilter</filter-class>
@@ -212,27 +198,27 @@
 
     <!-- EHCache filter -->
     <filter>
-	    <filter-name>SimpleCachingHeadersPageCachingFilter</filter-name>    
-		<filter-class>
+        <filter-name>SimpleCachingHeadersPageCachingFilter</filter-name>
+        <filter-class>
 		 net.sf.ehcache.constructs.web.filter.SimpleCachingHeadersPageCachingFilter
 	    </filter-class>
-		<init-param>
-			<param-name>suppressStackTrace</param-name>
-			<param-value>false</param-value>
-		</init-param>
-		<init-param>
-		    <param-name>cacheName</param-name>
-	 		<param-value>CachedPage2Cache</param-value>
-	    </init-param>
- 	</filter>
-    
+        <init-param>
+            <param-name>suppressStackTrace</param-name>
+            <param-value>false</param-value>
+        </init-param>
+        <init-param>
+            <param-name>cacheName</param-name>
+            <param-value>CachedPage2Cache</param-value>
+        </init-param>
+    </filter>
+
     <filter-mapping>
-      <filter-name>SimpleCachingHeadersPageCachingFilter</filter-name>
-      <url-pattern>/ru/*</url-pattern>
-      <url-pattern>/en/*</url-pattern>
+        <filter-name>SimpleCachingHeadersPageCachingFilter</filter-name>
+        <url-pattern>/ru/*</url-pattern>
+        <url-pattern>/en/*</url-pattern>
     </filter-mapping>
-    
-    
+
+
     <!--
         Prevent the visiting of MVC Views from outside the servlet container.
         RequestDispatcher.forward/include should and will still work. Removing
@@ -247,5 +233,16 @@
             <!-- Nobody is allowed to visit these -->
         </auth-constraint>
     </security-constraint>
- 
+
+    <welcome-file-list>
+        <welcome-file>home</welcome-file>
+    </welcome-file-list>
+
+    <!-- <resource-ref>
+        <res-ref-name>java:/comp/env/mail/Session</res-ref-name>
+        <res-type>javax.mail.Session</res-type>
+        <res-auth>Container</res-auth>
+    </resource-ref> -->
+
+
 </web-app>
