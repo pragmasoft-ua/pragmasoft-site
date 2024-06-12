@@ -1,191 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-	<modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
 
-	<groupId>ua.com.pragmasoft</groupId>
-	<artifactId>pragmasoftSite</artifactId>
-	<packaging>war</packaging>
-	<version>1.0-SNAPSHOT</version>
-	<name>pragmasoft</name>
-	<url>https://www.pragmasoft.com.ua</url>
+  <groupId>ua.com.pragmasoft</groupId>
+  <artifactId>pragmasoftSite</artifactId>
+  <packaging>war</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>pragmasoft</name>
+  <url>https://www.pragmasoft.com.ua</url>
 
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<freemarker.version>2.3.20</freemarker.version>
-		<deployURL>http://127.0.0.1:8080/manager</deployURL>
-		<deployServer>TomcatServer</deployServer>
-		<deployPath>/pragmasoft</deployPath>
-	</properties>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <freemarker.version>2.3.20</freemarker.version>
+    <deployURL>http://127.0.0.1:8080/manager</deployURL>
+    <deployServer>TomcatServer</deployServer>
+    <deployPath>/pragmasoft</deployPath>
+  </properties>
 
-	<dependencies>
-		<!-- Junit -->
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.11</version>
-			<scope>test</scope>
-		</dependency>
+  <dependencies>
+    <!-- Junit -->
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
 
-		<!-- Servlet api -->
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<version>3.0.1</version>
-			<scope>provided</scope>
-		</dependency>
+    <!-- Servlet api -->
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>3.0.1</version>
+      <scope>provided</scope>
+    </dependency>
 
-		<!-- Mail API -->
-		<dependency>
-			<groupId>javax.mail</groupId>
-			<artifactId>mail</artifactId>
-			<version>1.4.7</version>
-			<scope>provided</scope>
-		</dependency>
+    <!-- Mail API -->
+    <dependency>
+      <groupId>javax.mail</groupId>
+      <artifactId>mail</artifactId>
+      <version>1.4.7</version>
+      <scope>provided</scope>
+    </dependency>
 
-		<!-- Freemarker -->
-		<dependency>
-			<groupId>org.freemarker</groupId>
-			<artifactId>freemarker</artifactId>
-			<version>${freemarker.version}</version>
-		</dependency>
+    <!-- Freemarker -->
+    <dependency>
+      <groupId>org.freemarker</groupId>
+      <artifactId>freemarker</artifactId>
+      <version>${freemarker.version}</version>
+    </dependency>
 
-		<!-- Textile -->
-		<dependency>
-			<groupId>org.eclipse.mylyn.wikitext</groupId>
-			<artifactId>wikitext.textile</artifactId>
-			<version>0.9.4.I20090220-1600-e3x</version>
-		</dependency>
+    <!-- Textile -->
+    <dependency>
+      <groupId>org.eclipse.mylyn.wikitext</groupId>
+      <artifactId>wikitext.textile</artifactId>
+      <version>0.9.4.I20090220-1600-e3x</version>
+    </dependency>
 
-		<!-- slf4j Logger -->
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-log4j12</artifactId>
-			<version>1.7.5</version>
-		</dependency>
+    <!-- slf4j Logger -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-reload4j</artifactId>
+      <version>2.0.13</version>
+    </dependency>
 
-		<!-- Cache realization - EHCatche -->
-		<dependency>
-			<groupId>net.sf.ehcache</groupId>
-			<artifactId>ehcache-web</artifactId>
-			<version>2.0.4</version>
-		</dependency>
+    <!-- Cache realization - EHCatche -->
+    <dependency>
+      <groupId>net.sf.ehcache</groupId>
+      <artifactId>ehcache-web</artifactId>
+      <version>2.0.4</version>
+    </dependency>
 
-		<!-- Utils -->
-		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-lang3</artifactId>
-			<version>3.3.2</version>
-		</dependency>
+    <!-- Utils -->
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.3.2</version>
+    </dependency>
 
-		<dependency>
-			<groupId>net.sf.ehcache</groupId>
-			<artifactId>ehcache-core</artifactId>
-			<version>2.6.9</version>
-		</dependency>
+    <dependency>
+      <groupId>net.sf.ehcache</groupId>
+      <artifactId>ehcache-core</artifactId>
+      <version>2.6.9</version>
+    </dependency>
 
-		<dependency>
-			<groupId>org.tuckey</groupId>
-			<artifactId>urlrewritefilter</artifactId>
-			<version>4.0.4</version>
-		</dependency>
+    <dependency>
+      <groupId>org.tuckey</groupId>
+      <artifactId>urlrewritefilter</artifactId>
+      <version>4.0.4</version>
+    </dependency>
 
-		<!-- https://mvnrepository.com/artifact/javax.annotation/javax.annotation-api -->
-		<dependency>
-			<groupId>javax.annotation</groupId>
-			<artifactId>javax.annotation-api</artifactId>
-			<version>1.3.2</version>
-		</dependency>
+    <!-- https://mvnrepository.com/artifact/javax.annotation/javax.annotation-api -->
+    <dependency>
+      <groupId>javax.annotation</groupId>
+      <artifactId>javax.annotation-api</artifactId>
+      <version>1.3.2</version>
+    </dependency>
 
-	</dependencies>
+  </dependencies>
 
-	<build>
-		<finalName>pragmasoftSite</finalName>
-		<plugins>
+  <build>
+    <finalName>pragmasoftSite</finalName>
+    <plugins>
 
-			<plugin>
-				<groupId>org.apache.tomcat.maven</groupId>
-				<artifactId>tomcat7-maven-plugin</artifactId>
-				<version>2.1</version>
-				<configuration>
-					<path>/</path>
-				</configuration>
-			</plugin>
+      <plugin>
+        <groupId>org.apache.tomcat.maven</groupId>
+        <artifactId>tomcat7-maven-plugin</artifactId>
+        <version>2.1</version>
+        <configuration>
+          <path>/</path>
+        </configuration>
+      </plugin>
 
-			<plugin>
-				<groupId>org.lesscss</groupId>
-				<artifactId>lesscss-maven-plugin</artifactId>
-				<version>1.7.0.1.1</version>
-				<configuration>
-					<sourceDirectory>${project.basedir}/src/main/webapp/less</sourceDirectory>
-					<outputDirectory>${project.basedir}/src/main/webapp/res/css</outputDirectory>
-					<compress>true</compress>
-					<includes>
-						<include>main.less</include>
-					</includes>
-				</configuration>
-				<executions>
-					<execution>
-						<goals>
-							<goal>compile</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
+      <plugin>
+        <groupId>org.lesscss</groupId>
+        <artifactId>lesscss-maven-plugin</artifactId>
+        <version>1.7.0.1.1</version>
+        <configuration>
+          <sourceDirectory>${project.basedir}/src/main/webapp/less</sourceDirectory>
+          <outputDirectory>${project.basedir}/src/main/webapp/res/css</outputDirectory>
+          <compress>true</compress>
+          <includes>
+            <include>main.less</include>
+          </includes>
+        </configuration>
+        <executions>
+          <execution>
+            <goals>
+              <goal>compile</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
 
-			<plugin>
-				<groupId>ro.isdc.wro4j</groupId>
-				<artifactId>wro4j-maven-plugin</artifactId>
-				<version>1.9.0</version>
-				<executions>
-					<execution>
-						<phase>compile</phase>
-						<goals>
-							<goal>run</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
-					<targetGroups>pragmasoft</targetGroups>
-					<minimize>true</minimize>
-					<destinationFolder>${basedir}/src/main/webapp/wro/</destinationFolder>
-					<cssDestinationFolder>${basedir}/src/main/webapp/res/css/</cssDestinationFolder>
-					<jsDestinationFolder>${basedir}/src/main/webapp/res/js/</jsDestinationFolder>
-					<contextFolder>${basedir}/src/main/webapp/</contextFolder>
-					<wroManagerFactory>ro.isdc.wro.maven.plugin.manager.factory.ConfigurableWroManagerFactory</wroManagerFactory>
-					<ignoreMissingResources>false</ignoreMissingResources>
-				</configuration>
-			</plugin>
+      <plugin>
+        <groupId>ro.isdc.wro4j</groupId>
+        <artifactId>wro4j-maven-plugin</artifactId>
+        <version>1.9.0</version>
+        <executions>
+          <execution>
+            <phase>compile</phase>
+            <goals>
+              <goal>run</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <targetGroups>pragmasoft</targetGroups>
+          <minimize>true</minimize>
+          <destinationFolder>${basedir}/src/main/webapp/wro/</destinationFolder>
+          <cssDestinationFolder>${basedir}/src/main/webapp/res/css/</cssDestinationFolder>
+          <jsDestinationFolder>${basedir}/src/main/webapp/res/js/</jsDestinationFolder>
+          <contextFolder>${basedir}/src/main/webapp/</contextFolder>
+          <wroManagerFactory>ro.isdc.wro.maven.plugin.manager.factory.ConfigurableWroManagerFactory</wroManagerFactory>
+          <ignoreMissingResources>false</ignoreMissingResources>
+        </configuration>
+      </plugin>
 
-			<!-- Compiler -->
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.10.1</version>
-				<configuration>
-					<source>11</source>
-					<target>11</target>
-				</configuration>
-			</plugin>
+      <!-- Compiler -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.10.1</version>
+        <configuration>
+          <source>11</source>
+          <target>11</target>
+        </configuration>
+      </plugin>
 
-			<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-war-plugin -->
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-war-plugin</artifactId>
-				<version>3.3.2</version>
-			</plugin>
+      <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-war-plugin -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.3.2</version>
+      </plugin>
 
-			<!-- Maven Tomcat plugin -->
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>tomcat-maven-plugin</artifactId>
-				<version>1.1</version>
-				<configuration>
-					<url>${deployURL}</url>
-					<server>${deployServer}</server>
-					<path>${deployPath}</path>
-					<update>true</update>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
+      <!-- Maven Tomcat plugin -->
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>tomcat-maven-plugin</artifactId>
+        <version>1.1</version>
+        <configuration>
+          <url>${deployURL}</url>
+          <server>${deployServer}</server>
+          <path>${deployPath}</path>
+          <update>true</update>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
