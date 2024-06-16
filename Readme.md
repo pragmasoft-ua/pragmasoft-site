@@ -26,4 +26,20 @@ Run in docker with
 
 ### Build for arm64 architecture (RPi)
 
-`pack build pragmasoft-site --builder dashaun/builder:base  --platform linux/arm64`
+`pack build docker.io/pragmasoft/site:2024061501 --builder dashaun/builder:base  --platform linux/arm64 --publish`
+
+### Run with podman
+
+`podman run --rm -d -p 8080:8080 docker.io/pragmasoft/site:2024061501`
+
+### Run with podman as systemd service to survive restarts
+
+RPi OS (bookworm) has old podman version which does not support Quadlets, so we use podman generate instead
+
+```bash
+sudo -s
+podman run -d -p 80:8080 --name pragmasoft-site docker.io/pragmasoft/site:2024061501
+podman generate systemd pragmasoft-site > /etc/systemd/system/pragmasoft-site.service
+systemctl enable pragmasoft-site.service
+
+```
